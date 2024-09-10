@@ -5,7 +5,7 @@ title: "ParlerTTS Dataset Listening Test"
 ## Pitch Category {#pitch_category}
 ### Male
 #### low pitch
-- 🎵 **Median Utterance Pitch Mean:** 95.76
+- **Median Utterance Pitch Mean:** 95.76
 - **Dataset:** IndicVoices-R
 - **FileName:** `844424930237483_chunk_30_enhanced.wav`
 - **Short Caption:** Male, sonorous voice, fairly slow, proximate, minimal noise distraction, constant tone
@@ -19,7 +19,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### slightly low pitch
-- 🎵 **Median Utterance Pitch Mean:** 115.88
+- **Median Utterance Pitch Mean:** 115.88
 - **Dataset:** IndicVoices-R
 - **FileName:** `2814749767317420_chunk_12_enhanced.wav`
 - **Short Caption:** Male, somewhat low voice, a bit speedy, adjacent, no noise distraction, unvarying tone
@@ -33,7 +33,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### moderate pitch
-- 🎵 **Median Utterance Pitch Mean:** 135.63
+- **Median Utterance Pitch Mean:** 135.63
 - **Dataset:** IndicVoices-R
 - **FileName:** `3940649673954881_chunk_1_enhanced.wav`
 - **Short Caption:** Male, proximal, low noise level, excellent speech quality
@@ -47,7 +47,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### slightly high pitch
-- 🎵 **Median Utterance Pitch Mean:** 159.19
+- **Median Utterance Pitch Mean:** 159.19
 - **Dataset:** LIMMITS
 - **FileName:** `en_m_EN_A_3907.wav`
 - **Short Caption:** Male, fairly high voice, somewhat fast, a bit close, minimal noise distraction, outstanding speech quality
@@ -61,7 +61,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### high pitch
-- 🎵 **Median Utterance Pitch Mean:** 187.63
+- **Median Utterance Pitch Mean:** 187.63
 - **Dataset:** IndicVoices-R
 - **FileName:** `1688849860392830_chunk_11_enhanced.wav`
 - **Short Caption:** Male, acute voice, adjacent, clear sound, good speech quality
@@ -76,7 +76,7 @@ title: "ParlerTTS Dataset Listening Test"
 
 ### Female
 #### low pitch
-- 🎵 **Median Utterance Pitch Mean:** 148.23
+- **Median Utterance Pitch Mean:** 148.23
 - **Dataset:** IndicVoices-R
 - **FileName:** `3659174697335037_chunk_41_enhanced.wav`
 - **Short Caption:** Female, bass voice, adjacent, low noise level, moderately unchanging, satisfactory speech quality
@@ -90,7 +90,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### slightly low pitch
-- 🎵 **Median Utterance Pitch Mean:** 184.07
+- **Median Utterance Pitch Mean:** 184.07
 - **Dataset:** IndicVoices
 - **FileName:** `5066549580831307_chunk_4.wav`
 - **Short Caption:** Female, somewhat low voice, proximal, slight noise distraction, moderately unchanging, a bit unsatisfactory speech quality
@@ -104,7 +104,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### moderate pitch
-- 🎵 **Median Utterance Pitch Mean:** 214.58
+- **Median Utterance Pitch Mean:** 214.58
 - **Dataset:** IndicTTS
 - **FileName:** `train_bengalifemale_01037.wav`
 - **Short Caption:** Female, proximate, minimal noise distraction, not very dull, acceptable speech quality
@@ -118,7 +118,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### slightly high pitch
-- 🎵 **Median Utterance Pitch Mean:** 243.65
+- **Median Utterance Pitch Mean:** 243.65
 - **Dataset:** IndicVoices-R
 - **FileName:** `562949953710294_chunk_11_enhanced.wav`
 - **Short Caption:** Female, somewhat high voice, not very slow, moderately nearby, little background noise, energetic tone, outstanding speech quality
@@ -132,7 +132,7 @@ title: "ParlerTTS Dataset Listening Test"
 ---
 
 #### high pitch
-- 🎵 **Median Utterance Pitch Mean:** 277.74
+- **Median Utterance Pitch Mean:** 277.74
 - **Dataset:** IndicVoices-R
 - **FileName:** `4222124650661224_chunk_14_enhanced.wav`
 - **Short Caption:** Female, shrill voice, not very close, clear sound, excellent speech quality
