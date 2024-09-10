@@ -1,0 +1,434 @@
+---
+title: "ParlerTTS Dataset Listening Test"
+---
+
+## Pitch Category {#pitch_category}
+### Male
+#### low pitch
+- 🎵 **Median Utterance Pitch Mean:** 95.76
+- **Dataset:** IndicVoices-R
+- **FileName:** `844424930237483_chunk_30_enhanced.wav`
+- **Short Caption:** Male, sonorous voice, fairly slow, proximate, minimal noise distraction, constant tone
+- **Full Caption:** A man with a low-pitched voice speaks at a somewhat slow pace in a room with a close and intimate acoustics. His tone is flat and unemotional, with a monotone delivery that lacks any significant emotional inflection. The recording quality is acceptable, capturing his voice with some clarity, though it falls short of being crystal clear. The combination of his low pitch and the moderate speech quality results in a somewhat rich and resonant sound.
+- **Transcript:**
+> गाँवके डाक्टर जे छथिन से बहुत नीक तरहसँ ओकर देखभालके सलाह दै छथिन
+
+{{< video wavs/pitch_category_male_low_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### slightly low pitch
+- 🎵 **Median Utterance Pitch Mean:** 115.88
+- **Dataset:** IndicVoices-R
+- **FileName:** `2814749767317420_chunk_12_enhanced.wav`
+- **Short Caption:** Male, somewhat low voice, a bit speedy, adjacent, no noise distraction, unvarying tone
+- **Full Caption:** A man speaks in a close and intimate setting, his voice captured clearly with minimal background noise. He delivers his speech at a slightly rapid pace in a monotone tone, his slightly low pitch contributing to a sense of detachment. The moderate speech quality means that the nuances of his voice are somewhat lost, but his words remain intelligible.
+- **Transcript:**
+> ഷോപ്പ് ഷോപ്പുണ്ടായിരുന്നു ആദിഷോപ്പ് അവിടെ ആടെ ഞാൻ പണിക്ക് കേറി അവിടെ പണിന്നുവച്ചാല് ഭയങ്കര കഠിന അദ്ധ്യാനം വേണം നല്ല അദ്ധ്യാനം ഉള്ള പണിയാണ് അപ്പൊ അങ്ങനെ അദ്ധ്യാനിച്ച് അദ്ധ്യാനിച്ച് കൊറേ കൊറേ ഇത് കഷ്ടപ്പെട്ട് ഞാൻ കൊറേ കഷ്ടപ്പെട്ടിട്ട്
+
+{{< video wavs/pitch_category_male_slightly_low_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### moderate pitch
+- 🎵 **Median Utterance Pitch Mean:** 135.63
+- **Dataset:** IndicVoices-R
+- **FileName:** `3940649673954881_chunk_1_enhanced.wav`
+- **Short Caption:** Male, proximal, low noise level, excellent speech quality
+- **Full Caption:** A man speaks in a voice with a moderate pitch at a pace that's neither too slow nor too fast. The recording is done in a space that sounds close, and the audio quality is good, with only a slight amount of background noise. His delivery is engaging and varied, showing a good range of emotions. Overall, the recording captures his voice clearly, making it easy to understand and follow his speech.
+- **Transcript:**
+> लोक सङ्गीत र लोक कविताप्रति जनताको ठुलो लगाव छ
+
+{{< video wavs/pitch_category_male_moderate_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### slightly high pitch
+- 🎵 **Median Utterance Pitch Mean:** 159.19
+- **Dataset:** LIMMITS
+- **FileName:** `en_m_EN_A_3907.wav`
+- **Short Caption:** Male, fairly high voice, somewhat fast, a bit close, minimal noise distraction, outstanding speech quality
+- **Full Caption:** A man with a slightly high-pitched voice speaks at a somewhat rapid pace in a room that's slightly close-sounding. His delivery is moderately dynamic and somewhat expressive, and the recording quality is excellent, capturing his voice clearly.
+- **Transcript:**
+> Fruits with high Vitamin C content like kiwifruit, lemons, strawberries, oranges, grapefruit, blackcurrants and cranberries are also helpful
+
+{{< video wavs/pitch_category_male_slightly_high_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### high pitch
+- 🎵 **Median Utterance Pitch Mean:** 187.63
+- **Dataset:** IndicVoices-R
+- **FileName:** `1688849860392830_chunk_11_enhanced.wav`
+- **Short Caption:** Male, acute voice, adjacent, clear sound, good speech quality
+- **Full Caption:** A man speaks in a close and intimate setting, with a high-pitched voice that carries clearly. His delivery is moderately dynamic, showing a range of emotions as he speaks at a normal pace. The recording quality is good, capturing the nuances of his voice without any significant background noise or echo.
+- **Transcript:**
+> ଏବଂ ସେଠାରେ ମୁଁ ଦେଖିଚି ଯେ ଦଶରୁ ବାରଟା ପକ୍ଷୀ ରହିଚନ୍ତି ଏବଂ ଏଇ ପକ୍ଷୀମାନଙ୍କୁ ବଞ୍ଚାଇବା ପାଇଁ ପକ୍ଷୀମାନଙ୍କୁ ସୁରକ୍ଷା ଦବାପାଇଁ ଆମେ ମଧ୍ୟ ଘରେ କେତେକ ଶସ୍ୟ ଯଥା ଧାନ
+
+{{< video wavs/pitch_category_male_high_pitch.wav height="68" width="300" >}}
+
+
+---
+
+### Female
+#### low pitch
+- 🎵 **Median Utterance Pitch Mean:** 148.23
+- **Dataset:** IndicVoices-R
+- **FileName:** `3659174697335037_chunk_41_enhanced.wav`
+- **Short Caption:** Female, bass voice, adjacent, low noise level, moderately unchanging, satisfactory speech quality
+- **Full Caption:** A female speaker delivers her speech in a room that sounds close to her, with some minor background noise barely audible. Her low-pitched voice carries through the recording with clarity, and despite a somewhat flat tone, she speaks at a normal pace with moderate speed. The overall quality of the recording is good, capturing her voice accurately and allowing for clear understanding of her words.
+- **Transcript:**
+> ओमफाय जोङो एनथाबखौ एवो आरो एनथाब फिथा गोलाव गोलाव एवो आरो जों
+
+{{< video wavs/pitch_category_female_low_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### slightly low pitch
+- 🎵 **Median Utterance Pitch Mean:** 184.07
+- **Dataset:** IndicVoices
+- **FileName:** `5066549580831307_chunk_4.wav`
+- **Short Caption:** Female, somewhat low voice, proximal, slight noise distraction, moderately unchanging, a bit unsatisfactory speech quality
+- **Full Caption:** A woman with a slightly low-pitched voice speaks in what seems to be a relatively small, well-isolated space, resulting in a somewhat close recording. Her delivery is slightly affected by background noise, but it doesn't detract significantly from the overall quality. With a pace that's slightly slower than average, she presents her thoughts in a somewhat calm and composed manner, her tone somewhat flat and unemotional due to a slight monotone quality. Despite some minor imperfections, the speech quality is still fairly good, though it could be improved with better audio capture.
+- **Transcript:**
+> ਕੀ ਉਹ ਉੱਥੇ ਜਾ ਕੇ ਜਾਂ ਫਿਰ ਜਾਂ ਆਪਾਂ ਕਹਿ ਸਕਦੇ ਆ ਕੀ ਮੰਗਲ ਗ੍ਰਹਿ ਉੱਤੇ ਵੀ ਆਪਾਂ
+
+{{< video wavs/pitch_category_female_slightly_low_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### moderate pitch
+- 🎵 **Median Utterance Pitch Mean:** 214.58
+- **Dataset:** IndicTTS
+- **FileName:** `train_bengalifemale_01037.wav`
+- **Short Caption:** Female, proximate, minimal noise distraction, not very dull, acceptable speech quality
+- **Full Caption:** In a room with a close sound, this woman speaks with moderate clarity, her voice pitched at a neutral level. Her delivery is at a normal pace, and she conveys a sense of subtle emotion, her tone somewhat expressive. The recording quality is good, capturing her voice with minimal distortion, resulting in an overall pleasant listening experience.
+- **Transcript:**
+> নিউজিল্যাণ্ডের, উজাতীয় স্থাপত্য, কাল্ট হাউসএর অনুকৃতিতে, মণ্ডপ গড়ছেন, বনহুগলির, একদল তরুণ, শিল্পী
+
+{{< video wavs/pitch_category_female_moderate_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### slightly high pitch
+- 🎵 **Median Utterance Pitch Mean:** 243.65
+- **Dataset:** IndicVoices-R
+- **FileName:** `562949953710294_chunk_11_enhanced.wav`
+- **Short Caption:** Female, somewhat high voice, not very slow, moderately nearby, little background noise, energetic tone, outstanding speech quality
+- **Full Caption:** In a room with a slightly intimate echo, a female speaker delivers a speech at a slightly quick pace, her voice rising slightly above average in pitch. Her highly expressive tone brings the words to life, as she enunciates each phrase with passion and conviction. Despite the less-than-ideal acoustics, the recording captures every detail with remarkable clarity, resulting in a speech sample of great quality.
+- **Transcript:**
+> जी मालमत्त्याला मालमत्तेच्या खरेदी आणि विक्रीच्या वेळेला समोरच्यानी जाणून घ्याव्या आणि त्या हिशोबाने मालमत्ता खरेदी आणि विक्री करावी
+
+{{< video wavs/pitch_category_female_slightly_high_pitch.wav height="68" width="300" >}}
+
+
+---
+
+#### high pitch
+- 🎵 **Median Utterance Pitch Mean:** 277.74
+- **Dataset:** IndicVoices-R
+- **FileName:** `4222124650661224_chunk_14_enhanced.wav`
+- **Short Caption:** Female, shrill voice, not very close, clear sound, excellent speech quality
+- **Full Caption:** In a room with a slight echo, a female speaker delivers a speech with a dynamic tone, her voice standing out with a high pitch. She speaks at a normal pace, and despite the minimal background noise, the audio quality is excellent, capturing her words with clarity. The combination of her high-pitched voice and the good recording quality results in a rich, resonant sound.
+- **Transcript:**
+> तकलेन एकदां उरलें की डिफिकल्ट म्हणजे तें डिफिकल्टूच आसता काडून काडून फर्स्ट इयर काडली स्टडी करून आनी
+
+{{< video wavs/pitch_category_female_high_pitch.wav height="68" width="300" >}}
+
+
+---
+
+
+## Speaking Rate Category {#speaking_rate_category}
+### slow
+- **Median Speaking Rate:** 6.26
+- **Dataset:** IndicTTS
+- **FileName:** `train_manipurifemale_01234.wav`
+- **Short Caption:** Female, fairly low voice, leisurely, close, clear sound, fairly monotone, superb speech quality
+- **Full Caption:** In a room with a close sound, a woman speaks with a slightly low-pitched voice at a slow pace. Her tone is somewhat flat and unemotional. The recording quality is excellent, capturing her voice clearly as if she's speaking directly into the microphone. Her slightly monotone delivery is well-supported by the high-quality audio, resulting in a clear and easy-to-understand speech.
+- **Transcript:**
+> তাবদা, নুপা অদু শাউবা ঙম্দ্রে.
+
+{{< video wavs/speaking_rate_category_slow.wav height="68" width="300" >}}
+
+
+---
+
+### slightly slow
+- **Median Speaking Rate:** 9.14
+- **Dataset:** Rasa
+- **FileName:** `KAN_F_WIKI_00870`
+- **Short Caption:** Anu, somewhat high voice, fairly slow, adjacent, no background noise, superb speech quality, objective style
+- **Full Caption:** Anu, a woman with a slightly high-pitched voice, speaks in a room that feels close and intimate. Her voice is clear, and she delivers her speech at a somewhat slow pace with a dynamic tone. The excellent recording quality captures her words with great clarity, and her neutral tone doesn't sway from a steady, calm demeanor, resulting in a highly polished and engaging speech.
+- **Transcript:**
+> ಇದರಲ್ಲಿ ಮರುಭೂಮಿ ವಲಯ, ಬುಡಕಟ್ಟು ವಲಯ, ಪರಿಸರ ವಲಯ, ವನ್ಯಮೃಗ ವಲಯ, ತೀರ್ಥಂಕರ ವಲಯ ಮತ್ತು ಸೂಫಿ ವಲಯಗಳನ್ನು ಸೇರಿಸಲಾಯಿತು.
+
+{{< video wavs/speaking_rate_category_slightly_slow.wav height="68" width="300" >}}
+
+
+---
+
+### moderate speed
+- **Median Speaking Rate:** 12.00
+- **Dataset:** Rasa
+- **FileName:** `ASM_M_NEWS_00208`
+- **Short Caption:** Amit, a bit bass voice, adjacent, little background noise, a bit flat, adequate speech quality, newsreader style
+- **Full Caption:** Amit delivers a news report in a calm, slightly monotone tone, his low-pitched voice coming across clearly in a well-recorded audio. He speaks at a moderate pace, conveying the information without much emphasis. The good quality of the recording captures the nuances of his voice, allowing the listener to focus on the content without distraction.
+- **Transcript:**
+> ইয়াৰ ফলত ৰেলসেৱা আংশিকভাৱে বন্ধ কৰি দিয়া হৈছে।
+
+{{< video wavs/speaking_rate_category_moderate_speed.wav height="68" width="300" >}}
+
+
+---
+
+### slightly fast
+- **Median Speaking Rate:** 14.88
+- **Dataset:** Rasa
+- **FileName:** `ASM_M_CONV_00688`
+- **Short Caption:** Amit, moderately deep voice, not very slow, proximal, minimal noise distraction, moderately unchanging, excellent speech quality, friendly style
+- **Full Caption:** Amit speaks with a low-pitched voice at a slightly fast pace, his tone somewhat flat and unemotional, yet engaging in a relaxed conversation. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone.
+- **Transcript:**
+> হয় ডাক্টৰ! মই আপোনাৰ সকলো প্রশ্নৰ সাৱধানেই উত্তৰ দিম।
+
+{{< video wavs/speaking_rate_category_slightly_fast.wav height="68" width="300" >}}
+
+
+---
+
+### fast
+- **Median Speaking Rate:** 18.45
+- **Dataset:** IndicVoices-R
+- **FileName:** `2533274790436553_chunk_7_enhanced.wav`
+- **Short Caption:** Female, high voice, quick, adjacent, minimal noise distraction, a bit vibrant, excellent speech quality
+- **Full Caption:** A woman with a high-pitched voice speaks at a rapid pace in a recording environment that captures her voice with clarity but a slight degree of distance. Her tone shows subtle hints of expressiveness, and despite the tempo, the speech quality remains good.
+- **Transcript:**
+> হেনকে ক লেতো মানুহ এটাৰ প্ৰেছাৰ এটা আহি যায় না মই মেট্ৰিকৰ দিনাখন পৰীক্ষা হ লত এতিয়া নিজে পাছ কৰিম না বেলেগকে পাছ কৰাম
+
+{{< video wavs/speaking_rate_category_fast.wav height="68" width="300" >}}
+
+
+---
+
+
+## Pesq Category {#pesq_category}
+### bad speech quality
+- **Median Pesq:** 1.55
+- **Dataset:** IndicVoices-R
+- **FileName:** `2533274790555750_chunk_9_enhanced.wav`
+- **Short Caption:** Male, easy-going, minimal noise distraction, moderately unchanging, inadequate speech quality
+- **Full Caption:** A man's voice, delivered in a somewhat slow pace, is moderately pitched. The recording environment is reasonably well-balanced, allowing for clear speech. However, the tone is somewhat monotonous, lacking the usual emotional depth. Unfortunately, despite the decent acoustic quality, there is still a noticeable defect in the recording, resulting in a poor speech quality.
+- **Transcript:**
+> জাৱ জৈৱ্য সাৰ
+
+{{< video wavs/pesq_category_bad_speech_quality.wav height="68" width="300" >}}
+
+
+---
+
+### slightly bad speech quality
+- **Median Pesq:** 2.16
+- **Dataset:** LIMMITS
+- **FileName:** `en_f_EN_A_1976.wav`
+- **Short Caption:** Female, not very high voice, fairly fast, nearby, some background noise, spirited tone, not very good speech quality
+- **Full Caption:** A woman with a somewhat low-pitched voice delivers an expressive speech in a room that sounds close to the microphone but has a hint of background noise. She speaks at a slightly fast pace, which adds to the dynamic nature of her delivery. Unfortunately, the recording quality is not ideal, and the somewhat poor acoustics contribute to a slightly bad speech quality, making it challenging to discern some of the details.
+- **Transcript:**
+> B J P sources said Jarkiholi had put forth his demand to make him Deputy Chief Minister with the plum Water Resources portfolio
+
+{{< video wavs/pesq_category_slightly_bad_speech_quality.wav height="68" width="300" >}}
+
+
+---
+
+### moderate speech quality
+- **Median Pesq:** 2.88
+- **Dataset:** IndicTTS
+- **FileName:** `train_telugumale_02884.wav`
+- **Short Caption:** Male, acute voice, somewhat fast, close, very low noise level
+- **Full Caption:** The man speaks in a high-pitched voice at a slightly fast pace, his tone carrying a sense of dynamism. The recording quality is clear, capturing his voice with minimal echo. Although the overall speech quality is moderate, the man's energetic delivery and the good recording conditions result in a rich, engaging sound.
+- **Transcript:**
+> అతను నిర్ధోషి, అయిదువేల దీనారాలూ, తిరిగి ఇప్పించి, అతన్ని పంపించి వేయండి, రత్నదత్తుణ్ణి, ఒకసారి రప్పించండి, అన్నాడు, యౌగంధరాయణుడు.
+
+{{< video wavs/pesq_category_moderate_speech_quality.wav height="68" width="300" >}}
+
+
+---
+
+### good speech quality
+- **Median Pesq:** 3.53
+- **Dataset:** Rasa
+- **FileName:** `NEP_F_ANGER_00218`
+- **Short Caption:** Amrita, tense voice, proximal, clear sound, energetic tone, acceptable speech quality, furious style
+- **Full Caption:** Amrita, a woman with a high-pitched voice, delivers an expressive speech with a noticeable level of anger. The recording captures her voice clearly, despite some minor background noise, with an intimate, close-sounding quality. This proximity to the microphone contributes to a good recording quality, allowing her voice to shine. Her moderate speed and emotional tone add depth to her delivery, which is characteristic of her angry speech.
+- **Transcript:**
+> मैले विश्वासै गर्न सक्दिनँ तपाईँले मेरो यो बजेटमा यति महँगो हिराको सुझाउ दिँदै हुनुहुन्छ! के म सुनको मान्छे हुँ र?
+
+{{< video wavs/pesq_category_good_speech_quality.wav height="68" width="300" >}}
+
+
+---
+
+### great speech quality
+- **Median Pesq:** 4.06
+- **Dataset:** Rasa
+- **FileName:** `ASM_M_ALEXA_00025`
+- **Short Caption:** Amit, not very high voice, not very slow, nearby, clear sound, somewhat monotone, excellent speech quality, dictatorial style
+- **Full Caption:** Amit speaks in a low-pitched voice at a slightly rapid pace with a somewhat flat tone. The recording is made in a space with minimal echo and some background noise is barely audible. Despite the slightly less-than-ideal acoustics, the speech quality is excellent, capturing Amit's voice with clarity. His command-style delivery is direct and confident, with the good recording quality enhancing the clarity of his words, making it easy to understand his message.
+- **Transcript:**
+> অক্টোবৰৰ চাৰি তাৰিখৰ নিশা বাৰ বজাত নিৰ্ধাৰিত মিটিংখন ডিলিট কৰি দিয়া
+
+{{< video wavs/pesq_category_great_speech_quality.wav height="68" width="300" >}}
+
+
+---
+
+
+## Snr Category {#snr_category}
+### noisy
+- **Median Snr:** 11.22
+- **Dataset:** IndicVoices
+- **FileName:** `2533274790459398_chunk_10.wav`
+- **Short Caption:** Female, fairly slow, distant, noise interference, a bit flat, poor speech quality
+- **Full Caption:** A female speaker with a moderate-pitched voice delivers a somewhat slow but slightly monotone speech in a large, echoing space with significant background noise. The distant-sounding quality of the recording and the poor speech quality make it challenging to clearly understand the speech, which is further hindered by the loud background noise and a bad recording overall.
+- **Transcript:**
+> যিখিনি প্ৰাইভেট ক্লিনিক আছে সেইখিনি ক্লিনিকসমূহৰ
+
+{{< video wavs/snr_category_noisy.wav height="68" width="300" >}}
+
+
+---
+
+### slightly noisy
+- **Median Snr:** 23.04
+- **Dataset:** IndicVoices
+- **FileName:** `6473924464364000_chunk_2.wav`
+- **Short Caption:** Male, easy-going, isolated, moderate noise level, fairly monotone, inadequate speech quality
+- **Full Caption:** A man with a moderate-pitched voice speaks in a large, echoing space, his tone somewhat flat and unemotional. The somewhat slow delivery is hard to follow due to the significant background noise and echo. Unfortunately, these factors contribute to a poor recording quality, making it challenging to clearly understand the speech.
+- **Transcript:**
+> ꯍꯔ ꯘꯔꯤ ꯕꯗꯜ ꯔꯍꯤꯍꯦ ꯙꯨꯞꯄ ꯖꯤꯟꯗꯒꯤ ꯁꯥꯎꯋꯣꯍꯦ ꯀꯕꯤ ꯀꯕꯤ ꯍꯦ ꯙꯨꯞꯄ ꯖꯤꯟꯗꯒꯤ ꯍꯔ ꯄꯜ ꯌꯍꯥ ꯖꯤꯕꯔ ꯖꯤꯌꯣ ꯖꯣ ꯍꯦ ꯁꯃꯥ ꯀꯜ ꯍꯣ ꯅꯥ ꯍꯣ ꯍꯥꯏꯔꯤꯕ ꯏꯁꯩ ꯑꯁꯤꯅꯤ
+
+{{< video wavs/snr_category_slightly_noisy.wav height="68" width="300" >}}
+
+
+---
+
+### moderate ambient sound
+- **Median Snr:** 39.10
+- **Dataset:** IndicVoices-R
+- **FileName:** `6192449487738949_chunk_5_enhanced.wav`
+- **Short Caption:** Male, not very low voice
+- **Full Caption:** A man speaks in a room with a well-balanced acoustic environment, slightly close to the listener. The recording has some background noise, but it's not overpowering. His voice, with a pitch slightly higher than average, is delivered at a normal pace, showing a range of emotions in his expression. The overall quality of the speech is moderate, capturing the nuances of his somewhat dynamic delivery despite the mild background noise and well-balanced acoustics.
+- **Transcript:**
+> ವಿದೇಶಿ ವಸ್ತುಗಳನ್ನ ಬಳಸದೆ ನಮ್ಮ ಸ್ವದೇಶದಲ್ಲಿ ಉತ್ಪಾದನೆ ಮಾಡುವಂತಹ ಬಟ್ಟೆ ಆಗಿರ್ಬೋದು ಎಲ್ಲಾ ರೀತಿಯ ಪದಾರ್ತಗಳನ್ನ ಬಳಸೋದಕ್ಕೆ ನೀಡ್ಬೇಕು ಆ ಮೂಲಕ ವಿದೇಶಿ ವಸ್ತುಗಳನ್ನ ಬಹಿಷ್ಕಾರ ಮಾಡೋ ಮೂಲಕ
+
+{{< video wavs/snr_category_moderate_ambient_sound.wav height="68" width="300" >}}
+
+
+---
+
+### slightly clear
+- **Median Snr:** 55.59
+- **Dataset:** IndicVoices-R
+- **FileName:** `844424930232813_chunk_34_enhanced.wav`
+- **Short Caption:** Female, adjacent, minimal noise distraction
+- **Full Caption:** In a room with a sound that is very close, a woman's voice comes through with minimal background noise. Her delivery is engaging and varied, with a moderate pace that complements the moderate pitch of her voice. The recording quality is acceptable, capturing the nuances of her somewhat dynamic speech without any major issues.
+- **Transcript:**
+> आयँ जेकरा पास रुपैया हइ सएह नऽ बिजनेस करतै जेकरा पास रुपैया नहिए हइ उ कमेतै नै तऽ खेतै कहाँसे उ बिजनेस कहाँसे करतै एहिसे जेकरा पास रुपैया हइ उ गाँवमे बिजनेस कऽ के खाइ हइ जेकरा पास रुपैया नै हय उ की करतै गरीब आदमी बाहर जा कऽ अपन कमाइ हइ खाइ हइ
+
+{{< video wavs/snr_category_slightly_clear.wav height="68" width="300" >}}
+
+
+---
+
+### clear
+- **Median Snr:** 66.43
+- **Dataset:** IndicVoices-R
+- **FileName:** `2533274790555749_chunk_1_enhanced.wav`
+- **Short Caption:** Male, not very fast, a bit close, no noise distraction, moderately subpar speech quality
+- **Full Caption:** A man speaks with a moderate-pitched voice in a room with a slight echo, his tone somewhat varied and engaging. The recording quality is clear, capturing his voice with minimal background noise and distortion. Despite some minor acoustic issues, his slightly slow delivery and moderate pitch create a balanced and engaging sound.
+- **Transcript:**
+> মই সৰুকালৰ পৰাই জ্য়েষ্ঠসকলৰ লগত
+
+{{< video wavs/snr_category_clear.wav height="68" width="300" >}}
+
+
+---
+
+
+## Reverberation Category {#reverberation_category}
+### distant-sounding
+- **Median C50:** 14.14
+- **Dataset:** IndicVoices
+- **FileName:** `1407374883620265_chunk_1.wav`
+- **Short Caption:** Female, isolated, minor noise interference, somewhat monotone, subpar speech quality
+- **Full Caption:** In a large space with a significant echo, a female speaker delivers a somewhat flat and unemotional speech with a moderate pitch. Her delivery is at a normal pace, but it's difficult to discern her tone due to the background noise and echo. Unfortunately, these factors contribute to a poor recording quality, making it challenging to clearly understand the speech.
+- **Transcript:**
+> আমার হাইক করার জন্য আমার প্রিয় ভূখণ্ড হচ্ছে পাহাড় আমি মুকুটমণিপুরে বেড়াতে গেসলাম সেখানে গিয়ে ওই ছোট্ট ছোট্ট পাহাড় আছে না ওই পাহাড়ে
+
+{{< video wavs/reverberation_category_distant-sounding.wav height="68" width="300" >}}
+
+
+---
+
+### slightly distant-sounding
+- **Median C50:** 29.27
+- **Dataset:** IndicVoices-R
+- **FileName:** `2533274790420114_chunk_5_enhanced.wav`
+- **Short Caption:** Male, not very close, very low noise level, unvarying tone, outstanding speech quality
+- **Full Caption:** A man with a voice of moderate pitch delivers a speech at a moderate pace with a somewhat flat and unemotional tone. The recording quality is excellent, capturing his voice clearly without any background noise. The combination of his neutral tone and the high-quality audio results in a smooth, even sound.
+- **Transcript:**
+> কাজিয়া লগাত তেওঁ তেওঁলোকে মাটি বাৰী ভাগ কৰিবলৈ বিচাৰিলে
+
+{{< video wavs/reverberation_category_slightly_distant-sounding.wav height="68" width="300" >}}
+
+
+---
+
+### moderately balanced
+- **Median C50:** 37.53
+- **Dataset:** IndicVoices
+- **FileName:** `844424930159755_chunk_2.wav`
+- **Short Caption:** Male, significant background noise, unchanging tone, unsatisfactory speech quality
+- **Full Caption:** In a room with a well-balanced acoustic environment, a man delivers a speech with a monotone tone at a normal pace. His voice, with a moderate pitch, struggles to stand out amidst the background noise, resulting in a poor recording quality that detracts from the overall speech clarity.
+- **Transcript:**
+> हमरा गाममे ओना सब किछ छियै लेकिन एखन गेहुँ आएल यऽओकरा खरीदय छी फेर ओकरा धोऐ छी सुखबय छियइ ओकरा आटा मिल पर साइकिल पर लए गेलउ ओकरा अथी केलौ बढ़ियासँ पिसा तिसाकऽओकरा अनलहुँ दए गेलौ हमरा गाँवमे तऽलेकिन
+
+{{< video wavs/reverberation_category_moderately_balanced.wav height="68" width="300" >}}
+
+
+---
+
+### slightly close-sounding
+- **Median C50:** 46.98
+- **Dataset:** LIMMITS
+- **FileName:** `en_m_EN_H_1251.wav`
+- **Short Caption:** Male, not very low voice, moderately fast, somewhat close, little background noise, excellent speech quality
+- **Full Caption:** A male speaker with a voice that's slightly high in pitch delivers a moderately dynamic speech at a slightly fast pace in a room that sounds slightly close. Although there's some background noise, the recording quality is excellent, and the speech comes through clearly. The speaker's animation and enthusiasm shine through in his speech, making it engaging and easy to follow. Despite the slightly close acoustics, the combination of clear audio and the speaker's energetic delivery results in a high-quality listening experience.
+- **Transcript:**
+> Diabetes diet- How to use mango leaves to lower blood sugar levels?
+
+{{< video wavs/reverberation_category_slightly_close-sounding.wav height="68" width="300" >}}
+
+
+---
+
+### close-sounding
+- **Median C50:** 58.89
+- **Dataset:** LIMMITS
+- **FileName:** `en_f_libri_1594-135914-0052.wav`
+- **Short Caption:** Female, moderately deep voice, proximal, clear sound, somewhat expressive, exceptional speech quality
+- **Full Caption:** A female speaker with a voice slightly lower in pitch speaks at a moderate pace in a room with a close sound. Her tone is somewhat animated and slightly expressive, but she delivers her words clearly, with only a hint of background noise. The recording quality is excellent, capturing her voice with great clarity and capturing the nuances of her delivery, resulting in an overall great speech quality.
+- **Transcript:**
+> fetnah raised her up and said my good lady
+
+{{< video wavs/reverberation_category_close-sounding.wav height="68" width="300" >}}
+
+
+---

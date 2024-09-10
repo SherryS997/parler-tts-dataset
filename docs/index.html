@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ParlerTTS Dataset Listening Test</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-sans.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-roman.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-mono.css">
+</head>
+
+<body>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pitch_category" id="toc-pitch_category" class="nav-link active" data-scroll-target="#pitch_category">Pitch Category</a>
+  <ul class="collapse">
+  <li><a href="#male" id="toc-male" class="nav-link" data-scroll-target="#male">Male</a></li>
+  <li><a href="#female" id="toc-female" class="nav-link" data-scroll-target="#female">Female</a></li>
+  </ul></li>
+  <li><a href="#speaking_rate_category" id="toc-speaking_rate_category" class="nav-link" data-scroll-target="#speaking_rate_category">Speaking Rate Category</a>
+  <ul class="collapse">
+  <li><a href="#slow" id="toc-slow" class="nav-link" data-scroll-target="#slow">slow</a></li>
+  <li><a href="#slightly-slow" id="toc-slightly-slow" class="nav-link" data-scroll-target="#slightly-slow">slightly slow</a></li>
+  <li><a href="#moderate-speed" id="toc-moderate-speed" class="nav-link" data-scroll-target="#moderate-speed">moderate speed</a></li>
+  <li><a href="#slightly-fast" id="toc-slightly-fast" class="nav-link" data-scroll-target="#slightly-fast">slightly fast</a></li>
+  <li><a href="#fast" id="toc-fast" class="nav-link" data-scroll-target="#fast">fast</a></li>
+  </ul></li>
+  <li><a href="#pesq_category" id="toc-pesq_category" class="nav-link" data-scroll-target="#pesq_category">Pesq Category</a>
+  <ul class="collapse">
+  <li><a href="#bad-speech-quality" id="toc-bad-speech-quality" class="nav-link" data-scroll-target="#bad-speech-quality">bad speech quality</a></li>
+  <li><a href="#slightly-bad-speech-quality" id="toc-slightly-bad-speech-quality" class="nav-link" data-scroll-target="#slightly-bad-speech-quality">slightly bad speech quality</a></li>
+  <li><a href="#moderate-speech-quality" id="toc-moderate-speech-quality" class="nav-link" data-scroll-target="#moderate-speech-quality">moderate speech quality</a></li>
+  <li><a href="#good-speech-quality" id="toc-good-speech-quality" class="nav-link" data-scroll-target="#good-speech-quality">good speech quality</a></li>
+  <li><a href="#great-speech-quality" id="toc-great-speech-quality" class="nav-link" data-scroll-target="#great-speech-quality">great speech quality</a></li>
+  </ul></li>
+  <li><a href="#snr_category" id="toc-snr_category" class="nav-link" data-scroll-target="#snr_category">Snr Category</a>
+  <ul class="collapse">
+  <li><a href="#noisy" id="toc-noisy" class="nav-link" data-scroll-target="#noisy">noisy</a></li>
+  <li><a href="#slightly-noisy" id="toc-slightly-noisy" class="nav-link" data-scroll-target="#slightly-noisy">slightly noisy</a></li>
+  <li><a href="#moderate-ambient-sound" id="toc-moderate-ambient-sound" class="nav-link" data-scroll-target="#moderate-ambient-sound">moderate ambient sound</a></li>
+  <li><a href="#slightly-clear" id="toc-slightly-clear" class="nav-link" data-scroll-target="#slightly-clear">slightly clear</a></li>
+  <li><a href="#clear" id="toc-clear" class="nav-link" data-scroll-target="#clear">clear</a></li>
+  </ul></li>
+  <li><a href="#reverberation_category" id="toc-reverberation_category" class="nav-link" data-scroll-target="#reverberation_category">Reverberation Category</a>
+  <ul class="collapse">
+  <li><a href="#distant-sounding" id="toc-distant-sounding" class="nav-link" data-scroll-target="#distant-sounding">distant-sounding</a></li>
+  <li><a href="#slightly-distant-sounding" id="toc-slightly-distant-sounding" class="nav-link" data-scroll-target="#slightly-distant-sounding">slightly distant-sounding</a></li>
+  <li><a href="#moderately-balanced" id="toc-moderately-balanced" class="nav-link" data-scroll-target="#moderately-balanced">moderately balanced</a></li>
+  <li><a href="#slightly-close-sounding" id="toc-slightly-close-sounding" class="nav-link" data-scroll-target="#slightly-close-sounding">slightly close-sounding</a></li>
+  <li><a href="#close-sounding" id="toc-close-sounding" class="nav-link" data-scroll-target="#close-sounding">close-sounding</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ParlerTTS Dataset Listening Test</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="pitch_category" class="level2">
+<h2 class="anchored" data-anchor-id="pitch_category">Pitch Category</h2>
+<section id="male" class="level3">
+<h3 class="anchored" data-anchor-id="male">Male</h3>
+<section id="low-pitch" class="level4">
+<h4 class="anchored" data-anchor-id="low-pitch">low pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 95.76</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>844424930237483_chunk_30_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, sonorous voice, fairly slow, proximate, minimal noise distraction, constant tone</li>
+<li><strong>Full Caption:</strong> A man with a low-pitched voice speaks at a somewhat slow pace in a room with a close and intimate acoustics. His tone is flat and unemotional, with a monotone delivery that lacks any significant emotional inflection. The recording quality is acceptable, capturing his voice with some clarity, though it falls short of being crystal clear. The combination of his low pitch and the moderate speech quality results in a somewhat rich and resonant sound.</li>
+<li><strong>Transcript:</strong> &gt; गाँवके डाक्टर जे छथिन से बहुत नीक तरहसँ ओकर देखभालके सलाह दै छथिन</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_male_low_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-low-pitch" class="level4">
+<h4 class="anchored" data-anchor-id="slightly-low-pitch">slightly low pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 115.88</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>2814749767317420_chunk_12_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, somewhat low voice, a bit speedy, adjacent, no noise distraction, unvarying tone</li>
+<li><strong>Full Caption:</strong> A man speaks in a close and intimate setting, his voice captured clearly with minimal background noise. He delivers his speech at a slightly rapid pace in a monotone tone, his slightly low pitch contributing to a sense of detachment. The moderate speech quality means that the nuances of his voice are somewhat lost, but his words remain intelligible.</li>
+<li><strong>Transcript:</strong> &gt; ഷോപ്പ് ഷോപ്പുണ്ടായിരുന്നു ആദിഷോപ്പ് അവിടെ ആടെ ഞാൻ പണിക്ക് കേറി അവിടെ പണിന്നുവച്ചാല് ഭയങ്കര കഠിന അദ്ധ്യാനം വേണം നല്ല അദ്ധ്യാനം ഉള്ള പണിയാണ് അപ്പൊ അങ്ങനെ അദ്ധ്യാനിച്ച് അദ്ധ്യാനിച്ച് കൊറേ കൊറേ ഇത് കഷ്ടപ്പെട്ട് ഞാൻ കൊറേ കഷ്ടപ്പെട്ടിട്ട്</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video2" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_male_slightly_low_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="moderate-pitch" class="level4">
+<h4 class="anchored" data-anchor-id="moderate-pitch">moderate pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 135.63</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>3940649673954881_chunk_1_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, proximal, low noise level, excellent speech quality</li>
+<li><strong>Full Caption:</strong> A man speaks in a voice with a moderate pitch at a pace that’s neither too slow nor too fast. The recording is done in a space that sounds close, and the audio quality is good, with only a slight amount of background noise. His delivery is engaging and varied, showing a good range of emotions. Overall, the recording captures his voice clearly, making it easy to understand and follow his speech.</li>
+<li><strong>Transcript:</strong> &gt; लोक सङ्गीत र लोक कविताप्रति जनताको ठुलो लगाव छ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video3" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_male_moderate_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-high-pitch" class="level4">
+<h4 class="anchored" data-anchor-id="slightly-high-pitch">slightly high pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 159.19</li>
+<li><strong>Dataset:</strong> LIMMITS</li>
+<li><strong>FileName:</strong> <code>en_m_EN_A_3907.wav</code></li>
+<li><strong>Short Caption:</strong> Male, fairly high voice, somewhat fast, a bit close, minimal noise distraction, outstanding speech quality</li>
+<li><strong>Full Caption:</strong> A man with a slightly high-pitched voice speaks at a somewhat rapid pace in a room that’s slightly close-sounding. His delivery is moderately dynamic and somewhat expressive, and the recording quality is excellent, capturing his voice clearly.</li>
+<li><strong>Transcript:</strong> &gt; Fruits with high Vitamin C content like kiwifruit, lemons, strawberries, oranges, grapefruit, blackcurrants and cranberries are also helpful</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video4" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_male_slightly_high_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="high-pitch" class="level4">
+<h4 class="anchored" data-anchor-id="high-pitch">high pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 187.63</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>1688849860392830_chunk_11_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, acute voice, adjacent, clear sound, good speech quality</li>
+<li><strong>Full Caption:</strong> A man speaks in a close and intimate setting, with a high-pitched voice that carries clearly. His delivery is moderately dynamic, showing a range of emotions as he speaks at a normal pace. The recording quality is good, capturing the nuances of his voice without any significant background noise or echo.</li>
+<li><strong>Transcript:</strong> &gt; ଏବଂ ସେଠାରେ ମୁଁ ଦେଖିଚି ଯେ ଦଶରୁ ବାରଟା ପକ୍ଷୀ ରହିଚନ୍ତି ଏବଂ ଏଇ ପକ୍ଷୀମାନଙ୍କୁ ବଞ୍ଚାଇବା ପାଇଁ ପକ୍ଷୀମାନଙ୍କୁ ସୁରକ୍ଷା ଦବାପାଇଁ ଆମେ ମଧ୍ୟ ଘରେ କେତେକ ଶସ୍ୟ ଯଥା ଧାନ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video5" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_male_high_pitch.wav"></video></div>
+<hr>
+</section>
+</section>
+<section id="female" class="level3">
+<h3 class="anchored" data-anchor-id="female">Female</h3>
+<section id="low-pitch-1" class="level4">
+<h4 class="anchored" data-anchor-id="low-pitch-1">low pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 148.23</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>3659174697335037_chunk_41_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Female, bass voice, adjacent, low noise level, moderately unchanging, satisfactory speech quality</li>
+<li><strong>Full Caption:</strong> A female speaker delivers her speech in a room that sounds close to her, with some minor background noise barely audible. Her low-pitched voice carries through the recording with clarity, and despite a somewhat flat tone, she speaks at a normal pace with moderate speed. The overall quality of the recording is good, capturing her voice accurately and allowing for clear understanding of her words.</li>
+<li><strong>Transcript:</strong> &gt; ओमफाय जोङो एनथाबखौ एवो आरो एनथाब फिथा गोलाव गोलाव एवो आरो जों</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video6" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_female_low_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-low-pitch-1" class="level4">
+<h4 class="anchored" data-anchor-id="slightly-low-pitch-1">slightly low pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 184.07</li>
+<li><strong>Dataset:</strong> IndicVoices</li>
+<li><strong>FileName:</strong> <code>5066549580831307_chunk_4.wav</code></li>
+<li><strong>Short Caption:</strong> Female, somewhat low voice, proximal, slight noise distraction, moderately unchanging, a bit unsatisfactory speech quality</li>
+<li><strong>Full Caption:</strong> A woman with a slightly low-pitched voice speaks in what seems to be a relatively small, well-isolated space, resulting in a somewhat close recording. Her delivery is slightly affected by background noise, but it doesn’t detract significantly from the overall quality. With a pace that’s slightly slower than average, she presents her thoughts in a somewhat calm and composed manner, her tone somewhat flat and unemotional due to a slight monotone quality. Despite some minor imperfections, the speech quality is still fairly good, though it could be improved with better audio capture.</li>
+<li><strong>Transcript:</strong> &gt; ਕੀ ਉਹ ਉੱਥੇ ਜਾ ਕੇ ਜਾਂ ਫਿਰ ਜਾਂ ਆਪਾਂ ਕਹਿ ਸਕਦੇ ਆ ਕੀ ਮੰਗਲ ਗ੍ਰਹਿ ਉੱਤੇ ਵੀ ਆਪਾਂ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video7" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_female_slightly_low_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="moderate-pitch-1" class="level4">
+<h4 class="anchored" data-anchor-id="moderate-pitch-1">moderate pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 214.58</li>
+<li><strong>Dataset:</strong> IndicTTS</li>
+<li><strong>FileName:</strong> <code>train_bengalifemale_01037.wav</code></li>
+<li><strong>Short Caption:</strong> Female, proximate, minimal noise distraction, not very dull, acceptable speech quality</li>
+<li><strong>Full Caption:</strong> In a room with a close sound, this woman speaks with moderate clarity, her voice pitched at a neutral level. Her delivery is at a normal pace, and she conveys a sense of subtle emotion, her tone somewhat expressive. The recording quality is good, capturing her voice with minimal distortion, resulting in an overall pleasant listening experience.</li>
+<li><strong>Transcript:</strong> &gt; নিউজিল্যাণ্ডের, উজাতীয় স্থাপত্য, কাল্ট হাউসএর অনুকৃতিতে, মণ্ডপ গড়ছেন, বনহুগলির, একদল তরুণ, শিল্পী</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video8" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_female_moderate_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-high-pitch-1" class="level4">
+<h4 class="anchored" data-anchor-id="slightly-high-pitch-1">slightly high pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 243.65</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>562949953710294_chunk_11_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Female, somewhat high voice, not very slow, moderately nearby, little background noise, energetic tone, outstanding speech quality</li>
+<li><strong>Full Caption:</strong> In a room with a slightly intimate echo, a female speaker delivers a speech at a slightly quick pace, her voice rising slightly above average in pitch. Her highly expressive tone brings the words to life, as she enunciates each phrase with passion and conviction. Despite the less-than-ideal acoustics, the recording captures every detail with remarkable clarity, resulting in a speech sample of great quality.</li>
+<li><strong>Transcript:</strong> &gt; जी मालमत्त्याला मालमत्तेच्या खरेदी आणि विक्रीच्या वेळेला समोरच्यानी जाणून घ्याव्या आणि त्या हिशोबाने मालमत्ता खरेदी आणि विक्री करावी</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video9" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_female_slightly_high_pitch.wav"></video></div>
+<hr>
+</section>
+<section id="high-pitch-1" class="level4">
+<h4 class="anchored" data-anchor-id="high-pitch-1">high pitch</h4>
+<ul>
+<li>🎵 <strong>Median Utterance Pitch Mean:</strong> 277.74</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>4222124650661224_chunk_14_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Female, shrill voice, not very close, clear sound, excellent speech quality</li>
+<li><strong>Full Caption:</strong> In a room with a slight echo, a female speaker delivers a speech with a dynamic tone, her voice standing out with a high pitch. She speaks at a normal pace, and despite the minimal background noise, the audio quality is excellent, capturing her words with clarity. The combination of her high-pitched voice and the good recording quality results in a rich, resonant sound.</li>
+<li><strong>Transcript:</strong> &gt; तकलेन एकदां उरलें की डिफिकल्ट म्हणजे तें डिफिकल्टूच आसता काडून काडून फर्स्ट इयर काडली स्टडी करून आनी</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video10" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pitch_category_female_high_pitch.wav"></video></div>
+<hr>
+</section>
+</section>
+</section>
+<section id="speaking_rate_category" class="level2">
+<h2 class="anchored" data-anchor-id="speaking_rate_category">Speaking Rate Category</h2>
+<section id="slow" class="level3">
+<h3 class="anchored" data-anchor-id="slow">slow</h3>
+<ul>
+<li><strong>Median Speaking Rate:</strong> 6.26</li>
+<li><strong>Dataset:</strong> IndicTTS</li>
+<li><strong>FileName:</strong> <code>train_manipurifemale_01234.wav</code></li>
+<li><strong>Short Caption:</strong> Female, fairly low voice, leisurely, close, clear sound, fairly monotone, superb speech quality</li>
+<li><strong>Full Caption:</strong> In a room with a close sound, a woman speaks with a slightly low-pitched voice at a slow pace. Her tone is somewhat flat and unemotional. The recording quality is excellent, capturing her voice clearly as if she’s speaking directly into the microphone. Her slightly monotone delivery is well-supported by the high-quality audio, resulting in a clear and easy-to-understand speech.</li>
+<li><strong>Transcript:</strong> &gt; তাবদা, নুপা অদু শাউবা ঙম্দ্রে.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video11" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/speaking_rate_category_slow.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-slow" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-slow">slightly slow</h3>
+<ul>
+<li><strong>Median Speaking Rate:</strong> 9.14</li>
+<li><strong>Dataset:</strong> Rasa</li>
+<li><strong>FileName:</strong> <code>KAN_F_WIKI_00870</code></li>
+<li><strong>Short Caption:</strong> Anu, somewhat high voice, fairly slow, adjacent, no background noise, superb speech quality, objective style</li>
+<li><strong>Full Caption:</strong> Anu, a woman with a slightly high-pitched voice, speaks in a room that feels close and intimate. Her voice is clear, and she delivers her speech at a somewhat slow pace with a dynamic tone. The excellent recording quality captures her words with great clarity, and her neutral tone doesn’t sway from a steady, calm demeanor, resulting in a highly polished and engaging speech.</li>
+<li><strong>Transcript:</strong> &gt; ಇದರಲ್ಲಿ ಮರುಭೂಮಿ ವಲಯ, ಬುಡಕಟ್ಟು ವಲಯ, ಪರಿಸರ ವಲಯ, ವನ್ಯಮೃಗ ವಲಯ, ತೀರ್ಥಂಕರ ವಲಯ ಮತ್ತು ಸೂಫಿ ವಲಯಗಳನ್ನು ಸೇರಿಸಲಾಯಿತು.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video12" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/speaking_rate_category_slightly_slow.wav"></video></div>
+<hr>
+</section>
+<section id="moderate-speed" class="level3">
+<h3 class="anchored" data-anchor-id="moderate-speed">moderate speed</h3>
+<ul>
+<li><strong>Median Speaking Rate:</strong> 12.00</li>
+<li><strong>Dataset:</strong> Rasa</li>
+<li><strong>FileName:</strong> <code>ASM_M_NEWS_00208</code></li>
+<li><strong>Short Caption:</strong> Amit, a bit bass voice, adjacent, little background noise, a bit flat, adequate speech quality, newsreader style</li>
+<li><strong>Full Caption:</strong> Amit delivers a news report in a calm, slightly monotone tone, his low-pitched voice coming across clearly in a well-recorded audio. He speaks at a moderate pace, conveying the information without much emphasis. The good quality of the recording captures the nuances of his voice, allowing the listener to focus on the content without distraction.</li>
+<li><strong>Transcript:</strong> &gt; ইয়াৰ ফলত ৰেলসেৱা আংশিকভাৱে বন্ধ কৰি দিয়া হৈছে।</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video13" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/speaking_rate_category_moderate_speed.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-fast" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-fast">slightly fast</h3>
+<ul>
+<li><strong>Median Speaking Rate:</strong> 14.88</li>
+<li><strong>Dataset:</strong> Rasa</li>
+<li><strong>FileName:</strong> <code>ASM_M_CONV_00688</code></li>
+<li><strong>Short Caption:</strong> Amit, moderately deep voice, not very slow, proximal, minimal noise distraction, moderately unchanging, excellent speech quality, friendly style</li>
+<li><strong>Full Caption:</strong> Amit speaks with a low-pitched voice at a slightly fast pace, his tone somewhat flat and unemotional, yet engaging in a relaxed conversation. The recording quality is excellent, capturing his voice with clarity as if he’s speaking directly into the microphone.</li>
+<li><strong>Transcript:</strong> &gt; হয় ডাক্টৰ! মই আপোনাৰ সকলো প্রশ্নৰ সাৱধানেই উত্তৰ দিম।</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video14" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/speaking_rate_category_slightly_fast.wav"></video></div>
+<hr>
+</section>
+<section id="fast" class="level3">
+<h3 class="anchored" data-anchor-id="fast">fast</h3>
+<ul>
+<li><strong>Median Speaking Rate:</strong> 18.45</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>2533274790436553_chunk_7_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Female, high voice, quick, adjacent, minimal noise distraction, a bit vibrant, excellent speech quality</li>
+<li><strong>Full Caption:</strong> A woman with a high-pitched voice speaks at a rapid pace in a recording environment that captures her voice with clarity but a slight degree of distance. Her tone shows subtle hints of expressiveness, and despite the tempo, the speech quality remains good.</li>
+<li><strong>Transcript:</strong> &gt; হেনকে ক লেতো মানুহ এটাৰ প্ৰেছাৰ এটা আহি যায় না মই মেট্ৰিকৰ দিনাখন পৰীক্ষা হ লত এতিয়া নিজে পাছ কৰিম না বেলেগকে পাছ কৰাম</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video15" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/speaking_rate_category_fast.wav"></video></div>
+<hr>
+</section>
+</section>
+<section id="pesq_category" class="level2">
+<h2 class="anchored" data-anchor-id="pesq_category">Pesq Category</h2>
+<section id="bad-speech-quality" class="level3">
+<h3 class="anchored" data-anchor-id="bad-speech-quality">bad speech quality</h3>
+<ul>
+<li><strong>Median Pesq:</strong> 1.55</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>2533274790555750_chunk_9_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, easy-going, minimal noise distraction, moderately unchanging, inadequate speech quality</li>
+<li><strong>Full Caption:</strong> A man’s voice, delivered in a somewhat slow pace, is moderately pitched. The recording environment is reasonably well-balanced, allowing for clear speech. However, the tone is somewhat monotonous, lacking the usual emotional depth. Unfortunately, despite the decent acoustic quality, there is still a noticeable defect in the recording, resulting in a poor speech quality.</li>
+<li><strong>Transcript:</strong> &gt; জাৱ জৈৱ্য সাৰ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video16" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pesq_category_bad_speech_quality.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-bad-speech-quality" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-bad-speech-quality">slightly bad speech quality</h3>
+<ul>
+<li><strong>Median Pesq:</strong> 2.16</li>
+<li><strong>Dataset:</strong> LIMMITS</li>
+<li><strong>FileName:</strong> <code>en_f_EN_A_1976.wav</code></li>
+<li><strong>Short Caption:</strong> Female, not very high voice, fairly fast, nearby, some background noise, spirited tone, not very good speech quality</li>
+<li><strong>Full Caption:</strong> A woman with a somewhat low-pitched voice delivers an expressive speech in a room that sounds close to the microphone but has a hint of background noise. She speaks at a slightly fast pace, which adds to the dynamic nature of her delivery. Unfortunately, the recording quality is not ideal, and the somewhat poor acoustics contribute to a slightly bad speech quality, making it challenging to discern some of the details.</li>
+<li><strong>Transcript:</strong> &gt; B J P sources said Jarkiholi had put forth his demand to make him Deputy Chief Minister with the plum Water Resources portfolio</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video17" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pesq_category_slightly_bad_speech_quality.wav"></video></div>
+<hr>
+</section>
+<section id="moderate-speech-quality" class="level3">
+<h3 class="anchored" data-anchor-id="moderate-speech-quality">moderate speech quality</h3>
+<ul>
+<li><strong>Median Pesq:</strong> 2.88</li>
+<li><strong>Dataset:</strong> IndicTTS</li>
+<li><strong>FileName:</strong> <code>train_telugumale_02884.wav</code></li>
+<li><strong>Short Caption:</strong> Male, acute voice, somewhat fast, close, very low noise level</li>
+<li><strong>Full Caption:</strong> The man speaks in a high-pitched voice at a slightly fast pace, his tone carrying a sense of dynamism. The recording quality is clear, capturing his voice with minimal echo. Although the overall speech quality is moderate, the man’s energetic delivery and the good recording conditions result in a rich, engaging sound.</li>
+<li><strong>Transcript:</strong> &gt; అతను నిర్ధోషి, అయిదువేల దీనారాలూ, తిరిగి ఇప్పించి, అతన్ని పంపించి వేయండి, రత్నదత్తుణ్ణి, ఒకసారి రప్పించండి, అన్నాడు, యౌగంధరాయణుడు.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video18" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pesq_category_moderate_speech_quality.wav"></video></div>
+<hr>
+</section>
+<section id="good-speech-quality" class="level3">
+<h3 class="anchored" data-anchor-id="good-speech-quality">good speech quality</h3>
+<ul>
+<li><strong>Median Pesq:</strong> 3.53</li>
+<li><strong>Dataset:</strong> Rasa</li>
+<li><strong>FileName:</strong> <code>NEP_F_ANGER_00218</code></li>
+<li><strong>Short Caption:</strong> Amrita, tense voice, proximal, clear sound, energetic tone, acceptable speech quality, furious style</li>
+<li><strong>Full Caption:</strong> Amrita, a woman with a high-pitched voice, delivers an expressive speech with a noticeable level of anger. The recording captures her voice clearly, despite some minor background noise, with an intimate, close-sounding quality. This proximity to the microphone contributes to a good recording quality, allowing her voice to shine. Her moderate speed and emotional tone add depth to her delivery, which is characteristic of her angry speech.</li>
+<li><strong>Transcript:</strong> &gt; मैले विश्वासै गर्न सक्दिनँ तपाईँले मेरो यो बजेटमा यति महँगो हिराको सुझाउ दिँदै हुनुहुन्छ! के म सुनको मान्छे हुँ र?</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video19" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pesq_category_good_speech_quality.wav"></video></div>
+<hr>
+</section>
+<section id="great-speech-quality" class="level3">
+<h3 class="anchored" data-anchor-id="great-speech-quality">great speech quality</h3>
+<ul>
+<li><strong>Median Pesq:</strong> 4.06</li>
+<li><strong>Dataset:</strong> Rasa</li>
+<li><strong>FileName:</strong> <code>ASM_M_ALEXA_00025</code></li>
+<li><strong>Short Caption:</strong> Amit, not very high voice, not very slow, nearby, clear sound, somewhat monotone, excellent speech quality, dictatorial style</li>
+<li><strong>Full Caption:</strong> Amit speaks in a low-pitched voice at a slightly rapid pace with a somewhat flat tone. The recording is made in a space with minimal echo and some background noise is barely audible. Despite the slightly less-than-ideal acoustics, the speech quality is excellent, capturing Amit’s voice with clarity. His command-style delivery is direct and confident, with the good recording quality enhancing the clarity of his words, making it easy to understand his message.</li>
+<li><strong>Transcript:</strong> &gt; অক্টোবৰৰ চাৰি তাৰিখৰ নিশা বাৰ বজাত নিৰ্ধাৰিত মিটিংখন ডিলিট কৰি দিয়া</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video20" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/pesq_category_great_speech_quality.wav"></video></div>
+<hr>
+</section>
+</section>
+<section id="snr_category" class="level2">
+<h2 class="anchored" data-anchor-id="snr_category">Snr Category</h2>
+<section id="noisy" class="level3">
+<h3 class="anchored" data-anchor-id="noisy">noisy</h3>
+<ul>
+<li><strong>Median Snr:</strong> 11.22</li>
+<li><strong>Dataset:</strong> IndicVoices</li>
+<li><strong>FileName:</strong> <code>2533274790459398_chunk_10.wav</code></li>
+<li><strong>Short Caption:</strong> Female, fairly slow, distant, noise interference, a bit flat, poor speech quality</li>
+<li><strong>Full Caption:</strong> A female speaker with a moderate-pitched voice delivers a somewhat slow but slightly monotone speech in a large, echoing space with significant background noise. The distant-sounding quality of the recording and the poor speech quality make it challenging to clearly understand the speech, which is further hindered by the loud background noise and a bad recording overall.</li>
+<li><strong>Transcript:</strong> &gt; যিখিনি প্ৰাইভেট ক্লিনিক আছে সেইখিনি ক্লিনিকসমূহৰ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video21" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/snr_category_noisy.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-noisy" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-noisy">slightly noisy</h3>
+<ul>
+<li><strong>Median Snr:</strong> 23.04</li>
+<li><strong>Dataset:</strong> IndicVoices</li>
+<li><strong>FileName:</strong> <code>6473924464364000_chunk_2.wav</code></li>
+<li><strong>Short Caption:</strong> Male, easy-going, isolated, moderate noise level, fairly monotone, inadequate speech quality</li>
+<li><strong>Full Caption:</strong> A man with a moderate-pitched voice speaks in a large, echoing space, his tone somewhat flat and unemotional. The somewhat slow delivery is hard to follow due to the significant background noise and echo. Unfortunately, these factors contribute to a poor recording quality, making it challenging to clearly understand the speech.</li>
+<li><strong>Transcript:</strong> &gt; ꯍꯔ ꯘꯔꯤ ꯕꯗꯜ ꯔꯍꯤꯍꯦ ꯙꯨꯞꯄ ꯖꯤꯟꯗꯒꯤ ꯁꯥꯎꯋꯣꯍꯦ ꯀꯕꯤ ꯀꯕꯤ ꯍꯦ ꯙꯨꯞꯄ ꯖꯤꯟꯗꯒꯤ ꯍꯔ ꯄꯜ ꯌꯍꯥ ꯖꯤꯕꯔ ꯖꯤꯌꯣ ꯖꯣ ꯍꯦ ꯁꯃꯥ ꯀꯜ ꯍꯣ ꯅꯥ ꯍꯣ ꯍꯥꯏꯔꯤꯕ ꯏꯁꯩ ꯑꯁꯤꯅꯤ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video22" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/snr_category_slightly_noisy.wav"></video></div>
+<hr>
+</section>
+<section id="moderate-ambient-sound" class="level3">
+<h3 class="anchored" data-anchor-id="moderate-ambient-sound">moderate ambient sound</h3>
+<ul>
+<li><strong>Median Snr:</strong> 39.10</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>6192449487738949_chunk_5_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, not very low voice</li>
+<li><strong>Full Caption:</strong> A man speaks in a room with a well-balanced acoustic environment, slightly close to the listener. The recording has some background noise, but it’s not overpowering. His voice, with a pitch slightly higher than average, is delivered at a normal pace, showing a range of emotions in his expression. The overall quality of the speech is moderate, capturing the nuances of his somewhat dynamic delivery despite the mild background noise and well-balanced acoustics.</li>
+<li><strong>Transcript:</strong> &gt; ವಿದೇಶಿ ವಸ್ತುಗಳನ್ನ ಬಳಸದೆ ನಮ್ಮ ಸ್ವದೇಶದಲ್ಲಿ ಉತ್ಪಾದನೆ ಮಾಡುವಂತಹ ಬಟ್ಟೆ ಆಗಿರ್ಬೋದು ಎಲ್ಲಾ ರೀತಿಯ ಪದಾರ್ತಗಳನ್ನ ಬಳಸೋದಕ್ಕೆ ನೀಡ್ಬೇಕು ಆ ಮೂಲಕ ವಿದೇಶಿ ವಸ್ತುಗಳನ್ನ ಬಹಿಷ್ಕಾರ ಮಾಡೋ ಮೂಲಕ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video23" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/snr_category_moderate_ambient_sound.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-clear" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-clear">slightly clear</h3>
+<ul>
+<li><strong>Median Snr:</strong> 55.59</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>844424930232813_chunk_34_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Female, adjacent, minimal noise distraction</li>
+<li><strong>Full Caption:</strong> In a room with a sound that is very close, a woman’s voice comes through with minimal background noise. Her delivery is engaging and varied, with a moderate pace that complements the moderate pitch of her voice. The recording quality is acceptable, capturing the nuances of her somewhat dynamic speech without any major issues.</li>
+<li><strong>Transcript:</strong> &gt; आयँ जेकरा पास रुपैया हइ सएह नऽ बिजनेस करतै जेकरा पास रुपैया नहिए हइ उ कमेतै नै तऽ खेतै कहाँसे उ बिजनेस कहाँसे करतै एहिसे जेकरा पास रुपैया हइ उ गाँवमे बिजनेस कऽ के खाइ हइ जेकरा पास रुपैया नै हय उ की करतै गरीब आदमी बाहर जा कऽ अपन कमाइ हइ खाइ हइ</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video24" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/snr_category_slightly_clear.wav"></video></div>
+<hr>
+</section>
+<section id="clear" class="level3">
+<h3 class="anchored" data-anchor-id="clear">clear</h3>
+<ul>
+<li><strong>Median Snr:</strong> 66.43</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>2533274790555749_chunk_1_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, not very fast, a bit close, no noise distraction, moderately subpar speech quality</li>
+<li><strong>Full Caption:</strong> A man speaks with a moderate-pitched voice in a room with a slight echo, his tone somewhat varied and engaging. The recording quality is clear, capturing his voice with minimal background noise and distortion. Despite some minor acoustic issues, his slightly slow delivery and moderate pitch create a balanced and engaging sound.</li>
+<li><strong>Transcript:</strong> &gt; মই সৰুকালৰ পৰাই জ্য়েষ্ঠসকলৰ লগত</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video25" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/snr_category_clear.wav"></video></div>
+<hr>
+</section>
+</section>
+<section id="reverberation_category" class="level2">
+<h2 class="anchored" data-anchor-id="reverberation_category">Reverberation Category</h2>
+<section id="distant-sounding" class="level3">
+<h3 class="anchored" data-anchor-id="distant-sounding">distant-sounding</h3>
+<ul>
+<li><strong>Median C50:</strong> 14.14</li>
+<li><strong>Dataset:</strong> IndicVoices</li>
+<li><strong>FileName:</strong> <code>1407374883620265_chunk_1.wav</code></li>
+<li><strong>Short Caption:</strong> Female, isolated, minor noise interference, somewhat monotone, subpar speech quality</li>
+<li><strong>Full Caption:</strong> In a large space with a significant echo, a female speaker delivers a somewhat flat and unemotional speech with a moderate pitch. Her delivery is at a normal pace, but it’s difficult to discern her tone due to the background noise and echo. Unfortunately, these factors contribute to a poor recording quality, making it challenging to clearly understand the speech.</li>
+<li><strong>Transcript:</strong> &gt; আমার হাইক করার জন্য আমার প্রিয় ভূখণ্ড হচ্ছে পাহাড় আমি মুকুটমণিপুরে বেড়াতে গেসলাম সেখানে গিয়ে ওই ছোট্ট ছোট্ট পাহাড় আছে না ওই পাহাড়ে</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video26" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/reverberation_category_distant-sounding.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-distant-sounding" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-distant-sounding">slightly distant-sounding</h3>
+<ul>
+<li><strong>Median C50:</strong> 29.27</li>
+<li><strong>Dataset:</strong> IndicVoices-R</li>
+<li><strong>FileName:</strong> <code>2533274790420114_chunk_5_enhanced.wav</code></li>
+<li><strong>Short Caption:</strong> Male, not very close, very low noise level, unvarying tone, outstanding speech quality</li>
+<li><strong>Full Caption:</strong> A man with a voice of moderate pitch delivers a speech at a moderate pace with a somewhat flat and unemotional tone. The recording quality is excellent, capturing his voice clearly without any background noise. The combination of his neutral tone and the high-quality audio results in a smooth, even sound.</li>
+<li><strong>Transcript:</strong> &gt; কাজিয়া লগাত তেওঁ তেওঁলোকে মাটি বাৰী ভাগ কৰিবলৈ বিচাৰিলে</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video27" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/reverberation_category_slightly_distant-sounding.wav"></video></div>
+<hr>
+</section>
+<section id="moderately-balanced" class="level3">
+<h3 class="anchored" data-anchor-id="moderately-balanced">moderately balanced</h3>
+<ul>
+<li><strong>Median C50:</strong> 37.53</li>
+<li><strong>Dataset:</strong> IndicVoices</li>
+<li><strong>FileName:</strong> <code>844424930159755_chunk_2.wav</code></li>
+<li><strong>Short Caption:</strong> Male, significant background noise, unchanging tone, unsatisfactory speech quality</li>
+<li><strong>Full Caption:</strong> In a room with a well-balanced acoustic environment, a man delivers a speech with a monotone tone at a normal pace. His voice, with a moderate pitch, struggles to stand out amidst the background noise, resulting in a poor recording quality that detracts from the overall speech clarity.</li>
+<li><strong>Transcript:</strong> &gt; हमरा गाममे ओना सब किछ छियै लेकिन एखन गेहुँ आएल यऽओकरा खरीदय छी फेर ओकरा धोऐ छी सुखबय छियइ ओकरा आटा मिल पर साइकिल पर लए गेलउ ओकरा अथी केलौ बढ़ियासँ पिसा तिसाकऽओकरा अनलहुँ दए गेलौ हमरा गाँवमे तऽलेकिन</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video28" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/reverberation_category_moderately_balanced.wav"></video></div>
+<hr>
+</section>
+<section id="slightly-close-sounding" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-close-sounding">slightly close-sounding</h3>
+<ul>
+<li><strong>Median C50:</strong> 46.98</li>
+<li><strong>Dataset:</strong> LIMMITS</li>
+<li><strong>FileName:</strong> <code>en_m_EN_H_1251.wav</code></li>
+<li><strong>Short Caption:</strong> Male, not very low voice, moderately fast, somewhat close, little background noise, excellent speech quality</li>
+<li><strong>Full Caption:</strong> A male speaker with a voice that’s slightly high in pitch delivers a moderately dynamic speech at a slightly fast pace in a room that sounds slightly close. Although there’s some background noise, the recording quality is excellent, and the speech comes through clearly. The speaker’s animation and enthusiasm shine through in his speech, making it engaging and easy to follow. Despite the slightly close acoustics, the combination of clear audio and the speaker’s energetic delivery results in a high-quality listening experience.</li>
+<li><strong>Transcript:</strong> &gt; Diabetes diet- How to use mango leaves to lower blood sugar levels?</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video29" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/reverberation_category_slightly_close-sounding.wav"></video></div>
+<hr>
+</section>
+<section id="close-sounding" class="level3">
+<h3 class="anchored" data-anchor-id="close-sounding">close-sounding</h3>
+<ul>
+<li><strong>Median C50:</strong> 58.89</li>
+<li><strong>Dataset:</strong> LIMMITS</li>
+<li><strong>FileName:</strong> <code>en_f_libri_1594-135914-0052.wav</code></li>
+<li><strong>Short Caption:</strong> Female, moderately deep voice, proximal, clear sound, somewhat expressive, exceptional speech quality</li>
+<li><strong>Full Caption:</strong> A female speaker with a voice slightly lower in pitch speaks at a moderate pace in a room with a close sound. Her tone is somewhat animated and slightly expressive, but she delivers her words clearly, with only a hint of background noise. The recording quality is excellent, capturing her voice with great clarity and capturing the nuances of her delivery, resulting in an overall great speech quality.</li>
+<li><strong>Transcript:</strong> &gt; fetnah raised her up and said my good lady</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video30" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="wavs/reverberation_category_close-sounding.wav"></video></div>
+<hr>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
+<script>videojs(video_shortcode_videojs_video2);</script>
+<script>videojs(video_shortcode_videojs_video3);</script>
+<script>videojs(video_shortcode_videojs_video4);</script>
+<script>videojs(video_shortcode_videojs_video5);</script>
+<script>videojs(video_shortcode_videojs_video6);</script>
+<script>videojs(video_shortcode_videojs_video7);</script>
+<script>videojs(video_shortcode_videojs_video8);</script>
+<script>videojs(video_shortcode_videojs_video9);</script>
+<script>videojs(video_shortcode_videojs_video10);</script>
+<script>videojs(video_shortcode_videojs_video11);</script>
+<script>videojs(video_shortcode_videojs_video12);</script>
+<script>videojs(video_shortcode_videojs_video13);</script>
+<script>videojs(video_shortcode_videojs_video14);</script>
+<script>videojs(video_shortcode_videojs_video15);</script>
+<script>videojs(video_shortcode_videojs_video16);</script>
+<script>videojs(video_shortcode_videojs_video17);</script>
+<script>videojs(video_shortcode_videojs_video18);</script>
+<script>videojs(video_shortcode_videojs_video19);</script>
+<script>videojs(video_shortcode_videojs_video20);</script>
+<script>videojs(video_shortcode_videojs_video21);</script>
+<script>videojs(video_shortcode_videojs_video22);</script>
+<script>videojs(video_shortcode_videojs_video23);</script>
+<script>videojs(video_shortcode_videojs_video24);</script>
+<script>videojs(video_shortcode_videojs_video25);</script>
+<script>videojs(video_shortcode_videojs_video26);</script>
+<script>videojs(video_shortcode_videojs_video27);</script>
+<script>videojs(video_shortcode_videojs_video28);</script>
+<script>videojs(video_shortcode_videojs_video29);</script>
+<script>videojs(video_shortcode_videojs_video30);</script>
+
+
+
+
+</body></html>
