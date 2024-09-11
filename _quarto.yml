@@ -18,7 +18,7 @@ highlight-style: "tango"
 format:
   html:
     theme:
-      light: [zephyr, styles_light.scss]
-      dark: [darkly, styles.scss]
+      light: [cosmo, styles_light.scss]
+      dark: [cosmo, styles.scss]
     code-copy: true
     toc: true
