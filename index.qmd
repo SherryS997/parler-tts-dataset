@@ -5,7 +5,11 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 # Listening Test
 
 ## Pitch Category {#pitch_category}
-### Male
+
+### Pitch Category Samples
+
+### Male Samples
+
 #### low pitch
 - **Median Utterance Pitch Mean:** 95.76
 - **Dataset:** IndicVoices-R
@@ -18,8 +22,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 {{< video wavs/pitch_category_male_low_pitch.wav height="68" width="300" >}}
 
-
----
 
 #### slightly low pitch
 - **Median Utterance Pitch Mean:** 115.88
@@ -34,8 +36,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pitch_category_male_slightly_low_pitch.wav height="68" width="300" >}}
 
 
----
-
 #### moderate pitch
 - **Median Utterance Pitch Mean:** 135.63
 - **Dataset:** IndicVoices-R
@@ -49,8 +49,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pitch_category_male_moderate_pitch.wav height="68" width="300" >}}
 
 
----
-
 #### slightly high pitch
 - **Median Utterance Pitch Mean:** 159.19
 - **Dataset:** LIMMITS
@@ -63,8 +61,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 {{< video wavs/pitch_category_male_slightly_high_pitch.wav height="68" width="300" >}}
 
-
----
 
 #### high pitch
 - **Median Utterance Pitch Mean:** 187.63
@@ -81,7 +77,9 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 ---
 
-### Female
+
+### Female Samples
+
 #### low pitch
 - **Median Utterance Pitch Mean:** 148.23
 - **Dataset:** IndicVoices-R
@@ -94,8 +92,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 {{< video wavs/pitch_category_female_low_pitch.wav height="68" width="300" >}}
 
-
----
 
 #### slightly low pitch
 - **Median Utterance Pitch Mean:** 184.07
@@ -110,8 +106,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pitch_category_female_slightly_low_pitch.wav height="68" width="300" >}}
 
 
----
-
 #### moderate pitch
 - **Median Utterance Pitch Mean:** 214.58
 - **Dataset:** IndicTTS
@@ -125,8 +119,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pitch_category_female_moderate_pitch.wav height="68" width="300" >}}
 
 
----
-
 #### slightly high pitch
 - **Median Utterance Pitch Mean:** 243.65
 - **Dataset:** IndicVoices-R
@@ -139,8 +131,6 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 {{< video wavs/pitch_category_female_slightly_high_pitch.wav height="68" width="300" >}}
 
-
----
 
 #### high pitch
 - **Median Utterance Pitch Mean:** 277.74
@@ -159,7 +149,10 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 
 ## Speaking Rate Category {#speaking_rate_category}
-### slow
+
+### Category Samples
+
+#### slow
 - **Median Utterance Pitch Mean:** 6.26
 - **Dataset:** IndicTTS
 - **Language:** Manipuri
@@ -172,9 +165,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/speaking_rate_category_slow.wav height="68" width="300" >}}
 
 
----
-
-### slightly slow
+#### slightly slow
 - **Median Utterance Pitch Mean:** 9.14
 - **Dataset:** Rasa
 - **Language:** Kannada
@@ -187,9 +178,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/speaking_rate_category_slightly_slow.wav height="68" width="300" >}}
 
 
----
-
-### moderate speed
+#### moderate speed
 - **Median Utterance Pitch Mean:** 12.00
 - **Dataset:** Rasa
 - **Language:** Assamese
@@ -202,9 +191,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/speaking_rate_category_moderate_speed.wav height="68" width="300" >}}
 
 
----
-
-### slightly fast
+#### slightly fast
 - **Median Utterance Pitch Mean:** 14.88
 - **Dataset:** Rasa
 - **Language:** Assamese
@@ -217,9 +204,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/speaking_rate_category_slightly_fast.wav height="68" width="300" >}}
 
 
----
-
-### fast
+#### fast
 - **Median Utterance Pitch Mean:** 18.45
 - **Dataset:** IndicVoices-R
 - **Language:** Assamese
@@ -236,7 +221,10 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 
 ## Pesq Category {#pesq_category}
-### bad speech quality
+
+### Category Samples
+
+#### bad speech quality
 - **Median Utterance Pitch Mean:** 1.55
 - **Dataset:** IndicVoices-R
 - **Language:** Assamese
@@ -249,9 +237,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pesq_category_bad_speech_quality.wav height="68" width="300" >}}
 
 
----
-
-### slightly bad speech quality
+#### slightly bad speech quality
 - **Median Utterance Pitch Mean:** 2.16
 - **Dataset:** LIMMITS
 - **Language:** English
@@ -264,9 +250,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pesq_category_slightly_bad_speech_quality.wav height="68" width="300" >}}
 
 
----
-
-### moderate speech quality
+#### moderate speech quality
 - **Median Utterance Pitch Mean:** 2.88
 - **Dataset:** IndicTTS
 - **Language:** Telugu
@@ -279,9 +263,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pesq_category_moderate_speech_quality.wav height="68" width="300" >}}
 
 
----
-
-### good speech quality
+#### good speech quality
 - **Median Utterance Pitch Mean:** 3.53
 - **Dataset:** Rasa
 - **Language:** Nepali
@@ -294,9 +276,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/pesq_category_good_speech_quality.wav height="68" width="300" >}}
 
 
----
-
-### great speech quality
+#### great speech quality
 - **Median Utterance Pitch Mean:** 4.06
 - **Dataset:** Rasa
 - **Language:** Assamese
@@ -313,7 +293,10 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 
 ## Snr Category {#snr_category}
-### noisy
+
+### Category Samples
+
+#### noisy
 - **Median Utterance Pitch Mean:** 11.22
 - **Dataset:** IndicVoices
 - **Language:** Assamese
@@ -326,9 +309,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/snr_category_noisy.wav height="68" width="300" >}}
 
 
----
-
-### slightly noisy
+#### slightly noisy
 - **Median Utterance Pitch Mean:** 23.04
 - **Dataset:** IndicVoices
 - **Language:** Manipuri
@@ -341,9 +322,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/snr_category_slightly_noisy.wav height="68" width="300" >}}
 
 
----
-
-### moderate ambient sound
+#### moderate ambient sound
 - **Median Utterance Pitch Mean:** 39.10
 - **Dataset:** IndicVoices-R
 - **Language:** Kannada
@@ -356,9 +335,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/snr_category_moderate_ambient_sound.wav height="68" width="300" >}}
 
 
----
-
-### slightly clear
+#### slightly clear
 - **Median Utterance Pitch Mean:** 55.59
 - **Dataset:** IndicVoices-R
 - **Language:** Maithili
@@ -371,9 +348,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/snr_category_slightly_clear.wav height="68" width="300" >}}
 
 
----
-
-### clear
+#### clear
 - **Median Utterance Pitch Mean:** 66.43
 - **Dataset:** IndicVoices-R
 - **Language:** Assamese
@@ -390,7 +365,10 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 
 ## Reverberation Category {#reverberation_category}
-### distant-sounding
+
+### Category Samples
+
+#### distant-sounding
 - **Median Utterance Pitch Mean:** 14.14
 - **Dataset:** IndicVoices
 - **Language:** Bengali
@@ -403,9 +381,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/reverberation_category_distant-sounding.wav height="68" width="300" >}}
 
 
----
-
-### slightly distant-sounding
+#### slightly distant-sounding
 - **Median Utterance Pitch Mean:** 29.27
 - **Dataset:** IndicVoices-R
 - **Language:** Assamese
@@ -418,9 +394,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/reverberation_category_slightly_distant-sounding.wav height="68" width="300" >}}
 
 
----
-
-### moderately balanced
+#### moderately balanced
 - **Median Utterance Pitch Mean:** 37.53
 - **Dataset:** IndicVoices
 - **Language:** Maithili
@@ -433,9 +407,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/reverberation_category_moderately_balanced.wav height="68" width="300" >}}
 
 
----
-
-### slightly close-sounding
+#### slightly close-sounding
 - **Median Utterance Pitch Mean:** 46.98
 - **Dataset:** LIMMITS
 - **Language:** English
@@ -448,9 +420,7 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 {{< video wavs/reverberation_category_slightly_close-sounding.wav height="68" width="300" >}}
 
 
----
-
-### close-sounding
+#### close-sounding
 - **Median Utterance Pitch Mean:** 58.89
 - **Dataset:** LIMMITS
 - **Language:** English
@@ -465,196 +435,3 @@ title: "ParlerTTS Dataset Listening Test and Stats"
 
 ---
 
-# Stats
-
-## Tables
-
-### Duration in Hours
-
-The following table displays the total duration in hours (`hrs:mins`) for each language and dataset:
-
-| language          | Rasa   | IndicTTS   | LIMMITS   | IndicVoices-R   | IndicVoices   | Total   |
-|:------------------|:-------|:-----------|:----------|:----------------|:--------------|:--------|
-| Assamese          | 42:23  | 27:23      | 00:00     | 210:33          | 203:03        | 483:23  |
-| Assamese English  | 00:00  | 23:21      | 00:00     | 00:00           | 00:00         | 23:21   |
-| Bengali           | 39:58  | 20:05      | 79:58     | 243:43          | 160:45        | 544:30  |
-| Bengali English   | 00:00  | 16:28      | 00:00     | 00:00           | 00:00         | 16:28   |
-| Bodo              | 39:21  | 09:46      | 00:00     | 296:06          | 244:45        | 590:00  |
-| Bodo English      | 00:00  | 09:59      | 00:00     | 00:00           | 00:00         | 09:59   |
-| Chhattisgarhi     | 00:00  | 00:00      | 80:06     | 00:00           | 00:00         | 80:06   |
-| Dogri             | 16:08  | 00:00      | 00:00     | 111:48          | 103:57        | 231:54  |
-| English           | 00:00  | 00:00      | 79:59     | 00:00           | 00:00         | 79:59   |
-| Gujarati          | 00:00  | 21:14      | 00:00     | 08:02           | 12:43         | 42:00   |
-| Gujarati English  | 00:00  | 20:08      | 00:00     | 00:00           | 00:00         | 20:08   |
-| Hindi             | 00:00  | 26:13      | 80:46     | 145:19          | 110:45        | 363:04  |
-| Hindi English     | 00:00  | 20:04      | 00:00     | 00:00           | 00:00         | 20:04   |
-| Kannada           | 44:55  | 00:00      | 80:05     | 153:14          | 79:40         | 357:55  |
-| Kannada English   | 00:00  | 19:56      | 00:00     | 00:00           | 00:00         | 19:56   |
-| Kashmiri          | 00:00  | 00:00      | 00:00     | 98:20           | 90:28         | 188:48  |
-| Konkani           | 00:00  | 00:00      | 00:00     | 115:49          | 80:25         | 196:15  |
-| Maithili          | 00:00  | 00:00      | 00:00     | 263:14          | 200:46        | 464:00  |
-| Malayalam         | 22:11  | 03:01      | 00:00     | 232:54          | 119:11        | 377:18  |
-| Malayalam English | 00:00  | 16:40      | 00:00     | 00:00           | 00:00         | 16:40   |
-| Manipuri          | 00:00  | 20:45      | 00:00     | 53:43           | 32:37         | 107:06  |
-| Manipuri English  | 00:00  | 20:34      | 00:00     | 00:00           | 00:00         | 20:34   |
-| Marathi           | 35:25  | 03:00      | 84:02     | 116:30          | 87:17         | 326:15  |
-| Marathi English   | 00:00  | 18:44      | 00:00     | 00:00           | 00:00         | 18:44   |
-| Nepali            | 28:39  | 00:00      | 00:00     | 241:13          | 214:13        | 484:06  |
-| Odia              | 00:00  | 19:10      | 00:00     | 141:22          | 106:41        | 267:15  |
-| Punjabi           | 00:00  | 00:00      | 00:00     | 166:05          | 104:03        | 270:09  |
-| Sanskrit          | 19:54  | 00:00      | 00:00     | 57:01           | 46:22         | 123:18  |
-| Santali           | 00:00  | 00:00      | 00:00     | 160:00          | 119:53        | 279:53  |
-| Sindhi            | 00:00  | 00:00      | 00:00     | 43:49           | 20:04         | 63:54   |
-| Tamil             | 00:00  | 32:19      | 00:00     | 225:35          | 210:53        | 468:48  |
-| Telugu            | 00:00  | 12:47      | 83:06     | 248:05          | 198:37        | 542:36  |
-| Telugu English    | 00:00  | 21:00      | 00:00     | 00:00           | 00:00         | 21:00   |
-| Urdu              | 00:00  | 00:00      | 00:00     | 157:41          | 101:42        | 259:23  |
-| Total             | 288:56 | 382:46     | 568:05    | 3490:15         | 2649:00       | 7379:05 |
-| Total English     | 00:00  | 186:58     | 79:59     | 00:00           | 00:00         | 266:57  |
-| Total Indic       | 288:56 | 195:47     | 488:06    | 3490:15         | 2649:00       | 7112:07 |
-
-### Utterance Count
-
-The following table shows the number of utterances for each language and dataset:
-
-| language          | Rasa    | IndicTTS   | LIMMITS   | IndicVoices-R   | IndicVoices   | Total     |
-|:------------------|:--------|:-----------|:----------|:----------------|:--------------|:----------|
-| Assamese          | 23,561  | 17,647     | 0         | 94,565          | 86,821        | 222,594   |
-| Assamese English  | 0       | 17,405     | 0         | 0               | 0             | 17,405    |
-| Bengali           | 22,053  | 12,852     | 35,400    | 97,802          | 62,409        | 230,516   |
-| Bengali English   | 0       | 9,513      | 0         | 0               | 0             | 9,513     |
-| Bodo              | 21,379  | 5,633      | 0         | 143,365         | 121,281       | 291,658   |
-| Bodo English      | 0       | 5,356      | 0         | 0               | 0             | 5,356     |
-| Chhattisgarhi     | 0       | 0          | 38,145    | 0               | 0             | 38,145    |
-| Dogri             | 7,823   | 0          | 0         | 43,618          | 42,913        | 94,354    |
-| English           | 0       | 0          | 40,397    | 0               | 0             | 40,397    |
-| Gujarati          | 0       | 5,679      | 0         | 3,587           | 4,963         | 14,229    |
-| Gujarati English  | 0       | 9,494      | 0         | 0               | 0             | 9,494     |
-| Hindi             | 0       | 11,825     | 34,308    | 59,087          | 43,991        | 149,211   |
-| Hindi English     | 0       | 13,306     | 0         | 0               | 0             | 13,306    |
-| Kannada           | 24,315  | 0          | 30,260    | 64,947          | 32,889        | 152,411   |
-| Kannada English   | 0       | 11,231     | 0         | 0               | 0             | 11,231    |
-| Kashmiri          | 0       | 0          | 0         | 42,277          | 39,129        | 81,406    |
-| Konkani           | 0       | 0          | 0         | 53,054          | 34,676        | 87,730    |
-| Maithili          | 0       | 0          | 0         | 110,647         | 83,463        | 194,110   |
-| Malayalam         | 13,156  | 1,832      | 0         | 98,603          | 47,887        | 161,478   |
-| Malayalam English | 0       | 10,263     | 0         | 0               | 0             | 10,263    |
-| Manipuri          | 0       | 19,222     | 0         | 22,818          | 13,006        | 55,046    |
-| Manipuri English  | 0       | 19,992     | 0         | 0               | 0             | 19,992    |
-| Marathi           | 18,711  | 1,562      | 34,621    | 50,096          | 35,304        | 140,294   |
-| Marathi English   | 0       | 10,637     | 0         | 0               | 0             | 10,637    |
-| Nepali            | 16,014  | 0          | 0         | 107,222         | 95,189        | 218,425   |
-| Odia              | 0       | 11,558     | 0         | 56,543          | 40,704        | 108,805   |
-| Punjabi           | 0       | 0          | 0         | 66,146          | 40,213        | 106,359   |
-| Sanskrit          | 8,720   | 0          | 0         | 25,434          | 19,682        | 53,836    |
-| Santali           | 0       | 0          | 0         | 77,408          | 57,268        | 134,676   |
-| Sindhi            | 0       | 0          | 0         | 18,423          | 8,039         | 26,462    |
-| Tamil             | 0       | 14,891     | 0         | 93,550          | 90,371        | 198,812   |
-| Telugu            | 0       | 4,533      | 32,868    | 99,372          | 74,215        | 210,988   |
-| Telugu English    | 0       | 6,152      | 0         | 0               | 0             | 6,152     |
-| Urdu              | 0       | 0          | 0         | 66,579          | 42,827        | 109,406   |
-| Total             | 155,732 | 220,583    | 245,999   | 1,495,143       | 1,117,240     | 3,234,697 |
-| Total English     | 0       | 113,349    | 40,397    | 0               | 0             | 153,746   |
-| Total Indic       | 155,732 | 107,234    | 205,602   | 1,495,143       | 1,117,240     | 3,080,951 |
-
-\newpage
-
-## Plots
-
-### Distribution Plots
-
-- **PESQ Category Distribution**  
-  ![PESQ Category Distribution](plots/PESQ_Category_Distribution.png)
-
-- **Pitch Category Distribution**  
-  ![Pitch Category Distribution](plots/Pitch_Category_Distribution.png)
-
-\newpage
-
-- **Reverberation Category Distribution**  
-  ![Reverberation Category Distribution](plots/Reverberation_Category_Distribution.png)
-
-- **SNR Category Distribution**  
-  ![SNR Category Distribution](plots/SNR_Category_Distribution.png)
-
-\newpage
-
-- **Speaking Rate Category Distribution**  
-  ![Speaking Rate Category Distribution](plots/Speaking_Rate_Category_Distribution.png)
-
-- **Utterance STD Category Distribution**  
-  ![Utterance STD Category Distribution](plots/Utterance_STD_Category_Distribution.png)
-
-### Pie Charts
-
-![Pie Chart of Count by Dataset](plots/pie_count_by_dataset.png){width=40%}
-![Pie Chart of Count by Language](plots/pie_count_by_language.png){width=40%}
-
-![Pie Chart of Duration by Dataset](plots/pie_duration_by_dataset.png){width=40%}
-![Pie Chart of Duration by Language](plots/pie_duration_by_language.png){width=40%}
-
-### Stacked Bar Charts
-
-- **Stacked Bar Chart of Sample Count**  
-  ![Stacked Bar Chart of Sample Count](plots/language_sample_count_stacked_bar.png)
-
-- **Stacked Bar Chart of Duration**  
-  ![Stacked Bar Chart of Duration](plots/language_duration_stacked_bar.png)
-
-### Spider Plot
-
-- **PESQ and MOS Comparison Across Datasets**  
-  ![PESQ and MOS Comparison Across Datasets](plots/dataset_spider_plot.png)
-
-### KDE Plots
-
-- **KDE of C50**  
-  ![KDE of C50](plots/kde_c50.png)
-
-- **KDE of MOS**  
-  ![KDE of MOS](plots/kde_mos.png)
-
-\newpage
-
-- **KDE of PESQ**  
-  ![KDE of PESQ](plots/kde_pesq.png)
-
-- **KDE of SI-SDR**  
-  ![KDE of SI-SDR](plots/kde_si-sdr.png)
-
-\newpage
-
-- **KDE of SNR**  
-  ![KDE of SNR](plots/kde_snr.png)
-
-- **KDE of Speaking Rate**  
-  ![KDE of Speaking Rate](plots/kde_speaking_rate.png)
-
-\newpage
-
-- **KDE of Speech Duration**  
-  ![KDE of Speech Duration](plots/kde_speech_duration.png)
-
-- **KDE of ST0I**  
-  ![KDE of ST0I](plots/kde_stoi.png)
-
-\newpage
-
-- **KDE of Utterance Pitch Mean**  
-  ![KDE of Utterance Pitch Mean](plots/kde_utterance_pitch_mean.png)
-
-- **KDE of Utterance Pitch Std**  
-  ![KDE of Utterance Pitch Std](plots/kde_utterance_pitch_std.png)
-
-\newpage
-
-## Glossary of Terms
-
-- **PESQ**: Perceptual Evaluation of Speech Quality. A measure of the quality of speech in audio recordings.
-- **Pitch**: The perceived frequency of a sound; higher pitches are associated with higher frequencies.
-- **Reverberation**: The persistence of sound in an environment after the source has stopped; affects the clarity of speech.
-- **SNR**: Signal-to-Noise Ratio. Measures the ratio of the signal strength to background noise.
-- **Speaking Rate**: The speed at which speech is delivered, typically measured in syllables or words per minute.
-- **Utterance STD**: Standard Deviation of pitch variation within an utterance, indicating the level of expressiveness.
-- **KDE**: Kernel Density Estimate. A non-parametric way to estimate the probability density function of a random variable.
-- **STOI**: Short-Time Objective Intelligibility. Measures speech intelligibility over short time windows.
