@@ -1,0 +1,286 @@
+# Generated Audio Samples
+
+## Dataset: Rasa
+
+
+### Sample 4
+
+- **Language:** Bengali
+- **Text:** আপনাকে অবশ্যই পেশাদারভাবে পোশাক পরতে হবে না, তবে আপনি যা পরেন তা পরিষ্কার এবং ঝরঝরে হয় তা নিশ্চিত করা উচিত।
+- **Description:** Aditi, a bit treble voice, close, minimal noise distraction, acceptable speech quality, neutral style
+
+{{< video samples/sample_out_4.wav height="68" width="300" >}}
+
+
+### Sample 5
+
+- **Language:** Bodo
+- **Text:** सुख' नाङाखिसैबो रोजा बाजि रांखौ।
+- **Description:** Maya speaks with superb speech quality in a recording with little background noise.
+
+{{< video samples/sample_out_5.wav height="68" width="300" >}}
+
+
+### Sample 8
+
+- **Language:** Dogri
+- **Text:** एह् रोलरकोस्टर सच्चैं गै ड खौफनाक न ।
+- **Description:** Karan speaks in a somewhat high-pitched voice at a slightly slow pace, his tone somewhat flat and unemotional. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone. Although his delivery is somewhat monotonous, the high-quality audio effectively conveys the fear underlying his slightly distant-sounding speech.
+
+{{< video samples/sample_out_8.wav height="68" width="300" >}}
+
+
+### Sample 11
+
+- **Language:** Malayalam
+- **Text:** രണ്ടായിരത്തിഇരുപത്  ഓഗസ്റ്റിൽ, അടുത്ത സംരംഭം ഒരു സ്‌പോർട്‌സ് സിനിമയായിരിക്കുമെന്ന് രാഹുൽ റിജി നായർ പ്രഖ്യാപിച്ചു, അതിൽ രജിഷ വിജയൻ പ്രധാന വേഷത്തിൽ അഭിനയിക്കും.
+- **Description:** Anjali, proximal, low noise level, excellent speech quality, objective style
+
+{{< video samples/sample_out_11.wav height="68" width="300" >}}
+
+
+### Sample 14
+
+- **Language:** Marathi
+- **Text:** पुणे आणि पिंपरी चिंचवडमधील दोन्ही जम्बो रूग्णालय पूर्ण क्षमतेने सुरू झाल्यानंतर एकशे पंचवीस मेट्रीक टन ऑक्सिजनची गरज भासेल .
+- **Description:** Sunita, not very low voice, adjacent, minimal noise distraction, outstanding speech quality, journalist style
+
+{{< video samples/sample_out_14.wav height="68" width="300" >}}
+
+
+### Sample 15
+
+- **Language:** Nepali
+- **Text:** उनले राजकुमार, विक्रम सिंह राठौरलाई भेट्छिन्, जसको व्यक्तित्वले उनलाई आफ्ना आमाबाबु जस्तै बनाउँछ।
+- **Description:** Amrita, a bit treble voice, proximal, clear sound, excellent speech quality, unbiased style
+
+{{< video samples/sample_out_15.wav height="68" width="300" >}}
+
+
+### Sample 17
+
+- **Language:** Sanskrit
+- **Text:** यद्यपि तस्य अधिकभागः भग्नावशेषः अस्ति तथापि कोनार्कस्य सूर्यमन्दिरस्य अद्यापि भव्यम् आभामण्डलम् अस्ति।
+- **Description:** Aryan, somewhat high voice, somewhat slow, nearby, low noise level, exceptional speech quality, relaxed style
+
+{{< video samples/sample_out_17.wav height="68" width="300" >}}
+
+
+### Sample 20
+
+- **Language:** Sanskrit
+- **Text:** किञ्चिदनन्तरं तत्र आगतवती दीपा । एषा किमर्थम् अत्र आगता ? इति चिन्तयन् प्रद्युम्नः दीपायाः मुखम् आश्चर्येण अपश्यत् ।
+- **Description:** Aryan's speech is characterized by a low noise level and a vivid style in adjacent audio samples.
+
+{{< video samples/sample_out_20.wav height="68" width="300" >}}
+
+## Dataset: IndicVoices-R
+
+
+### Sample 21
+
+- **Language:** Bodo
+- **Text:** बिथांनि बिमायं बिमायं जायो बिथाङा जे दैलि माने खोनटिनिउ माने नि समाव जे हसपिटालाव लाङो आरो जेन न वाव लाबो फिनो मोजाङैनो गाइद खालामदों गारसोना दिनाखै बेफोर बायदिनो जे
+- **Description:** The audio sample features a moderately high voice with poor speech quality from a nearby source with low noise.
+
+{{< video samples/sample_out_21.wav height="68" width="300" >}}
+
+
+### Sample 22
+
+- **Language:** Tamil
+- **Text:** நெறைய தமிழ பத்தி முன்னாடி வாழ்ந்தவங்கள பத்தி எல்லாமே வந்து தமிழ் கல்வெட்டுல இருக்கு
+- **Description:** The audio sample contains a close, moderately unchanging recording of a female with a fairly low voice speaking with satisfactory quality.
+
+{{< video samples/sample_out_22.wav height="68" width="300" >}}
+
+
+### Sample 23
+
+- **Language:** Dogri
+- **Text:** होर बी बड़े होंदे
+- **Description:** The audio sample features a female voice with a flat tone and speedy delivery.
+
+{{< video samples/sample_out_23.wav height="68" width="300" >}}
+
+
+### Sample 25
+
+- **Language:** Manipuri
+- **Text:** ꯑꯩꯅ ꯊꯕꯛ ꯆꯠꯇ꯭ꯔꯤꯕꯥ ꯑꯗꯨꯒꯥ ꯑꯩꯒꯤ ꯂꯅꯥꯏꯒꯤ ꯑꯣꯏꯕ ꯄꯥꯟꯗꯝ ꯅꯠꯇ꯭ꯔꯒ ꯑꯄꯥꯝꯕꯁꯦ ꯂꯩ ꯑꯄꯥꯝꯕꯁꯦ ꯀꯩꯅꯣ ꯍꯥꯏꯔꯗꯤ ꯑ꯭ꯌꯔ ꯍꯣꯁꯇ꯭ꯔꯦꯁ ꯑꯣꯏꯕꯁꯦ ꯌꯥꯝ ꯄꯥꯃꯦ ꯑꯩꯅ ꯁꯦ ꯄꯥꯝꯕꯒꯤ ꯃꯔꯝꯁꯦ ꯃꯣꯏꯅ ꯃꯤꯉꯣꯟꯗ
+- **Description:** Female, proximate, little background noise, fairly monotone, good speech quality
+
+{{< video samples/sample_out_25.wav height="68" width="300" >}}
+
+
+### Sample 27
+
+- **Language:** Kashmiri
+- **Text:** اَگر بہٕ وٕچھٕ پانَس منٛز چھُ مےٚ ویٖکنٮ س بیٚیہِ یِہے
+- **Description:** The audio sample features a male voice with a shrill tone, speaking quickly and with a somewhat close, lively quality.
+
+{{< video samples/sample_out_27.wav height="68" width="300" >}}
+
+
+### Sample 28
+
+- **Language:** Assamese
+- **Text:** যাতে আমি সেইটোৰ পৰা আমি বেনিফিটট্ছ হয় আমি বস্তুটো এটা প্ৰয়োজনবোধে আমি কিছুমান সামাগ্ৰী সামা সামগ্ৰী কিনিবলৈ যাওঁ
+- **Description:** The audio sample is a female voice with a high pitch, speaking rapidly in a moderately lively tone.
+
+{{< video samples/sample_out_28.wav height="68" width="300" >}}
+
+
+### Sample 29
+
+- **Language:** Santali
+- **Text:** ᱦᱤᱲᱤᱧᱮᱜ ᱞᱮᱠᱟ ᱠᱚ ᱛᱚ ᱮᱱᱮᱡ ᱥᱮᱨᱮᱧ ᱟᱭᱢᱟᱜᱮ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ ᱥᱮᱨᱮᱧ ᱨᱮ ᱨᱟᱦᱟ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ
+- **Description:** The audio sample features a female voice with clear, somewhat slow, and somewhat monotone speech.
+
+{{< video samples/sample_out_29.wav height="68" width="300" >}}
+
+
+### Sample 31
+
+- **Language:** Malayalam
+- **Text:** കിട്ടിയ അവസരങ്ങൾ എല്ലാം നല്ല രീതിയിൽ ഉപയോഗിക്കാനും ഞാൻ ശ്രമിച്ചിട്ടുണ്ട് നൃത്തം പഠിപ്പിക്കുക എന്നുള്ളത് വളരെയധികം സന്തോഷം ഉള്ളൊരു കാര്യം കൂടിയാണ്
+- **Description:** A woman with a moderate-pitched voice delivers a somewhat fast but relatively flat speech. The recording quality is excellent, capturing her voice with clarity as if it's spoken directly into the microphone. Despite her slightly monotone tone, the good quality of the recording brings out the nuances of her somewhat rapid delivery.
+
+{{< video samples/sample_out_31.wav height="68" width="300" >}}
+
+
+### Sample 32
+
+- **Language:** Sanskrit
+- **Text:** मम कार्यान्तरं वर्तते
+- **Description:** Male, a bit treble voice, brisk, spirited tone, unsatisfactory speech quality
+
+{{< video samples/sample_out_32.wav height="68" width="300" >}}
+
+
+### Sample 33
+
+- **Language:** Assamese
+- **Text:** সেনেকুৱা হয়েই এই কাৰণে চিৰাজ নাটকখন পঢ়ি মই বুজি পালোঁ কিয় সময়ৰ লগত মানুহখিনি তাৰমানে পৰিৱেশ পৰিৱেশ পৰিস্থিতি সাপেক্ষে মানুহৰ মন
+- **Description:** The audio sample features a female voice with a moderately high pitch, recorded nearby with minimal background noise.
+
+{{< video samples/sample_out_33.wav height="68" width="300" >}}
+
+
+### Sample 34
+
+- **Language:** Maithili
+- **Text:** गेहुमो भी बढ़ियाँ छै नामी छै यहाँ के
+- **Description:** A man with a moderately pitched voice speaks in a close, intimate setting, his tone somewhat flat but not uninteresting. The recording quality is good, capturing his voice with clarity, but it's slightly marred by some minor background noise. His delivery is somewhat slow, yet not dragging, and overall, the speech quality remains good.
+
+{{< video samples/sample_out_34.wav height="68" width="300" >}}
+
+
+### Sample 35
+
+- **Language:** Nepali
+- **Text:** पैलाको संसारको भूगोल कस्तो हुन्छ भनेर हामीले त्यो बारेम् ज्ञान पाउँथ्यो अनि
+- **Description:** Male, not very high voice, not very slow, adjacent, little background noise, not very varied, good speech quality
+
+{{< video samples/sample_out_35.wav height="68" width="300" >}}
+
+
+### Sample 38
+
+- **Language:** Nepali
+- **Text:** अनि कालेम्बुङको साथ साथै मलाई टिस्टा मनपर्छ अनि यहाँनिरी हामीलाई मनपर्ने कुराहरू भनेको चैँ धेरै भन्दा धेरै हामीले चैँ यहाँनिर राम्रो खानुको लागि ममो चाउमिन यस्तो कुराहरू हामीलाई एकदमै मनपर्छ अनि यहाँको जति पनि बाटो घाटोहरू छ हामीलाई मनपर्छ त्यहाँको मानिसहरू हामीलाई मनपर्दछ
+- **Description:** Male, nearby, minimal noise distraction, moderately unchanging, adequate speech quality
+
+{{< video samples/sample_out_38.wav height="68" width="300" >}}
+
+
+### Sample 39
+
+- **Language:** Hindi
+- **Text:** एक बोल होती है
+- **Description:** The audio sample features a brisk, uniform tone with consistent pitch and even dynamics.
+
+{{< video samples/sample_out_39.wav height="68" width="300" >}}
+
+
+### Sample 40
+
+- **Language:** Kannada
+- **Text:** ಸ್ಪೆಷಲ್ ಏನಂತ ನಾವು ತಿಳಿಸ್ಬೇಕಾಗುತ್ತದೆ
+- **Description:** A male speaker in a close-sounding environment with moderate ambient sound background noise speaks in a monotone tone at a slightly fast pace with a moderate pitch, and the overall speech quality is good.
+
+{{< video samples/sample_out_40.wav height="68" width="300" >}}
+
+## Dataset: GLOBE
+
+
+### Sample 41
+
+- **Language:** English
+- **Text:** they were all cut for various reasons.
+- **Description:** The person speaking, who appears to be in their twenties and speaking English with a United States accent, delivers the speech at a moderate speed. The overall speech quality is good, and the speaker's voice has a high pitch. The speech is slightly close-sounding and has a moderate ambient sound, giving it a sense of being in a relatively quiet space. The speaker's tone is moderately dynamic, and the pace is steady, but not rushed.
+
+{{< video samples/sample_out_41.wav height="68" width="300" >}}
+
+
+### Sample 42
+
+- **Language:** English
+- **Text:** the nuclear crisis was explained as a simple test.
+- **Description:** A 20-year-old male is speaking English with a Canadian accent. His voice is delivered at a fast pace, which contributes to its slightly distant-sounding quality. The audio sample has a slightly clear sound, indicating minimal ambient noise. The speaker's tone is monotone, lending a sense of simplicity to his delivery. His voice has a slightly low pitch, but the overall good speech quality makes it easy to understand.
+
+{{< video samples/sample_out_42.wav height="68" width="300" >}}
+
+
+### Sample 43
+
+- **Language:** English
+- **Text:** not merely the common's name has been mangled by time.
+- **Description:** male, a bit speedy, nearby, somewhat monotone, exceptional speech quality, England accent
+
+{{< video samples/sample_out_43.wav height="68" width="300" >}}
+
+
+### Sample 45
+
+- **Language:** English
+- **Text:** meanwhile, in recognition of his work, luna was awarded with the philippine republic medal.
+- **Description:** The audio sample features a male voice with a low pitch and a consistent, unvarying tone.
+
+{{< video samples/sample_out_45.wav height="68" width="300" >}}
+
+
+### Sample 46
+
+- **Language:** English
+- **Text:** non-muslim expatriates can obtain a permit to purchase alcohol for personal consumption.
+- **Description:** The audio sample is a male voice in his thirties with minimal background noise and a steady tone.
+
+{{< video samples/sample_out_46.wav height="68" width="300" >}}
+
+
+### Sample 47
+
+- **Language:** English
+- **Text:** how many people do you think will be there?
+- **Description:** The audio sample features a male speaker in his twenties with a slightly bass voice speaking swiftly and clearly.
+
+{{< video samples/sample_out_47.wav height="68" width="300" >}}
+
+
+### Sample 49
+
+- **Language:** English
+- **Text:** vanessa williams recorded a version in her christmas album star bright.
+- **Description:** male, somewhat fast, proximal, low noise level, moderately unchanging, superlative speech quality, United accent
+
+{{< video samples/sample_out_49.wav height="68" width="300" >}}
+
+
+### Sample 50
+
+- **Language:** English
+- **Text:** mammary glands can be identified as apocrine because they exhibit striking "decapitation" secretion.
+- **Description:** The audio sample features a male speaker with a Canadian accent, moderate pace, and clear, slightly flat tone.
+
+{{< video samples/sample_out_50.wav height="68" width="300" >}}

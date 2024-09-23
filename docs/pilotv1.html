@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>pilotv1 – Indic-ParlerTTS Dataset</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-sans.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-roman.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-mono.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pilotv1.html">Pilot v1</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Indic-ParlerTTS Dataset</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pilotv1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Pilot v1</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#generated-audio-samples" id="toc-generated-audio-samples" class="nav-link active" data-scroll-target="#generated-audio-samples">Generated Audio Samples</a>
+  <ul class="collapse">
+  <li><a href="#dataset-rasa" id="toc-dataset-rasa" class="nav-link" data-scroll-target="#dataset-rasa">Dataset: Rasa</a>
+  <ul class="collapse">
+  <li><a href="#sample-4" id="toc-sample-4" class="nav-link" data-scroll-target="#sample-4">Sample 4</a></li>
+  <li><a href="#sample-5" id="toc-sample-5" class="nav-link" data-scroll-target="#sample-5">Sample 5</a></li>
+  <li><a href="#sample-8" id="toc-sample-8" class="nav-link" data-scroll-target="#sample-8">Sample 8</a></li>
+  <li><a href="#sample-11" id="toc-sample-11" class="nav-link" data-scroll-target="#sample-11">Sample 11</a></li>
+  <li><a href="#sample-14" id="toc-sample-14" class="nav-link" data-scroll-target="#sample-14">Sample 14</a></li>
+  <li><a href="#sample-15" id="toc-sample-15" class="nav-link" data-scroll-target="#sample-15">Sample 15</a></li>
+  <li><a href="#sample-17" id="toc-sample-17" class="nav-link" data-scroll-target="#sample-17">Sample 17</a></li>
+  <li><a href="#sample-20" id="toc-sample-20" class="nav-link" data-scroll-target="#sample-20">Sample 20</a></li>
+  </ul></li>
+  <li><a href="#dataset-indicvoices-r" id="toc-dataset-indicvoices-r" class="nav-link" data-scroll-target="#dataset-indicvoices-r">Dataset: IndicVoices-R</a>
+  <ul class="collapse">
+  <li><a href="#sample-21" id="toc-sample-21" class="nav-link" data-scroll-target="#sample-21">Sample 21</a></li>
+  <li><a href="#sample-22" id="toc-sample-22" class="nav-link" data-scroll-target="#sample-22">Sample 22</a></li>
+  <li><a href="#sample-23" id="toc-sample-23" class="nav-link" data-scroll-target="#sample-23">Sample 23</a></li>
+  <li><a href="#sample-25" id="toc-sample-25" class="nav-link" data-scroll-target="#sample-25">Sample 25</a></li>
+  <li><a href="#sample-27" id="toc-sample-27" class="nav-link" data-scroll-target="#sample-27">Sample 27</a></li>
+  <li><a href="#sample-28" id="toc-sample-28" class="nav-link" data-scroll-target="#sample-28">Sample 28</a></li>
+  <li><a href="#sample-29" id="toc-sample-29" class="nav-link" data-scroll-target="#sample-29">Sample 29</a></li>
+  <li><a href="#sample-31" id="toc-sample-31" class="nav-link" data-scroll-target="#sample-31">Sample 31</a></li>
+  <li><a href="#sample-32" id="toc-sample-32" class="nav-link" data-scroll-target="#sample-32">Sample 32</a></li>
+  <li><a href="#sample-33" id="toc-sample-33" class="nav-link" data-scroll-target="#sample-33">Sample 33</a></li>
+  <li><a href="#sample-34" id="toc-sample-34" class="nav-link" data-scroll-target="#sample-34">Sample 34</a></li>
+  <li><a href="#sample-35" id="toc-sample-35" class="nav-link" data-scroll-target="#sample-35">Sample 35</a></li>
+  <li><a href="#sample-38" id="toc-sample-38" class="nav-link" data-scroll-target="#sample-38">Sample 38</a></li>
+  <li><a href="#sample-39" id="toc-sample-39" class="nav-link" data-scroll-target="#sample-39">Sample 39</a></li>
+  <li><a href="#sample-40" id="toc-sample-40" class="nav-link" data-scroll-target="#sample-40">Sample 40</a></li>
+  </ul></li>
+  <li><a href="#dataset-globe" id="toc-dataset-globe" class="nav-link" data-scroll-target="#dataset-globe">Dataset: GLOBE</a>
+  <ul class="collapse">
+  <li><a href="#sample-41" id="toc-sample-41" class="nav-link" data-scroll-target="#sample-41">Sample 41</a></li>
+  <li><a href="#sample-42" id="toc-sample-42" class="nav-link" data-scroll-target="#sample-42">Sample 42</a></li>
+  <li><a href="#sample-43" id="toc-sample-43" class="nav-link" data-scroll-target="#sample-43">Sample 43</a></li>
+  <li><a href="#sample-45" id="toc-sample-45" class="nav-link" data-scroll-target="#sample-45">Sample 45</a></li>
+  <li><a href="#sample-46" id="toc-sample-46" class="nav-link" data-scroll-target="#sample-46">Sample 46</a></li>
+  <li><a href="#sample-47" id="toc-sample-47" class="nav-link" data-scroll-target="#sample-47">Sample 47</a></li>
+  <li><a href="#sample-49" id="toc-sample-49" class="nav-link" data-scroll-target="#sample-49">Sample 49</a></li>
+  <li><a href="#sample-50" id="toc-sample-50" class="nav-link" data-scroll-target="#sample-50">Sample 50</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="generated-audio-samples" class="level1">
+<h1>Generated Audio Samples</h1>
+<section id="dataset-rasa" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-rasa">Dataset: Rasa</h2>
+<section id="sample-4" class="level3">
+<h3 class="anchored" data-anchor-id="sample-4">Sample 4</h3>
+<ul>
+<li><strong>Language:</strong> Bengali</li>
+<li><strong>Text:</strong> আপনাকে অবশ্যই পেশাদারভাবে পোশাক পরতে হবে না, তবে আপনি যা পরেন তা পরিষ্কার এবং ঝরঝরে হয় তা নিশ্চিত করা উচিত।</li>
+<li><strong>Description:</strong> Aditi, a bit treble voice, close, minimal noise distraction, acceptable speech quality, neutral style</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_4.wav"></video></div>
+</section>
+<section id="sample-5" class="level3">
+<h3 class="anchored" data-anchor-id="sample-5">Sample 5</h3>
+<ul>
+<li><strong>Language:</strong> Bodo</li>
+<li><strong>Text:</strong> सुख’ नाङाखिसैबो रोजा बाजि रांखौ।</li>
+<li><strong>Description:</strong> Maya speaks with superb speech quality in a recording with little background noise.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video2" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_5.wav"></video></div>
+</section>
+<section id="sample-8" class="level3">
+<h3 class="anchored" data-anchor-id="sample-8">Sample 8</h3>
+<ul>
+<li><strong>Language:</strong> Dogri</li>
+<li><strong>Text:</strong> एह् रोलरकोस्टर सच्चैं गै ड खौफनाक न ।</li>
+<li><strong>Description:</strong> Karan speaks in a somewhat high-pitched voice at a slightly slow pace, his tone somewhat flat and unemotional. The recording quality is excellent, capturing his voice with clarity as if he’s speaking directly into the microphone. Although his delivery is somewhat monotonous, the high-quality audio effectively conveys the fear underlying his slightly distant-sounding speech.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video3" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_8.wav"></video></div>
+</section>
+<section id="sample-11" class="level3">
+<h3 class="anchored" data-anchor-id="sample-11">Sample 11</h3>
+<ul>
+<li><strong>Language:</strong> Malayalam</li>
+<li><strong>Text:</strong> രണ്ടായിരത്തിഇരുപത് ഓഗസ്റ്റിൽ, അടുത്ത സംരംഭം ഒരു സ്‌പോർട്‌സ് സിനിമയായിരിക്കുമെന്ന് രാഹുൽ റിജി നായർ പ്രഖ്യാപിച്ചു, അതിൽ രജിഷ വിജയൻ പ്രധാന വേഷത്തിൽ അഭിനയിക്കും.</li>
+<li><strong>Description:</strong> Anjali, proximal, low noise level, excellent speech quality, objective style</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video4" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_11.wav"></video></div>
+</section>
+<section id="sample-14" class="level3">
+<h3 class="anchored" data-anchor-id="sample-14">Sample 14</h3>
+<ul>
+<li><strong>Language:</strong> Marathi</li>
+<li><strong>Text:</strong> पुणे आणि पिंपरी चिंचवडमधील दोन्ही जम्बो रूग्णालय पूर्ण क्षमतेने सुरू झाल्यानंतर एकशे पंचवीस मेट्रीक टन ऑक्सिजनची गरज भासेल .</li>
+<li><strong>Description:</strong> Sunita, not very low voice, adjacent, minimal noise distraction, outstanding speech quality, journalist style</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video5" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_14.wav"></video></div>
+</section>
+<section id="sample-15" class="level3">
+<h3 class="anchored" data-anchor-id="sample-15">Sample 15</h3>
+<ul>
+<li><strong>Language:</strong> Nepali</li>
+<li><strong>Text:</strong> उनले राजकुमार, विक्रम सिंह राठौरलाई भेट्छिन्, जसको व्यक्तित्वले उनलाई आफ्ना आमाबाबु जस्तै बनाउँछ।</li>
+<li><strong>Description:</strong> Amrita, a bit treble voice, proximal, clear sound, excellent speech quality, unbiased style</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video6" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_15.wav"></video></div>
+</section>
+<section id="sample-17" class="level3">
+<h3 class="anchored" data-anchor-id="sample-17">Sample 17</h3>
+<ul>
+<li><strong>Language:</strong> Sanskrit</li>
+<li><strong>Text:</strong> यद्यपि तस्य अधिकभागः भग्नावशेषः अस्ति तथापि कोनार्कस्य सूर्यमन्दिरस्य अद्यापि भव्यम् आभामण्डलम् अस्ति।</li>
+<li><strong>Description:</strong> Aryan, somewhat high voice, somewhat slow, nearby, low noise level, exceptional speech quality, relaxed style</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video7" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_17.wav"></video></div>
+</section>
+<section id="sample-20" class="level3">
+<h3 class="anchored" data-anchor-id="sample-20">Sample 20</h3>
+<ul>
+<li><strong>Language:</strong> Sanskrit</li>
+<li><strong>Text:</strong> किञ्चिदनन्तरं तत्र आगतवती दीपा । एषा किमर्थम् अत्र आगता ? इति चिन्तयन् प्रद्युम्नः दीपायाः मुखम् आश्चर्येण अपश्यत् ।</li>
+<li><strong>Description:</strong> Aryan’s speech is characterized by a low noise level and a vivid style in adjacent audio samples.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video8" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_20.wav"></video></div>
+</section>
+</section>
+<section id="dataset-indicvoices-r" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-indicvoices-r">Dataset: IndicVoices-R</h2>
+<section id="sample-21" class="level3">
+<h3 class="anchored" data-anchor-id="sample-21">Sample 21</h3>
+<ul>
+<li><strong>Language:</strong> Bodo</li>
+<li><strong>Text:</strong> बिथांनि बिमायं बिमायं जायो बिथाङा जे दैलि माने खोनटिनिउ माने नि समाव जे हसपिटालाव लाङो आरो जेन न वाव लाबो फिनो मोजाङैनो गाइद खालामदों गारसोना दिनाखै बेफोर बायदिनो जे</li>
+<li><strong>Description:</strong> The audio sample features a moderately high voice with poor speech quality from a nearby source with low noise.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video9" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_21.wav"></video></div>
+</section>
+<section id="sample-22" class="level3">
+<h3 class="anchored" data-anchor-id="sample-22">Sample 22</h3>
+<ul>
+<li><strong>Language:</strong> Tamil</li>
+<li><strong>Text:</strong> நெறைய தமிழ பத்தி முன்னாடி வாழ்ந்தவங்கள பத்தி எல்லாமே வந்து தமிழ் கல்வெட்டுல இருக்கு</li>
+<li><strong>Description:</strong> The audio sample contains a close, moderately unchanging recording of a female with a fairly low voice speaking with satisfactory quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video10" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_22.wav"></video></div>
+</section>
+<section id="sample-23" class="level3">
+<h3 class="anchored" data-anchor-id="sample-23">Sample 23</h3>
+<ul>
+<li><strong>Language:</strong> Dogri</li>
+<li><strong>Text:</strong> होर बी बड़े होंदे</li>
+<li><strong>Description:</strong> The audio sample features a female voice with a flat tone and speedy delivery.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video11" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_23.wav"></video></div>
+</section>
+<section id="sample-25" class="level3">
+<h3 class="anchored" data-anchor-id="sample-25">Sample 25</h3>
+<ul>
+<li><strong>Language:</strong> Manipuri</li>
+<li><strong>Text:</strong> ꯑꯩꯅ ꯊꯕꯛ ꯆꯠꯇ꯭ꯔꯤꯕꯥ ꯑꯗꯨꯒꯥ ꯑꯩꯒꯤ ꯂꯅꯥꯏꯒꯤ ꯑꯣꯏꯕ ꯄꯥꯟꯗꯝ ꯅꯠꯇ꯭ꯔꯒ ꯑꯄꯥꯝꯕꯁꯦ ꯂꯩ ꯑꯄꯥꯝꯕꯁꯦ ꯀꯩꯅꯣ ꯍꯥꯏꯔꯗꯤ ꯑ꯭ꯌꯔ ꯍꯣꯁꯇ꯭ꯔꯦꯁ ꯑꯣꯏꯕꯁꯦ ꯌꯥꯝ ꯄꯥꯃꯦ ꯑꯩꯅ ꯁꯦ ꯄꯥꯝꯕꯒꯤ ꯃꯔꯝꯁꯦ ꯃꯣꯏꯅ ꯃꯤꯉꯣꯟꯗ</li>
+<li><strong>Description:</strong> Female, proximate, little background noise, fairly monotone, good speech quality</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video12" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_25.wav"></video></div>
+</section>
+<section id="sample-27" class="level3">
+<h3 class="anchored" data-anchor-id="sample-27">Sample 27</h3>
+<ul>
+<li><strong>Language:</strong> Kashmiri</li>
+<li><strong>Text:</strong> اَگر بہٕ وٕچھٕ پانَس منٛز چھُ مےٚ ویٖکنٮ س بیٚیہِ یِہے</li>
+<li><strong>Description:</strong> The audio sample features a male voice with a shrill tone, speaking quickly and with a somewhat close, lively quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video13" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_27.wav"></video></div>
+</section>
+<section id="sample-28" class="level3">
+<h3 class="anchored" data-anchor-id="sample-28">Sample 28</h3>
+<ul>
+<li><strong>Language:</strong> Assamese</li>
+<li><strong>Text:</strong> যাতে আমি সেইটোৰ পৰা আমি বেনিফিটট্ছ হয় আমি বস্তুটো এটা প্ৰয়োজনবোধে আমি কিছুমান সামাগ্ৰী সামা সামগ্ৰী কিনিবলৈ যাওঁ</li>
+<li><strong>Description:</strong> The audio sample is a female voice with a high pitch, speaking rapidly in a moderately lively tone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video14" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_28.wav"></video></div>
+</section>
+<section id="sample-29" class="level3">
+<h3 class="anchored" data-anchor-id="sample-29">Sample 29</h3>
+<ul>
+<li><strong>Language:</strong> Santali</li>
+<li><strong>Text:</strong> ᱦᱤᱲᱤᱧᱮᱜ ᱞᱮᱠᱟ ᱠᱚ ᱛᱚ ᱮᱱᱮᱡ ᱥᱮᱨᱮᱧ ᱟᱭᱢᱟᱜᱮ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ ᱥᱮᱨᱮᱧ ᱨᱮ ᱨᱟᱦᱟ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ</li>
+<li><strong>Description:</strong> The audio sample features a female voice with clear, somewhat slow, and somewhat monotone speech.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video15" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_29.wav"></video></div>
+</section>
+<section id="sample-31" class="level3">
+<h3 class="anchored" data-anchor-id="sample-31">Sample 31</h3>
+<ul>
+<li><strong>Language:</strong> Malayalam</li>
+<li><strong>Text:</strong> കിട്ടിയ അവസരങ്ങൾ എല്ലാം നല്ല രീതിയിൽ ഉപയോഗിക്കാനും ഞാൻ ശ്രമിച്ചിട്ടുണ്ട് നൃത്തം പഠിപ്പിക്കുക എന്നുള്ളത് വളരെയധികം സന്തോഷം ഉള്ളൊരു കാര്യം കൂടിയാണ്</li>
+<li><strong>Description:</strong> A woman with a moderate-pitched voice delivers a somewhat fast but relatively flat speech. The recording quality is excellent, capturing her voice with clarity as if it’s spoken directly into the microphone. Despite her slightly monotone tone, the good quality of the recording brings out the nuances of her somewhat rapid delivery.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video16" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_31.wav"></video></div>
+</section>
+<section id="sample-32" class="level3">
+<h3 class="anchored" data-anchor-id="sample-32">Sample 32</h3>
+<ul>
+<li><strong>Language:</strong> Sanskrit</li>
+<li><strong>Text:</strong> मम कार्यान्तरं वर्तते</li>
+<li><strong>Description:</strong> Male, a bit treble voice, brisk, spirited tone, unsatisfactory speech quality</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video17" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_32.wav"></video></div>
+</section>
+<section id="sample-33" class="level3">
+<h3 class="anchored" data-anchor-id="sample-33">Sample 33</h3>
+<ul>
+<li><strong>Language:</strong> Assamese</li>
+<li><strong>Text:</strong> সেনেকুৱা হয়েই এই কাৰণে চিৰাজ নাটকখন পঢ়ি মই বুজি পালোঁ কিয় সময়ৰ লগত মানুহখিনি তাৰমানে পৰিৱেশ পৰিৱেশ পৰিস্থিতি সাপেক্ষে মানুহৰ মন</li>
+<li><strong>Description:</strong> The audio sample features a female voice with a moderately high pitch, recorded nearby with minimal background noise.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video18" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_33.wav"></video></div>
+</section>
+<section id="sample-34" class="level3">
+<h3 class="anchored" data-anchor-id="sample-34">Sample 34</h3>
+<ul>
+<li><strong>Language:</strong> Maithili</li>
+<li><strong>Text:</strong> गेहुमो भी बढ़ियाँ छै नामी छै यहाँ के</li>
+<li><strong>Description:</strong> A man with a moderately pitched voice speaks in a close, intimate setting, his tone somewhat flat but not uninteresting. The recording quality is good, capturing his voice with clarity, but it’s slightly marred by some minor background noise. His delivery is somewhat slow, yet not dragging, and overall, the speech quality remains good.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video19" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_34.wav"></video></div>
+</section>
+<section id="sample-35" class="level3">
+<h3 class="anchored" data-anchor-id="sample-35">Sample 35</h3>
+<ul>
+<li><strong>Language:</strong> Nepali</li>
+<li><strong>Text:</strong> पैलाको संसारको भूगोल कस्तो हुन्छ भनेर हामीले त्यो बारेम् ज्ञान पाउँथ्यो अनि</li>
+<li><strong>Description:</strong> Male, not very high voice, not very slow, adjacent, little background noise, not very varied, good speech quality</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video20" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_35.wav"></video></div>
+</section>
+<section id="sample-38" class="level3">
+<h3 class="anchored" data-anchor-id="sample-38">Sample 38</h3>
+<ul>
+<li><strong>Language:</strong> Nepali</li>
+<li><strong>Text:</strong> अनि कालेम्बुङको साथ साथै मलाई टिस्टा मनपर्छ अनि यहाँनिरी हामीलाई मनपर्ने कुराहरू भनेको चैँ धेरै भन्दा धेरै हामीले चैँ यहाँनिर राम्रो खानुको लागि ममो चाउमिन यस्तो कुराहरू हामीलाई एकदमै मनपर्छ अनि यहाँको जति पनि बाटो घाटोहरू छ हामीलाई मनपर्छ त्यहाँको मानिसहरू हामीलाई मनपर्दछ</li>
+<li><strong>Description:</strong> Male, nearby, minimal noise distraction, moderately unchanging, adequate speech quality</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video21" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_38.wav"></video></div>
+</section>
+<section id="sample-39" class="level3">
+<h3 class="anchored" data-anchor-id="sample-39">Sample 39</h3>
+<ul>
+<li><strong>Language:</strong> Hindi</li>
+<li><strong>Text:</strong> एक बोल होती है</li>
+<li><strong>Description:</strong> The audio sample features a brisk, uniform tone with consistent pitch and even dynamics.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video22" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_39.wav"></video></div>
+</section>
+<section id="sample-40" class="level3">
+<h3 class="anchored" data-anchor-id="sample-40">Sample 40</h3>
+<ul>
+<li><strong>Language:</strong> Kannada</li>
+<li><strong>Text:</strong> ಸ್ಪೆಷಲ್ ಏನಂತ ನಾವು ತಿಳಿಸ್ಬೇಕಾಗುತ್ತದೆ</li>
+<li><strong>Description:</strong> A male speaker in a close-sounding environment with moderate ambient sound background noise speaks in a monotone tone at a slightly fast pace with a moderate pitch, and the overall speech quality is good.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video23" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_40.wav"></video></div>
+</section>
+</section>
+<section id="dataset-globe" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-globe">Dataset: GLOBE</h2>
+<section id="sample-41" class="level3">
+<h3 class="anchored" data-anchor-id="sample-41">Sample 41</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> they were all cut for various reasons.</li>
+<li><strong>Description:</strong> The person speaking, who appears to be in their twenties and speaking English with a United States accent, delivers the speech at a moderate speed. The overall speech quality is good, and the speaker’s voice has a high pitch. The speech is slightly close-sounding and has a moderate ambient sound, giving it a sense of being in a relatively quiet space. The speaker’s tone is moderately dynamic, and the pace is steady, but not rushed.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video24" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_41.wav"></video></div>
+</section>
+<section id="sample-42" class="level3">
+<h3 class="anchored" data-anchor-id="sample-42">Sample 42</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> the nuclear crisis was explained as a simple test.</li>
+<li><strong>Description:</strong> A 20-year-old male is speaking English with a Canadian accent. His voice is delivered at a fast pace, which contributes to its slightly distant-sounding quality. The audio sample has a slightly clear sound, indicating minimal ambient noise. The speaker’s tone is monotone, lending a sense of simplicity to his delivery. His voice has a slightly low pitch, but the overall good speech quality makes it easy to understand.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video25" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_42.wav"></video></div>
+</section>
+<section id="sample-43" class="level3">
+<h3 class="anchored" data-anchor-id="sample-43">Sample 43</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> not merely the common’s name has been mangled by time.</li>
+<li><strong>Description:</strong> male, a bit speedy, nearby, somewhat monotone, exceptional speech quality, England accent</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video26" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_43.wav"></video></div>
+</section>
+<section id="sample-45" class="level3">
+<h3 class="anchored" data-anchor-id="sample-45">Sample 45</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> meanwhile, in recognition of his work, luna was awarded with the philippine republic medal.</li>
+<li><strong>Description:</strong> The audio sample features a male voice with a low pitch and a consistent, unvarying tone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video27" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_45.wav"></video></div>
+</section>
+<section id="sample-46" class="level3">
+<h3 class="anchored" data-anchor-id="sample-46">Sample 46</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> non-muslim expatriates can obtain a permit to purchase alcohol for personal consumption.</li>
+<li><strong>Description:</strong> The audio sample is a male voice in his thirties with minimal background noise and a steady tone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video28" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_46.wav"></video></div>
+</section>
+<section id="sample-47" class="level3">
+<h3 class="anchored" data-anchor-id="sample-47">Sample 47</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> how many people do you think will be there?</li>
+<li><strong>Description:</strong> The audio sample features a male speaker in his twenties with a slightly bass voice speaking swiftly and clearly.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video29" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_47.wav"></video></div>
+</section>
+<section id="sample-49" class="level3">
+<h3 class="anchored" data-anchor-id="sample-49">Sample 49</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> vanessa williams recorded a version in her christmas album star bright.</li>
+<li><strong>Description:</strong> male, somewhat fast, proximal, low noise level, moderately unchanging, superlative speech quality, United accent</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video30" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_49.wav"></video></div>
+</section>
+<section id="sample-50" class="level3">
+<h3 class="anchored" data-anchor-id="sample-50">Sample 50</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> mammary glands can be identified as apocrine because they exhibit striking “decapitation” secretion.</li>
+<li><strong>Description:</strong> The audio sample features a male speaker with a Canadian accent, moderate pace, and clear, slightly flat tone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video31" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples/sample_out_50.wav"></video></div>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
+<script>videojs(video_shortcode_videojs_video2);</script>
+<script>videojs(video_shortcode_videojs_video3);</script>
+<script>videojs(video_shortcode_videojs_video4);</script>
+<script>videojs(video_shortcode_videojs_video5);</script>
+<script>videojs(video_shortcode_videojs_video6);</script>
+<script>videojs(video_shortcode_videojs_video7);</script>
+<script>videojs(video_shortcode_videojs_video8);</script>
+<script>videojs(video_shortcode_videojs_video9);</script>
+<script>videojs(video_shortcode_videojs_video10);</script>
+<script>videojs(video_shortcode_videojs_video11);</script>
+<script>videojs(video_shortcode_videojs_video12);</script>
+<script>videojs(video_shortcode_videojs_video13);</script>
+<script>videojs(video_shortcode_videojs_video14);</script>
+<script>videojs(video_shortcode_videojs_video15);</script>
+<script>videojs(video_shortcode_videojs_video16);</script>
+<script>videojs(video_shortcode_videojs_video17);</script>
+<script>videojs(video_shortcode_videojs_video18);</script>
+<script>videojs(video_shortcode_videojs_video19);</script>
+<script>videojs(video_shortcode_videojs_video20);</script>
+<script>videojs(video_shortcode_videojs_video21);</script>
+<script>videojs(video_shortcode_videojs_video22);</script>
+<script>videojs(video_shortcode_videojs_video23);</script>
+<script>videojs(video_shortcode_videojs_video24);</script>
+<script>videojs(video_shortcode_videojs_video25);</script>
+<script>videojs(video_shortcode_videojs_video26);</script>
+<script>videojs(video_shortcode_videojs_video27);</script>
+<script>videojs(video_shortcode_videojs_video28);</script>
+<script>videojs(video_shortcode_videojs_video29);</script>
+<script>videojs(video_shortcode_videojs_video30);</script>
+<script>videojs(video_shortcode_videojs_video31);</script>
+
+
+
+
+</body></html>
