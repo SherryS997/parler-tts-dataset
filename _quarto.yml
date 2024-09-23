@@ -30,8 +30,8 @@ highlight-style: "tango"
 
 format:
   html:
-    theme:
-      light: [cosmo, styles_light.scss]
-      dark: [cosmo, styles.scss]
+    theme: 
+      light: [zephyr, styles_light.scss]
+      dark: [darkly, styles.scss]
     code-copy: true
     toc: true
