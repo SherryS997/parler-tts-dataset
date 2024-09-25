@@ -10,7 +10,7 @@
 - **Transliteration:** āru śikṣakasakalē bādhyatāmūlaka sēi praśikṣaṇata aṁśagrahaṇa kariba
 - **Description:** The audio sample features Sita speaking with superb speech quality and indicative style.
 
-{{< video samples/sample_out_1.wav height="68" width="300" >}}
+{{< video samples1/sample_out_1.wav height="68" width="300" >}}
 
 
 ### Sample 2
@@ -20,7 +20,7 @@
 - **Transliteration:** tathā badana baraphukanara jiẏarī pijau gābharuvē kamakhana nakarilēnē
 - **Description:** Sita, fairly slow, proximal, clear sound, not very varied, superlative speech quality, indicating style
 
-{{< video samples/sample_out_2.wav height="68" width="300" >}}
+{{< video samples1/sample_out_2.wav height="68" width="300" >}}
 
 
 ### Sample 3
@@ -30,7 +30,7 @@
 - **Transliteration:** māunṭa kāñcanajaṅghā āra māunṭa kē ṭu ēka naẏa, ṭhika ki nā?
 - **Description:** Arjun, adjacent, clear sound, exceptional speech quality, friendly style
 
-{{< video samples/sample_out_3.wav height="68" width="300" >}}
+{{< video samples1/sample_out_3.wav height="68" width="300" >}}
 
 
 ### Sample 4
@@ -40,7 +40,7 @@
 - **Transliteration:** ēi dbīpagulira pratyēkaṭira nijasba upabhāṣā raẏēchē.
 - **Description:** Aditi, fairly high voice, adjacent, moderately lively, outstanding speech quality, objective style
 
-{{< video samples/sample_out_4.wav height="68" width="300" >}}
+{{< video samples1/sample_out_4.wav height="68" width="300" >}}
 
 
 ### Sample 5
@@ -50,7 +50,7 @@
 - **Transliteration:** bai gu nambara rumāva āṁni bayaphrēnda igara praṣṭārabha jōṁ daṁmōna āṁ
 - **Description:** Bikram, proximal, very low noise level, fairly monotone, exceptional speech quality, signifying style
 
-{{< video samples/sample_out_5.wav height="68" width="300" >}}
+{{< video samples1/sample_out_5.wav height="68" width="300" >}}
 
 
 ### Sample 6
@@ -60,7 +60,7 @@
 - **Transliteration:** āṁ buṁnō lubaidōṁ mā-nōṁjōṁ lāphāhaidō gērēmasā bāhāi.
 - **Description:** Bikram, adjacent, no background noise, a bit flat, excellent speech quality, vivid style
 
-{{< video samples/sample_out_6.wav height="68" width="300" >}}
+{{< video samples1/sample_out_6.wav height="68" width="300" >}}
 
 
 ### Sample 8
@@ -70,7 +70,7 @@
 - **Transliteration:** mōpina mukkha tēhāra ai jēhṛā 5 śā 6 apraila takkara caladā ai.
 - **Description:** Karan, tense voice, proximal, little background noise, superlative speech quality, objective style
 
-{{< video samples/sample_out_8.wav height="68" width="300" >}}
+{{< video samples1/sample_out_8.wav height="68" width="300" >}}
 
 
 ### Sample 10
@@ -80,7 +80,7 @@
 - **Transliteration:** nimhesru paṭṭīli idyā aṁta avru pariśīlistāre.
 - **Description:** Suresh, not very slow, nearby, no background noise, unvarying tone, excellent speech quality, casual style
 
-{{< video samples/sample_out_10.wav height="68" width="300" >}}
+{{< video samples1/sample_out_10.wav height="68" width="300" >}}
 
 
 ### Sample 12
@@ -90,7 +90,7 @@
 - **Transliteration:** yauvvanattil nallorukālaṁ celavaḻicca maṇṇāṇu naṣṭappeṭṭat
 - **Description:** Anjali, a woman with a moderate-pitched voice, delivers a speech with a somewhat fast pace in a space that sounds very close, allowing for clarity in her slightly dynamic delivery. Her speech quality is excellent, with minimal background noise, making it easy to understand and appreciate the nuances of her voice. The recording captures the expressiveness of her Indic-accented speech, enhancing the overall listening experience.
 
-{{< video samples/sample_out_12.wav height="68" width="300" >}}
+{{< video samples1/sample_out_12.wav height="68" width="300" >}}
 
 
 ### Sample 13
@@ -100,7 +100,7 @@
 - **Transliteration:** mī tumacyā kaṁpanīkaḍūna inśuaransa ghētalā hōtā.
 - **Description:** Sunita, tense voice, somewhat fast, nearby, little background noise, somewhat expressive, exceptional speech quality, informal style
 
-{{< video samples/sample_out_13.wav height="68" width="300" >}}
+{{< video samples1/sample_out_13.wav height="68" width="300" >}}
 
 
 ### Sample 14
@@ -110,7 +110,7 @@
 - **Transliteration:** malā mārāyacyā ticyā prayatnāmuḷē jabaradasta hādaralōya mī.
 - **Description:** The audio sample features Sunita speaking in a proximal tone.
 
-{{< video samples/sample_out_14.wav height="68" width="300" >}}
+{{< video samples1/sample_out_14.wav height="68" width="300" >}}
 
 
 ### Sample 15
@@ -120,7 +120,7 @@
 - **Transliteration:** ती स्तम्भहरूलाई हेर्नुहोस् त। यिनीहरू झ्याउले ढाकिएका छन्।
 - **Description:** Amrita, shrill voice, moderately fast, nearby, little background noise, a bit vibrant, superlative speech quality, indignant style
 
-{{< video samples/sample_out_15.wav height="68" width="300" >}}
+{{< video samples1/sample_out_15.wav height="68" width="300" >}}
 
 
 ### Sample 18
@@ -130,7 +130,7 @@
 - **Transliteration:** iti cintanaṁ kṣaṇaṁ yāvat tasya manasaḥ kōṇē utthitam .
 - **Description:** Aryan, a man with a moderate-pitched voice, speaks in a room with a close sound, delivering a narration at a moderate pace. His tone is slightly flat and unemotional, yet the recording quality is excellent, capturing his voice with clarity. The combination of his neutral tone and the high-quality audio results in a clear and resonant sound.
 
-{{< video samples/sample_out_18.wav height="68" width="300" >}}
+{{< video samples1/sample_out_18.wav height="68" width="300" >}}
 
 
 ### Sample 20
@@ -140,7 +140,7 @@
 - **Transliteration:** āryasya hastaḥ pādaḥ ca uṣṇamaṇḍēna kiñcit dagdhaḥ .
 - **Description:** The audio sample features Aryan speaking in a moderately high, somewhat slow voice with excellent speech quality.
 
-{{< video samples/sample_out_20.wav height="68" width="300" >}}
+{{< video samples1/sample_out_20.wav height="68" width="300" >}}
 
 ## Dataset: IndicVoices-R
 
@@ -152,7 +152,7 @@
 - **Transliteration:** ilāgā nā yokka nēnilāgā ī tabalā vāyiṁcagala ī
 - **Description:** A male speaker in a close-sounding environment with moderate ambient sound background noise speaks in a monotone tone at a slightly slow pace with a moderate pitch. The overall speech quality is great.
 
-{{< video samples/sample_out_22.wav height="68" width="300" >}}
+{{< video samples1/sample_out_22.wav height="68" width="300" >}}
 
 
 ### Sample 23
@@ -162,7 +162,7 @@
 - **Transliteration:** ciṁcha panīra cili macalāra sāmagrīra mānata pām̐caṭā ṣṭāra diẏā
 - **Description:** The audio sample features a moderately slow, extremely clear, tense voice with a lively tone and acceptable speech quality.
 
-{{< video samples/sample_out_23.wav height="68" width="300" >}}
+{{< video samples1/sample_out_23.wav height="68" width="300" >}}
 
 
 ### Sample 24
@@ -172,7 +172,7 @@
 - **Transliteration:** eṉ pirāttamā yūpi pēṅk kaṇakkil eranūṟu rūpāy irukkumā
 - **Description:** A female speaker speaks in a monotone tone at a fast pace with a low pitch. The overall speech quality is bad.
 
-{{< video samples/sample_out_24.wav height="68" width="300" >}}
+{{< video samples1/sample_out_24.wav height="68" width="300" >}}
 
 
 ### Sample 25
@@ -182,7 +182,7 @@
 - **Transliteration:** sēibābē ma:i anubhava karōm̐ asamīẏā bhāṣāṭō ati sahaja
 - **Description:** Female, not very low voice, plodding, not very close, minimal noise distraction, energetic tone, superb speech quality
 
-{{< video samples/sample_out_25.wav height="68" width="300" >}}
+{{< video samples1/sample_out_25.wav height="68" width="300" >}}
 
 
 ### Sample 27
@@ -192,7 +192,7 @@
 - **Transliteration:** nēnu biyāṁḍ snyāk kēraḷa araṭikāya cips riṭarn cēyavaccā
 - **Description:** In a well-recorded setting with a close sound, a woman speaks with clarity, her voice moderate in pitch. Her delivery is somewhat slow but highly expressive, and the great speech quality allows the nuances of her emotions to shine through.
 
-{{< video samples/sample_out_27.wav height="68" width="300" >}}
+{{< video samples1/sample_out_27.wav height="68" width="300" >}}
 
 
 ### Sample 28
@@ -202,7 +202,7 @@
 - **Transliteration:** साइकल दौडलाई ओलम्पिक खेलका रूपमा मान्यता प्रदान गरिन्छ
 - **Description:** The audio sample features a female voice with a pitchy tone, rapid speech, and a consistent unchanging pitch.
 
-{{< video samples/sample_out_28.wav height="68" width="300" >}}
+{{< video samples1/sample_out_28.wav height="68" width="300" >}}
 
 
 ### Sample 30
@@ -212,7 +212,7 @@
 - **Transliteration:** nāṅka vantu emji nakarla irukkuṟōm eṅka iruppiṭam
 - **Description:** A female speaker's voice carries through a space with a slight echo, which adds a subtle layer to her delivery. Her speech is somewhat fast, yet she manages to convey moderate emotional depth, which is characteristic of her moderately dynamic tone. Despite some background noise, the overall speech quality remains good, and her moderate-pitched voice is well-captured by the recording.
 
-{{< video samples/sample_out_30.wav height="68" width="300" >}}
+{{< video samples1/sample_out_30.wav height="68" width="300" >}}
 
 
 ### Sample 31
@@ -222,7 +222,7 @@
 - **Transliteration:** mō rōṣēi gharē thibā baidẏutika upakaraṇa guṛika hēuchi grāiṇḍara
 - **Description:** A female speaker speaks in a slightly close-sounding environment with slightly clear background noise in a moderately dynamic tone at a moderate speed with a slightly high pitch. The overall speech quality is great speech quality.
 
-{{< video samples/sample_out_31.wav height="68" width="300" >}}
+{{< video samples1/sample_out_31.wav height="68" width="300" >}}
 
 
 ### Sample 34
@@ -232,7 +232,7 @@
 - **Transliteration:** āi āi ṭi paṛhilē yidarē kārikarī kichumāna kathā thākē
 - **Description:** In a well-suited acoustic environment with a close and intimate sound, a female speaker with a notably high-pitched voice delivers her speech in a somewhat slow and slightly unvaried tone. The recording quality is good, capturing her voice with clarity, and the speaker's proximity to the microphone contributes to the crispness of her delivery.
 
-{{< video samples/sample_out_34.wav height="68" width="300" >}}
+{{< video samples1/sample_out_34.wav height="68" width="300" >}}
 
 
 ### Sample 35
@@ -242,7 +242,7 @@
 - **Transliteration:** mōigi pōt lamsiṅ kayā amasu yōlli hāiriba mapham asidā adudunā
 - **Description:** Male, not very fast, adjacent, flat tone
 
-{{< video samples/sample_out_35.wav height="68" width="300" >}}
+{{< video samples1/sample_out_35.wav height="68" width="300" >}}
 
 
 ### Sample 36
@@ -252,7 +252,7 @@
 - **Transliteration:** plasa ˍbēani jiyūṁ bi subhaṁdī āyāṁ ta jīaṁ huā ghara mēṁ kamāī thē
 - **Description:** A woman's voice, slightly high in pitch, delivers a somewhat slow but slightly expressive speech in an environment with well-balanced acoustics and minimal background noise. The overall recording quality is good, capturing her measured tone and subtle emotional nuances without any significant distortions.
 
-{{< video samples/sample_out_36.wav height="68" width="300" >}}
+{{< video samples1/sample_out_36.wav height="68" width="300" >}}
 
 
 ### Sample 37
@@ -262,7 +262,7 @@
 - **Transliteration:** कामभन्दा बाहिर मेरो सोख र रुचिको कुरा गर्नुपर्दा चाहिँ मलाई
 - **Description:** Male, nearby, clear sound, fairly monotone
 
-{{< video samples/sample_out_37.wav height="68" width="300" >}}
+{{< video samples1/sample_out_37.wav height="68" width="300" >}}
 
 
 ### Sample 38
@@ -272,7 +272,7 @@
 - **Transliteration:** iñ rēn kôṭij rē gātē ka tāhēm̐ kān tiñô maṇē gaṭēn
 - **Description:** Male, fairly high voice, a bit speedy, proximal, very low noise level, somewhat monotone, excellent speech quality
 
-{{< video samples/sample_out_38.wav height="68" width="300" >}}
+{{< video samples1/sample_out_38.wav height="68" width="300" >}}
 
 
 ### Sample 39
@@ -282,7 +282,7 @@
 - **Transliteration:** बसै के बेसी जरुरी रहै छै सिद्ध करइ के लेल क्षति
 - **Description:** Male, high voice, fairly slow, clear sound, vibrant tone
 
-{{< video samples/sample_out_39.wav height="68" width="300" >}}
+{{< video samples1/sample_out_39.wav height="68" width="300" >}}
 
 
 ### Sample 40
@@ -292,7 +292,7 @@
 - **Transliteration:** टोइलेटहरू बाथरूमहरू थ्यो है वासरूमहरू थ्यो
 - **Description:** Male, fairly low voice, nearby, low noise level, not very varied, acceptable speech quality
 
-{{< video samples/sample_out_40.wav height="68" width="300" >}}
+{{< video samples1/sample_out_40.wav height="68" width="300" >}}
 
 ## Dataset: IndicTTS
 
@@ -304,7 +304,7 @@
 - **Transliteration:** chōvālī dujanī janā halata siham̐tē ēdina mākaka kalē
 - **Description:** Female, pitchy voice, fairly slow, adjacent, minimal noise distraction, fairly expressive, excellent speech quality
 
-{{< video samples/sample_out_41.wav height="68" width="300" >}}
+{{< video samples1/sample_out_41.wav height="68" width="300" >}}
 
 
 ### Sample 42
@@ -314,7 +314,7 @@
 - **Transliteration:** guṛō cini ō ṭhāṇḍā krima phēṭiẏē ōparē ḍhēlē dina
 - **Description:** The audio sample features a male voice with a slightly bass tone, monotone delivery, and high speech quality.
 
-{{< video samples/sample_out_42.wav height="68" width="300" >}}
+{{< video samples1/sample_out_42.wav height="68" width="300" >}}
 
 
 ### Sample 43
@@ -324,7 +324,7 @@
 - **Transliteration:** nāthā harakhābai bibdi thāṁkhi lānō gōnāṁ jāhōnālāya māthō
 - **Description:** In a well-contained acoustic space with little echo, a woman speaks at a moderate pace with a voice of average pitch. Her delivery is somewhat animated, reflecting a dynamic tone. The recording quality is excellent, capturing her voice with clarity and precision. The combination of her natural speaking speed and the high-quality audio results in a clean, well-defined sound.
 
-{{< video samples/sample_out_43.wav height="68" width="300" >}}
+{{< video samples1/sample_out_43.wav height="68" width="300" >}}
 
 
 ### Sample 44
@@ -334,7 +334,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** A man with an Assamese accent speaks English in a room that sounds close and intimate. The recording quality is good, with just a hint of background noise, contributing to a clear and well-captured speech sample. He delivers his words at a moderate pace, with a dynamic tone that showcases a sense of enthusiasm. His voice has a moderate pitch, neither too high nor too low, which suits the overall pleasant nature of his speech. Overall, the speech quality remains excellent, with no noticeable issues that would detract from the listener's experience.
 
-{{< video samples/sample_out_44.wav height="68" width="300" >}}
+{{< video samples1/sample_out_44.wav height="68" width="300" >}}
 
 
 ### Sample 47
@@ -344,7 +344,7 @@
 - **Transliteration:** vyaktigata kāyika inaṅṅaḷ naṭakkān pōkunnu
 - **Description:** In a well-recorded, close environment, a man with a slightly low-pitched voice delivers a speech at a moderate pace. His tone is somewhat flat and unemotional, but the clarity of the recording brings out the subtle aspects of his delivery. The excellent recording quality ensures that his voice sounds clear and rich, resulting in a highly polished overall speech quality.
 
-{{< video samples/sample_out_47.wav height="68" width="300" >}}
+{{< video samples1/sample_out_47.wav height="68" width="300" >}}
 
 
 ### Sample 48
@@ -354,7 +354,7 @@
 - **Transliteration:** ফনা য়াম্না হোত্নদুনসু, মী ইওন্ ওল্লক্ত্রবদগী.
 - **Description:** Female, fairly slow, proximate, little background noise, somewhat monotone, excellent speech quality
 
-{{< video samples/sample_out_48.wav height="68" width="300" >}}
+{{< video samples1/sample_out_48.wav height="68" width="300" >}}
 
 
 ### Sample 49
@@ -364,7 +364,7 @@
 - **Transliteration:** rājācē hē bōla aikūna sadācāra rājavāḍyātaca thāṁbalā.
 - **Description:** The audio sample is a recording of a male speaker with clear, somewhat monotone speech at a moderate pace.
 
-{{< video samples/sample_out_49.wav height="68" width="300" >}}
+{{< video samples1/sample_out_49.wav height="68" width="300" >}}
 
 
 ### Sample 51
@@ -374,7 +374,7 @@
 - **Transliteration:** vayiṟṟiluḷḷa kuṭal mēlē mārpu varai vimmi vantu aṭaittatu.
 - **Description:** The man speaks with a somewhat high-pitched voice at a normal pace in a space that sounds close to the microphone. His tone is somewhat flat and unemotional, but the recording quality is excellent, capturing his voice with clarity. The combination of his slightly high pitch and the crystal-clear audio results in a rich, resonant sound with great overall quality.
 
-{{< video samples/sample_out_51.wav height="68" width="300" >}}
+{{< video samples1/sample_out_51.wav height="68" width="300" >}}
 
 
 ### Sample 52
@@ -384,7 +384,7 @@
 - **Transliteration:** śrīkākuḷaṁ jillālō ī sthānāniki cālā prāmukhyata uṁdi.
 - **Description:** Male, acute voice, proximate, very low noise level, outstanding speech quality
 
-{{< video samples/sample_out_52.wav height="68" width="300" >}}
+{{< video samples1/sample_out_52.wav height="68" width="300" >}}
 
 
 ### Sample 53
@@ -394,7 +394,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample is a clear recording of a male voice with excellent speech quality.
 
-{{< video samples/sample_out_53.wav height="68" width="300" >}}
+{{< video samples1/sample_out_53.wav height="68" width="300" >}}
 
 
 ### Sample 54
@@ -404,7 +404,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features a moderately high-pitched, somewhat slow female voice with clear, close sound quality.
 
-{{< video samples/sample_out_54.wav height="68" width="300" >}}
+{{< video samples1/sample_out_54.wav height="68" width="300" >}}
 
 
 ### Sample 55
@@ -414,7 +414,7 @@
 - **Transliteration:** dikhamara pārara sōṇōvāla kachārī pariẏāla ēṭāta āśraẏa lai
 - **Description:** The audio sample features a male voice, recorded from a close or proximal location.
 
-{{< video samples/sample_out_55.wav height="68" width="300" >}}
+{{< video samples1/sample_out_55.wav height="68" width="300" >}}
 
 
 ### Sample 57
@@ -424,7 +424,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** Female, a bit treble voice, moderately slow, nearby, very low noise level, outstanding speech quality, Assamese accent
 
-{{< video samples/sample_out_57.wav height="68" width="300" >}}
+{{< video samples1/sample_out_57.wav height="68" width="300" >}}
 
 
 ### Sample 60
@@ -434,7 +434,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** Male, proximal, minimal noise distraction, satisfactory speech quality, Assamese accent
 
-{{< video samples/sample_out_60.wav height="68" width="300" >}}
+{{< video samples1/sample_out_60.wav height="68" width="300" >}}
 
 ## Dataset: LIMMITS
 
@@ -446,7 +446,7 @@
 - **Transliteration:** paraṇē phul pyānṭa, khāki sārṭ āra māthāẏa ṭupi bām̐kābhābē parā.
 - **Description:** Male, moderately fast, proximate, minimal noise distraction, moderately unchanging, exceptional speech quality
 
-{{< video samples/sample_out_62.wav height="68" width="300" >}}
+{{< video samples1/sample_out_62.wav height="68" width="300" >}}
 
 
 ### Sample 64
@@ -456,7 +456,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features a male speaker with exceptional speech quality, somewhat slow pace, and little background noise.
 
-{{< video samples/sample_out_64.wav height="68" width="300" >}}
+{{< video samples1/sample_out_64.wav height="68" width="300" >}}
 
 
 ### Sample 65
@@ -466,7 +466,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features a male speaker with an Indian accent, minimal background noise, and a slightly vibrant tone.
 
-{{< video samples/sample_out_65.wav height="68" width="300" >}}
+{{< video samples1/sample_out_65.wav height="68" width="300" >}}
 
 
 ### Sample 66
@@ -476,7 +476,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** Female, not very high voice, proximal, a bit vibrant, outstanding speech quality
 
-{{< video samples/sample_out_66.wav height="68" width="300" >}}
+{{< video samples1/sample_out_66.wav height="68" width="300" >}}
 
 
 ### Sample 67
@@ -486,7 +486,7 @@
 - **Transliteration:** saṁyōgavaśa yē ônalāina paisē banānē kā bhī ēka adbhuta tarīkā hai.
 - **Description:** Female, sonorous voice, proximal, low noise level, fairly monotone, outstanding speech quality
 
-{{< video samples/sample_out_67.wav height="68" width="300" >}}
+{{< video samples1/sample_out_67.wav height="68" width="300" >}}
 
 
 ### Sample 68
@@ -496,7 +496,7 @@
 - **Transliteration:** sātha hī kahā ki sarakāra skūlōṁ mēṁ khēla kī suvidhāēṁ bēhatara karē.
 - **Description:** Male, moderately deep voice, nearby, very low noise level, somewhat monotone, superb speech quality
 
-{{< video samples/sample_out_68.wav height="68" width="300" >}}
+{{< video samples1/sample_out_68.wav height="68" width="300" >}}
 
 
 ### Sample 69
@@ -506,7 +506,7 @@
 - **Transliteration:** khaṁḍita , avugaḷu nanna neccinavu eṁdu nimage tiḷidide.
 - **Description:** A female speaker delivers her speech in a room with close acoustics, her voice coming through with moderate clarity. Her tone is somewhat varied, as she speaks at a slightly slow pace in a neutral tone. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone. The combination of her moderate-pitched voice and the high-quality audio results in a rich, well-rounded sound.
 
-{{< video samples/sample_out_69.wav height="68" width="300" >}}
+{{< video samples1/sample_out_69.wav height="68" width="300" >}}
 
 
 ### Sample 70
@@ -516,7 +516,7 @@
 - **Transliteration:** mattoṁdu kaḍe ukkēri hariva āḷa, agalavāda nadigaḷa maṁjuḷanāda.
 - **Description:** Male, a bit bass voice, moderately slow, proximal, extremely clear sound, moderately unchanging, outstanding speech quality
 
-{{< video samples/sample_out_70.wav height="68" width="300" >}}
+{{< video samples1/sample_out_70.wav height="68" width="300" >}}
 
 
 ### Sample 71
@@ -526,7 +526,7 @@
 - **Transliteration:** sarvaprathama sūtradhāra vighnahartā gaṇapatīlā āvāhana karatō.
 - **Description:** The audio sample features clear speech with minimal background noise and a smooth, proximate delivery.
 
-{{< video samples/sample_out_71.wav height="68" width="300" >}}
+{{< video samples1/sample_out_71.wav height="68" width="300" >}}
 
 
 ### Sample 72
@@ -536,7 +536,7 @@
 - **Transliteration:** ṭōmæṭō ardhē kāpūna tyātīla gara kāḍhūna tyācē bāula tayāra karāvēta
 - **Description:** Male, proximal, minimal noise distraction, fairly monotone, outstanding speech quality
 
-{{< video samples/sample_out_72.wav height="68" width="300" >}}
+{{< video samples1/sample_out_72.wav height="68" width="300" >}}
 
 
 ### Sample 73
@@ -546,7 +546,7 @@
 - **Transliteration:** mī parisarālalō nivasistunna 20 kuṭuṁbālanu iṁṭarvyū cēyaṁḍi.
 - **Description:** Female, close, minimal noise distraction, exceptional speech quality
 
-{{< video samples/sample_out_73.wav height="68" width="300" >}}
+{{< video samples1/sample_out_73.wav height="68" width="300" >}}
 
 
 ### Sample 74
@@ -556,7 +556,7 @@
 - **Transliteration:** kābaṭṭi, reṁḍu viṣayālu spaṣṭaṁgā unnāyi.
 - **Description:** The audio sample features a female voice with extremely clear sound and superlative speech quality nearby.
 
-{{< video samples/sample_out_74.wav height="68" width="300" >}}
+{{< video samples1/sample_out_74.wav height="68" width="300" >}}
 
 
 ### Sample 78
@@ -566,7 +566,7 @@
 - **Transliteration:** idallade prēma, maduveyu barī seks  oṁdara mēle irōlvella.
 - **Description:** The audio sample is a clear recording of a male voice with minimal variation and no background noise.
 
-{{< video samples/sample_out_78.wav height="68" width="300" >}}
+{{< video samples1/sample_out_78.wav height="68" width="300" >}}
 
 
 ### Sample 79
@@ -576,7 +576,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample is a recording of a female voice with a treble tone quality.
 
-{{< video samples/sample_out_79.wav height="68" width="300" >}}
+{{< video samples1/sample_out_79.wav height="68" width="300" >}}
 
 ## Dataset: LibriTTS-R
 
@@ -588,7 +588,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample is a recording of a male voice with a slightly low pitch, fast pace, and clear American accent.
 
-{{< video samples/sample_out_82.wav height="68" width="300" >}}
+{{< video samples1/sample_out_82.wav height="68" width="300" >}}
 
 
 ### Sample 83
@@ -598,7 +598,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** Female, slightly high-pitch, moderately fast, very close-sounding, very clear, unchanging tone, wonderful speech quality, American accent
 
-{{< video samples/sample_out_83.wav height="68" width="300" >}}
+{{< video samples1/sample_out_83.wav height="68" width="300" >}}
 
 
 ### Sample 85
@@ -608,7 +608,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:**  A female speaker delivers her slightly expressive and animated speech with a slight fascination in her tone. The sound is very clear, indicating a high-quality recording with only mild background noise present. She speaks with a moderate pace, slightly faster than usual, conveying a sense of enthusiasm.
 
-{{< video samples/sample_out_85.wav height="68" width="300" >}}
+{{< video samples1/sample_out_85.wav height="68" width="300" >}}
 
 ## Dataset: GLOBE
 
@@ -620,7 +620,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** female, nearby, little background noise, acceptable speech quality, Canadian accent
 
-{{< video samples/sample_out_86.wav height="68" width="300" >}}
+{{< video samples1/sample_out_86.wav height="68" width="300" >}}
 
 
 ### Sample 87
@@ -630,7 +630,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features a nearby, clear sound with superb speech quality, spoken with an England accent.
 
-{{< video samples/sample_out_87.wav height="68" width="300" >}}
+{{< video samples1/sample_out_87.wav height="68" width="300" >}}
 
 
 ### Sample 88
@@ -640,7 +640,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features a close and speedy male voice with a Northern Irish accent.
 
-{{< video samples/sample_out_88.wav height="68" width="300" >}}
+{{< video samples1/sample_out_88.wav height="68" width="300" >}}
 
 
 ### Sample 89
@@ -650,7 +650,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** female, somewhat high voice, not very slow, nearby, clear sound, adequate speech quality, United accent
 
-{{< video samples/sample_out_89.wav height="68" width="300" >}}
+{{< video samples1/sample_out_89.wav height="68" width="300" >}}
 
 
 ### Sample 90
@@ -660,7 +660,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** A teenage female speaker speaking English with a United States accent delivers her speech in a close-sounding environment with a slightly clear background. Her voice is slightly expressive, moderately pitched, and delivered at a slightly fast pace, all of which contribute to her good speech quality.
 
-{{< video samples/sample_out_90.wav height="68" width="300" >}}
+{{< video samples1/sample_out_90.wav height="68" width="300" >}}
 
 ## Dataset: Expresso
 
@@ -672,7 +672,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features Theresa speaking in a close, sluggish tone with clear enunciation.
 
-{{< video samples/sample_out_92.wav height="68" width="300" >}}
+{{< video samples1/sample_out_92.wav height="68" width="300" >}}
 
 
 ### Sample 93
@@ -682,7 +682,7 @@
 - **Transliteration:** Transliteration not available
 - **Description:** Rae, moderately high voice, a bit speedy, adjacent, low noise level, lively tone, superb speech quality, emphasis
 
-{{< video samples/sample_out_93.wav height="68" width="300" >}}
+{{< video samples1/sample_out_93.wav height="68" width="300" >}}
 
 
 ### Sample 94
@@ -692,4 +692,4 @@
 - **Transliteration:** Transliteration not available
 - **Description:** The audio sample features Rae speaking in a rapid and energetic tone that is her default.
 
-{{< video samples/sample_out_94.wav height="68" width="300" >}}
+{{< video samples1/sample_out_94.wav height="68" width="300" >}}
