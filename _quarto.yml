@@ -3,7 +3,7 @@ project:
   output-dir: docs
   resources: 
     - "wavs/*.wav"
-    - "samples/*.wav"
+    - "samples*/*.wav"
 
 website:
   title: "Indic-ParlerTTS Dataset"
@@ -16,8 +16,10 @@ website:
         text: Home
       - href: pilotv1.qmd
         text: Pilot v1
-      - href: pilotv2.qmd
-        text: Pilot v2
+      - href: pilotv2e2.qmd
+        text: Pilot v2 Epoch-2
+      - href: pilotv2e5.qmd
+        text: Pilot v2 Epoch-5
 
 css:
   - https://lalten.github.io/lmweb/style/latinmodern-sans.css
