@@ -1,6 +1,8 @@
 # Pilot v2 Epoch-5
 
-### Sample 1
+## English Samples
+
+#### Sample 1
 
 - **Language:** English
 - **Text:** a trade was arranged with the richmond football club.
@@ -10,7 +12,7 @@
 {{< video samples3/sample_out_1.wav height="68" width="300" >}}
 
 
-### Sample 2
+#### Sample 2
 
 - **Language:** English
 - **Text:** the image on the monument was promptly fixed.
@@ -20,7 +22,7 @@
 {{< video samples3/sample_out_2.wav height="68" width="300" >}}
 
 
-### Sample 3
+#### Sample 3
 
 - **Language:** English
 - **Text:** WE OUGHT TO LOVE WELL , FOR THE LOVE IS SHORT .
@@ -30,7 +32,7 @@
 {{< video samples3/sample_out_3.wav height="68" width="300" >}}
 
 
-### Sample 4
+#### Sample 4
 
 - **Language:** English
 - **Text:** in the meantime, i use a few different approaches.
@@ -40,7 +42,7 @@
 {{< video samples3/sample_out_4.wav height="68" width="300" >}}
 
 
-### Sample 5
+#### Sample 5
 
 - **Language:** English
 - **Text:** 'Maybe, Rachel dear, you would like to drive a little?'
@@ -50,7 +52,7 @@
 {{< video samples3/sample_out_5.wav height="68" width="300" >}}
 
 
-### Sample 6
+#### Sample 6
 
 - **Language:** English
 - **Text:** everyone should have the right of education.
@@ -60,7 +62,7 @@
 {{< video samples3/sample_out_6.wav height="68" width="300" >}}
 
 
-### Sample 7
+#### Sample 7
 
 - **Language:** English
 - **Text:** EAT IT . YOU MUST KEEP UP YOUR STRENGTH .
@@ -70,7 +72,7 @@
 {{< video samples3/sample_out_7.wav height="68" width="300" >}}
 
 
-### Sample 8
+#### Sample 8
 
 - **Language:** English
 - **Text:** Such a dog the wise driver kills, or turns loose.
@@ -80,7 +82,7 @@
 {{< video samples3/sample_out_8.wav height="68" width="300" >}}
 
 
-### Sample 9
+#### Sample 9
 
 - **Language:** English
 - **Text:** The longer she thought, the more bewildered she grew.
@@ -90,7 +92,7 @@
 {{< video samples3/sample_out_9.wav height="68" width="300" >}}
 
 
-### Sample 10
+#### Sample 10
 
 - **Language:** English
 - **Text:** everything in the universe evolved, he said.
@@ -100,7 +102,7 @@
 {{< video samples3/sample_out_10.wav height="68" width="300" >}}
 
 
-### Sample 11
+#### Sample 11
 
 - **Language:** English
 - **Text:** surveillance does not always bring security.
@@ -110,7 +112,7 @@
 {{< video samples3/sample_out_11.wav height="68" width="300" >}}
 
 
-### Sample 12
+#### Sample 12
 
 - **Language:** English
 - **Text:** NOR TO OLYMPIA BRING MY VOTIVE OFFERING .
@@ -120,7 +122,7 @@
 {{< video samples3/sample_out_12.wav height="68" width="300" >}}
 
 
-### Sample 13
+#### Sample 13
 
 - **Language:** English
 - **Text:** community role models are often overlooked and scarce.
@@ -130,7 +132,7 @@
 {{< video samples3/sample_out_13.wav height="68" width="300" >}}
 
 
-### Sample 14
+#### Sample 14
 
 - **Language:** English
 - **Text:** "I am not going to confide in you; so don't think it.
@@ -140,7 +142,7 @@
 {{< video samples3/sample_out_14.wav height="68" width="300" >}}
 
 
-### Sample 15
+#### Sample 15
 
 - **Language:** English
 - **Text:** The scissors hung useless and rusting by his side.
@@ -150,7 +152,7 @@
 {{< video samples3/sample_out_15.wav height="68" width="300" >}}
 
 
-### Sample 17
+#### Sample 17
 
 - **Language:** English
 - **Text:** I HAVE AN IDEA ! BABYSITTER , DO TEN PUSH UPS !
@@ -160,7 +162,7 @@
 {{< video samples3/sample_out_17.wav height="68" width="300" >}}
 
 
-### Sample 18
+#### Sample 18
 
 - **Language:** English
 - **Text:** she was assigned male at birth with the name "adam".
@@ -170,7 +172,7 @@
 {{< video samples3/sample_out_18.wav height="68" width="300" >}}
 
 
-### Sample 19
+#### Sample 19
 
 - **Language:** English
 - **Text:** they were letters from the lodger's sweetheart, signed.
@@ -180,7 +182,7 @@
 {{< video samples3/sample_out_19.wav height="68" width="300" >}}
 
 
-### Sample 20
+#### Sample 20
 
 - **Language:** English
 - **Text:** Let the Tiger eat the man, for men have no pity."
@@ -190,7 +192,7 @@
 {{< video samples3/sample_out_20.wav height="68" width="300" >}}
 
 
-### Sample 21
+#### Sample 21
 
 - **Language:** English
 - **Text:** That it was so much the worse for the government.
@@ -200,7 +202,7 @@
 {{< video samples3/sample_out_21.wav height="68" width="300" >}}
 
 
-### Sample 22
+#### Sample 22
 
 - **Language:** English
 - **Text:** The added weight had a velocity of fifteen miles per hour.
@@ -210,7 +212,7 @@
 {{< video samples3/sample_out_22.wav height="68" width="300" >}}
 
 
-### Sample 23
+#### Sample 23
 
 - **Language:** English
 - **Text:** she was assigned male at birth with the name "adam".
@@ -220,7 +222,7 @@
 {{< video samples3/sample_out_23.wav height="68" width="300" >}}
 
 
-### Sample 24
+#### Sample 24
 
 - **Language:** English
 - **Text:** IT'S DESCRIBED IN DETAIL ON PAGE THREE OF YOUR PROGRAM .
@@ -230,7 +232,7 @@
 {{< video samples3/sample_out_24.wav height="68" width="300" >}}
 
 
-### Sample 25
+#### Sample 25
 
 - **Language:** English
 - **Text:** it was a great distance that he had to travel.
@@ -240,7 +242,7 @@
 {{< video samples3/sample_out_25.wav height="68" width="300" >}}
 
 
-### Sample 26
+#### Sample 26
 
 - **Language:** English
 - **Text:** "No; but he will, or I'll sue him and get judgment.
@@ -250,7 +252,7 @@
 {{< video samples3/sample_out_26.wav height="68" width="300" >}}
 
 
-### Sample 27
+#### Sample 27
 
 - **Language:** English
 - **Text:** i will expect a response before wednesday
@@ -260,7 +262,7 @@
 {{< video samples3/sample_out_27.wav height="68" width="300" >}}
 
 
-### Sample 28
+#### Sample 28
 
 - **Language:** English
 - **Text:** She perceived this with annoyance and perplexity.
@@ -270,7 +272,7 @@
 {{< video samples3/sample_out_28.wav height="68" width="300" >}}
 
 
-### Sample 29
+#### Sample 29
 
 - **Language:** English
 - **Text:** the sky that morning was clear and bright blue.
@@ -279,8 +281,9 @@
 
 {{< video samples3/sample_out_29.wav height="68" width="300" >}}
 
+## Hindi Samples
 
-### Sample 30
+#### Sample 30
 
 - **Language:** Hindi
 - **Text:** अलग अलग जगह या कहे तो अलग अलग अलग अलग इस्थान जिसमें कुछ
@@ -290,7 +293,7 @@
 {{< video samples3/sample_out_30.wav height="68" width="300" >}}
 
 
-### Sample 31
+#### Sample 31
 
 - **Language:** Hindi
 - **Text:** मध्य प्रदेश महाराष्ट उत्तर प्रदेश तमिलनाडु गुजरात
@@ -300,7 +303,7 @@
 {{< video samples3/sample_out_31.wav height="68" width="300" >}}
 
 
-### Sample 32
+#### Sample 32
 
 - **Language:** Hindi
 - **Text:** और ना ही मेरा ऐसा कोई लक्ष्य है अपने ड्रॉइंग को लेकर
@@ -310,7 +313,7 @@
 {{< video samples3/sample_out_32.wav height="68" width="300" >}}
 
 
-### Sample 33
+#### Sample 33
 
 - **Language:** Hindi
 - **Text:** तो मेरे घर वालो ने उस कुत्ते को बच्चे को एक रात के लिए रखा
@@ -320,7 +323,7 @@
 {{< video samples3/sample_out_33.wav height="68" width="300" >}}
 
 
-### Sample 34
+#### Sample 34
 
 - **Language:** Hindi
 - **Text:** पाँच देशों के नाम अमेरिका अफ़्रीका जापान रशिया भारत
@@ -330,7 +333,7 @@
 {{< video samples3/sample_out_34.wav height="68" width="300" >}}
 
 
-### Sample 35
+#### Sample 35
 
 - **Language:** Hindi
 - **Text:** राजस्थान मध्य परदेश उत्तर परदेश जारखंड छत्तीसगढ़
@@ -340,7 +343,7 @@
 {{< video samples3/sample_out_35.wav height="68" width="300" >}}
 
 
-### Sample 36
+#### Sample 36
 
 - **Language:** Hindi
 - **Text:** बोहोत सारी तरकीबें करते हैं जैसे कि हम स्वक्ष खाना
@@ -350,7 +353,7 @@
 {{< video samples3/sample_out_36.wav height="68" width="300" >}}
 
 
-### Sample 38
+#### Sample 38
 
 - **Language:** Hindi
 - **Text:** हमारी विविधता खतम हो जाती है क्योंकि हमारे पास एक हद तक
@@ -360,7 +363,7 @@
 {{< video samples3/sample_out_38.wav height="68" width="300" >}}
 
 
-### Sample 39
+#### Sample 39
 
 - **Language:** Hindi
 - **Text:** मैंने स्कूल में डांस की व नृत्य की सभा में भाग लिया है
@@ -370,7 +373,7 @@
 {{< video samples3/sample_out_39.wav height="68" width="300" >}}
 
 
-### Sample 40
+#### Sample 40
 
 - **Language:** Hindi
 - **Text:** क्या मुझे तुरंत मैथ्यू टैकसिएर कोकोनट सिरप मिल सकता है
@@ -380,7 +383,7 @@
 {{< video samples3/sample_out_40.wav height="68" width="300" >}}
 
 
-### Sample 41
+#### Sample 41
 
 - **Language:** Hindi
 - **Text:** क्या मुझे सौ रुपये अटके लेन देन से वापस मिलें
