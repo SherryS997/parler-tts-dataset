@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>pilotv2e18langs – Indic-ParlerTTS Dataset</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./pilotv2e18.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-sans.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-roman.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-mono.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pilotv2e18langs.html">Pilot v2 Epoch-18-AllLangs</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Indic-ParlerTTS Dataset</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pilotv1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pilot v1</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pilotv2e2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pilot v2 Epoch-2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pilotv2e5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pilot v2 Epoch-5</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pilotv2e18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pilot v2 Epoch-18</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pilotv2e18langs.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Pilot v2 Epoch-18-AllLangs</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#generated-audio-samples" id="toc-generated-audio-samples" class="nav-link active" data-scroll-target="#generated-audio-samples">Generated Audio Samples</a>
+  <ul class="collapse">
+  <li><a href="#assamese" id="toc-assamese" class="nav-link" data-scroll-target="#assamese">Assamese</a>
+  <ul class="collapse">
+  <li><a href="#sample-2" id="toc-sample-2" class="nav-link" data-scroll-target="#sample-2">Sample 2</a></li>
+  <li><a href="#sample-3" id="toc-sample-3" class="nav-link" data-scroll-target="#sample-3">Sample 3</a></li>
+  <li><a href="#sample-4" id="toc-sample-4" class="nav-link" data-scroll-target="#sample-4">Sample 4</a></li>
+  <li><a href="#sample-5" id="toc-sample-5" class="nav-link" data-scroll-target="#sample-5">Sample 5</a></li>
+  </ul></li>
+  <li><a href="#bengali" id="toc-bengali" class="nav-link" data-scroll-target="#bengali">Bengali</a>
+  <ul class="collapse">
+  <li><a href="#sample-9" id="toc-sample-9" class="nav-link" data-scroll-target="#sample-9">Sample 9</a></li>
+  </ul></li>
+  <li><a href="#bodo" id="toc-bodo" class="nav-link" data-scroll-target="#bodo">Bodo</a>
+  <ul class="collapse">
+  <li><a href="#sample-12" id="toc-sample-12" class="nav-link" data-scroll-target="#sample-12">Sample 12</a></li>
+  <li><a href="#sample-13" id="toc-sample-13" class="nav-link" data-scroll-target="#sample-13">Sample 13</a></li>
+  </ul></li>
+  <li><a href="#dogri" id="toc-dogri" class="nav-link" data-scroll-target="#dogri">Dogri</a>
+  <ul class="collapse">
+  <li><a href="#sample-20" id="toc-sample-20" class="nav-link" data-scroll-target="#sample-20">Sample 20</a></li>
+  </ul></li>
+  <li><a href="#kannada" id="toc-kannada" class="nav-link" data-scroll-target="#kannada">Kannada</a>
+  <ul class="collapse">
+  <li><a href="#sample-24" id="toc-sample-24" class="nav-link" data-scroll-target="#sample-24">Sample 24</a></li>
+  <li><a href="#sample-25" id="toc-sample-25" class="nav-link" data-scroll-target="#sample-25">Sample 25</a></li>
+  </ul></li>
+  <li><a href="#malayalam" id="toc-malayalam" class="nav-link" data-scroll-target="#malayalam">Malayalam</a>
+  <ul class="collapse">
+  <li><a href="#sample-30" id="toc-sample-30" class="nav-link" data-scroll-target="#sample-30">Sample 30</a></li>
+  </ul></li>
+  <li><a href="#marathi" id="toc-marathi" class="nav-link" data-scroll-target="#marathi">Marathi</a>
+  <ul class="collapse">
+  <li><a href="#sample-31" id="toc-sample-31" class="nav-link" data-scroll-target="#sample-31">Sample 31</a></li>
+  <li><a href="#sample-34" id="toc-sample-34" class="nav-link" data-scroll-target="#sample-34">Sample 34</a></li>
+  <li><a href="#sample-35" id="toc-sample-35" class="nav-link" data-scroll-target="#sample-35">Sample 35</a></li>
+  </ul></li>
+  <li><a href="#sanskrit" id="toc-sanskrit" class="nav-link" data-scroll-target="#sanskrit">Sanskrit</a>
+  <ul class="collapse">
+  <li><a href="#sample-40" id="toc-sample-40" class="nav-link" data-scroll-target="#sample-40">Sample 40</a></li>
+  </ul></li>
+  <li><a href="#nepali" id="toc-nepali" class="nav-link" data-scroll-target="#nepali">Nepali</a>
+  <ul class="collapse">
+  <li><a href="#sample-43" id="toc-sample-43" class="nav-link" data-scroll-target="#sample-43">Sample 43</a></li>
+  <li><a href="#sample-45" id="toc-sample-45" class="nav-link" data-scroll-target="#sample-45">Sample 45</a></li>
+  </ul></li>
+  <li><a href="#english" id="toc-english" class="nav-link" data-scroll-target="#english">English</a>
+  <ul class="collapse">
+  <li><a href="#sample-47" id="toc-sample-47" class="nav-link" data-scroll-target="#sample-47">Sample 47</a></li>
+  <li><a href="#sample-49" id="toc-sample-49" class="nav-link" data-scroll-target="#sample-49">Sample 49</a></li>
+  <li><a href="#sample-50" id="toc-sample-50" class="nav-link" data-scroll-target="#sample-50">Sample 50</a></li>
+  </ul></li>
+  <li><a href="#odia" id="toc-odia" class="nav-link" data-scroll-target="#odia">Odia</a>
+  <ul class="collapse">
+  <li><a href="#sample-56" id="toc-sample-56" class="nav-link" data-scroll-target="#sample-56">Sample 56</a></li>
+  <li><a href="#sample-57" id="toc-sample-57" class="nav-link" data-scroll-target="#sample-57">Sample 57</a></li>
+  </ul></li>
+  <li><a href="#manipuri" id="toc-manipuri" class="nav-link" data-scroll-target="#manipuri">Manipuri</a>
+  <ul class="collapse">
+  <li><a href="#sample-65" id="toc-sample-65" class="nav-link" data-scroll-target="#sample-65">Sample 65</a></li>
+  </ul></li>
+  <li><a href="#gujarati" id="toc-gujarati" class="nav-link" data-scroll-target="#gujarati">Gujarati</a>
+  <ul class="collapse">
+  <li><a href="#sample-66" id="toc-sample-66" class="nav-link" data-scroll-target="#sample-66">Sample 66</a></li>
+  <li><a href="#sample-67" id="toc-sample-67" class="nav-link" data-scroll-target="#sample-67">Sample 67</a></li>
+  </ul></li>
+  <li><a href="#tamil" id="toc-tamil" class="nav-link" data-scroll-target="#tamil">Tamil</a>
+  <ul class="collapse">
+  <li><a href="#sample-73" id="toc-sample-73" class="nav-link" data-scroll-target="#sample-73">Sample 73</a></li>
+  </ul></li>
+  <li><a href="#hindi" id="toc-hindi" class="nav-link" data-scroll-target="#hindi">Hindi</a>
+  <ul class="collapse">
+  <li><a href="#sample-76" id="toc-sample-76" class="nav-link" data-scroll-target="#sample-76">Sample 76</a></li>
+  <li><a href="#sample-79" id="toc-sample-79" class="nav-link" data-scroll-target="#sample-79">Sample 79</a></li>
+  <li><a href="#sample-80" id="toc-sample-80" class="nav-link" data-scroll-target="#sample-80">Sample 80</a></li>
+  </ul></li>
+  <li><a href="#chhattisgarhi" id="toc-chhattisgarhi" class="nav-link" data-scroll-target="#chhattisgarhi">Chhattisgarhi</a>
+  <ul class="collapse">
+  <li><a href="#sample-81" id="toc-sample-81" class="nav-link" data-scroll-target="#sample-81">Sample 81</a></li>
+  <li><a href="#sample-82" id="toc-sample-82" class="nav-link" data-scroll-target="#sample-82">Sample 82</a></li>
+  <li><a href="#sample-85" id="toc-sample-85" class="nav-link" data-scroll-target="#sample-85">Sample 85</a></li>
+  </ul></li>
+  <li><a href="#urdu" id="toc-urdu" class="nav-link" data-scroll-target="#urdu">Urdu</a>
+  <ul class="collapse">
+  <li><a href="#sample-87" id="toc-sample-87" class="nav-link" data-scroll-target="#sample-87">Sample 87</a></li>
+  <li><a href="#sample-89" id="toc-sample-89" class="nav-link" data-scroll-target="#sample-89">Sample 89</a></li>
+  </ul></li>
+  <li><a href="#santali" id="toc-santali" class="nav-link" data-scroll-target="#santali">Santali</a>
+  <ul class="collapse">
+  <li><a href="#sample-91" id="toc-sample-91" class="nav-link" data-scroll-target="#sample-91">Sample 91</a></li>
+  <li><a href="#sample-93" id="toc-sample-93" class="nav-link" data-scroll-target="#sample-93">Sample 93</a></li>
+  <li><a href="#sample-95" id="toc-sample-95" class="nav-link" data-scroll-target="#sample-95">Sample 95</a></li>
+  </ul></li>
+  <li><a href="#sindhi" id="toc-sindhi" class="nav-link" data-scroll-target="#sindhi">Sindhi</a>
+  <ul class="collapse">
+  <li><a href="#sample-98" id="toc-sample-98" class="nav-link" data-scroll-target="#sample-98">Sample 98</a></li>
+  <li><a href="#sample-100" id="toc-sample-100" class="nav-link" data-scroll-target="#sample-100">Sample 100</a></li>
+  </ul></li>
+  <li><a href="#punjabi" id="toc-punjabi" class="nav-link" data-scroll-target="#punjabi">Punjabi</a>
+  <ul class="collapse">
+  <li><a href="#sample-105" id="toc-sample-105" class="nav-link" data-scroll-target="#sample-105">Sample 105</a></li>
+  </ul></li>
+  <li><a href="#konkani" id="toc-konkani" class="nav-link" data-scroll-target="#konkani">Konkani</a>
+  <ul class="collapse">
+  <li><a href="#sample-112" id="toc-sample-112" class="nav-link" data-scroll-target="#sample-112">Sample 112</a></li>
+  <li><a href="#sample-113" id="toc-sample-113" class="nav-link" data-scroll-target="#sample-113">Sample 113</a></li>
+  <li><a href="#sample-115" id="toc-sample-115" class="nav-link" data-scroll-target="#sample-115">Sample 115</a></li>
+  </ul></li>
+  <li><a href="#maithili" id="toc-maithili" class="nav-link" data-scroll-target="#maithili">Maithili</a>
+  <ul class="collapse">
+  <li><a href="#sample-116" id="toc-sample-116" class="nav-link" data-scroll-target="#sample-116">Sample 116</a></li>
+  <li><a href="#sample-117" id="toc-sample-117" class="nav-link" data-scroll-target="#sample-117">Sample 117</a></li>
+  <li><a href="#sample-118" id="toc-sample-118" class="nav-link" data-scroll-target="#sample-118">Sample 118</a></li>
+  <li><a href="#sample-119" id="toc-sample-119" class="nav-link" data-scroll-target="#sample-119">Sample 119</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="generated-audio-samples" class="level1">
+<h1>Generated Audio Samples</h1>
+<section id="assamese" class="level2">
+<h2 class="anchored" data-anchor-id="assamese">Assamese</h2>
+<section id="sample-2" class="level3">
+<h3 class="anchored" data-anchor-id="sample-2">Sample 2</h3>
+<ul>
+<li><strong>Language:</strong> Assamese</li>
+<li><strong>Text:</strong> মই বনোৱা প্ৰথম জলপান আছিল তিল পিঠা</li>
+<li><strong>Transliteration:</strong> ma:i banōvā prathama jalapāna āchila tila piṭhā</li>
+<li><strong>Description:</strong> A male speaker in a close-sounding environment with slightly clear background noise speaks in a monotone tone at a slightly slow pace with a moderate pitch. The overall speech quality is good.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_2.wav"></video></div>
+</section>
+<section id="sample-3" class="level3">
+<h3 class="anchored" data-anchor-id="sample-3">Sample 3</h3>
+<ul>
+<li><strong>Language:</strong> Assamese</li>
+<li><strong>Text:</strong> হেল্লো দাদা ক ত লাগিছে ফোনটো</li>
+<li><strong>Transliteration:</strong> hēllō dādā ka ta lāgichē phōnaṭō</li>
+<li><strong>Description:</strong> A male speaker with a somewhat high-pitched voice delivers his speech in a room that is slightly close-sounding, capturing the nuances of his moderately dynamic delivery with moderate ambient background noise. He speaks at a normal pace, and despite the minor echo, the recording quality is good, allowing his high-pitched voice to shine through with clarity.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video2" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_3.wav"></video></div>
+</section>
+<section id="sample-4" class="level3">
+<h3 class="anchored" data-anchor-id="sample-4">Sample 4</h3>
+<ul>
+<li><strong>Language:</strong> Assamese</li>
+<li><strong>Text:</strong> সি আকৌ ঘৰত গৈ বুলি ভবা নাছিলোঁ নহয়</li>
+<li><strong>Transliteration:</strong> si ākau gharata gai buli bhabā nāchilōm̐ nahaẏa</li>
+<li><strong>Description:</strong> In a well-lit room with a close-sounding acoustics, a woman with a slightly high-pitched voice delivers a slow and somewhat expressive speech. The recording quality is excellent, capturing her voice with a high level of clarity. Her measured tone contributes to the overall sense of control and precision in her delivery, resulting in a great speech quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video3" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_4.wav"></video></div>
+</section>
+<section id="sample-5" class="level3">
+<h3 class="anchored" data-anchor-id="sample-5">Sample 5</h3>
+<ul>
+<li><strong>Language:</strong> Assamese</li>
+<li><strong>Text:</strong> পোন্ধৰ ডিচেম্বৰ দুহেজাৰ একৈছ</li>
+<li><strong>Transliteration:</strong> pōndhara ḍicēmbara duhējāra ēkaicha</li>
+<li><strong>Description:</strong> A man with a high-pitched voice speaks at a slightly rapid pace in a space with a subtle echo, but the ambient background noise remains manageable. His tone is somewhat dynamic, conveying a sense of enthusiasm. Despite the less-than-ideal acoustics, the recording quality remains good, capturing the nuances of his speech with clarity. His high-pitched voice adds a bright, energetic feel to the delivery.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video4" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_5.wav"></video></div>
+</section>
+</section>
+<section id="bengali" class="level2">
+<h2 class="anchored" data-anchor-id="bengali">Bengali</h2>
+<section id="sample-9" class="level3">
+<h3 class="anchored" data-anchor-id="sample-9">Sample 9</h3>
+<ul>
+<li><strong>Language:</strong> Bengali</li>
+<li><strong>Text:</strong> চীন বাংলাদেশ পাকিস্থান নেপাল ভুটান</li>
+<li><strong>Transliteration:</strong> cīna bāṁlādēśa pākisthāna nēpāla bhuṭāna</li>
+<li><strong>Description:</strong> A female speaker delivers her speech in a room that sounds quite distant, with some background noise present. Her moderately dynamic tone and moderate pitch add a level of emotional depth to her delivery, which unfolds at a normal pace. The overall speech quality is moderate, and despite some noise and the distant acoustics, the recording remains relatively clear.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video5" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_9.wav"></video></div>
+</section>
+</section>
+<section id="bodo" class="level2">
+<h2 class="anchored" data-anchor-id="bodo">Bodo</h2>
+<section id="sample-12" class="level3">
+<h3 class="anchored" data-anchor-id="sample-12">Sample 12</h3>
+<ul>
+<li><strong>Language:</strong> Bodo</li>
+<li><strong>Text:</strong> हाबायालाय मोजांखौनो जाबोगासिनो दङ दा</li>
+<li><strong>Transliteration:</strong> hābāyālāya mōjāṁkhaunō jābōgāsinō daṅa dā</li>
+<li><strong>Description:</strong> A woman speaks with a voice that has a moderate pitch, coming through clearly in a room with moderate ambient background noise. The recording captures her speech well, with a good quality that allows for easy understanding. Her tone is somewhat flat, but she delivers her words at a normal pace. The setting is intimate, with her voice sounding as if it’s coming from right next to the microphone, contributing to the overall sense of a well-recorded conversation.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video6" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_12.wav"></video></div>
+</section>
+<section id="sample-13" class="level3">
+<h3 class="anchored" data-anchor-id="sample-13">Sample 13</h3>
+<ul>
+<li><strong>Language:</strong> Bodo</li>
+<li><strong>Text:</strong> घड़ीयाव नाइब्लालाय स्निल’ बाजिदों।</li>
+<li><strong>Transliteration:</strong> ghaṛīyāva nāiblālāya snila’ bājidōṁ.</li>
+<li><strong>Description:</strong> Maya speaks with a moderate-pitched voice at a slightly fast pace in a room that sounds very close and has excellent recording quality. Her tone is somewhat flat and unemotional. The clarity of the audio captures her voice in a rich and resonant way, as if she’s speaking directly into the microphone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video7" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_13.wav"></video></div>
+</section>
+</section>
+<section id="dogri" class="level2">
+<h2 class="anchored" data-anchor-id="dogri">Dogri</h2>
+<section id="sample-20" class="level3">
+<h3 class="anchored" data-anchor-id="sample-20">Sample 20</h3>
+<ul>
+<li><strong>Language:</strong> Dogri</li>
+<li><strong>Text:</strong> बेहतरीन ! क्या एह्‌‌‌दे च मेवे न ?</li>
+<li><strong>Transliteration:</strong> bēhatarīna ! kyā ēhdē ca mēvē na ?</li>
+<li><strong>Description:</strong> Karan speaks in a high-pitched voice at a slightly fast pace, his tone somewhat more engaging than flat. The recording quality is excellent, capturing his voice with clarity as if he’s speaking directly into the microphone in a very close, intimate space. The combination of his high pitch and the high-quality audio results in a clear, well-defined sound, making it easy to understand and follow his conversation.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video8" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_20.wav"></video></div>
+</section>
+</section>
+<section id="kannada" class="level2">
+<h2 class="anchored" data-anchor-id="kannada">Kannada</h2>
+<section id="sample-24" class="level3">
+<h3 class="anchored" data-anchor-id="sample-24">Sample 24</h3>
+<ul>
+<li><strong>Language:</strong> Kannada</li>
+<li><strong>Text:</strong> ಮಾಲ್ಗುಡಿ ಡೇಸ್‌ ಆಡಿಯೋಬುಕ್‌ ತೆಗಿ</li>
+<li><strong>Transliteration:</strong> mālguḍi ḍēs āḍiyōbuk tegi</li>
+<li><strong>Description:</strong> Anu, a woman with a voice slightly higher in pitch, delivers a commanding speech in a well-suited acoustics environment. The recording captures her voice with moderate ambient sound, resulting in a good quality. Her tone is moderately dynamic, reflecting the assertive nature of her command. She speaks at a normal pace, conveying authority and confidence in her slightly elevated voice.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video9" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_24.wav"></video></div>
+</section>
+<section id="sample-25" class="level3">
+<h3 class="anchored" data-anchor-id="sample-25">Sample 25</h3>
+<ul>
+<li><strong>Language:</strong> Kannada</li>
+<li><strong>Text:</strong> ನಾಕು ವಂದು ಎರ್ಡು ಸಾವಿರದ ವಂದು</li>
+<li><strong>Transliteration:</strong> nāku vaṁdu erḍu sāvirada vaṁdu</li>
+<li><strong>Description:</strong> In a well-suited acoustic environment with a balanced echo, a man speaks slowly with a high-pitched voice, his tone expressive and engaging. The clear recording quality effectively captures the nuances of his delivery, resulting in good speech quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video10" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_25.wav"></video></div>
+</section>
+</section>
+<section id="malayalam" class="level2">
+<h2 class="anchored" data-anchor-id="malayalam">Malayalam</h2>
+<section id="sample-30" class="level3">
+<h3 class="anchored" data-anchor-id="sample-30">Sample 30</h3>
+<ul>
+<li><strong>Language:</strong> Malayalam</li>
+<li><strong>Text:</strong> തികച്ചും വിനോദത്തിനുവേണ്ടി മാത്രമാണ്</li>
+<li><strong>Transliteration:</strong> tikaccuṁ vinōdattinuvēṇṭi mātramāṇ</li>
+<li><strong>Description:</strong> A female speaker with a moderate-pitched voice delivers a speech in a setting with an intimate, close-sounding quality. Her voice comes through with slight clarity, and she speaks with a somewhat animated tone, hinting at a sense of expressiveness. Despite the fast pace of her delivery, the recording quality remains good, capturing her voice with clarity and coherence.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video11" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_30.wav"></video></div>
+</section>
+</section>
+<section id="marathi" class="level2">
+<h2 class="anchored" data-anchor-id="marathi">Marathi</h2>
+<section id="sample-31" class="level3">
+<h3 class="anchored" data-anchor-id="sample-31">Sample 31</h3>
+<ul>
+<li><strong>Language:</strong> Marathi</li>
+<li><strong>Text:</strong> दुबई लंडन शिकागो टोकियो रोम</li>
+<li><strong>Transliteration:</strong> dubaī laṁḍana śikāgō ṭōkiyō rōma</li>
+<li><strong>Description:</strong> A man speaks in a somewhat neutral tone, his voice being neither too high nor too low in pitch. The recording environment is close, with a slight echo, and some background noise can be heard. His delivery is somewhat slow and lacks emotional inflection, suggesting a somewhat monotone quality to his speech. Despite the less-than-ideal recording conditions, the overall quality of the speech remains moderate.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video12" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_31.wav"></video></div>
+</section>
+<section id="sample-34" class="level3">
+<h3 class="anchored" data-anchor-id="sample-34">Sample 34</h3>
+<ul>
+<li><strong>Language:</strong> Marathi</li>
+<li><strong>Text:</strong> आणि कलेला प्रोत्साहन देन्यासाठी</li>
+<li><strong>Transliteration:</strong> āṇi kalēlā prōtsāhana dēnyāsāṭhī</li>
+<li><strong>Description:</strong> A female speaker delivers a speech with a voice that sounds like it’s coming from a relatively small, enclosed space. The recording quality is good, capturing her voice with a slight level of background noise. Her tone is somewhat flat and unemotional, lacking the emotional depth that more expressive speakers possess. She speaks at a normal pace, her delivery steady and consistent. Her pitch is average for a woman’s voice, neither too high nor too low. Overall, the speech quality remains good, despite the somewhat unengaging nature of her delivery.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video13" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_34.wav"></video></div>
+</section>
+<section id="sample-35" class="level3">
+<h3 class="anchored" data-anchor-id="sample-35">Sample 35</h3>
+<ul>
+<li><strong>Language:</strong> Marathi</li>
+<li><strong>Text:</strong> टोकियो पॅदीस न्यूयॉक लंडन दुबई</li>
+<li><strong>Transliteration:</strong> ṭōkiyō pædīsa nyūyôka laṁḍana dubaī</li>
+<li><strong>Description:</strong> A woman with a moderate-pitched voice delivers a somewhat slow but relatively unemotional speech, speaking directly into the microphone with great clarity.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video14" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_35.wav"></video></div>
+</section>
+</section>
+<section id="sanskrit" class="level2">
+<h2 class="anchored" data-anchor-id="sanskrit">Sanskrit</h2>
+<section id="sample-40" class="level3">
+<h3 class="anchored" data-anchor-id="sample-40">Sample 40</h3>
+<ul>
+<li><strong>Language:</strong> Sanskrit</li>
+<li><strong>Text:</strong> तव रुचीनां विषये कथय।</li>
+<li><strong>Transliteration:</strong> tava rucīnāṁ viṣayē kathaya.</li>
+<li><strong>Description:</strong> Aryan speaks in a low-pitched voice at a moderate pace, his tone somewhat flat and unemotional in a conversation. The recording quality is excellent, capturing his voice with clarity as if he’s speaking directly into the microphone. The combination of his slightly low pitch and the high-quality audio results in a rich, resonant sound.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video15" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_40.wav"></video></div>
+</section>
+</section>
+<section id="nepali" class="level2">
+<h2 class="anchored" data-anchor-id="nepali">Nepali</h2>
+<section id="sample-43" class="level3">
+<h3 class="anchored" data-anchor-id="sample-43">Sample 43</h3>
+<ul>
+<li><strong>Language:</strong> Nepali</li>
+<li><strong>Text:</strong> ठिक छ छैन त्यो हेरचाह गर्नुपऱ्यो</li>
+<li><strong>Transliteration:</strong> ठिक छ छैन त्यो हेरचाह गर्नुपऱ्यो</li>
+<li><strong>Description:</strong> A male speaker’s voice is low-pitched and delivered in a somewhat slow and monotone manner. The recording quality is poor, with a close-sounding environment that picks up some background noise, contributing to the overall bad speech quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video16" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_43.wav"></video></div>
+</section>
+<section id="sample-45" class="level3">
+<h3 class="anchored" data-anchor-id="sample-45">Sample 45</h3>
+<ul>
+<li><strong>Language:</strong> Nepali</li>
+<li><strong>Text:</strong> सन फर्मा एडभान्स्ड रिसर्च कम्पनी एलटिडी</li>
+<li><strong>Transliteration:</strong> सन फर्मा एडभान्स्ड रिसर्च कम्पनी एलटिडी</li>
+<li><strong>Description:</strong> Amrita speaks in a somewhat high-pitched voice at a slightly slow pace, her tone somewhat flat and unemotional. The recording quality is good, capturing her voice closely as if she’s speaking directly into the microphone. Despite a slightly clear but not entirely noise-free environment, the sound is clear and easy to understand, allowing her proper noun delivery to shine through with clarity.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video17" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_45.wav"></video></div>
+</section>
+</section>
+<section id="english" class="level2">
+<h2 class="anchored" data-anchor-id="english">English</h2>
+<section id="sample-47" class="level3">
+<h3 class="anchored" data-anchor-id="sample-47">Sample 47</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> “There is no fear of that, sir.</li>
+<li><strong>Transliteration:</strong> Transliteration not available</li>
+<li><strong>Description:</strong> A male speaker with an American accent delivers a fast, monotone speech with a moderate pitch. The recording features almost no background noise, and the speaker’s voice comes across as very close-sounding.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video18" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_47.wav"></video></div>
+</section>
+<section id="sample-49" class="level3">
+<h3 class="anchored" data-anchor-id="sample-49">Sample 49</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> METER Roughly one yard, three inches</li>
+<li><strong>Transliteration:</strong> Transliteration not available</li>
+<li><strong>Description:</strong> A female speaker with an American accent delivers her monotone speech with a clear and close sound in the recording. The pace is moderate, and her voice has a low-pitch tone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video19" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_49.wav"></video></div>
+</section>
+<section id="sample-50" class="level3">
+<h3 class="anchored" data-anchor-id="sample-50">Sample 50</h3>
+<ul>
+<li><strong>Language:</strong> English</li>
+<li><strong>Text:</strong> first we must have lots of hot water.</li>
+<li><strong>Transliteration:</strong> Transliteration not available</li>
+<li><strong>Description:</strong> A young adult male from England speaks in a fast-paced tone with great speech quality. His voice has a moderate pitch, sounding clear but with a hint of distance, and maintains a monotone tone throughout the conversation.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video20" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_50.wav"></video></div>
+</section>
+</section>
+<section id="odia" class="level2">
+<h2 class="anchored" data-anchor-id="odia">Odia</h2>
+<section id="sample-56" class="level3">
+<h3 class="anchored" data-anchor-id="sample-56">Sample 56</h3>
+<ul>
+<li><strong>Language:</strong> Odia</li>
+<li><strong>Text:</strong> ମୁଁ ଠିକ କରିବା ପାଇଁ ସାଙ୍ଗେ ସାଙ୍ଗେ</li>
+<li><strong>Transliteration:</strong> mum̐ ṭhika karibā pāim̐ sāṅgē sāṅgē</li>
+<li><strong>Description:</strong> A male speaker with a high-pitched voice delivers a speech at a moderate pace in a room that sounds close to the microphone, resulting in a clear and well-recorded audio. His expressive tone brings depth and emotion to his words, making the speech engaging to listen to. The overall quality of the speech remains good due to the excellent recording conditions.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video21" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_56.wav"></video></div>
+</section>
+<section id="sample-57" class="level3">
+<h3 class="anchored" data-anchor-id="sample-57">Sample 57</h3>
+<ul>
+<li><strong>Language:</strong> Odia</li>
+<li><strong>Text:</strong> ଭୁଲ ହେଲେ ତା ଆମେ ଶିକ୍ଷା ପାଇପାରିବା ନା</li>
+<li><strong>Transliteration:</strong> bhula hēlē tā āmē śikṣā pāipāribā nā</li>
+<li><strong>Description:</strong> A male speaker speaks in an expressive tone at a fast pace with a slightly high pitch, and the overall speech quality is slightly bad.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video22" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_57.wav"></video></div>
+</section>
+</section>
+<section id="manipuri" class="level2">
+<h2 class="anchored" data-anchor-id="manipuri">Manipuri</h2>
+<section id="sample-65" class="level3">
+<h3 class="anchored" data-anchor-id="sample-65">Sample 65</h3>
+<ul>
+<li><strong>Language:</strong> Manipuri</li>
+<li><strong>Text:</strong> ꯅꯆꯤꯡꯕ ꯃꯅꯥ ꯃꯁꯤꯡ ꯆꯅꯝ ꯃꯔꯣꯏ ꯑꯁꯤꯅ ꯆꯤꯡꯕꯁꯤꯡ</li>
+<li><strong>Transliteration:</strong> naciṅba manā masiṅ canam marōi asina ciṅbasiṅ</li>
+<li><strong>Description:</strong> A man speaks in a voice with a slightly low pitch at a slow pace, his tone being somewhat flat and unemotional. The recording quality is excellent, capturing his voice with clarity as if he’s speaking directly into the microphone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video23" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_65.wav"></video></div>
+</section>
+</section>
+<section id="gujarati" class="level2">
+<h2 class="anchored" data-anchor-id="gujarati">Gujarati</h2>
+<section id="sample-66" class="level3">
+<h3 class="anchored" data-anchor-id="sample-66">Sample 66</h3>
+<ul>
+<li><strong>Language:</strong> Gujarati</li>
+<li><strong>Text:</strong> તો ફરિયાદ કરી તો મને તરચજ એકાદ કલાકમાં</li>
+<li><strong>Transliteration:</strong> tō phariyāda karī tō manē taracaja ēkāda kalākamāṁ</li>
+<li><strong>Description:</strong> A man speaks in a voice that is slightly high in pitch, his tone displaying moderate emotional fluctuation. The recording quality is excellent, capturing his voice with clarity as if he’s speaking directly into the microphone. The combination of his slightly high pitch and the high-quality audio results in a clear, well-defined sound.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video24" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_66.wav"></video></div>
+</section>
+<section id="sample-67" class="level3">
+<h3 class="anchored" data-anchor-id="sample-67">Sample 67</h3>
+<ul>
+<li><strong>Language:</strong> Gujarati</li>
+<li><strong>Text:</strong> વેચનાર યુવાનના ગાલે મીઠાં ખંજન પડે છે.</li>
+<li><strong>Transliteration:</strong> vēcanāra yuvānanā gālē mīṭhāṁ khaṁjana paḍē chē.</li>
+<li><strong>Description:</strong> The man speaks in a low, but not overly deep, voice at a slightly slow pace. His tone is somewhat flat, lacking the emotional depth one might expect from a more expressive delivery. The recording quality is good, capturing his voice clearly and with minimal background noise, even though the acoustics are quite close and intimate. Despite his somewhat monotonous delivery, the overall quality of the speech remains high.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video25" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_67.wav"></video></div>
+</section>
+</section>
+<section id="tamil" class="level2">
+<h2 class="anchored" data-anchor-id="tamil">Tamil</h2>
+<section id="sample-73" class="level3">
+<h3 class="anchored" data-anchor-id="sample-73">Sample 73</h3>
+<ul>
+<li><strong>Language:</strong> Tamil</li>
+<li><strong>Text:</strong> தமிழ்நாடு கர்நாடகா ஆந்த்ரா</li>
+<li><strong>Transliteration:</strong> tamiḻnāṭu karnāṭakā āntrā</li>
+<li><strong>Description:</strong> A male speaker with a slightly low-pitched voice speaks in a slow, monotone tone. The recording environment is well-balanced, with a moderate level of ambient sound. The speaker’s delivery is steady and unhurried, and the speech quality is excellent, with all the nuances of his voice clearly audible.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video26" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_73.wav"></video></div>
+</section>
+</section>
+<section id="hindi" class="level2">
+<h2 class="anchored" data-anchor-id="hindi">Hindi</h2>
+<section id="sample-76" class="level3">
+<h3 class="anchored" data-anchor-id="sample-76">Sample 76</h3>
+<ul>
+<li><strong>Language:</strong> Hindi</li>
+<li><strong>Text:</strong> शंभूनाथ गोपीनाथ छविनाथ रंगलाल सोहनलाल</li>
+<li><strong>Transliteration:</strong> śaṁbhūnātha gōpīnātha chavinātha raṁgalāla sōhanalāla</li>
+<li><strong>Description:</strong> A female speaker in a moderately balanced environment with clear background noise speaks in a moderately dynamic tone at a slightly slow pace with a moderate pitch. The overall speech quality is good.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video27" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_76.wav"></video></div>
+</section>
+<section id="sample-79" class="level3">
+<h3 class="anchored" data-anchor-id="sample-79">Sample 79</h3>
+<ul>
+<li><strong>Language:</strong> Hindi</li>
+<li><strong>Text:</strong> आगे भी ये ठीक ढंग से पढ़ता रहे</li>
+<li><strong>Transliteration:</strong> āgē bhī yē ṭhīka ḍhaṁga sē paṛhatā rahē</li>
+<li><strong>Description:</strong> A male speaker in a close-sounding environment with clear background noise speaks in an expressive tone at a slightly slow pace with a slightly high pitch, resulting in good speech quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video28" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_79.wav"></video></div>
+</section>
+<section id="sample-80" class="level3">
+<h3 class="anchored" data-anchor-id="sample-80">Sample 80</h3>
+<ul>
+<li><strong>Language:</strong> Hindi</li>
+<li><strong>Text:</strong> बिक्री के भी काम आ जाते हैं</li>
+<li><strong>Transliteration:</strong> bikrī kē bhī kāma ā jātē haiṁ</li>
+<li><strong>Description:</strong> A man speaks in a voice that is low in pitch and almost next to the microphone, resulting in a close, intimate sound. His delivery is somewhat fast and somewhat monotone, lacking emotional inflection. Despite the slight background noise, the recording quality remains good, capturing the nuances of his somewhat flat tone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video29" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_80.wav"></video></div>
+</section>
+</section>
+<section id="chhattisgarhi" class="level2">
+<h2 class="anchored" data-anchor-id="chhattisgarhi">Chhattisgarhi</h2>
+<section id="sample-81" class="level3">
+<h3 class="anchored" data-anchor-id="sample-81">Sample 81</h3>
+<ul>
+<li><strong>Language:</strong> Chhattisgarhi</li>
+<li><strong>Text:</strong> रमायन गात–गात सरमा जी ह ठिठक गे ।</li>
+<li><strong>Transliteration:</strong> Transliteration not available</li>
+<li><strong>Description:</strong> In a well-recorded environment, a woman’s voice, moderate in pitch, delivers a speech at a pace that’s neither rushed nor slow. Her tone shows subtle signs of emotion, and the overall speech quality is excellent, with the audio capturing her voice clearly and without distortion.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video30" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_81.wav"></video></div>
+</section>
+<section id="sample-82" class="level3">
+<h3 class="anchored" data-anchor-id="sample-82">Sample 82</h3>
+<ul>
+<li><strong>Language:</strong> Chhattisgarhi</li>
+<li><strong>Text:</strong> बंगाली मन हमच्छर झोल ला अब्बड़ खाथे</li>
+<li><strong>Transliteration:</strong> Transliteration not available</li>
+<li><strong>Description:</strong> A woman speaks in a voice with a moderate pitch, her delivery slightly slow but full of varying tones and emotions. The recording quality is excellent, capturing her voice clearly as if she’s speaking directly into the microphone. The proximity to the microphone and the good recording quality result in a rich, well-defined sound.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video31" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_82.wav"></video></div>
+</section>
+<section id="sample-85" class="level3">
+<h3 class="anchored" data-anchor-id="sample-85">Sample 85</h3>
+<ul>
+<li><strong>Language:</strong> Chhattisgarhi</li>
+<li><strong>Text:</strong> में तो हों तस्मई, तें शक्कर मोर जोही ।</li>
+<li><strong>Transliteration:</strong> Transliteration not available</li>
+<li><strong>Description:</strong> In a well-suited acoustic environment, a female speaker’s voice comes through clearly and up close, capturing her somewhat high-pitched tone at a normal pace. Her delivery is animated and dynamic, conveying a sense of depth and range. The recording quality is excellent, resulting in a rich and well-defined sound that brings out the nuances of her speech.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video32" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_85.wav"></video></div>
+</section>
+</section>
+<section id="urdu" class="level2">
+<h2 class="anchored" data-anchor-id="urdu">Urdu</h2>
+<section id="sample-87" class="level3">
+<h3 class="anchored" data-anchor-id="sample-87">Sample 87</h3>
+<ul>
+<li><strong>Language:</strong> Urdu</li>
+<li><strong>Text:</strong> بہت ساری چیلنجیز ہے اس</li>
+<li><strong>Transliteration:</strong> بḥت sārē cēلنjēز hē āس</li>
+<li><strong>Description:</strong> A woman speaks in a room with a close, intimate atmosphere. Her voice, of moderate pitch, rings out clearly. She delivers her speech at a slow pace with a somewhat flat and unemotional tone, which is characteristic of her slightly monotone voice. The excellent recording quality captures her voice with precision, resulting in a rich, resonant sound.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video33" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_87.wav"></video></div>
+</section>
+<section id="sample-89" class="level3">
+<h3 class="anchored" data-anchor-id="sample-89">Sample 89</h3>
+<ul>
+<li><strong>Language:</strong> Urdu</li>
+<li><strong>Text:</strong> بچوں کے پہننے کے کپڑوں کا</li>
+<li><strong>Transliteration:</strong> بcōṁ kē پḥنnē kē کپṛōṁ kā</li>
+<li><strong>Description:</strong> In a room with a close-sounding acoustics, a female speaker delivers her speech at a slightly fast pace, her voice low in pitch and somewhat monotonous. Despite her somewhat flat tone, the speaker’s delivery feels somewhat engaging, but it’s hampered by the poor recording quality, which captures her voice amidst significant background noise. The overall quality of the speech is slightly marred by this issue.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video34" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_89.wav"></video></div>
+</section>
+</section>
+<section id="santali" class="level2">
+<h2 class="anchored" data-anchor-id="santali">Santali</h2>
+<section id="sample-91" class="level3">
+<h3 class="anchored" data-anchor-id="sample-91">Sample 91</h3>
+<ul>
+<li><strong>Language:</strong> Santali</li>
+<li><strong>Text:</strong> ᱫᱩᱵᱟᱭ ᱞᱚᱱᱰᱚᱱ ᱯᱮᱨᱤᱥ ᱴᱳᱠᱤᱭᱳ ᱨᱳᱢ ᱱᱤᱭᱩᱤᱭᱚᱠ</li>
+<li><strong>Transliteration:</strong> dubāy lanḍan pēris ṭōkiyō rōm niyuiyak</li>
+<li><strong>Description:</strong> A male speaker delivers a speech with a somewhat high-pitched voice at a slow pace. Despite speaking in a room that feels close and intimate, there is a slight background noise present. His tone is expressive, conveying a range of emotions effectively. While the recording quality is only moderate, it still captures the nuances of his speech, allowing the listener to understand him clearly.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video35" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_91.wav"></video></div>
+</section>
+<section id="sample-93" class="level3">
+<h3 class="anchored" data-anchor-id="sample-93">Sample 93</h3>
+<ul>
+<li><strong>Language:</strong> Santali</li>
+<li><strong>Text:</strong> ᱟᱹᱛᱩ ᱫᱤᱥᱚᱢ ᱨᱮ ᱥᱟᱶᱟᱨ ᱥᱮᱵᱟ ᱥᱟᱸᱜᱽᱲᱚ</li>
+<li><strong>Transliteration:</strong> ôtu disam rē sāṅār sēbā sām̐g’ṛa</li>
+<li><strong>Description:</strong> A man speaks in a close-sounding recording with crystal-clear audio quality, his tone somewhat flat and unemotional. He delivers the speech at a slow pace in a high-pitched voice, which adds a touch of liveliness to his otherwise monotone delivery. The overall speech quality is good, making it easy to follow and understand his words.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video36" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_93.wav"></video></div>
+</section>
+<section id="sample-95" class="level3">
+<h3 class="anchored" data-anchor-id="sample-95">Sample 95</h3>
+<ul>
+<li><strong>Language:</strong> Santali</li>
+<li><strong>Text:</strong> ᱜᱟᱹᱰᱤ ᱪᱟᱹᱞᱩ ᱫᱚ ᱟᱹᱰᱤᱧ ᱨᱟᱹᱥᱠᱟᱹᱭᱟᱜᱼᱟ</li>
+<li><strong>Transliteration:</strong> gôḍi côlu da ôḍiñ rôskôyāgᱼā</li>
+<li><strong>Description:</strong> A man speaks in a voice that sounds as if he’s right next to the microphone, with a slightly low pitch. Despite some background noise, his tone remains flat and unemotional, delivered at a rapid pace. The recording quality is good, capturing his speech clearly, but the flat delivery and high speed make his speech feel somewhat monotonous.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video37" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_95.wav"></video></div>
+</section>
+</section>
+<section id="sindhi" class="level2">
+<h2 class="anchored" data-anchor-id="sindhi">Sindhi</h2>
+<section id="sample-98" class="level3">
+<h3 class="anchored" data-anchor-id="sample-98">Sample 98</h3>
+<ul>
+<li><strong>Language:</strong> Sindhi</li>
+<li><strong>Text:</strong> थोड़ी देर लाए गाल न कयो</li>
+<li><strong>Transliteration:</strong> thōṛī dēra lāē gāla na kayō</li>
+<li><strong>Description:</strong> A woman with a slightly low-pitched voice speaks in a room with a close, intimate atmosphere. The recording quality is clear, allowing for easy comprehension of her delivery. Her tone is moderately dynamic, conveying a sense of emotional depth. Although she speaks at a slightly slow pace, her dynamic delivery compensates for the slightly slower tempo. The overall speech quality is good, making it a pleasant and engaging listen.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video38" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_98.wav"></video></div>
+</section>
+<section id="sample-100" class="level3">
+<h3 class="anchored" data-anchor-id="sample-100">Sample 100</h3>
+<ul>
+<li><strong>Language:</strong> Sindhi</li>
+<li><strong>Text:</strong> तां मूंखे ज़रुरु मौकिले ॾिजो</li>
+<li><strong>Transliteration:</strong> tāṁ mūṁkhē zaruru maukilē ˍḍijō</li>
+<li><strong>Description:</strong> A male speaker in a close-sounding environment with clear background noise speaks in a monotone tone at a slightly fast pace with a low pitch and has good speech quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video39" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_100.wav"></video></div>
+</section>
+</section>
+<section id="punjabi" class="level2">
+<h2 class="anchored" data-anchor-id="punjabi">Punjabi</h2>
+<section id="sample-105" class="level3">
+<h3 class="anchored" data-anchor-id="sample-105">Sample 105</h3>
+<ul>
+<li><strong>Language:</strong> Punjabi</li>
+<li><strong>Text:</strong> ਰੂਪਨਗਰ ਮਾਨਸਾ ਹੁਸ਼ਿਆਰਪੁਰ ਮੋਹਾਲੀ ਜਲੰਧਰ</li>
+<li><strong>Transliteration:</strong> rūpanagara mānasā huśiārapura mōhālī jalaṁdhara</li>
+<li><strong>Description:</strong> The male speaker delivers a speech in a voice that is slightly low in pitch, speaking at a slow pace. His tone is somewhat flat and unemotional, falling slightly short of being completely monotone. The recording quality is excellent, capturing his voice with clarity and precision, much like he’s speaking directly into the microphone.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video40" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_105.wav"></video></div>
+</section>
+</section>
+<section id="konkani" class="level2">
+<h2 class="anchored" data-anchor-id="konkani">Konkani</h2>
+<section id="sample-112" class="level3">
+<h3 class="anchored" data-anchor-id="sample-112">Sample 112</h3>
+<ul>
+<li><strong>Language:</strong> Konkani</li>
+<li><strong>Text:</strong> सिधुदुर्ग रत्नागिरी रायगड भोजपूर बांदा</li>
+<li><strong>Transliteration:</strong> sidhudurga ratnāgirī rāyagaḍa bhōjapūra bāṁdā</li>
+<li><strong>Description:</strong> In a large, echoing space, a female speaker delivers a somewhat slow and monotone speech. The room’s acoustics contribute to a distant-sounding quality, with some background hum and ambient noise present in the recording. Her moderate-pitched voice is somewhat affected by the less-than-ideal environment, resulting in a slightly bad speech quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video41" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_112.wav"></video></div>
+</section>
+<section id="sample-113" class="level3">
+<h3 class="anchored" data-anchor-id="sample-113">Sample 113</h3>
+<ul>
+<li><strong>Language:</strong> Konkani</li>
+<li><strong>Text:</strong> एकवीस जून दोन हजार तेवीस</li>
+<li><strong>Transliteration:</strong> ēkavīsa jūna dōna hajāra tēvīsa</li>
+<li><strong>Description:</strong> A man with a low-pitched voice speaks at a somewhat slow pace in a room that sounds close, but not too intimately, allowing for a clear capture of his voice. His delivery is characterized by a flat, monotone tone, devoid of any noticeable emotional inflection. The good recording quality enhances the rich, resonant sound of his deep voice, making his speech easy to follow and understand.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video42" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_113.wav"></video></div>
+</section>
+<section id="sample-115" class="level3">
+<h3 class="anchored" data-anchor-id="sample-115">Sample 115</h3>
+<ul>
+<li><strong>Language:</strong> Konkani</li>
+<li><strong>Text:</strong> उत्तर प्रदेश गुजरात त्रिपुरा तामिलनाडू</li>
+<li><strong>Transliteration:</strong> uttara pradēśa gujarāta tripurā tāmilanāḍū</li>
+<li><strong>Description:</strong> A woman with a voice that is slightly high in pitch speaks in a somewhat slow and monotone tone. The recording quality is good, capturing her voice with clarity in a space with moderate ambient background noise. The slightly distant-sounding acoustics add a sense of depth to her delivery, which is otherwise characterized by a lack of emotional inflection.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video43" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_115.wav"></video></div>
+</section>
+</section>
+<section id="maithili" class="level2">
+<h2 class="anchored" data-anchor-id="maithili">Maithili</h2>
+<section id="sample-116" class="level3">
+<h3 class="anchored" data-anchor-id="sample-116">Sample 116</h3>
+<ul>
+<li><strong>Language:</strong> Maithili</li>
+<li><strong>Text:</strong> भोर अथवा साँझके घुमए ला निकलहुँ</li>
+<li><strong>Transliteration:</strong> भोर अथवा साँझके घुमए ला निकलहुँ</li>
+<li><strong>Description:</strong> A man with a relatively low-pitched voice speaks in a monotone, somewhat distant-sounding voice. The recording quality is compromised due to some background noise, and the space seems quite large. His pace is slightly slower than average, but his delivery remains flat and unemotional. Unfortunately, the combination of these factors results in a recording of slightly poor quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video44" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_116.wav"></video></div>
+</section>
+<section id="sample-117" class="level3">
+<h3 class="anchored" data-anchor-id="sample-117">Sample 117</h3>
+<ul>
+<li><strong>Language:</strong> Maithili</li>
+<li><strong>Text:</strong> जे बाल बच्चा खाना पीना खैलाके बाद</li>
+<li><strong>Transliteration:</strong> जे बाल बच्चा खाना पीना खैलाके बाद</li>
+<li><strong>Description:</strong> A female speaker’s voice is captured in a recording with sound that is close and intimate. The background noise is minimal, only slightly audible. Her delivery is engaging and dynamic, showcasing a moderate range of emotions. She speaks at a normal pace, neither too slow nor too fast. The pitch of her voice is average, neither too high nor too low. The overall quality of the recording and the speaker’s voice is good, making it easy to understand and follow her speech.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video45" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_117.wav"></video></div>
+</section>
+<section id="sample-118" class="level3">
+<h3 class="anchored" data-anchor-id="sample-118">Sample 118</h3>
+<ul>
+<li><strong>Language:</strong> Maithili</li>
+<li><strong>Text:</strong> चुनौतीके सामना करय पड़ैत छै</li>
+<li><strong>Transliteration:</strong> चुनौतीके सामना करय पड़ैत छै</li>
+<li><strong>Description:</strong> A man speaks in a voice with a moderate pitch at a normal pace, his tone somewhat flat and unemotional. The recording quality is poor, with the man’s voice struggling to cut through the background noise. The sound environment is close and intimate, but the overall effect is marred by the noise, resulting in a recording of bad quality.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video46" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_118.wav"></video></div>
+</section>
+<section id="sample-119" class="level3">
+<h3 class="anchored" data-anchor-id="sample-119">Sample 119</h3>
+<ul>
+<li><strong>Language:</strong> Maithili</li>
+<li><strong>Text:</strong> नालन्दा सङ्ग्रहालय के बनौलीन</li>
+<li><strong>Transliteration:</strong> नालन्दा सङ्ग्रहालय के बनौलीन</li>
+<li><strong>Description:</strong> A high-pitched female speaker delivers a somewhat slow speech in a room with a cozy acoustics, but it’s not ideal. The audio is slightly marred by some background noise, making it less than perfect. Despite this, her voice conveys a sense of dynamism, and her delivery has a certain emotional depth. Unfortunately, the slightly poor recording quality detracts from the overall impact of her speech.</li>
+</ul>
+<div class="quarto-video"><video id="video_shortcode_videojs_video47" width="300" height="68" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="samples4/sample_out_119.wav"></video></div>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./pilotv2e18.html" class="pagination-link" aria-label="Pilot v2 Epoch-18">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Pilot v2 Epoch-18</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
+<script>videojs(video_shortcode_videojs_video2);</script>
+<script>videojs(video_shortcode_videojs_video3);</script>
+<script>videojs(video_shortcode_videojs_video4);</script>
+<script>videojs(video_shortcode_videojs_video5);</script>
+<script>videojs(video_shortcode_videojs_video6);</script>
+<script>videojs(video_shortcode_videojs_video7);</script>
+<script>videojs(video_shortcode_videojs_video8);</script>
+<script>videojs(video_shortcode_videojs_video9);</script>
+<script>videojs(video_shortcode_videojs_video10);</script>
+<script>videojs(video_shortcode_videojs_video11);</script>
+<script>videojs(video_shortcode_videojs_video12);</script>
+<script>videojs(video_shortcode_videojs_video13);</script>
+<script>videojs(video_shortcode_videojs_video14);</script>
+<script>videojs(video_shortcode_videojs_video15);</script>
+<script>videojs(video_shortcode_videojs_video16);</script>
+<script>videojs(video_shortcode_videojs_video17);</script>
+<script>videojs(video_shortcode_videojs_video18);</script>
+<script>videojs(video_shortcode_videojs_video19);</script>
+<script>videojs(video_shortcode_videojs_video20);</script>
+<script>videojs(video_shortcode_videojs_video21);</script>
+<script>videojs(video_shortcode_videojs_video22);</script>
+<script>videojs(video_shortcode_videojs_video23);</script>
+<script>videojs(video_shortcode_videojs_video24);</script>
+<script>videojs(video_shortcode_videojs_video25);</script>
+<script>videojs(video_shortcode_videojs_video26);</script>
+<script>videojs(video_shortcode_videojs_video27);</script>
+<script>videojs(video_shortcode_videojs_video28);</script>
+<script>videojs(video_shortcode_videojs_video29);</script>
+<script>videojs(video_shortcode_videojs_video30);</script>
+<script>videojs(video_shortcode_videojs_video31);</script>
+<script>videojs(video_shortcode_videojs_video32);</script>
+<script>videojs(video_shortcode_videojs_video33);</script>
+<script>videojs(video_shortcode_videojs_video34);</script>
+<script>videojs(video_shortcode_videojs_video35);</script>
+<script>videojs(video_shortcode_videojs_video36);</script>
+<script>videojs(video_shortcode_videojs_video37);</script>
+<script>videojs(video_shortcode_videojs_video38);</script>
+<script>videojs(video_shortcode_videojs_video39);</script>
+<script>videojs(video_shortcode_videojs_video40);</script>
+<script>videojs(video_shortcode_videojs_video41);</script>
+<script>videojs(video_shortcode_videojs_video42);</script>
+<script>videojs(video_shortcode_videojs_video43);</script>
+<script>videojs(video_shortcode_videojs_video44);</script>
+<script>videojs(video_shortcode_videojs_video45);</script>
+<script>videojs(video_shortcode_videojs_video46);</script>
+<script>videojs(video_shortcode_videojs_video47);</script>
+
+
+
+
+</body></html>

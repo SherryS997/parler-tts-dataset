@@ -20,6 +20,12 @@ website:
         text: Pilot v2 Epoch-2
       - href: pilotv2e5.qmd
         text: Pilot v2 Epoch-5
+      - href: pilotv2e18.qmd
+        text: Pilot v2 Epoch-18
+      - href: pilotv2e18rasa.qmd
+        text: Pilot v2 Epoch-18-RasaSpeakers
+      - href: pilotv2e18langs.qmd
+        text: Pilot v2 Epoch-18-AllLangs
 
 css:
   - https://lalten.github.io/lmweb/style/latinmodern-sans.css
