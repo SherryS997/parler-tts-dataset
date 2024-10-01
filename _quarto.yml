@@ -16,16 +16,22 @@ website:
         text: Home
       - href: pilotv1.qmd
         text: Pilot v1
-      - href: pilotv2e2.qmd
-        text: Pilot v2 Epoch-2
-      - href: pilotv2e5.qmd
-        text: Pilot v2 Epoch-5
-      - href: pilotv2e18.qmd
-        text: Pilot v2 Epoch-18
-      - href: pilotv2e18rasa.qmd
-        text: Pilot v2 Epoch-18-RasaSpeakers
-      - href: pilotv2e18langs.qmd
-        text: Pilot v2 Epoch-18-AllLangs
+      - section: "Pilot v2"
+        contents:
+        - href: pilotv2e2.qmd
+          text: Epoch-2
+        - href: pilotv2e5.qmd
+          text: Epoch-5
+        - section: Epoc-18
+          contents:
+          - href: pilotv2e18.qmd
+            text: English-Hindi
+          - href: pilotv2e18rasa.qmd
+            text: Rasa Speakers
+          - href: pilotv2e18lcsunita.qmd
+            text: Sunita Long Context
+          - href: pilotv2e18langs.qmd
+            text: All Languages
 
 css:
   - https://lalten.github.io/lmweb/style/latinmodern-sans.css

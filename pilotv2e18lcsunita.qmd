@@ -1,0 +1,1219 @@
+# Pilot v2 Epoch-18 Long Context Sunita
+
+## Assamese
+
+
+### Sample 1
+
+- **Language:** Assamese
+- **Text:** তেতিয়া তেনেকুৱা ক্ষেত্ৰত সৰহভাগ ময়ে ৰন্ধা বঢ়া কৰোঁ আৰু ৰন্ধা বঢ়া কৰি মই ভালো পাওঁ ধৰক কেতিয়াবা ভাতে দালিয়ে বনালোঁ বা কেতিয়াবা আপোনাৰ পিটিকা এখন কৰিয়েই খালোঁ কিন্তু মই ৰন্ধা বঢ়া কৰি ভাল পাওঁ
+- **Transliteration:** tētiẏā tēnēkuvā kṣētrata sarahabhāga maẏē randhā baṛhā karōm̐ āru randhā baṛhā kari ma:i bhālō pāōṁ dharaka kētiẏābā bhātē dāliẏē banālōm̐ bā kētiẏābā āpōnāra piṭikā ēkhana kariẏēi khālōm̐ kintu ma:i randhā baṛhā kari bhāla pāōṁ
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_1.wav height="68" width="300" >}}
+
+
+### Sample 2
+
+- **Language:** Assamese
+- **Text:** মই এনেকে দি আছো মানুহক কৰি আছে কেনেকে জানা আমা বস্তুটো মই তোমাক এতিয়া বস্তুটো তোমাক মই তোমাক ডেম কয়ি দেখাই দিম চাবা ইয়াত দুটা গিলাচ দেখিছা দুটা গিলাচত মই পানী ল লোঁ এইটো মই পাউডাৰ দিছোঁ বজাৰঅ পাউডাৰ
+- **Transliteration:** ma:i ēnēkē di āchō mānuhaka kari āchē kēnēkē jānā āmā bastuṭō ma:i tōmāka ētiẏā bastuṭō tōmāka ma:i tōmāka ḍēma kaẏi dēkhāi dima cābā iẏāta duṭā gilāca dēkhichā duṭā gilācata ma:i pānī la lōm̐ ēiṭō ma:i pāuḍāra dichōm̐ bajāraa pāuḍāra
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_2.wav height="68" width="300" >}}
+
+
+### Sample 3
+
+- **Language:** Assamese
+- **Text:** কিছুমান দেশৰ তুলনাত ভাৰতৰ শিক্ষা ব্যৱস্থাই আন্তঃগাঁথনি পাঠদানৰ মানদণ্ড গ্ৰাম্য অঞ্চলৰ শিক্ষাৰ সুবিধা আৰু পুৰণি পাঠ্যক্ৰমৰ ক্ষেত্ৰত প্ৰত্যাহ্বানৰ সন্মূখীন হৈছে
+- **Transliteration:** kichumāna dēśara tulanāta bhāratara śikṣā byavasthāi āntaḥgām̐thani pāṭhadānara mānadaṇḍa grāmya añcalara śikṣāra subidhā āru puraṇi pāṭhyakramara kṣētrata pratyāhbānara sanmūkhīna haichē
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_3.wav height="68" width="300" >}}
+
+
+### Sample 4
+
+- **Language:** Assamese
+- **Text:** বাহিৰৰ ইস্কুলবিলাকৰ টাউনৰ ইস্কুলবিলাকত অকল ইংৰাজীটো শিকায় সৰু সৰু ল ৰা ছোৱালীয়ে বহুত পিছপৰা হৈ পৰে ইংৰাজীটো অকল ইংৰাজীতহে ক ব জানে অসমীয়া ভাষাই একো অ আ ক খ শিকিবলে নাপায়
+- **Transliteration:** bāhirara iskulabilākara ṭāunara iskulabilākata akala iṁrājīṭō śikāẏa saru saru la rā chōvālīẏē bahuta pichaparā hai parē iṁrājīṭō akala iṁrājītahē ka ba jānē asamīẏā bhāṣāi ēkō a ā ka kha śikibalē nāpāẏa
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_4.wav height="68" width="300" >}}
+
+
+### Sample 5
+
+- **Language:** Assamese
+- **Text:** আৰু মই শিকি ললোঁ মানে জানা কিছুমান মানুহৰ পৰা শিকি বুজি মই ব্য়ৱসায় কৰি মানে সেইখিনি মানে যোনখিনি এক্সপাৰ্ট মানুহ আছিলে সেইটো ছেক্টৰত সেইটো লাইনত পুৰণা মানুহ ব্য়ৱসায়ী
+- **Transliteration:** āru ma:i śiki lalōm̐ mānē jānā kichumāna mānuhara parā śiki buji ma:i bẏavasāẏa kari mānē sēikhini mānē yōnakhini ēksapārṭa mānuha āchilē sēiṭō chēkṭarata sēiṭō lāinata puraṇā mānuha bẏavasāẏī
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_5.wav height="68" width="300" >}}
+
+## Bengali
+
+
+### Sample 6
+
+- **Language:** Bengali
+- **Text:** সেই সব একটা শোরুম বানানো হয় শোরুম লোকে করে বিভিন্ন ব্যবসাদার এই সব শোরুমে সেই সব আসবাবপত্ত রেখে ব্যবসা বাণিজ্য চালায় এতে করে একটা বিরাট একটা ব্যবসার পথ হয় এছাড়াও বনে মধু মোম ইত্যাদি পাওয়া যায়
+- **Transliteration:** sēi saba ēkaṭā śōruma bānānō haẏa śōruma lōkē karē bibhinna byabasādāra ēi saba śōrumē sēi saba āsabābapatta rēkhē byabasā bāṇijya cālāẏa ētē karē ēkaṭā birāṭa ēkaṭā byabasāra patha haẏa ēchāṛāō banē madhu mōma ityādi pāōẏā yāẏa
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_6.wav height="68" width="300" >}}
+
+
+### Sample 7
+
+- **Language:** Bengali
+- **Text:** আমি আমার পাস বইয়ের বিবরণ পেতে চাই অনুগ্রহ করে আমার ইপিএফও নিবন্ধিত মোবাইল নাম্বার এবং ইউএএন নম্বর দুই চার সাত এক ছয় পাঁচ দুই তিন তিন নয় চার নয় দিয়ে লগইন করুন
+- **Transliteration:** āmi āmāra pāsa ba:iẏēra bibaraṇa pētē cāi anugraha karē āmāra ipiēphaō nibandhita mōbāila nāmbāra ēbaṁ iuēēna nambara dui cāra sāta ēka chaẏa pām̐ca dui tina tina naẏa cāra naẏa diẏē laga:ina karuna
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_7.wav height="68" width="300" >}}
+
+
+### Sample 8
+
+- **Language:** Bengali
+- **Text:** হ্যাঁ শস্য খাওয়াই জল খাওয়াই জল বেশি করে খাওয়াই কিন্তু এখন দেকছি রাসায়নিক খাবার বেশি বেরিয়ে গেছে যার ফলে মুরগিটার ওজন এক মাসে দু তিন কিলো হয়ে যাচ্ছে কিন্তু আসলে মুরগিটার
+- **Transliteration:** hyām̐ śasya khāōẏāi jala khāōẏāi jala bēśi karē khāōẏāi kintu ēkhana dēkachi rāsāẏanika khābāra bēśi bēriẏē gēchē yāra phalē muragiṭāra ōjana ēka māsē du tina kilō haẏē yācchē kintu āsalē muragiṭāra
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_8.wav height="68" width="300" >}}
+
+
+### Sample 9
+
+- **Language:** Bengali
+- **Text:** সেই কারণে একটা ক্যাব বুক করতে চাই সামনের মোড়ে কি কোনো অটো আছে যেটা নিয়ে ক্যাব ভাড়ার অফিসে গিয়ে যোগাযোগ করতে পারি যদি একটু বলেন তাহলে ভালো হয় তা না হলে এতোটা রাস্তা হেঁটে যাওয়া আমার পক্ষে সম্ভব নয়
+- **Transliteration:** sēi kāraṇē ēkaṭā kyāba buka karatē cāi sāmanēra mōṛē ki kōnō aṭō āchē yēṭā niẏē kyāba bhāṛāra aphisē giẏē yōgāyōga karatē pāri yadi ēkaṭu balēna tāhalē bhālō haẏa tā nā halē ētōṭā rāstā hēm̐ṭē yāōẏā āmāra pakṣē sambhaba naẏa
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_9.wav height="68" width="300" >}}
+
+
+### Sample 10
+
+- **Language:** Bengali
+- **Text:** আগামী দুই পাঁচ দুহাজার তেইশ তারিখে আমি চক বাজার থেকে টামনা যাওয়ার জন্য একটা ক্যাব বুক করতে চাই আমি আমার পরিবারের তিনজন সদস্যকে নিয়ে ভ্রমণ করতে চাই আমি কি আমার প্রমো কোড ব্যবহার করে কোনো ছাড় পেতে পারি
+- **Transliteration:** āgāmī dui pām̐ca duhājāra tēiśa tārikhē āmi caka bājāra thēkē ṭāmanā yāōẏāra janya ēkaṭā kyāba buka karatē cāi āmi āmāra paribārēra tinajana sadasyakē niẏē bhramaṇa karatē cāi āmi ki āmāra pramō kōḍa byabahāra karē kōnō chāṛa pētē pāri
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_10.wav height="68" width="300" >}}
+
+## Bodo
+
+
+### Sample 11
+
+- **Language:** Bodo
+- **Text:** ब्रिटेन्नि  गुवारसिन आरो बयनिख्रुयबो गोनांसिन आवग्रिना दोन्नायाव संबिजिरारि फोसाबनायखौ बिजिरसंनो थाखाय आय'गा 1927 माइथायाव ब्रिटिशनि भारताव सौफैदोंमोन।
+- **Transliteration:** briṭēnni  guvārasina ārō bayanikhruyabō gōnāṁsina āvagrinā dōnnāyāva saṁbijirāri phōsābanāyakhau bijirasaṁnō thākhāya āya'gā 1927 māithāyāva briṭiśani bhāratāva sauphaidōṁmōna.
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_11.wav height="68" width="300" >}}
+
+
+### Sample 12
+
+- **Language:** Bodo
+- **Text:** "गोबांथार ट्रेक आरो फील्ड गेलेनाय आयदाफोरा गावारि खेला जायो जेराव सासेल' देरहाग्रा थायो, बयनिख्रुयबो मुंदांखासिन हानजा गेलेनाय आयदाफोरा जाबाय रिले रेस, जेराव सरासनस्रायै साब्रैनि हानजाफोर थायो।"
+- **Transliteration:** "gōbāṁthāra ṭrēka ārō phīlḍa gēlēnāya āyadāphōrā gāvāri khēlā jāyō jērāva sāsēla' dērahāgrā thāyō, bayanikhruyabō muṁdāṁkhāsina hānajā gēlēnāya āyadāphōrā jābāya rilē rēsa, jērāva sarāsanasrāyai sābraini hānajāphōra thāyō."
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_12.wav height="68" width="300" >}}
+
+
+### Sample 13
+
+- **Language:** Bodo
+- **Text:** बिजाबनि गुबै लिरगिरिनि आखाइनिफ्रायबो बिजाबफोरखौ मोन्नायनि खाबुखौ आङो मोन्नो हादों बे बिथिङै नोजोर होयोब्ला आङो बिजाबखौ बबेबा मोनसेल थि थावनिनिफ्राय बायनानै लाबोआ
+- **Transliteration:** bijābani gubai liragirini ākhāiniphrāyabō bijābaphōrakhau mōnnāyani khābukhau āṅō mōnnō hādōṁ bē bithiṅai nōjōra hōyōblā āṅō bijābakhau babēbā mōnasēla thi thāvaniniphrāya bāyanānai lābōā
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_13.wav height="68" width="300" >}}
+
+
+### Sample 14
+
+- **Language:** Bodo
+- **Text:** नुनो मोनो ओजो गामि ओनसोलाव थानाय हिसाबै साफ्रोमबो न खरावबो जोङो जुनार फिसिनायखो जों नुनो मोनो मोनसे जों आरो नुयो मोजां मोनसे सर्स बिजोंनो सोलिलांनायनि राहा थायो
+- **Transliteration:** nunō mōnō ōjō gāmi ōnasōlāva thānāya hisābai sāphrōmabō na kharāvabō jōṅō junāra phisināyakhō jōṁ nunō mōnō mōnasē jōṁ ārō nuyō mōjāṁ mōnasē sarsa bijōṁnō sōlilāṁnāyani rāhā thāyō
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_14.wav height="68" width="300" >}}
+
+
+### Sample 15
+
+- **Language:** Bodo
+- **Text:** ओ नोंगौ नंनाया बा आङो सानो जे गामियारि ओनसोल जायगाफोराव बा ओनसोलफोराव सुबुंफोरनि रावा नोगोरारिफोरजों रुजुनायाव बारा सिनायथि मोनाखै मानोना गामि ओनसोलाव ओ बिदिनो गोबां रिज नेल लेंग्वेज थायो नाथाय
+- **Transliteration:** ō nōṁgau naṁnāyā bā āṅō sānō jē gāmiyāri ōnasōla jāyagāphōrāva bā ōnasōlaphōrāva subuṁphōrani rāvā nōgōrāriphōrajōṁ rujunāyāva bārā sināyathi mōnākhai mānōnā gāmi ōnasōlāva ō bidinō gōbāṁ rija nēla lēṁgvēja thāyō nāthāya
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_15.wav height="68" width="300" >}}
+
+## Dogri
+
+
+### Sample 16
+
+- **Language:** Dogri
+- **Text:** ओह्दियां ओह् लगदियां मतलब कि बड़ा कुछ लगदा लेकिन मतलब कि जि यां कि होंदी ओह् लगदी दंगल होंदा ओह् ओह् लगदा बाबा जित्तो दा मतलब कि बड़ा बड्डा ओह् ऐ उद्धर
+- **Transliteration:** ōhdiyāṁ ōh lagadiyāṁ matalaba ki baṛā kucha lagadā lēkina matalaba ki ji yāṁ ki hōṁdī ōh lagadī daṁgala hōṁdā ōh ōh lagadā bābā jittō dā matalaba ki baṛā baḍḍā ōh ai uddhara
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_16.wav height="68" width="300" >}}
+
+
+### Sample 17
+
+- **Language:** Dogri
+- **Text:** कन्नै साढ़े ग्रांऽ च जियां अस दिक्खने साढ़ा मेरा ग्रांऽ जेह्ड़ा ऐ कोड़ा नाला ऐ ते उत्थें जेह्ड़ा लोग न म्हल्ले च पूरे मिली चुट्टियै रौंह्दे इ यां प्यार रैंह्दा अपना आपस च ते
+- **Transliteration:** kannai sāṛhē grāṁ’ ca jiyāṁ asa dikkhanē sāṛhā mērā grāṁ’ jēhṛā ai kōṛā nālā ai tē utthēṁ jēhṛā lōga na mhallē ca pūrē milī cuṭṭiyai rauṁhdē i yāṁ pyāra raiṁhdā apanā āpasa ca tē
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_17.wav height="68" width="300" >}}
+
+
+### Sample 18
+
+- **Language:** Dogri
+- **Text:** सब्जी सुब्जी बनाइयै ओह्दे बाद जेह्ड़ा देहीं बनान्ने आं देहीं च रायता पान्ने आं ते केईं बारी घिया शूरियै पाई लैन्ने आं घियै दा रायता बनाई लैन्ने घिया शूरना उबालना ओह्दे च फिर राई पानी थोह्ड़ी जेही
+- **Transliteration:** sabjī subjī banāiyai ōhdē bāda jēhṛā dēhīṁ banānnē āṁ dēhīṁ ca rāyatā pānnē āṁ tē kēīṁ bārī ghiyā śūriyai pāī lainnē āṁ ghiyai dā rāyatā banāī lainnē ghiyā śūranā ubālanā ōhdē ca phira rāī pānī thōhṛī jēhī
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_18.wav height="68" width="300" >}}
+
+
+### Sample 19
+
+- **Language:** Dogri
+- **Text:** में गल्ल करां बच्चे गी तां बच्चे जेह्ड़े न एह् फोन उंदे कोल होने कारण ओह् बिगड़ी चुके दे न होर एह्दा बड़ा जेहड़ा ऐ गलत असर पोआ दा ऐ कोई किश बच्चे जेह्ड़े न
+- **Transliteration:** mēṁ galla karāṁ baccē gī tāṁ baccē jēhṛē na ēh phōna uṁdē kōla hōnē kāraṇa ōh bigaṛī cukē dē na hōra ēhdā baṛā jēhaṛā ai galata asara pōā dā ai kōī kiśa baccē jēhṛē na
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_19.wav height="68" width="300" >}}
+
+
+### Sample 20
+
+- **Language:** Dogri
+- **Text:** बा तुस इयां सोचो कि अस प्रोफैशनल राइटर आं ते तुस अपनियां क्हानियां बनागे इ यां स्हत्तर प्रसैंट उस च झूठ होग त्रीह् प्रसैंट ठीक होग तां ओह् अच्छी गल्ल थोह्ड़ी होनी
+- **Transliteration:** bā tusa iyāṁ sōcō ki asa prōphaiśanala rāiṭara āṁ tē tusa apaniyāṁ k_hāniyāṁ banāgē i yāṁ shattara prasaiṁṭa usa ca jhūṭha hōga trīh prasaiṁṭa ṭhīka hōga tāṁ ōh acchī galla thōhṛī hōnī
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_20.wav height="68" width="300" >}}
+
+## Kannada
+
+
+### Sample 21
+
+- **Language:** Kannada
+- **Text:** ಇದು ಮೊಬೈಲ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮಾತ್ರ ಎಕ್ಸಲೆಂಟ್ ಏನು ಗೊತ್ತಿಲ್ಲ ಅಂತಂದರೂ ಮೊಬೈಲ್ ಯೂಸ್ ಮಾಡೋದಕ್ಕೆ ತುಂಬ ಚೆನ್ನಾಗಿದೆ ತುಂಬ ಚೆನ್ನಾಗ್ ವರ್ಕ್ ಆಗುತ್ತೆ ಬ್ಯಾಟ್ರಿ ಕ್ಯಪಾಸಿಟಿ ಚೆನ್ನಾಗಿದೆ
+- **Transliteration:** idu mobail seṭṭiṁgs mātra eksaleṁṭ ēnu gottilla aṁtaṁdarū mobail yūs māḍōdakke tuṁba cennāgide tuṁba cennāg vark āgutte byāṭri kyapāsiṭi cennāgide
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_21.wav height="68" width="300" >}}
+
+
+### Sample 22
+
+- **Language:** Kannada
+- **Text:** ಮತ್ ನಮ್ ಮಕ್ಕುಳ್ರೇ ನಮ್ ಮನೆಗಾ ಮೂರ್ ಮಕ್ಕುಳ್ ಅವಾ ಅನ್ಗಾ ಟೆಂಕ್ಷನ್ ಕೊಡ್ತವಾ ಒಬ್ರ್ ಅದ್ ಮಾಡ್ರ್ ಒಬ್ರ್ ಇದ್ ಮಾಡ್ರ್ ಅಂತರಾ ಒಬ್ರಿಗ್ ಪರೋಟ ಮಾಡ್ಕೊಟ್ಟಿದೇ ಒಬ್ರಿಗೇ ಬಗರನ್ನ ಮಾಡ್ಕೊಟ್ಟಿದೇ
+- **Transliteration:** mat nam makkuḷrē nam manegā mūr makkuḷ avā angā ṭeṁkṣan koḍtavā obr ad māḍr obr id māḍr aṁtarā obrig parōṭa māḍkoṭṭidē obrigē bagaranna māḍkoṭṭidē
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_22.wav height="68" width="300" >}}
+
+
+### Sample 23
+
+- **Language:** Kannada
+- **Text:** ಮನೆಯಲ್ಲಿರೋ ಸಾಮಾನ್ಗುಳು ಅಂದ್ರೆ ಅಡ್ಗೆ ಸಾಮಾನುಗುಳ್ನ ನಾವು ತೊ ಗಾಳಿ ಆಡ್ದೆಲೆ ಏರ್ ಏರ್ ಟೈಟ್ ಕಂಟೈನರಲ್ಲಿ ಸೇವ್ ಮಾಡಕ್ಕೆ ನಾವ್ ಇದನ್ನ ಯೂಸ್ ಮಾಡ್ತೀವಿ ಇದೇ ರೀತಿ ನಾವು ಎಲ್ಲಾ ತರದ ನಾವು ಫ್ರೈಯಿಂಗ್ಗೆ
+- **Transliteration:** maneyallirō sāmānguḷu aṁdre aḍge sāmānuguḷna nāvu to gāḷi āḍdele ēr ēr ṭaiṭ kaṁṭainaralli sēv māḍakke nāv idanna yūs māḍtīvi idē rīti nāvu ellā tarada nāvu phraiyiṁgge
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_23.wav height="68" width="300" >}}
+
+
+### Sample 24
+
+- **Language:** Kannada
+- **Text:** ನನಗೆ ಆ ಕೊರತೆಗಳಿದ್ದವು ಇದನ್ನು ಮತ್ತೆ ನಾನು ರಿಟನ್ ಮಾಡಲು ಕಸ್ಟಮರ್ ಕೇರಿಗೆ ಕಾಲ್ ಮಾಡಿದಾಗ ಅಲ್ಲಿನ ರೆಪ್ರೆಸೆಂಟೇಟಿವ್ ಕೂಡ ನನಗೆ ಸರಿಯಾಗಿ ಸಂಪರ್ಕವನ್ನು ಅಥವಾ ಮಾಹಿತಿಯನ್ನು ನೀಡಲಿಲ್ಲ
+- **Transliteration:** nanage ā korategaḷiddavu idannu matte nānu riṭan māḍalu kasṭamar kērige kāl māḍidāga allina represeṁṭēṭiv kūḍa nanage sariyāgi saṁparkavannu athavā māhitiyannu nīḍalilla
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_24.wav height="68" width="300" >}}
+
+
+### Sample 25
+
+- **Language:** Kannada
+- **Text:** ಅಮೆರಿಕದ ಸಾಲ ಯೋಗ್ಯತೆ ಮಟ್ಟವನ್ನು ಸಾಲ ಮೌಲ್ಯಮಾಪನ ಸಂಸ್ಥೆ ಸ್ಟಾಂಡರ್ಡ್ ಅಂಡ್ ಪೂರ್ಸ್ ಎಎಎ ಸ್ಥಾನದಿಂದ ಎಎಗೆ ಇಳಿಸಿದ್ದು, ಇದು ಇಡೀ ಜಾಗತಿಕ ಅರ್ಥ ವ್ಯವಸ್ಥೆಯ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಿದೆ.
+- **Transliteration:** amerikada sāla yōgyate maṭṭavannu sāla maulyamāpana saṁsthe sṭāṁḍarḍ aṁḍ pūrs eee sthānadiṁda eege iḷisiddu, idu iḍī jāgatika artha vyavastheya mēle pariṇāma bīride.
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_25.wav height="68" width="300" >}}
+
+## Malayalam
+
+
+### Sample 26
+
+- **Language:** Malayalam
+- **Text:** ഇപ്പ ഞാനിപ്പ എവിടെങ്കിലും പോയിക്കഴിഞ്ഞാല് ഇവിടെ താഴെയുള്ള ഒരു ചേട്ടായിയാണ് വന്നിട്ട് പശൂനേം കാര്യങ്ങളൊക്കെ നോക്കുന്നത് അപ്പം ആ പുള്ളി നല്ലോണം നോക്കേം ചെയ്യും
+- **Transliteration:** ippa ñānippa eviṭeṅkiluṁ pōyikkaḻiññāl iviṭe tāḻeyuḷḷa oru cēṭṭāyiyāṇ vanniṭṭ paśūnēṁ kāryaṅṅaḷokke nōkkunnat appaṁ ā puḷḷi nallōṇaṁ nōkkēṁ ceyyuṁ
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_26.wav height="68" width="300" >}}
+
+
+### Sample 27
+
+- **Language:** Malayalam
+- **Text:** നമ്മളെ ഇവിടത്തെ എം എൽ എ എന്നൊക്കെ പറഞ്ഞു കഴിഞ്ഞാൽ പി കുമാരൻ എന്നു പറഞ്ഞൊരു ആളാണ് നമുക്ക് എം എൽ എ എന്നു വേണമെങ്കിൽ പറയാൻ പറ്റും കാരണമെന്തെന്ന് വച്ചു കഴിഞ്ഞാൽ
+- **Transliteration:** nammaḷe iviṭatte eṁ el e ennokke paṟaññu kaḻiññāl pi kumāran ennu paṟaññoru āḷāṇ namukk eṁ el e ennu vēṇameṅkil paṟayān paṟṟuṁ kāraṇamentenn vaccu kaḻiññāl
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_27.wav height="68" width="300" >}}
+
+
+### Sample 28
+
+- **Language:** Malayalam
+- **Text:** ദയവായി വാട്ട്സ്ആപ്പിലെ എൻ്റെ ആദ്യത്തെ അഞ്ച് കോൺടാക്റ്റുകൾക്ക് ഫ്രീ ചാർജ് റെഫർ ചെയ്യുകയും അതോടൊപ്പം റിവാർഡ് പണത്തിൻ്റെ വിശദാംശങ്ങൾ എനിക്ക് നൽകുകയും ചെയ്യുക
+- **Transliteration:** dayavāyi vāṭṭsāppile enṟe ādyatte añc kōṇṭākṟṟukaḷkk phrī cārj ṟephar ceyyukayuṁ atōṭoppaṁ ṟivārḍ paṇattinṟe viśadāṁśaṅṅaḷ enikk nalkukayuṁ ceyyuka
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_28.wav height="68" width="300" >}}
+
+
+### Sample 29
+
+- **Language:** Malayalam
+- **Text:** പിന്ന എന്തൊക്കയോ എന്താ പറയാ ഒരുപാട് പിന്ന ചവിട്ടി അടിച്ച് അത് കംപ്ലീറ്റ് ചെയ്ത് അതിന് ശേഷം തുന്നി ഉച്ച ആകുമ്പോൾത്തേക്ക് എങ്ങനെയോ ഞാൻ അത് കഷ്ടപ്പെട്ട് കൊടുത്ത്
+- **Transliteration:** pinna entokkayō entā paṟayā orupāṭ pinna caviṭṭi aṭicc at kaṁplīṟṟ ceyt atin śēṣaṁ tunni ucca ākumpōḷttēkk eṅṅaneyō ñān at kaṣṭappeṭṭ koṭutt
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_29.wav height="68" width="300" >}}
+
+
+### Sample 30
+
+- **Language:** Malayalam
+- **Text:** പിന്നെ എന്താ പറയാ അവര് വന്നിട്ട് അത് കാണുമ്പം അല്ലെങ്കിൽ അനുഗ്രഹം കൊടുക്കുമ്പോ ആ കുട്ടികൾക്ക് ചെയ്യുന്ന ആ പരിപാടി അവതരിപ്പിക്കുന്ന കുട്ടികൾക്ക് അതൊരു പ്രചോദനം തന്നെയാണ്
+- **Transliteration:** pinne entā paṟayā avar vanniṭṭ at kāṇumpaṁ alleṅkil anugrahaṁ koṭukkumpō ā kuṭṭikaḷkk ceyyunna ā paripāṭi avatarippikkunna kuṭṭikaḷkk atoru pracōdanaṁ tanneyāṇ
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_30.wav height="68" width="300" >}}
+
+## Marathi
+
+
+### Sample 32
+
+- **Language:** Marathi
+- **Text:** म्हणजे अजूनही तो मोबाइल इतका हँग मारत नाही काही नाही आणि खूप म्हणजे इतकं छान वाटतो तो मोबाइल हातात घेतला की हा यार खूप छान माझं आता काम होणार आणि माझं ॲक्चुअली सॉफ्टवेअरवरती जे काम आहे तर
+- **Transliteration:** mhaṇajē ajūnahī tō mōbāila itakā ham̐ga mārata nāhī kāhī nāhī āṇi khūpa mhaṇajē itakaṁ chāna vāṭatō tō mōbāila hātāta ghētalā kī hā yāra khūpa chāna mājhaṁ ātā kāma hōṇāra āṇi mājhaṁ ækcualī sôphṭavēaravaratī jē kāma āhē tara
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_32.wav height="68" width="300" >}}
+
+
+### Sample 33
+
+- **Language:** Marathi
+- **Text:** कृपया नाइन सेवन फोर थ्री सिक्स सेवन थ्री सिक्स फाइव फोर थ्री सिक्स या पीआरएनए नंबरसाठी अटल पेन्शन योजनेतील माझे गेल्या महिन्यातील योगदानाची रक्कम दाखवा
+- **Transliteration:** kr̥payā nāina sēvana phōra thrī siksa sēvana thrī siksa phāiva phōra thrī siksa yā pīāraēnaē naṁbarasāṭhī aṭala pēnśana yōjanētīla mājhē gēlyā mahinyātīla yōgadānācī rakkama dākhavā
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_33.wav height="68" width="300" >}}
+
+
+### Sample 34
+
+- **Language:** Marathi
+- **Text:** त्याच्यातले गाने मला खूव आवडतात आनि स्पेशली त्याच्यात मला जुने गाने खूव आवडतात जसाही मला वेळ मिळते तसं मी टीवीवर गाने ऐकते किंवा घरकाम वगरे करत असली तेव्वाही मी टीवीवर फक्त गाणे लावून ठेवते
+- **Transliteration:** tyācyātalē gānē malā khūva āvaḍatāta āni spēśalī tyācyāta malā junē gānē khūva āvaḍatāta jasāhī malā vēḷa miḷatē tasaṁ mī ṭīvīvara gānē aikatē kiṁvā gharakāma vagarē karata asalī tēvvāhī mī ṭīvīvara phakta gāṇē lāvūna ṭhēvatē
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_34.wav height="68" width="300" >}}
+
+
+### Sample 35
+
+- **Language:** Marathi
+- **Text:** राज्यातील शिक्षन व्यवस्था विशेष गरजू विद्यार्थ्यांकरिता पुरेस्श्या सुव्हिदा नसन्याच्या काही समस्या आहेत ज्या खूप चांगल्या प्रकारे हाताळत आहे कारन की राज्यामदे जी शिक्षन व्यवस्था
+- **Transliteration:** rājyātīla śikṣana vyavasthā viśēṣa garajū vidyārthyāṁkaritā purēsśyā suvhidā nasanyācyā kāhī samasyā āhēta jyā khūpa cāṁgalyā prakārē hātāḷata āhē kārana kī rājyāmadē jī śikṣana vyavasthā
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_35.wav height="68" width="300" >}}
+
+## Sanskrit
+
+
+### Sample 36
+
+- **Language:** Sanskrit
+- **Text:** अहें मम अनुजं विरामकाले यदा कोविड् आसीत् तदा अहें तं तरणं पाठितवान् निमज्जनादि शमश्या तु तत्र न अभवत् यतोहि अहं तत्र स्थित्वा एव पाठितवान् तर्हि तत्र एतादृशी तु कापि शमश्या नासीत्
+- **Transliteration:** ahēṁ mama anujaṁ virāmakālē yadā kōviḍ āsīt tadā ahēṁ taṁ taraṇaṁ pāṭhitavān nimajjanādi śamaśyā tu tatra na abhavat yatōhi ahaṁ tatra sthitvā ēva pāṭhitavān tarhi tatra ētādr̥śī tu kāpi śamaśyā nāsīt
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_36.wav height="68" width="300" >}}
+
+
+### Sample 37
+
+- **Language:** Sanskrit
+- **Text:** रेल् यानं न गच्छति यतः तत्र भिन्न भिन्न समस्याः सन्ति यदि ताः समस्याः निवारिता चेत् तत्रापि यदि रेल् यानं गच्छति तर्हि बहुभ्यः निर्धनेभ्यः तत्र उत्तमा व्यवस्था प्रकल्पिता भवति
+- **Transliteration:** rēl yānaṁ na gacchati yataḥ tatra bhinna bhinna samasyāḥ santi yadi tāḥ samasyāḥ nivāritā cēt tatrāpi yadi rēl yānaṁ gacchati tarhi bahubhyaḥ nirdhanēbhyaḥ tatra uttamā vyavasthā prakalpitā bhavati
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_37.wav height="68" width="300" >}}
+
+
+### Sample 38
+
+- **Language:** Sanskrit
+- **Text:** किमर्धं नाम वयं पश्यामः सर्वे अपि सर्वेषां समीपे प्रत्येकस्य हस्ते अपि चलवाणी अस्ति तत्र उत्तमतया वयं व्यहारं कर्तुं शक्नुमः आदानप्रदानं कर्तुं शक्नुमः धनस्य
+- **Transliteration:** kimardhaṁ nāma vayaṁ paśyāmaḥ sarvē api sarvēṣāṁ samīpē pratyēkasya hastē api calavāṇī asti tatra uttamatayā vayaṁ vyahāraṁ kartuṁ śaknumaḥ ādānapradānaṁ kartuṁ śaknumaḥ dhanasya
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_38.wav height="68" width="300" >}}
+
+
+### Sample 39
+
+- **Language:** Sanskrit
+- **Text:** कन्या वरयते रूपं माता वित्तं पिताशृतं बान्धवाः कुलमिच्छन्ति मृष्टान्नमितरे जनाः इत्युक्तरीत्या भोजनं जनानां कृते प्रधानम् इति भोजनार्थं समीचीना व्यवस्था भवति
+- **Transliteration:** kanyā varayatē rūpaṁ mātā vittaṁ pitāśr̥taṁ bāndhavāḥ kulamicchanti mr̥ṣṭānnamitarē janāḥ ityuktarītyā bhōjanaṁ janānāṁ kr̥tē pradhānam iti bhōjanārthaṁ samīcīnā vyavasthā bhavati
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_39.wav height="68" width="300" >}}
+
+
+### Sample 40
+
+- **Language:** Sanskrit
+- **Text:** इदानीं पञ्चाशत् रूप्यकाणां शुल्कः जातः किन्तु मम समीपे धनस्यूतः नास्ति अतः अहं भवते यु पि ऐ द्वारा जि पे द्वारा अथवा फोन् पे द्वारा अथवा पे टि एम् द्वारा धनं दातुं शक्नोमि वा
+- **Transliteration:** idānīṁ pañcāśat rūpyakāṇāṁ śulkaḥ jātaḥ kintu mama samīpē dhanasyūtaḥ nāsti ataḥ ahaṁ bhavatē yu pi ai dvārā ji pē dvārā athavā phōn pē dvārā athavā pē ṭi ēm dvārā dhanaṁ dātuṁ śaknōmi vā
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_40.wav height="68" width="300" >}}
+
+## Nepali
+
+
+### Sample 41
+
+- **Language:** Nepali
+- **Text:** आएर सबैहरूले कम्पिटिसन डान्स कम्पिटिसन सिङ्गिङ कम्पिटिसन कुइज कम्पिटिसन सबै कुरा राखेको थियो र तब चाहिँ म पनि डान्स कम्पिटिसनमा हिस्सा लिएको थिएँ र म नेपाली लोकगीतमा डान्स गरेको थिएँ
+- **Transliteration:** आएर सबैहरूले कम्पिटिसन डान्स कम्पिटिसन सिङ्गिङ कम्पिटिसन कुइज कम्पिटिसन सबै कुरा राखेको थियो र तब चाहिँ म पनि डान्स कम्पिटिसनमा हिस्सा लिएको थिएँ र म नेपाली लोकगीतमा डान्स गरेको थिएँ
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_41.wav height="68" width="300" >}}
+
+
+### Sample 42
+
+- **Language:** Nepali
+- **Text:** सरकार सरकारीबाट धेरै दबाईहरू पाइन्छ जस्तै ज्वरोको जे पनि अब धेरै कुरामा स सजिलो हुन्छ सरकारी यो अस्पताल खोलिदिएर हामीलाई धेरै कुरामा सजिलो भको छ जतिखेर पनि गयो एड्मिट गर्दिन्छ हैन
+- **Transliteration:** सरकार सरकारीबाट धेरै दबाईहरू पाइन्छ जस्तै ज्वरोको जे पनि अब धेरै कुरामा स सजिलो हुन्छ सरकारी यो अस्पताल खोलिदिएर हामीलाई धेरै कुरामा सजिलो भको छ जतिखेर पनि गयो एड्मिट गर्दिन्छ हैन
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_42.wav height="68" width="300" >}}
+
+
+### Sample 43
+
+- **Language:** Nepali
+- **Text:** मोबाइल लेजेन्ड भन्ने आउँस त्यसमा मो खेल्दाखेरि मलाई राम्रो लाग्छ त्यो त्यानिर मान्छेहरू पनि राम्रो हुन्छ खेल्दाखेरि एकाअर्कासँग राम्ररी मिलेर खेल्छ अनि त्यो एउडा फेमस
+- **Transliteration:** मोबाइल लेजेन्ड भन्ने आउँस त्यसमा मो खेल्दाखेरि मलाई राम्रो लाग्छ त्यो त्यानिर मान्छेहरू पनि राम्रो हुन्छ खेल्दाखेरि एकाअर्कासँग राम्ररी मिलेर खेल्छ अनि त्यो एउडा फेमस
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_43.wav height="68" width="300" >}}
+
+
+### Sample 44
+
+- **Language:** Nepali
+- **Text:** मैले ओटिपी दुई आठ सात एक तिन शून्य प्राप्त गरेको छु के तपाईँँ कृपया मोबाइल नम्बर छ दुई पाँच एक शून्य पाँच नौ सात चार छ शून्यको को विन पोर्टलमा लगइन गर्न प्रयोग गर्न सक्नुहुन्छ
+- **Transliteration:** मैले ओटिपी दुई आठ सात एक तिन शून्य प्राप्त गरेको छु के तपाईँँ कृपया मोबाइल नम्बर छ दुई पाँच एक शून्य पाँच नौ सात चार छ शून्यको को विन पोर्टलमा लगइन गर्न प्रयोग गर्न सक्नुहुन्छ
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_44.wav height="68" width="300" >}}
+
+
+### Sample 45
+
+- **Language:** Nepali
+- **Text:** विधार्थी केटीहरूलाई साइकल र ल्यापटप दिनाले स्कुल आउ जाउ गर्न अनि इन्टर्नेटमा धेरै विषयहरूको जानकारी लिनु फायदा पुग्छ केटीहरूले ल्यापटपमा नै पढाई गर्न सक्छन्
+- **Transliteration:** विधार्थी केटीहरूलाई साइकल र ल्यापटप दिनाले स्कुल आउ जाउ गर्न अनि इन्टर्नेटमा धेरै विषयहरूको जानकारी लिनु फायदा पुग्छ केटीहरूले ल्यापटपमा नै पढाई गर्न सक्छन्
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_45.wav height="68" width="300" >}}
+
+## English
+
+
+### Sample 46
+
+- **Language:** English
+- **Text:** THE LEAD IMPEACHMENT MANAGER FROM THE HOUSE IS THAT REALLY WHAT WE'RE PREPARED TO SAY WITH RESPECT TO THIS PRESIDENT'S CONDUCT , OR THE NEXT ? BECAUSE IF WE ARE ,
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_46.wav height="68" width="300" >}}
+
+
+### Sample 47
+
+- **Language:** English
+- **Text:** It was long before Verezzi recovered. Long did he languish in torpid insensibility, during which his soul seemed to have winged its way to happier regions.
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_47.wav height="68" width="300" >}}
+
+
+### Sample 48
+
+- **Language:** English
+- **Text:** I departed with the moral certainty that, as the door closed behind me, Deane would brand me for awfully superficial. His hostess wouldn't contradict that at least.
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_48.wav height="68" width="300" >}}
+
+
+### Sample 49
+
+- **Language:** English
+- **Text:** Some member of the Ladies' Association observed and commented upon the fact that a young rosy-cheeked girl had been kept by the governor from transportation,
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_49.wav height="68" width="300" >}}
+
+
+### Sample 50
+
+- **Language:** English
+- **Text:** This was the opportunity the swindler was seeking, and he at once touched the feet of the sage for blessings, O Guruji, please accept me as your disciple. I will do whatever you ask me to do.
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_50.wav height="68" width="300" >}}
+
+## Telugu
+
+
+### Sample 51
+
+- **Language:** Telugu
+- **Text:** బౌతిక శాస్త్రవేత్త మరియు ఒక ప్రసిద్ధ బారతీయ శాస్త్రవేత్త టాటా ఇన్స్టిట్యూట్ ఆఫ్ ఫండమెంటల్ రీసర్చ్ మరియు బాబా అటామిక్ రీసర్చ్ సెంటర్ స్థాపించడంలో ప్రముక పాత్రను పోషించారు
+- **Transliteration:** bautika śāstravētta mariyu oka prasiddha bāratīya śāstravētta ṭāṭā insṭiṭyūṭ āph phaṁḍameṁṭal rīsarc mariyu bābā aṭāmik rīsarc seṁṭar sthāpiṁcaḍaṁlō pramuka pātranu pōṣiṁcāru
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_51.wav height="68" width="300" >}}
+
+
+### Sample 52
+
+- **Language:** Telugu
+- **Text:** చూసిన తర్వాత మనకి ఏది ఈజీగా ఉంటదో మనం అది వంట చేస్తా చేస్తాం నేర్చుకుంటాం మంచిగా చూస్తాం ఆ టేస్టీ ఉంటది అది ఎందుకంటే మన తానా ఏది అయినా వస్తే వాళ్లకి వండి పెట్టడం
+- **Transliteration:** cūsina tarvāta manaki ēdi ījīgā uṁṭadō manaṁ adi vaṁṭa cēstā cēstāṁ nērcukuṁṭāṁ maṁcigā cūstāṁ ā ṭēsṭī uṁṭadi adi eṁdukaṁṭē mana tānā ēdi ayinā vastē vāḷlaki vaṁḍi peṭṭaḍaṁ
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_52.wav height="68" width="300" >}}
+
+
+### Sample 53
+
+- **Language:** Telugu
+- **Text:** విటమిన్సి, ఫైబర్ ఉండే నారింజ పండు బ్లడ్ ప్రెషర్ ని కంట్రోల్లో ఉంచుతుంది.నారింజ పండ్లు తినొచ్చు లేదా వాటిని జ్యూస్ చేసుకుని తాగినా హైబీపీ ఉండేవారికి మంచిది.
+- **Transliteration:** viṭaminsi, phaibar uṁḍē nāriṁja paṁḍu blaḍ preṣar ni kaṁṭrōllō uṁcutuṁdi.nāriṁja paṁḍlu tinoccu lēdā vāṭini jyūs cēsukuni tāginā haibīpī uṁḍēvāriki maṁcidi.
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_53.wav height="68" width="300" >}}
+
+
+### Sample 54
+
+- **Language:** Telugu
+- **Text:** ఈ కార్యక్రమంలో మౌలానా ఇర్ఫాన్ నద్వి, మౌలానా ముజీద్ ఖాస్మీ, మౌలానా అబ్దుల్ సుబుర్ ఖాస్మీ, మొహ్మద్ పారుఖ్, మొహ్మద్ మొయిజ్, మొహ్మద్ అత్తర్, మొహ్మద్ యూసుఫ్ తదితరులు పాల్గొన్నారు.
+- **Transliteration:** ī kāryakramaṁlō maulānā irphān nadvi, maulānā mujīd khāsmī, maulānā abdul subur khāsmī, mohmad pārukh, mohmad moyij, mohmad attar, mohmad yūsuph taditarulu pālgonnāru.
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_54.wav height="68" width="300" >}}
+
+
+### Sample 55
+
+- **Language:** Telugu
+- **Text:** సర్ఫ్ కానీ లిక్విడ్ లి లిక్విడ్ డిటర్జెంట్ని కానీ వేసి బాగా ఇది ఏంటి శుభ్రంగా కడిగి మంచినీళ్ళతో కడిగి తర్వాత క్లాత్తో తుడిస్తే పాత్రలు శుభ్రం అవుతాయి దీనివల్ల నీటుగా ఉంటాయి
+- **Transliteration:** sarph kānī likviḍ li likviḍ ḍiṭarjeṁṭni kānī vēsi bāgā idi ēṁṭi śubhraṁgā kaḍigi maṁcinīḷḷatō kaḍigi tarvāta klāttō tuḍistē pātralu śubhraṁ avutāyi dīnivalla nīṭugā uṁṭāyi
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_55.wav height="68" width="300" >}}
+
+## Gujarati
+
+
+### Sample 56
+
+- **Language:** Gujarati
+- **Text:** પાકિસ્તાન ક્રિકેટ બોર્ડના, સૂત્રોને ટાંકીને, કેટલાક અહેવાલો જણાવે છે કે, બોર્ડના ચેરમેન, એજાઝ બટે, વર્લ્ડ કપ ટીમનું, સુકાન, આફ્રિદીને જ સોંપવાનો, નિર્ણય લઇ લીધો છે.
+- **Transliteration:** pākistāna krikēṭa bōrḍanā, sūtrōnē ṭāṁkīnē, kēṭalāka ahēvālō jaṇāvē chē kē, bōrḍanā cēramēna, ējājha baṭē, varlḍa kapa ṭīmanuṁ, sukāna, āphridīnē ja sōṁpavānō, nirṇaya la:i līdhō chē.
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_56.wav height="68" width="300" >}}
+
+
+### Sample 57
+
+- **Language:** Gujarati
+- **Text:** કાનુની દસ્તાવેજો બનાવામાં મારો અનુભવ ડિફિકલ્ટ રહ્યો છે કારણ કે તેમાં બઉ મુસ્કેલી અનુભવાય છે કારણ કે એ દસ્તાવેજો મેળવવા માટે ક્યારેક નગરપાલિકાએ ક્યારેક મામલતદાર કચેરીએ કોઇ ઓફિસે
+- **Transliteration:** kānunī dastāvējō banāvāmāṁ mārō anubhava ḍiphikalṭa rahyō chē kāraṇa kē tēmāṁ ba:u muskēlī anubhavāya chē kāraṇa kē ē dastāvējō mēḷavavā māṭē kyārēka nagarapālikāē kyārēka māmalatadāra kacērīē kōi ōphisē
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_57.wav height="68" width="300" >}}
+
+
+### Sample 58
+
+- **Language:** Gujarati
+- **Text:** તે રસ પ્રદ પ્રિ છે અને એ મજાકી તોર પર વી એના સબ્દો નો પ્રયોગ થતો હોય છે એટલે આવા સબ્દો એ કોઈ નોધ પાત્ર હોતા નથી પણ તેમ છતાં તેને નોધ પાત્ર ગણતા હોય છે લોકો
+- **Transliteration:** tē rasa prada pri chē anē ē majākī tōra para vī ēnā sabdō nō prayōga thatō hōya chē ēṭalē āvā sabdō ē kōī nōdha pātra hōtā nathī paṇa tēma chatāṁ tēnē nōdha pātra gaṇatā hōya chē lōkō
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_58.wav height="68" width="300" >}}
+
+
+### Sample 59
+
+- **Language:** Gujarati
+- **Text:** તે રસ પ્રદ પ્રિ છે અને એ મજાકી તોર પર વી એના સબ્દો નો પ્રયોગ થતો હોય છે એટલે આવા સબ્દો એ કોઈ નોધ પાત્ર હોતા નથી પણ તેમ છતાં તેને નોધ પાત્ર ગણતા હોય છે લોકો
+- **Transliteration:** tē rasa prada pri chē anē ē majākī tōra para vī ēnā sabdō nō prayōga thatō hōya chē ēṭalē āvā sabdō ē kōī nōdha pātra hōtā nathī paṇa tēma chatāṁ tēnē nōdha pātra gaṇatā hōya chē lōkō
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_59.wav height="68" width="300" >}}
+
+
+### Sample 60
+
+- **Language:** Gujarati
+- **Text:** લિક્વિડ કરી અને એના ઉપર અમે ગાર્નીસિંગ કરીએ છી ઉપરાંત અમે જો કોઈ એવી વાનગી બનાવી હોય તો જેમ કે સબ્જી છે પંજાબી સબ્જી છે કે તો એને અમે ગ્રેવીથી થી એને વઘાર કરીએ છી ને સલાડથી ગાર્નીસિંગ કરીએ છી
+- **Transliteration:** likviḍa karī anē ēnā upara amē gārnīsiṁga karīē chī uparāṁta amē jō kōī ēvī vānagī banāvī hōya tō jēma kē sabjī chē paṁjābī sabjī chē kē tō ēnē amē grēvīthī thī ēnē vaghāra karīē chī nē salāḍathī gārnīsiṁga karīē chī
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_60.wav height="68" width="300" >}}
+
+## Tamil
+
+
+### Sample 61
+
+- **Language:** Tamil
+- **Text:** நெறையா டே டு டே லைஃப்போட நியூஸு எல்லாமே ஃபோன்லே இருக்கறதுனால ஃபோன்ல வந்து அவுங்க யூஸ் பண்ணி இப்ப ரொம்ப நல்லா கத்துக்குறாங்க கத்துக்கிட்டு நல்லாவும் யூஸ் பண்ணிக்கிட்டு இருக்காங்க
+- **Transliteration:** neṟaiyā ṭē ṭu ṭē laifpōṭa niyūsu ellāmē fōṉlē irukkaṟatuṉāla fōṉla vantu avuṅka yūs paṇṇi ippa rompa nallā kattukkuṟāṅka kattukkiṭṭu nallāvum yūs paṇṇikkiṭṭu irukkāṅka
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_61.wav height="68" width="300" >}}
+
+
+### Sample 62
+
+- **Language:** Tamil
+- **Text:** முயற்சி எடுத்து நமக் கோச்சிங் குடுத்து நம்மள படிக்க வெப்பாங்க அதுவும் இல்லாம எங்க காலேஜில வந்து வர்ஷத்துக்கு மூண் நாள் வந்து செலிப்ரேஷன்லாம் நடக்கும் ரொம்ப சூப்பராவே நடக்கும்
+- **Transliteration:** muyaṟci eṭuttu namak kōcciṅ kuṭuttu nammaḷa paṭikka veppāṅka atuvum illāma eṅka kālējila vantu varṣattukku mūṇ nāḷ vantu celiprēṣaṉlām naṭakkum rompa cūpparāvē naṭakkum
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_62.wav height="68" width="300" >}}
+
+
+### Sample 63
+
+- **Language:** Tamil
+- **Text:** காலைல எங்க வீட்ல ஏழு மணிக்குல்லாம் சமையல் முடிஞ்சிரும் இந்த ஏழு மணிக்குல்லாம் முடிஞ்சிடும் அப்டின்னா நாங்க ஒரு கிட்டத்தட்ட ஒரு அஞ்சரை மணிக்கு எந்திரிக்கிறோம்
+- **Transliteration:** kālaila eṅka vīṭla ēḻu maṇikkullām camaiyal muṭiñcirum inta ēḻu maṇikkullām muṭiñciṭum apṭiṉṉā nāṅka oru kiṭṭattaṭṭa oru añcarai maṇikku entirikkiṟōm
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_63.wav height="68" width="300" >}}
+
+
+### Sample 64
+
+- **Language:** Tamil
+- **Text:** இத எதுமே சனங்க புரிஞ்சிக்க மாட்டேங்கிறாங்க எதுக்கு சொல்றாங்க என்ன பண்றாங்கன்னு புரிஞ்சிக்க மாட்டேங்கிறாங்கங்க மனுசரு அத நாம்ப நாம்பளும் தி சாப்புட்றத்துலையே அவுங்க கொற சொல்றாங்கன்னு நெனைக்கிறாங்க
+- **Transliteration:** ita etumē caṉaṅka puriñcikka māṭṭēṅkiṟāṅka etukku colṟāṅka eṉṉa paṇṟāṅkaṉṉu puriñcikka māṭṭēṅkiṟāṅkaṅka maṉucaru ata nāmpa nāmpaḷum ti cāppuṭṟattulaiyē avuṅka koṟa colṟāṅkaṉṉu neṉaikkiṟāṅka
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_64.wav height="68" width="300" >}}
+
+
+### Sample 65
+
+- **Language:** Tamil
+- **Text:** அந்த பக்கம் வந்து எப்பவுமே பட்டாம் பூச்சிகள் அதிகமா வரும் அது மட்டும் இல்லாம பறவைகள் அந்த மாரியான சின்ன சின்ன விலங்கு அணில் அந்த மாரியான விலங்குகளும் அடிக்கடி வரும்
+- **Transliteration:** anta pakkam vantu eppavumē paṭṭām pūccikaḷ atikamā varum atu maṭṭum illāma paṟavaikaḷ anta māriyāṉa ciṉṉa ciṉṉa vilaṅku aṇil anta māriyāṉa vilaṅkukaḷum aṭikkaṭi varum
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_65.wav height="68" width="300" >}}
+
+## Hindi
+
+
+### Sample 66
+
+- **Language:** Hindi
+- **Text:** हां राजिस्थान के लोग किसी को चुनाव लड़ना हो तो वो या तो किसी बिधानसभा में जाएगा या किसी होल्डिंग मीटिंग लगवाएगा या किसी बड़ी सिटी में काउंसलर के पास जाएगा
+- **Transliteration:** hāṁ rājisthāna kē lōga kisī kō cunāva laṛanā hō tō vō yā tō kisī bidhānasabhā mēṁ jāēgā yā kisī hōlḍiṁga mīṭiṁga lagavāēgā yā kisī baṛī siṭī mēṁ kāuṁsalara kē pāsa jāēgā
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_66.wav height="68" width="300" >}}
+
+
+### Sample 67
+
+- **Language:** Hindi
+- **Text:** तो मुझे अभी तक बिरयानी नहीं मिली है हाँ तो यें डिलेवरी बॉय से मैंने बोल भी था उसको देखाया है चेक कराया है मेरा समान गुम हो गया है हूँ एक्चुअल्ली मे मैंने क्या है पेमेंट भी पे कर दी है इसकी हाँ
+- **Transliteration:** tō mujhē abhī taka birayānī nahīṁ milī hai hām̐ tō yēṁ ḍilēvarī bôya sē maiṁnē bōla bhī thā usakō dēkhāyā hai cēka karāyā hai mērā samāna guma hō gayā hai hūm̐ ēkcuallī mē maiṁnē kyā hai pēmēṁṭa bhī pē kara dī hai isakī hām̐
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_67.wav height="68" width="300" >}}
+
+
+### Sample 68
+
+- **Language:** Hindi
+- **Text:** हम ने आप के यहाँ से कल ही कुछ फूड आइटम्स का ऑर्डर कर दिया था हम ने आप के यहाँ से टोटल अपने यहाँ आज के लिए दोपहेर दो बजे में डेढ़ सौ पैकेट्स भोजन का ऑर्डर किया था जिसमें हम ने रोटी
+- **Transliteration:** hama nē āpa kē yahām̐ sē kala hī kucha phūḍa āiṭamsa kā ôrḍara kara diyā thā hama nē āpa kē yahām̐ sē ṭōṭala apanē yahām̐ āja kē liē dōpahēra dō bajē mēṁ ḍēṛha sau paikēṭsa bhōjana kā ôrḍara kiyā thā jisamēṁ hama nē rōṭī
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_68.wav height="68" width="300" >}}
+
+
+### Sample 69
+
+- **Language:** Hindi
+- **Text:** मैं ये सब तैयारी मौसम आने से पहले ही लेकर चलती हूँ ताकि मुझे अचानक मौसम बदला और मेरे पास तैयारी कुछ नहीं है ऐसा नहीं होता मैं पहले से सारे कुछ अपने पास फंडे रखती हूँ पौधों को लेके
+- **Transliteration:** maiṁ yē saba taiyārī mausama ānē sē pahalē hī lēkara calatī hūm̐ tāki mujhē acānaka mausama badalā aura mērē pāsa taiyārī kucha nahīṁ hai aisā nahīṁ hōtā maiṁ pahalē sē sārē kucha apanē pāsa phaṁḍē rakhatī hūm̐ paudhōṁ kō lēkē
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_69.wav height="68" width="300" >}}
+
+
+### Sample 70
+
+- **Language:** Hindi
+- **Text:** एने अपने घर बैठे अपना घर खाना आ जाता है कभी अपना इक्छा होती है कि आज मैं खाना न बनाऊँ मैं बाहर से मंगवालूँ और जैसे बाहर जाने का मन भी नही कर रहा है कि मै बाहर जाके होटल मैं जा के बैठ के खाऊँ
+- **Transliteration:** ēnē apanē ghara baiṭhē apanā ghara khānā ā jātā hai kabhī apanā ikchā hōtī hai ki āja maiṁ khānā na banāūm̐ maiṁ bāhara sē maṁgavālūm̐ aura jaisē bāhara jānē kā mana bhī nahī kara rahā hai ki mai bāhara jākē hōṭala maiṁ jā kē baiṭha kē khāūm̐
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_70.wav height="68" width="300" >}}
+
+## Chhattisgarhi
+
+
+### Sample 71
+
+- **Language:** Chhattisgarhi
+- **Text:** तभोले गांव अपन गंवइ हिसाब मा अभो घला चलत हे चार झन मिल के सलाह सुनता ला मढ़ा के गांव के बेवस्था ला नर नियांव ला सुधार के गांव के सुख सांति बर काम करथें ।
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_71.wav height="68" width="300" >}}
+
+
+### Sample 72
+
+- **Language:** Chhattisgarhi
+- **Text:** आदिवासी बाहुल्य नगरी विकासखण्ड मुख्यालय के दंतेश्वरी पारा वार्ड क्रमांक पन्द्रह निवासी श्री रूपेन्द्र साहू ल बिक्‍कट समय ले फर्नीचर कारोबार के बनेच अनुभव रहिस
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_72.wav height="68" width="300" >}}
+
+
+### Sample 73
+
+- **Language:** Chhattisgarhi
+- **Text:** गनेस ला पूछे गिस त गनेस बताइस के माता पिता ले बड़ के बड़े कोन्हूं नइहे इही मान के में हा अपन दाई ददा के तीन भांवर गिंजर के में ठउर म पहुंच गेंव मोर दाई ददा ही मोर संसार ये ।
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_73.wav height="68" width="300" >}}
+
+
+### Sample 74
+
+- **Language:** Chhattisgarhi
+- **Text:** चुल्हा में आगी धरा के बड़े गंजी मा अंधना दे के खीर बनाथें चंउर ला धोके ओइरथे चुरती जब आथे तब दूध ला डार के अउ पकोथें जब पक जथे ताहन सुख्खा मेंवा ला थोर कुन दरदरहा करके खीर मा डारथें।
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_74.wav height="68" width="300" >}}
+
+
+### Sample 75
+
+- **Language:** Chhattisgarhi
+- **Text:** तभोले गांव अपन गंवइ हिसाब मा अभो घला चलत हे चार झन मिल के सलाह सुनता ला मढ़ा के गांव के बेवस्था ला नर नियांव ला सुधार के गांव के सुख सांति बर काम करथें ।
+- **Transliteration:** Transliteration not available
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_75.wav height="68" width="300" >}}
+
+## Urdu
+
+
+### Sample 76
+
+- **Language:** Urdu
+- **Text:** کہ اپنے اندر ایسا کردار بناؤ اس کتاب یہ تہذیب سکھاتا ہے کہ اپنے اندر جو تکبر ہے اپنے اندر جو گھمنڈ ہے اس کو نکالتا ہے اس کو ختم کرتا ہے تو اس کتاب بابرکت
+- **Transliteration:** کḥ āپnē āندر ēsā کرdāر بnā_va āس کtāب ēḥ تḥzēب سkhātā hē کḥ āپnē āندر jō تکبر hē āپnē āندر jō گھمنڈ hē āس kō نkāلtā hē āس kō ختم کرtā hē tō āس کtāب bāبرکت
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_76.wav height="68" width="300" >}}
+
+
+### Sample 77
+
+- **Language:** Urdu
+- **Text:** تیراکی پیشہ ورانہ طریقے سے تو میں حصہ یہ نہیں لیا ہوں لیکن یہ ہے کہ جو اپنے تجربات ہے ایکپیرئنس ہے جیسے میں تیراکی کرتا ہوں یا دوستوں کے ساتھ سوئمنگ کرتا ہوں تو اس میں یہ ہوتا ہے کہ ہم پہلے
+- **Transliteration:** tērākē pēشḥ ōrāنḥ تrēqē sē tō mēṁ ḥسḥ ēḥ نhēṁ lēā hōṁ lēکن ēḥ hē کḥ jō āپnē تجرbāت hē ēکpēra_ēنس hē jēsē mēṁ tērākē کرtā hōṁ yā dōسtōṁ kē sāتھ sava_ēمنگ کرtā hōṁ tō āس mēṁ ēḥ hōtā hē کḥ ḥم پḥlē
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_77.wav height="68" width="300" >}}
+
+
+### Sample 78
+
+- **Language:** Urdu
+- **Text:** جی ہاں لاک ڈاؤن میں ہی لوگوں نے موبائل اور لیپ ٹاپ کا زیادہ استعمال شروع کیا ہے کیونکہ لاک ڈاؤن میں لوگ گھر پہ ہی زیادہ وقت رہتے تھے اور سارے کام موبائل اور لیپ ٹاپ سے ہی انجام دیئے جاتے تھیں
+- **Transliteration:** jē hāṁ lāک ḍā_vaن mēṁ hē lōgōṁ nē mōbā_ēل ōر lēپ ṭāپ kā zēāدḥ āستamāل شrōa kēā hē kēōنکḥ lāک ḍā_vaن mēṁ lōگ گھر پḥ hē zēāدḥ ōقت رḥtē thē ōر sārē kāم mōbā_ēل ōر lēپ ṭāپ sē hē āنjāم daya_yē jātē thēṁ
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_78.wav height="68" width="300" >}}
+
+
+### Sample 79
+
+- **Language:** Urdu
+- **Text:** اب اس میں لیپ ٹاپ میرا سارا ڈاٹا آفس کا سارا ڈاٹا آفس کا سارا کام اسی لیپ ٹاپ میں ہے میں بہت پریشان ہو گیا ہوں کہ کیسے صحیح کروں میں ابھی چھٹی پہ میں گھر آیا ہوا ہوں
+- **Transliteration:** āب āس mēṁ lēپ ṭāپ mērā sārā ḍāṭā āفس kā sārā ḍāṭā āفس kā sārā kāم āsē lēپ ṭāپ mēṁ hē mēṁ بḥت پrēśāن hō gēā hōṁ کḥ kēsē سhēḥ کrōṁ mēṁ ābhē چھṭē پḥ mēṁ گھر āyā hōā hōṁ
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_79.wav height="68" width="300" >}}
+
+## Santali
+
+
+### Sample 81
+
+- **Language:** Santali
+- **Text:** ᱢᱚᱪᱟ ᱠᱚ ᱡᱩᱫᱤ ᱜᱷᱟᱜ ᱛᱟᱠᱚᱣᱟ ᱥᱮᱠᱚ ᱯᱟᱛᱞᱟ ᱯᱟᱭᱠᱷᱟᱱᱟᱭᱟ ᱡᱟᱦᱟᱸ ᱟᱹᱛᱩ ᱚᱲᱟᱜ ᱠᱚᱨᱮᱜ ᱰᱟᱠᱛᱟᱨ ᱠᱚᱠᱚ ᱦᱤᱡᱩᱜ ᱜᱮᱭᱟ ᱵᱷᱮᱱᱴᱮᱹᱱᱟᱹᱨᱤ ᱰᱟᱠᱛᱟᱨ ᱩᱱᱠᱩ ᱴᱷᱮᱱ ᱞᱮ ᱴᱨᱤᱴᱢᱮᱹᱱᱴ ᱦᱚᱪᱚ ᱠᱚᱣᱟ ᱡᱟᱛᱮ ᱱᱟᱭᱛᱮ ᱱᱟᱯᱟᱭ ᱛᱮᱠᱚ ᱛᱟᱦᱮᱸ ᱢᱟ ᱵᱷᱟᱹᱜᱤ ᱛᱮᱠᱚ ᱛᱟᱦᱮᱱ ᱢᱟ ᱾
+- **Transliteration:** macā ka judi ghāg tākavā sēka pātlā pāykhānāyā jāhām̐ ôtu aṛāg karēg ḍāktār kaka hijug gēyā bhēnṭenôri ḍāktār unku ṭhēn lē ṭriṭmenṭ haca kavā jātē nāytē nāpāy tēka tāhēm̐ mā bhôgi tēka tāhēn mā .
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_81.wav height="68" width="300" >}}
+
+
+### Sample 82
+
+- **Language:** Santali
+- **Text:** ᱱᱟᱞᱟ ᱠᱚ ᱡᱮᱱᱚ ᱮᱠᱟᱞᱜᱮ ᱵᱟᱭ ᱯᱚᱨᱤᱵᱚᱨᱛᱚᱱ ᱟᱨ ᱵᱟᱭ ᱵᱟᱡᱟᱨ ᱱᱚᱶᱟ ᱠᱚᱫᱚ ᱯᱨᱚᱠᱤᱨᱛᱤ ᱨᱮᱭᱟᱜ ᱥᱚᱢᱯᱚᱫ ᱠᱟᱱᱟ ᱚᱢᱩᱞᱚᱫᱚ ᱥᱚᱢᱯᱚᱫ ᱠᱟᱱᱟ ᱱᱚᱶᱟ ᱫᱷᱟᱹᱨᱛᱤ ᱫᱚᱦᱚ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱶᱟ ᱠᱚ ᱡᱟᱹᱨᱩᱲᱟ ᱟᱨ ᱵᱟᱝᱠᱷᱟᱱ ᱫᱷᱟᱹᱨᱛᱤ ᱫᱚᱦᱚ ᱢᱩᱥᱠᱤᱞ ᱜᱮᱭᱟ ᱾
+- **Transliteration:** nālā ka jēna ēkālgē bāy paribartan ār bāy bājār naṅā kada prakirti rēyāg sampad kānā amulada sampad kānā naṅā dhôrti daha lôgid naṅā ka jôruṛā ār bāṁkhān dhôrti daha muskil gēyā .
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_82.wav height="68" width="300" >}}
+
+
+### Sample 83
+
+- **Language:** Santali
+- **Text:** ᱚᱱᱟ ᱯᱷᱟᱨᱢ ᱨᱮ᱾ ᱟᱨ ᱢᱟᱡᱷᱮ ᱢᱚᱫᱽᱫᱷᱮ ᱵᱤ ᱰᱤ ᱭᱳ ᱚᱯᱷᱤᱥ ᱠᱤᱝᱵᱟ ᱯᱚᱧᱪᱟᱭᱮᱛ ᱚᱯᱤᱥ ᱨᱮ ᱥᱮᱱ ᱠᱟᱛᱮ ᱚᱝᱠᱟ ᱢᱤᱴᱤᱱ ᱠᱚ ᱛᱟᱦᱮᱱᱟ ᱡᱟᱦᱪᱟᱸᱱ ᱟᱠᱷᱲᱟ ᱠᱚ ᱫᱚᱦᱚᱭᱟ᱾ ᱚᱸᱰᱮ ᱚᱸᱰᱮᱧ ᱥᱮᱱᱚᱜ ᱛᱟᱦᱮᱱᱟ᱾ ᱚᱸᱰᱮ ᱜᱚᱞᱯᱚ ᱠᱩᱧ ᱟᱸᱡᱚᱢᱟ ᱡᱮ
+- **Transliteration:** anā phārm rē. ār mājhē mad’dhē bi ḍi yō aphis kiṁbā pañcāyēt apis rē sēn kātē aṁkā miṭin ka tāhēnā jāhcām̐n ākhṛā ka dahayā. am̐ḍē am̐ḍēñ sēnag tāhēnā. am̐ḍē galpa kuñ ām̐jamā jē
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_83.wav height="68" width="300" >}}
+
+
+### Sample 84
+
+- **Language:** Santali
+- **Text:** ᱚᱱᱟᱜᱮ ᱥᱟᱢᱚᱧ ᱡᱚᱥᱥᱚ ᱫᱚᱦᱚᱭ ᱨᱮᱱᱟᱜ ᱪᱮᱥᱴᱟ ᱦᱩᱭᱩᱜᱼᱟ ᱾ᱯᱩᱨᱟᱹ ᱯᱩᱨᱤ ᱞᱟᱦᱟ ᱛᱮᱱᱟᱜ ᱯᱤᱲᱦᱤ ᱠᱚ ᱦᱟᱹᱲᱤᱧ ᱞᱮᱠᱷᱟᱡ ᱫᱚ ᱵᱟᱝ ᱦᱩᱭᱩᱜᱼᱟ ᱪᱮᱫᱟᱢ ᱦᱤᱲᱤᱧᱟ ᱡᱮᱦᱮᱛᱩ ᱚᱱᱟ ᱟᱵᱚ ᱥᱚᱢᱟᱡᱽ ᱨᱮᱱᱟᱜ ᱢᱤᱜᱴᱮᱡ ᱞᱟᱴᱩ ᱵᱷᱩᱢᱤᱠᱟ ᱠᱟᱱᱟ
+- **Transliteration:** anāgē sāmañ jassa dahay rēnāg cēsṭā huyugᱼā .purô puri lāhā tēnāg piṛhi ka hôṛiñ lēkhāj da bāṁ huyugᱼā cēdām hiṛiñā jēhētu anā āba samāj’ rēnāg migṭēj lāṭu bhumikā kānā
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_84.wav height="68" width="300" >}}
+
+
+### Sample 85
+
+- **Language:** Santali
+- **Text:** ᱯᱨᱟᱠᱤᱛᱤᱠ ᱚᱱᱤᱭᱚᱱ ᱯᱟᱣᱰᱟᱨ ᱪᱮᱨᱤᱠᱥ ᱮᱠᱥ ᱦᱟᱨᱴ ᱥᱮᱯ ᱯᱷᱚᱭᱮᱞ ᱵᱮᱞᱩᱱᱥ ᱟᱨᱱᱮᱥᱴᱞᱤ ᱠᱳᱠᱳᱠᱟᱸᱪ ᱵᱽᱨᱮᱠ ᱯᱷᱟᱥᱴ ᱥᱮᱨᱮᱞ ᱟᱭᱴᱮᱢ ᱠᱚ ᱵᱟᱱᱩᱜᱼᱟ ᱫᱟᱭᱟ ᱠᱟᱛᱮᱫ ᱚᱱᱟ ᱠᱚ ᱛᱟᱭᱚᱢ ᱛᱮ ᱚᱰᱟᱨ ᱞᱟᱜᱤᱫ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ ᱾
+- **Transliteration:** prākitik aniyan pāvḍār cēriks ēks hārṭ sēp phayēl bēluns ārnēsṭli kōkōkām̐c b’rēk phāsṭ sērēl āyṭēm ka bānugᱼā dāyā kātēd anā ka tāyam tē aḍār lāgid kurumuṭuy mē .
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_85.wav height="68" width="300" >}}
+
+## Manipuri
+
+
+### Sample 86
+
+- **Language:** Manipuri
+- **Text:** ꯑꯣꯞꯊꯥꯜꯃꯣꯂꯣꯖꯤ ꯏ ꯑꯦꯟ ꯇꯤ ꯑꯦꯛꯁꯇ꯭ꯔꯥ ꯑꯗꯨꯒ ꯀꯝꯃꯨꯅꯤꯇꯤ ꯍꯦꯜꯠ ꯁꯦꯟꯇꯔꯗꯁꯨ ꯄꯦꯁꯦꯟ ꯌꯥꯝ ꯌꯦꯡꯉꯤ ꯄ꯭ꯔꯥꯏꯃꯥꯔꯤ ꯍꯦꯜꯠ ꯁꯦꯟꯇꯔꯗ ꯃꯔꯨꯑꯣꯏꯅ ꯑꯩꯈꯣꯏꯒꯤ ꯏꯃꯨꯅꯥꯏꯖꯦꯁꯟ ꯌꯥꯝꯅ ꯐꯖꯅ ꯇꯧꯋꯤ ꯑꯉꯥꯡꯗ ꯍꯧꯖꯤꯛ ꯑꯩꯈꯣꯏꯒꯤ ꯏꯃꯨꯅꯥꯏꯖꯦꯁꯟ ꯇꯧꯗꯕꯅ
+- **Transliteration:** ōpthālmōlōji i ēn ti ēksatrā aduga kammuniti hēlt sēntaradasu pēsēn yām yēṅṅi prāimāri hēlt sēntarada maruōina aikhōigi imunāijēsan yāmna phajana tauvi aṅāṅda haujik aikhōigi imunāijēsan taudabana
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_86.wav height="68" width="300" >}}
+
+
+### Sample 87
+
+- **Language:** Manipuri
+- **Text:** ꯑꯗꯨꯗꯒꯤ ꯀꯥ ꯆꯤꯛꯀꯟ ꯀ꯭ꯂꯤꯌꯔ ꯁꯨꯞ ꯑꯝꯒ ꯑꯣꯗꯔ ꯇꯧꯖꯕꯅꯦꯕꯀꯣ ꯑꯗꯨꯗ ꯉꯁꯥꯏꯒꯤ ꯑꯇꯩ ꯑꯥꯏꯇꯦꯝ ꯒꯩꯕꯨꯗꯤ ꯂꯣꯏꯅꯃꯛ ꯌꯥꯏ ꯑꯗꯨꯗ ꯀꯩꯍꯥꯏꯇꯥꯔꯦ ꯆꯤꯛꯀꯟ ꯀ꯭ꯂꯤꯌꯔ ꯁꯨꯞꯇꯨꯒ ꯆꯤꯛꯀꯟ ꯅꯨꯗꯜꯁ ꯁꯨꯞꯇꯨꯒ ꯃꯣꯏ ꯑꯅꯤꯖꯦ ꯃꯅꯝ ꯈꯤꯇꯪ ꯆꯦꯟꯕꯒꯨꯝ ꯇꯧꯑꯦꯕꯀꯣ
+- **Transliteration:** adudagi kā cikkan kliyara sup amga ōdara taujabanēbakō aduda ṅasāigi atai āitēm gaibudi lōinamak yāi aduda kaihāitārē cikkan kliyara suptuga cikkan nudalsa suptuga mōi anijē manam khitaṁ cēnbagum tauēbakō
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_87.wav height="68" width="300" >}}
+
+
+### Sample 88
+
+- **Language:** Manipuri
+- **Text:** ꯍꯧꯖꯤꯛꯇꯤ ꯄꯦꯁꯦꯟꯖꯔ ꯁꯤꯠꯁꯦ ꯊꯥꯏꯅꯗꯧꯅ ꯇꯧꯗ꯭ꯔꯦ ꯆꯥꯎꯈꯂꯛꯄꯩ ꯃꯇꯨꯡ ꯏꯟꯅ ꯄꯦꯁꯦꯟꯖꯔ ꯁꯤꯠꯁꯤꯗꯁꯨ ꯇꯤꯕꯤꯒꯨꯝꯕꯥ ꯑꯁꯤꯒꯨꯝꯕ ꯏꯁꯩ ꯇꯥꯕ ꯌꯥꯕ ꯁ꯭ꯄꯤꯀꯔꯒꯨꯝꯕ ꯁꯤ ꯃꯌꯥꯝ ꯑꯃ ꯍꯥꯞꯆꯜꯂꯒ ꯃꯤꯠꯀꯤ ꯀꯨꯃꯩ ꯑꯣꯏꯍꯜꯂꯦꯕ ꯄꯦꯁꯦꯟꯖꯔ ꯃꯌꯥꯝꯁꯤꯗꯁꯨ ꯑꯋꯥꯕ ꯑꯃꯠꯇꯁꯨ ꯄꯤꯗꯅ ꯐꯖꯅ ꯅꯨꯡꯉꯥꯏꯅ
+- **Transliteration:** haujikti pēsēnjara sitsē thāinadauna taudrē cāukhalakpai matuṅ inna pēsēnjara sitsidasu tibigumbā asigumba isai tāba yāba spikaragumba si mayām ama hāpcallaga mitki kumai ōihallēba pēsēnjara mayāmsidasu avāba amattasu pidana phajana nuṅṅāina
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_88.wav height="68" width="300" >}}
+
+
+### Sample 89
+
+- **Language:** Manipuri
+- **Text:** ꯁꯨꯃꯥꯏꯅ ꯑꯋꯥꯕ ꯃꯌꯥꯝ ꯑꯃ ꯃꯤꯁꯤ ꯂꯩꯇꯕꯤꯅ ꯑꯋꯥꯕ ꯃꯌꯥꯝ ꯑꯃ ꯊꯦꯡꯅꯩ ꯑꯗꯨꯒ ꯖꯁ ꯃꯤꯗꯜ ꯀ꯭ꯂꯥꯁꯀꯨꯝꯕ ꯑꯗꯨꯒꯨꯝꯕꯗꯐꯧꯗ ꯌꯥꯝꯅ ꯋꯥꯖꯩꯌꯦꯕ ꯕꯥꯏꯛꯁꯤꯗ ꯃꯃꯜ ꯄꯩꯁꯥ ꯄꯦꯇ꯭ꯔꯣꯜ ꯍꯦꯟꯒꯠꯂꯛꯄꯁꯦ ꯄꯦꯇ꯭ꯔꯣꯜ ꯃꯃꯜ ꯍꯦꯟꯒꯠꯄꯁꯤ ꯑꯩꯈꯣꯏꯒꯤ ꯏꯟꯗꯤꯌꯥ
+- **Transliteration:** sumāina avāba mayām ama misi laitabina avāba mayām ama thēṅnai aduga jasa midal klāsakumba adugumbadaphauda yāmna vājaiyēba bāiksida mamal paisā pētrōl hēngatlakpasē pētrōl mamal hēngatpasi aikhōigi indiyā
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_89.wav height="68" width="300" >}}
+
+
+### Sample 90
+
+- **Language:** Manipuri
+- **Text:** ꯎꯆꯦꯛꯁꯤ ꯍꯦꯛꯇ ꯎꯕ ꯐꯪꯕ ꯅꯠꯇꯦ ꯍꯥꯏꯕꯗꯤ ꯃꯔꯥꯡ ꯀꯥꯏꯅ ꯎꯆꯦꯛ ꯂꯩꯕ ꯇꯥꯔꯒꯁꯨ ꯃꯐꯝ ꯈꯨꯗꯤꯡꯃꯛꯇ ꯎꯆꯦꯛ ꯄꯥꯏꯔꯛꯄ ꯅꯠꯇꯦ ꯃꯔꯝ ꯑꯁꯤꯅ ꯃꯌꯥꯝ ꯄꯨꯝꯅꯃꯛꯅ ꯒ꯭ꯌꯥꯟ ꯇꯥꯃꯤꯟꯅꯔꯦ ꯍꯥꯏꯔꯒ ꯑꯩꯈꯣꯏꯅ ꯎꯆꯦꯛ ꯌꯦꯡꯒꯦ ꯍꯥꯏꯕ ꯇꯥꯔꯒꯗꯤ ꯎꯃꯪ ꯋꯥꯃꯪ
+- **Transliteration:** ucēksi hēkta uba phaṁba nattē hāibadi marāṅ kāina ucēk laiba tāragasu mapham khudiṅmakta ucēk pāirakpa nattē maram asina mayām pumnamakna gyān tāminnarē hāiraga aikhōina ucēk yēṅgē hāiba tāragadi umaṁ vāmaṁ
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_90.wav height="68" width="300" >}}
+
+## Odia
+
+
+### Sample 91
+
+- **Language:** Odia
+- **Text:** ଏନଟ୍ରାନ୍ସ ଦବାର ଥିଲା ମୁଁ ଢେଙ୍କାନାଳ ଯାଇଥିଲି ସେଠି ପରୀକ୍ଷା କେନ୍ଦ୍ର ଠାରୁ ମୁଁ ଯଥେଷ୍ଟ ଆଡ଼ମିଟ୍ କାର୍ଡ଼ରେ ଥିବା ପରୀକ୍ଷା କେନ୍ଦ୍ର ଠାରୁ ମୁଁ ଯଥେଷ୍ଟ ଆଗକୁ ଯାଇଥିଲି ଭାରି କୋଡ଼ିଏ କିଲୋମିଟର ସେତେବେଳକୁ ଟାଇମ ଦଶ ମିନିଟ ଥାଏ
+- **Transliteration:** ēnaṭrānsa dabāra thilā mum̐ ḍhēṅkānāḷa yāithili sēṭhi parīkṣā kēndra ṭhāru mum̐ yathēṣṭa āṛamiṭ kārṛarē thibā parīkṣā kēndra ṭhāru mum̐ yathēṣṭa āgaku yāithili bhāri kōṛiē kilōmiṭara sētēbēḷaku ṭāima daśa miniṭa thāē
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_91.wav height="68" width="300" >}}
+
+
+### Sample 92
+
+- **Language:** Odia
+- **Text:** ସେମାନଙ୍କୁ ସୁସ୍ଥ କରିବାପାଇଁ ସେମାନଙ୍କର ନିୟମିତ ସ୍ୱାସ୍ଥ୍ୟ ପରୀକ୍ଷା କରେଇବା ଠିକ୍ ସମୟରେ ଟୀକାକରଣ କରେଇବା ଔଷଧ ପ୍ରଦାନ ଆଣିକି ତାଙ୍କୁ ଦେବା ଏବଂ ବିଭିନ୍ନ ପ୍ରକାର ଡାକ୍ତର ଦେଖେଇବା ସେମାନଙ୍କ ପାଇଁ ବହୁତ ଉପକାର ହୋଇଥାଏ
+- **Transliteration:** sēmānaṅku sustha karibāpāim̐ sēmānaṅkara niẏamita svāsthẏa parīkṣā karēibā ṭhik samaẏarē ṭīkākaraṇa karēibā auṣadha pradāna āṇiki tāṅku dēbā ēbaṁ bibhinna prakāra ḍāktara dēkhēibā sēmānaṅka pāim̐ bahuta upakāra hōithāē
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_92.wav height="68" width="300" >}}
+
+
+### Sample 93
+
+- **Language:** Odia
+- **Text:** ବିବାହରେ କନ୍ୟା ମାନଙ୍କୁ ଉପହାର ଆକାରରେ ସୁନାହାର ନାକଫୁଲ କାନଫୁଲ ଗୋଡ଼ମୁଦି ହାତମୁଦି ସିନ୍ଥି ଇତ୍ୟାଦି ଦିଆ ହଉଛି ଯୌତୁକରେ ମଧ୍ୟ ଦିଆ ଯାଉଛି ଯୌତୁକ ଆକାରରେ କାର ମଟର ସାଇକେଲ ଟଙ୍କା ଆସବାପତ୍ର ଇତ୍ୟାଦି ମଧ୍ୟ ଦିଆ ହଉଛି
+- **Transliteration:** bibāharē kanẏā mānaṅku upahāra ākārarē sunāhāra nākaphula kānaphula gōṛamudi hātamudi sinthi itẏādi diā ha:uchi yautukarē madhẏa diā yāuchi yautuka ākārarē kāra maṭara sāikēla ṭaṅkā āsabāpatra itẏādi madhẏa diā ha:uchi
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_93.wav height="68" width="300" >}}
+
+
+### Sample 94
+
+- **Language:** Odia
+- **Text:** ନିରଞ୍ଜନ ପଟ୍ଟନାୟକ ସୁର ରାଉତରା ଏମାନେ ସବୁ କଂଗ୍ରସର ଲିଡର ହେଲେ ସୁଦ୍ଧା କଂଗ୍ରେସ ବର୍ତ୍ତମାନ ଦିନକୁ ଦିନ ସେ ତଳ ପଛ ହଉଚି ପଛକେ ସେ ଆଉ ଉପରକୁ ଉଠିଆର ସାହସ ସେମାନଙ୍କର ନାହିଁ ଅପରାଜିତା ଷଡ଼ଙ୍ଗୀ ସିଏ ଆମର ଭୂବନେଶ୍ୱର ସାଂସଦ
+- **Transliteration:** nirañjana paṭṭanāẏaka sura rāutarā ēmānē sabu kaṁgrasara liḍara hēlē suddhā kaṁgrēsa barttamāna dinaku dina sē taḷa pacha ha:uci pachakē sē āu uparaku uṭhiāra sāhasa sēmānaṅkara nāhim̐ aparājitā ṣaṛaṅgī siē āmara bhūbanēśvara sāṁsada
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_94.wav height="68" width="300" >}}
+
+
+### Sample 95
+
+- **Language:** Odia
+- **Text:** ନା ଗୋଟେ ସେଥି ମଧ୍ୟରୁ ହେଲା ଜିନ୍ଦଲ ବିର୍ଲା କୋକାକୋଲା ମ୍ୟାଗି ବ୍ରିଟାନିଆ ଇତ୍ୟାଦି ଏହି ସବୁମାନଙ୍କରେ ଯେମିତି ଆମର ଯୁବକ ଯୁବତୀମାନେ ତାଙ୍କର ପାରି ମାନେ ପରିଶ୍ରମ କରି ତାଙ୍କର ପାରିଶ୍ରମକ ପାଇ ସେ ଲାଭ ମାନେ
+- **Transliteration:** nā gōṭē sēthi madhẏaru hēlā jindala birlā kōkākōlā mẏāgi briṭāniā itẏādi ēhi sabumānaṅkarē yēmiti āmara yubaka yubatīmānē tāṅkara pāri mānē pariśrama kari tāṅkara pāriśramaka pāi sē lābha mānē
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_95.wav height="68" width="300" >}}
+
+## Sindhi
+
+
+### Sample 96
+
+- **Language:** Sindhi
+- **Text:** त मुखे हिन ॻाल्हि जो ॾाढो टेंशन थी वयो आ भई इअं छो तो थे मुंजी गैस जो नुकसान तो थे मां कंपनी में फ़ोन त कई आहे हाणे ॾिसऊं जल्द खां जल्द कंपनीअ वारा मुखे हिन जो कुछ इलाज करे ॾेअनि
+- **Transliteration:** ta mukhē hina ˍgālhi jō ˍḍāḍhō ṭēṁśana thī vayō ā bhaī iaṁ chō tō thē muṁjī gaisa jō nukasāna tō thē māṁ kaṁpanī mēṁ fōna ta kaī āhē hāṇē ˍḍisaūṁ jalda khāṁ jalda kaṁpanīa vārā mukhē hina jō kucha ilāja karē ˍḍēani
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_96.wav height="68" width="300" >}}
+
+
+### Sample 97
+
+- **Language:** Sindhi
+- **Text:** सत हज़ार करोड़नि जी सम्पति हुननि ठाती आहे इयो सब हुननि हेॾी महिनतु सां ठातो आहे न विणांगे खां पो चङा माण्हू अलॻि थी विया होया पर हिननि सम्झी करे पाण खे अॻियांअॻियां वधायो अऊं अॻियां अञां तरकी कनि ता
+- **Transliteration:** sata hazāra karōṛani jī sampati hunani ṭhātī āhē iyō saba hunani hēˍḍī mahinatu sāṁ ṭhātō āhē na viṇāṁgē khāṁ pō caṅā māṇhū alaˍgi thī viyā hōyā para hinani samjhī karē pāṇa khē aˍgiyāṁaˍgiyāṁ vadhāyō aūṁ aˍgiyāṁ añāṁ tarakī kani tā
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_97.wav height="68" width="300" >}}
+
+
+### Sample 98
+
+- **Language:** Sindhi
+- **Text:** असां जे एरिया में ईयें ॾिठो वयो आहे कि सफ़ाई बी तमाम ज़रूरी आ सफ़ाई नथी थिए त उननि जे मछरनि जे करे ऊए इन्फेक्शन वेठा थियनि त उननि जो बिल्कुल ध्यान ॾियण तमामु ज़रूरी आ
+- **Transliteration:** asāṁ jē ēriyā mēṁ īyēṁ ˍḍiṭhō vayō āhē ki safāī bī tamāma zarūrī ā safāī nathī thiē ta unani jē macharani jē karē ūē inphēkśana vēṭhā thiyani ta unani jō bilkula dhyāna ˍḍiyaṇa tamāmu zarūrī ā
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_98.wav height="68" width="300" >}}
+
+
+### Sample 99
+
+- **Language:** Sindhi
+- **Text:** मां पंहिंजे खरीदारी कार्ट मां युनिबिक काजू बादाम कुकीज़ ऐं मिल्क मां ब्राउन ब्रेड कढी छॾण थी चाहियां हिन खां सिवाइ मेथिऊ तिस्सेयर नारियलु सिरपु बूस्ट ड्रिंक पाउडरु पिण कढी छॾियो
+- **Transliteration:** māṁ paṁhiṁjē kharīdārī kārṭa māṁ yunibika kājū bādāma kukīza aiṁ milka māṁ brāuna brēḍa kaḍhī chaˍḍaṇa thī cāhiyāṁ hina khāṁ sivāi mēthiū tissēyara nāriyalu sirapu būsṭa ḍriṁka pāuḍaru piṇa kaḍhī chaˍḍiyō
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_99.wav height="68" width="300" >}}
+
+
+### Sample 100
+
+- **Language:** Sindhi
+- **Text:** हा असांजे सिंधी में जाम त्योहार आहिनि पहिरों ईंदी आहे थधिड़ी असां थधिड़ीअ में रोटी हिकु ॾींहुं पहिरों ठाहे रखंदा आहियूं हुन में मिठो लोलो दाल जो फुल्को भिंडियूं पटाटा
+- **Transliteration:** hā asāṁjē siṁdhī mēṁ jāma tyōhāra āhini pahirōṁ īṁdī āhē thadhiṛī asāṁ thadhiṛīa mēṁ rōṭī hiku ˍḍīṁhuṁ pahirōṁ ṭhāhē rakhaṁdā āhiyūṁ huna mēṁ miṭhō lōlō dāla jō phulkō bhiṁḍiyūṁ paṭāṭā
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_100.wav height="68" width="300" >}}
+
+## Punjabi
+
+
+### Sample 101
+
+- **Language:** Punjabi
+- **Text:** ਤੇ ਮੈਂ ਇਸਨੂੰ ਪਸੰਦ ਇਸ ਕਰਕੇ ਕਰਦੀ ਹਾਂ ਕਿਉਂਕਿ ਜਦੋਂ ਮੈਂ ਇਸਨੂੰ ਖਾਂਦੀ ਹਾਂ ਤਾਂ ਮੈਨੂੰ ਇੱਕ ਅਲੱਗ ਜਿਹਾ ਹੀ ਸਵਾਦ ਆਉਂਦਾ ਹੈ ਇਹਦੇ ਵਿੱਚ ਦਹੀਂ ਬੇਸਨ ਇਹ ਜਦੋਂ ਆਪਸ ਦੇ ਵਿੱਚ ਮਿਲਦੇ ਹਨ ਤੇ ਇਹ
+- **Transliteration:** tē maiṁ isanūṁ pasaṁda isa karakē karadī hāṁ kiuṁki jadōṁ maiṁ isanūṁ khāṁdī hāṁ tāṁ mainūṁ ikka alagga jihā hī savāda āuṁdā hai ihadē vicca dahīṁ bēsana iha jadōṁ āpasa dē vicca miladē hana tē iha
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_101.wav height="68" width="300" >}}
+
+
+### Sample 102
+
+- **Language:** Punjabi
+- **Text:** ਆਪਣੇ ਫੰਕਸ਼ਨਾਂ ਦੇ ਵਿੱਚ ਡਾਂਸ ਵਗੈਰਾ ਔਰ ਫੰਕਸ਼ਨ ਬਹੁਤ ਅੱਛੇ ਤਰ੍ਹਾਂ ਕਰੇ ਜਾਂਦੇ ਸੀ ਸਕੂਲ ਵਿੱਚ ਔਰ ਕਈ ਵਾਰ ਅਸੀਂ ਫੰਕਸ਼ਨਾਂ ਵਾਸਤੇ ਬਾਹਰ ਵੀ ਜਾਂਦੇ ਸੀ ਜਿਸ ਤਰ੍ਹਾਂ ਕਈ ਕਾਲਜ ਵਿੱਚ ਜਾਂ ਕਿਸੀ ਹੋਰ ਜਗ੍ਹਾ ਜਿੱਦਾਂ
+- **Transliteration:** āpaṇē phaṁkaśanāṁ dē vicca ḍāṁsa vagairā aura phaṁkaśana bahuta acchē tarhāṁ karē jāṁdē sī sakūla vicca aura kaī vāra asīṁ phaṁkaśanāṁ vāsatē bāhara vī jāṁdē sī jisa tarhāṁ kaī kālaja vicca jāṁ kisī hōra jag_hā jiddāṁ
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_102.wav height="68" width="300" >}}
+
+
+### Sample 103
+
+- **Language:** Punjabi
+- **Text:** ਹੈ ਨਾ ਤੂੰ ਪਤਾ ਨਹੀਂ ਕਿਵੇਂ ਬਣਾ ਲੈਂਦੀ ਤੇਰੀ ਆਂਟੀ ਨੂੰ ਤਾਂ ਇਹ ਚੀਜ਼ ਆਈ ਨਹੀਂ ਬਿਲਕੁਲ ਵੀ ਬਣਾਉਣੀ ਫਿਰ ਮੈਂ ਉਹ ਦੱਸਦੀ ਹੁੰਦੀ ਕੋਈ ਨਾ ਮੈਂ ਆ ਆ ਕੇ ਉਨ੍ਹਾਂ ਦੇ ਘਰ ਜਾ ਕੇ ਹੈਲਪ ਕਰਕੇ ਉਨ੍ਹਾਂ ਦੀ
+- **Transliteration:** hai nā tūṁ patā nahīṁ kivēṁ baṇā laiṁdī tērī āṁṭī nūṁ tāṁ iha cīza āī nahīṁ bilakula vī baṇāuṇī phira maiṁ uha dassadī huṁdī kōī nā maiṁ ā ā kē unhāṁ dē ghara jā kē hailapa karakē unhāṁ dī
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_103.wav height="68" width="300" >}}
+
+
+### Sample 105
+
+- **Language:** Punjabi
+- **Text:** ਪੰਜਾਬ ਸਰਕਾਰ ਨੇ ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਲਈ ਬਹੁਤ ਉਪਰਾਲੇ ਕੀਤੇ ਹਨ ਥਾਂ ਥਾਂ ਲਾਇਬ੍ਰੇਰੀਆਂ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਅੱਛੀਆਂ ਕਿਤਾਬਾਂ ਪੰਜਾਬੀ ਪੜ੍ਹਨ ਲਈ ਬੱਚਿਆਂ ਨੂੰ ਮਿਲਦੀਆਂ ਹਨ ਸਿੱਖਣ ਲਈ ਬਹੁਤ ਕੁਝ ਮਿਲਦਾ ਹੈ
+- **Transliteration:** paṁjāba sarakāra nē paṁjābī bhāśā laī bahuta uparālē kītē hana thāṁ thāṁ lāibrērīāṁ jinhāṁ vicca acchīāṁ kitābāṁ paṁjābī paṛhana laī bacciāṁ nūṁ miladīāṁ hana sikkhaṇa laī bahuta kujha miladā hai
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_105.wav height="68" width="300" >}}
+
+## Kashmiri
+
+
+### Sample 106
+
+- **Language:** Kashmiri
+- **Text:** اَگر انسان گِندِ اکھ چھِ تٔمۍ اٮ کزرسایز تہِ گژھان اِنسان چھُ ورزِش چھُ ہٮ کان گٔژھِتھ امہِ س تۍ چھُ اِنسان تَندرُست روزن تہٕ بیٚیہِ چھنہٕ اِنسانَس کانہہ پرابلِم گژھان کیٚنٛہہ
+- **Transliteration:** aگra anasaana گinadi aکھ چھi taٔmaۍ aٮ کzarasaaیza taہi گژھana ainasaana چھu v̈araziśa چھu ہٮ کana گٔژھitaھ amaہi sa taۍ چھu ainasaana tanadarusata rav̈azana taہٕ baیٚیہi چھnaہٕ ainasaanasa کanaہہ paraabalima گژھana کیٚnaٛہہ
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_106.wav height="68" width="300" >}}
+
+
+### Sample 107
+
+- **Language:** Kashmiri
+- **Text:** واریاہ پٕلیر آسان گِنٛدان أسۍ چھِ أکِس کوٹَس منٛز آسان سَتھ پٕلیر بیٚیِکِس پٕلے کوٹَس منٛز سَتھ پٕلیر أسۍ چھِ شاٹَر زٕ بیٚہوان بوٗسٹَر بیٚہوان ماینَس بیٚہوان تھٲڈ لاینہِ پٮ ٹھ بیٚہوان
+- **Transliteration:** v̈aaraیaہ paٕlaیra āsaana گinaٛdaana aٔsaۍ چھi aٔکisa کv̈aٹasa manaٛza āsaana sataھ paٕlaیra baیٚیiکisa paٕlaے کv̈aٹasa manaٛza sataھ paٕlaیra aٔsaۍ چھi śaaٹara zaٕ baیٚہv̈aana bav̈aٗsaٹara baیٚہv̈aana maaیnasa baیٚہv̈aana taھٲڈ laaیnaہi paٮ ٹھ baیٚہv̈aana
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_107.wav height="68" width="300" >}}
+
+
+### Sample 108
+
+- **Language:** Kashmiri
+- **Text:** یہِ ہسا ٲسۍ اکھ نیچُرَل کَتھ زِ یہِ اوس گژھنٕے تہٕ اَگر یِتھ پٲٹھۍ گژھِ ہا لاکڈاوُن میون اٮ کٕسپِرینٕس یُس زَن مےٚ آن لاین یِم زَن مےٚ آن لاین کٕلاس رٔٹۍ
+- **Transliteration:** یہi ہsaa ٲsaۍ aکھ naیچurala کataھ zi یہi av̈asa گژھnaٕے taہٕ aگra یitaھ paٲٹھۍ گژھi ہa laaکڈav̈una maیv̈ana aٮ کٕsapiraیnaٕsa یusa zana maےٚ āna laaیna یima zana maےٚ āna laaیna کٕlaasa raٔٹۍ
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_108.wav height="68" width="300" >}}
+
+
+### Sample 109
+
+- **Language:** Kashmiri
+- **Text:** گٲوٕ پانٛژھ شیٚے ہیٚکہِ سُہ أنِتھ اور تمہٕ خٲطرٕ بَنٲیِن تَتٮ ن زمیٖنَس مَنٛز زمیٖن رٔٹِن لیٖزَس بہٕ چھُس دَپان اَگَر نہٕ تٔمِس کِہیٖنۍ تہٕ آسہٕ کہیٖنۍ آسیٚس نہٕ
+- **Transliteration:** گٲv̈aٕ paanaٛژھ śaیٚے ہیٚکہi suہ aٔnitaھ av̈ara tamaہٕ ka͟haaٲẗaaraٕ banaٲیina tataٮ na zamaیٖnasa manaٛza zamaیٖna raٔٹina laیٖzasa baہٕ چھusa dapaana aگara naہٕ taٔmisa کiہیٖnaۍ taہٕ āsaہٕ کہیٖnaۍ āsaیٚsa naہٕ
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_109.wav height="68" width="300" >}}
+
+
+### Sample 110
+
+- **Language:** Kashmiri
+- **Text:** یِمو چھِ اَسہِ واریاہ یِمو کَرِمَژٕ گاندربَل ڈسٹرکَس مَنٛز چھِ یمو کَرِمَژٕ یِم گورمٮ نٹ کامہِ چھکھ کَرِمَژٕ یِمٕے یِمٕے چھِ اَسہِ واریاہ فٲیدٕ مَند واتناوان کَنگنٕکۍ چھِ واتناوان فٲیدٕ کَنگنہٕ کٮ ن
+- **Transliteration:** یimav̈a چھi asaہi v̈aaraیaہ یimav̈a کarimaژٕ گanadarabala ڈsaٹraکasa manaٛza چھi یmav̈a کarimaژٕ یima گv̈aramaٮ naٹ کamaہi چھکھ کarimaژٕ یimaٕے یimaٕے چھi asaہi v̈aaraیaہ faٲیdaٕ manada v̈aatanaav̈aana کanaگnaٕکۍ چھi v̈aatanaav̈aana faٲیdaٕ کanaگnaہٕ کٮ na
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_110.wav height="68" width="300" >}}
+
+## Konkani
+
+
+### Sample 111
+
+- **Language:** Konkani
+- **Text:** खणटा ते खणटा पूण खणून जातकीर सारके पॅक करना ते कड्डे तशेच आसता रस्त्याचेर केन्ना केन्ना कितें जाता कड्डे खणून दवरता पूण थंय प्रोपर बॅरीकेड घालना हेज्या खातीर एक्सीडंट जावपाचे चान्सीस खूब आसता
+- **Transliteration:** khaṇaṭā tē khaṇaṭā pūṇa khaṇūna jātakīra sārakē pæka karanā tē kaḍḍē taśēca āsatā rastyācēra kēnnā kēnnā kitēṁ jātā kaḍḍē khaṇūna davaratā pūṇa thaṁya prōpara bærīkēḍa ghālanā hējyā khātīra ēksīḍaṁṭa jāvapācē cānsīsa khūba āsatā
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_111.wav height="68" width="300" >}}
+
+
+### Sample 112
+
+- **Language:** Konkani
+- **Text:** हांव सायन्साच्यो खूब एनसाय्क्लोपिडिया आनी डॉक्युमॅंट्री वाचून हांवें एकदां डॉक्युमॅंट्री शूट करपाचो प्लॅन केलो हांवें आनी म्हजे तीन फ्रॅंड्स नॅचराचेर एक डॉक्युमॅंट्री रिलेटिड टू सायन्स शूट केलें
+- **Transliteration:** hāṁva sāyansācyō khūba ēnasāyklōpiḍiyā ānī ḍôkyumæṁṭrī vācūna hāṁvēṁ ēkadāṁ ḍôkyumæṁṭrī śūṭa karapācō plæna kēlō hāṁvēṁ ānī mhajē tīna phræṁḍsa næcarācēra ēka ḍôkyumæṁṭrī rilēṭiḍa ṭū sāyansa śūṭa kēlēṁ
+- **Description:** Sunita speaks in a voice that's slightly higher in pitch, delivered in a close-sounding environment with a moderate amount of ambient background noise. Her speech carries a dynamic tone, as she speaks at a normal pace, her neutral expression evident in her delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone, resulting in a rich and resonant sound.
+
+{{< video samples7/sample_out_112.wav height="68" width="300" >}}
+
+
+### Sample 113
+
+- **Language:** Konkani
+- **Text:** आनी तें मागीर आयदनान घालपाचें पीट आयदनान घालपाचें आनी आमी जश्यो आतां इडल्यो उकडून दवरता तशेंच तें आयदन सान्नाच्या कोपऱ्यान दवरपाचें आनी सान्नां उकडपाची
+- **Transliteration:** ānī tēṁ māgīra āyadanāna ghālapācēṁ pīṭa āyadanāna ghālapācēṁ ānī āmī jaśyō ātāṁ iḍalyō ukaḍūna davaratā taśēṁca tēṁ āyadana sānnācyā kōpaṟyāna davarapācēṁ ānī sānnāṁ ukaḍapācī
+- **Description:** Sunita speaks in a neutral tone, her voice slightly raised in pitch. The recording quality is good, capturing her speech with clarity and minimal background noise, despite the close-sounding environment. She delivers her words at a moderate pace with a sense of drama and emotion, showcasing her moderately dynamic delivery. Overall, the speech quality is good, making it easy to follow her neutral, yet engaging, speech.
+
+{{< video samples7/sample_out_113.wav height="68" width="300" >}}
+
+
+### Sample 114
+
+- **Language:** Konkani
+- **Text:** आदले लोक शिक शिकनाशिल्ले तेन्ना ते असल्या गजालींनी मानताले पूण आतां शिकून सुद्दा आयिल्ले लोक असल्यो गजाली मानतात हांवें तरी काळें माजर आडवें गेल्ल्यान किरें वायट जाता तें केन्नाच पळोवंक ना
+- **Transliteration:** ādalē lōka śika śikanāśillē tēnnā tē asalyā gajālīṁnī mānatālē pūṇa ātāṁ śikūna suddā āyillē lōka asalyō gajālī mānatāta hāṁvēṁ tarī kāḷēṁ mājara āḍavēṁ gēllyāna kirēṁ vāyaṭa jātā tēṁ kēnnāca paḷōvaṁka nā
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_114.wav height="68" width="300" >}}
+
+
+### Sample 115
+
+- **Language:** Konkani
+- **Text:** त्या देवळान थंय भायर आवारान बसून आमी आमचो टिफीन खावप आनी आमकां आमच्या मास्तरान त्या देवी बद्दल आनी त्या गडा बद्दल माहिती दिल्ली ती अजुनूय म्हाका याद आसा
+- **Transliteration:** tyā dēvaḷāna thaṁya bhāyara āvārāna basūna āmī āmacō ṭiphīna khāvapa ānī āmakāṁ āmacyā māstarāna tyā dēvī baddala ānī tyā gaḍā baddala māhitī dillī tī ajunūya mhākā yāda āsā
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_115.wav height="68" width="300" >}}
+
+## Maithili
+
+
+### Sample 116
+
+- **Language:** Maithili
+- **Text:** दौरान दौरान नमक नमक सत्याग्रह के शुरुआत हो गेलय अंग्रेज अंग्रेज चाहय रहय की से महात्मा गाँधी हमर पक्ष मे होइ जेथिन लेकिन नै होलखिन एकर पक्ष सारा बिफल होइ गेलय जे अंग्रेज अपन
+- **Transliteration:** दौरान दौरान नमक नमक सत्याग्रह के शुरुआत हो गेलय अंग्रेज अंग्रेज चाहय रहय की से महात्मा गाँधी हमर पक्ष मे होइ जेथिन लेकिन नै होलखिन एकर पक्ष सारा बिफल होइ गेलय जे अंग्रेज अपन
+- **Description:** Sunita speaks in a somewhat high-pitched voice at a normal pace in a room with some background noise. The recording quality is good, capturing her voice clearly as if she's speaking in a relatively small, well-ventilated space. Her tone is somewhat flat, but her delivery shows hints of dynamic range, adding depth to her neutral speech.
+
+{{< video samples7/sample_out_116.wav height="68" width="300" >}}
+
+
+### Sample 117
+
+- **Language:** Maithili
+- **Text:** अपन मैथिली भाषा बड नीक भाषा छै जे ब बड नीक भाषा छै जे पुरे बिहार मे सभसे मीठा भाषा मानल जाइ छै मे मैथिली भाषा के बिहार के तऽ छोड़ू आब तऽ देश बिदेश मे मैथिली भाषा के मान्यता मिल मान्यता मिलल जे रहलैहँ
+- **Transliteration:** अपन मैथिली भाषा बड नीक भाषा छै जे ब बड नीक भाषा छै जे पुरे बिहार मे सभसे मीठा भाषा मानल जाइ छै मे मैथिली भाषा के बिहार के तऽ छोड़ू आब तऽ देश बिदेश मे मैथिली भाषा के मान्यता मिल मान्यता मिलल जे रहलैहँ
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers her speech in a room with a good proximity to the microphone, resulting in a close-sounding recording. The audio is slightly clear, with only minimal background noise. Her speech is moderately dynamic, showcasing a natural flow and varied tone, and the moderate speed of her delivery suits her engaging narrative. The great speech quality further enhances the overall listening experience, and despite the neutral tone she maintains, it adds a sense of professionalism to her presentation.
+
+{{< video samples7/sample_out_117.wav height="68" width="300" >}}
+
+
+### Sample 118
+
+- **Language:** Maithili
+- **Text:** ठीक भै जेतै झाड़ फूक पर भरोसा करबै झाड़ फूक पर भरोसा नइ करै छियै झाड़ फूक बला छै लेकिन भरोसा ओकरा पर नइ झाड़ फूको फूक करैसँ कही साँप काटल ठीक होइ छै झाड़ फूक कऽ भरोसा पर रहलै से आदमी मरिये जेतै
+- **Transliteration:** ठीक भै जेतै झाड़ फूक पर भरोसा करबै झाड़ फूक पर भरोसा नइ करै छियै झाड़ फूक बला छै लेकिन भरोसा ओकरा पर नइ झाड़ फूको फूक करैसँ कही साँप काटल ठीक होइ छै झाड़ फूक कऽ भरोसा पर रहलै से आदमी मरिये जेतै
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_118.wav height="68" width="300" >}}
+
+
+### Sample 119
+
+- **Language:** Maithili
+- **Text:** तऽ हम सब जे छै अभी तक मतलब मनुष्य जे छै नऽ इएहए सब चीज छै जकरा सऽ मनुष्य जड़ सऽ जुड़ल छै ओना तऽ मनुष्य कोनो नै छै कियाकि अभी जे दुनिया भए गेल छै फ़ास्ट फ़ास्ट फ़ास्ट
+- **Transliteration:** तऽ हम सब जे छै अभी तक मतलब मनुष्य जे छै नऽ इएहए सब चीज छै जकरा सऽ मनुष्य जड़ सऽ जुड़ल छै ओना तऽ मनुष्य कोनो नै छै कियाकि अभी जे दुनिया भए गेल छै फ़ास्ट फ़ास्ट फ़ास्ट
+- **Description:** Sunita, a woman with a slightly high-pitched voice, delivers a speech with moderate speed in a room that is quite intimate, with the sound seeming to come directly from her. Although there's a hint of background noise, the recording quality remains good, capturing her voice with clarity. Her tone is somewhat unemotional, but she still manages to convey a sense of dynamic expression, which is characteristic of her neutral style of speaking.
+
+{{< video samples7/sample_out_119.wav height="68" width="300" >}}
+
+
+### Sample 120
+
+- **Language:** Maithili
+- **Text:** कतेलोक बटैये कतेलोक लोक अपनेसे किनकऽ नै लैये कतेलोक हम अपने सऽ कीनकऽ हम अपने पहिरकऽ हम अपने पाबन करब हम दोसरके कपड़ा नै लेब आ कत्ते के दै छै नै हम दै छी अहाँके हमर पाबन कऽ दियऽ
+- **Transliteration:** कतेलोक बटैये कतेलोक लोक अपनेसे किनकऽ नै लैये कतेलोक हम अपने सऽ कीनकऽ हम अपने पहिरकऽ हम अपने पाबन करब हम दोसरके कपड़ा नै लेब आ कत्ते के दै छै नै हम दै छी अहाँके हमर पाबन कऽ दियऽ
+- **Description:** Sunita, a woman with a somewhat high-pitched voice, speaks at a moderate pace in a room with a close sound that allows for a clear, though not entirely noise-free, audio. Her delivery shows nuanced variations in tone and pitch, reflecting a moderately dynamic style. The recording quality is excellent, capturing the subtleties of her neutral-toned speech with great clarity, resulting in an overall high-quality audio experience.
+
+{{< video samples7/sample_out_120.wav height="68" width="300" >}}

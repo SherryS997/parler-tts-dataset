@@ -1,4 +1,4 @@
-# Pilot v2 Epoch-5
+# Pilot v2 Epoch-18
 
 ## English Samples
 
@@ -351,13 +351,3 @@
 - **Description:** The audio sample is a fairly slow male voice with adjacent speech and minimal variation in tone.
 
 {{< video samples5/sample_out_40.wav height="68" width="300" >}}
-
-
-#### Sample 41
-
-- **Language:** Hindi
-- **Text:** क्या मुझे सौ रुपये अटके लेन देन से वापस मिलें
-- **Transliteration:** kyā mujhē sau rupayē aṭakē lēna dēna sē vāpasa milēṁ
-- **Description:** The audio sample features a male voice with a shrill tone, brisk pace, and somewhat poor speech quality.
-
-{{< video samples5/sample_out_41.wav height="68" width="300" >}}
