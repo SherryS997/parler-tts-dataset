@@ -13,10 +13,11 @@
     </header>
 
     <!-- Main content -->
-    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-hidden">
+    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-auto">
       <!-- Left Sidebar for Page Navigation -->
       <nav :class="['col-lg-2 bg-light sidebar left-sidebar', { 'show': showSidebar }]">
         <div class="sidebar-sticky">
+          <h2 class="sidebar-heading">Pages</h2>
           <ul class="nav flex-column">
             <li class="nav-item" v-for="(page, index) in pages" :key="index">
               <a class="nav-link" @click="loadPage(page)" :class="{ active: currentPage === page }">
