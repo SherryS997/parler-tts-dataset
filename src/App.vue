@@ -13,7 +13,7 @@
     </header>
 
     <!-- Main content -->
-    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-auto">
+    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-auto">``
       <!-- Left Sidebar for Page Navigation -->
       <nav :class="['col-lg-2 bg-light sidebar left-sidebar', { 'show': showSidebar }]">
         <div class="sidebar-sticky">
@@ -34,6 +34,7 @@
         <div v-for="(sample, index) in currentSamples" :key="index" class="sample-container" :id="'sample' + index">
           <h3>{{ sample.language }} - Sample {{ index + 1 }}</h3>
           <p><strong>Text:</strong> {{ sample.text }}</p>
+          <p><strong>Transliteration:</strong> {{ sample.transliteration }}</p>
           <p><strong>Description:</strong> {{ sample.description }}</p>
           <audio :src="sample.audio" controls preload="none" class="w-100 mb-4"></audio>
         </div>
