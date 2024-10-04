@@ -1,19 +1,26 @@
 <template>
   <div id="app" class="d-flex flex-column vh-100">
     <!-- Header -->
-    <header class="sticky-top bg-light">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="sticky-top bg-white text-white shadow-sm">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <h1 class="navbar-brand mb-0">IndicParler TTS Samples</h1>
-          <button class="navbar-toggler" type="button" @click="toggleSidebar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <h1 class="navbar-brand mb-0 h1 fw-bold">IndicParler TTS</h1>
+          <div class="d-flex align-items-center">
+            <select v-model="selectedLanguage" @change="handleLanguageChange" class="form-select form-select-sm me-2">
+              <option v-for="lang in availableLanguages" :key="lang" :value="lang">{{ lang }}</option>
+            </select>
+            <button class="navbar-toggler border-0" type="button" @click="toggleSidebar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
       </nav>
+    </div>
     </header>
 
     <!-- Main content -->
-    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-auto">``
+    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-auto">
       <!-- Left Sidebar for Page Navigation -->
       <nav :class="['col-lg-2 bg-light sidebar left-sidebar', { 'show': showSidebar }]">
         <div class="sidebar-sticky">
@@ -81,6 +88,8 @@ export default {
     const expandedLanguages = ref(new Set());
     const activeLanguage = ref(null);
     const showSidebar = ref(false);
+    const selectedLanguage = ref('Assamese');
+    const availableLanguages = ref([]);
 
     const loadMetadata = async () => {
       try {
@@ -88,6 +97,7 @@ export default {
         const data = await response.json();
         pages.value = data.pages;
         loadPageFromUrl();
+        updateAvailableLanguages();
       } catch (error) {
         console.error('Error loading metadata:', error);
       }
@@ -109,7 +119,7 @@ export default {
 
     const loadPage = (page) => {
       currentPage.value = page;
-      currentSamples.value = page.samples.map((sample, index) => ({...sample, index}));
+      updateCurrentSamples();
       expandedLanguages.value.clear();
       activeLanguage.value = null;
       showSidebar.value = false;
@@ -118,7 +128,26 @@ export default {
       router.push({ query: { page: page.title } });
     };
 
+    const updateCurrentSamples = () => {
+      currentSamples.value = currentPage.value.samples
+        .filter(sample => sample.language === selectedLanguage.value)
+        .map((sample, index) => ({...sample, index}));
+    };
 
+    const updateAvailableLanguages = () => {
+      const languages = new Set();
+      pages.value.forEach(page => {
+        page.samples.forEach(sample => {
+          languages.add(sample.language);
+        });
+      });
+      availableLanguages.value = Array.from(languages);
+    };
+
+    const handleLanguageChange = (event) => {
+      selectedLanguage.value = event.target.value;
+      updateCurrentSamples();
+    };
 
     const toggleLanguage = (language) => {
       if (expandedLanguages.value.has(language)) {
@@ -167,6 +196,9 @@ export default {
     // Watch for route changes
     watch(() => route.query.page, loadPageFromUrl);
 
+    // Watch for language changes
+    watch(selectedLanguage, updateCurrentSamples);
+
     const currentPageTitle = computed(() => currentPage.value ? currentPage.value.title : '');
     const groupedSamples = computed(() => {
       return currentSamples.value.reduce((acc, sample) => {
@@ -185,12 +217,15 @@ export default {
       expandedLanguages,
       activeLanguage,
       showSidebar,
+      selectedLanguage,
+      availableLanguages,
       loadPage,
       toggleLanguage,
       isLanguageExpanded,
       isLanguageActive,
       setActiveLanguage,
       toggleSidebar,
+      handleLanguageChange,
       currentPageTitle,
       groupedSamples
     };
@@ -313,4 +348,24 @@ audio {
     display: none;
   }
 }
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.form-select {
+  max-width: 150px;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .form-select {
+    max-width: 120px;
+  }
+}
+
 </style>
