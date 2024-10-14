@@ -24334,8 +24334,6 @@
             ]
         },
         {
-            "pages": [
-                {
                     "id": "pilotv5e58",
                     "title": "Pilotv5 Epoch 58 Hindi",
                     "samples": [
@@ -25880,8 +25878,6 @@
                             "audio": "samples14/sample_out_220.wav"
                         }
                     ]
-                }
-            ]
         }
     ]
 }
