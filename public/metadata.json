@@ -26626,6 +26626,586 @@
                     "audio": "samples15/sample_out_120.wav"
                 }
             ]
+        },
+        {
+            "id": "hf_pilotv1_indic",
+            "title": "HF Pilotv1 Indic",
+            "samples": [
+                {
+                    "language": "Assamese",
+                    "text": "মই নাজানো বুলি ভাবিছ যে সেই মাটিখিনি তই অন্যায় কৰি দেউতাৰ",
+                    "description": "Amit speaks in a deep voice at a slightly rapid pace, his tone somewhat flat and unemotional. The recording quality is good, capturing his voice with clarity as if he's speaking in a room with some ambient background noise. The close-sounding environment and good speech quality result in a clear and resonant sound.",
+                    "transliteration": "moi najanu buli bhabis je xei matikhini toi onyaa kori deutar",
+                    "audio": "samples16/sample_out_1.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "বানত ভোগদৈৰ দলঙ উটি যোৱাৰ বাবে অভিনন্দন জ্ঞাপন কৰিছে",
+                    "description": "Amit delivers a news report in a close-sounding environment with very little background noise. His voice is low in pitch and somewhat flat, lacking the emotional depth one might expect from a news anchor. However, the recording quality is excellent, capturing his words with clarity as if he's speaking directly into the microphone. Despite his somewhat slow and slightly monotone delivery, the overall speech quality remains great, making it easy to follow along with his report.",
+                    "transliteration": "baanot bhugdoir dolong uti juwar baabe obhinondon gyapon korise",
+                    "audio": "samples16/sample_out_2.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "দিৱালী এক পাঁচ-দিনীয়া অনুষ্ঠান য'ত পোহৰৰ উৎসৱ উদযাপন কৰা হয়।",
+                    "description": "Sita, a woman, delivers a somewhat fast but controlled command speech in an acoustically balanced room. The moderate ambient sound and the close-sounding environment create a sense of intimacy, while her moderate-pitched voice maintains a steady tone that's slightly flat but not unengaging. Despite the neutral emotional tone, her confident delivery carries authority. The great speech quality, likely due to the good recording, captures the nuances of her slightly rapid speech, making it easy to follow and understand.",
+                    "transliteration": "diwali ek paas-diniya onusthan zo'too puhoror utxob udjapon koraa hoy.",
+                    "audio": "samples16/sample_out_3.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "বিক্ৰীৰ ক্ষেত্ৰত এয়া এটা নতুন অভিলেখ বুলিও তেওঁ কয়।",
+                    "description": "Sita, a woman, speaks in a room with a close sound, her voice carrying with slight clarity. Her delivery is moderately dynamic, displaying a range of emotions, particularly sadness, as she speaks at a slightly rapid pace. With a moderate pitch, her voice is neither too low nor too high, and the great recording quality captures the nuances of her emotional speech, maintaining a high level of clarity and intelligibility.",
+                    "transliteration": "bikrir khetrot eyaa etaa notun obhilekh buliu teu koy.",
+                    "audio": "samples16/sample_out_4.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "পিছে দুৰ্ভাগ্য কৰ্তব্য থকা বুলি জানি যোৱাৰ লগে লগে তেওঁৰো তেনেই ছিগিল",
+                    "description": "Amit speaks in a deep, slightly low-pitched voice at a moderate pace, his tone somewhat flat and unemotional in a narration-style delivery. The recording quality is excellent, capturing his voice with clarity and minimal background noise as if he's speaking directly into the microphone. The close, yet not overpowering, sound quality complements his voice, resulting in a rich, resonant sound.",
+                    "transliteration": "piche durbhagyo kortobyo thoka buli jaani juwar loge loge teuru tenei sigil",
+                    "audio": "samples16/sample_out_5.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "এখানে প্রতিটা ম্যাচ দেখে অবস্থা অনুযায়ী আমি দল বাছব",
+                    "description": "Aditi, a woman with a slightly high-pitched voice, speaks in a commanding tone at a moderate pace. The recording has a close, intimate feel, and the slight background noise is barely noticeable, contributing to a clear and crisp audio quality. Despite her somewhat assertive demeanor, her dynamic delivery showcases a range of emotions. The great recording quality allows her voice to shine, with her slightly elevated pitch giving her speech a sense of intensity and authority.",
+                    "transliteration": "ekhane protita match dekhe abostha anujai aami doll bachhob",
+                    "audio": "samples16/sample_out_6.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "মঙ্গলবার গভীর রাতে, ঘটনাটি ঘটেছে, জগদ্দল থানার কাঁকিনাড়া মণ্ডলপাড়ায়",
+                    "description": "Arjun, a man with a voice that sounds like it's coming from a relatively small, well-enclosed space, speaks in a clear manner, although with a hint of background noise. His tone is somewhat flat and emotionless, lacking vibrancy. He delivers his speech at a pace that's slightly quicker than average, his low-pitched voice complemented by the excellent recording quality, which captures every detail of his voice with clarity.",
+                    "transliteration": "mangalbar govir raate, ghotonati ghoteche, jagaddal thanar kankina mandalpava",
+                    "audio": "samples16/sample_out_7.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "নিজেই জানালেন ব্যাঙ্ককের পর তাঁর গন্তব্যস্থল,লিয়ঁ মস্কো সেন্ট পিটার্সবার্গ",
+                    "description": "In a well-captured conversation, Aditi, a woman with a voice that's slightly high in pitch, speaks at a slightly slow pace, her tone moderately dynamic and engaging. The recording quality is excellent, with a close, intimate sound that suggests she's speaking directly into the microphone. The presence of some ambient noise is barely noticeable, and the overall speech quality is great, allowing her Proper noun to shine through with clarity and precision.",
+                    "transliteration": "nijei janalen bankoker porr taanr gontobyosthol,linb mosco seenta pietersberg",
+                    "audio": "samples16/sample_out_8.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "সর্দি কাশি আর মাথাব্যাথা সহকারে জ্বর কাল মাঠে নামতে দেয়নি",
+                    "description": "Arjun speaks with a slightly high-pitched voice at a slightly fast pace, his tone somewhat flat and unemotional. The recording quality is excellent, capturing his voice clearly and closely, as if he's speaking directly into the microphone. His somewhat angry delivery is somewhat muted due to his slightly monotone tone, but the great speech quality ensures that the nuances of his voice remain distinct.",
+                    "transliteration": "sordi kashi arr mathabyatha sahokare jwar cull maatthe namte deni",
+                    "audio": "samples16/sample_out_9.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "ভারতের উদ্বেগ এর ফলে উপমহাদেশে অস্ত্রদৌড় আরম্ভ হতে পারে",
+                    "description": "Arjun, a man, speaks in a voice with a slightly low pitch at a moderate pace, his tone somewhat flat and unemotional with a hint of slight monotone. The recording quality is good, capturing his voice with slight clarity as if he's speaking directly into the microphone. His Indic accent is evident in his speech, and the overall sound is clear, with minimal background noise.",
+                    "transliteration": "bharoter udweg err foley upomohadeshe astradou arambha hotey paare",
+                    "audio": "samples16/sample_out_10.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "आंननि आखाइ फारनैआव साफा साफा सानै गार्दआ हमनानै लायो",
+                    "description": "Maya, a woman with a high-pitched voice, delivers a somewhat fast but highly dynamic speech. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone. Her tone is full of surprise, evident in her animated and expressive delivery. The combination of her high pitch and the high-quality audio results in a bright and engaging sound, making her speech feel lively and engaging.",
+                    "transliteration": "angnoni akhai farnwiao safa safa sanwi gardah homnanwi layw",
+                    "audio": "samples16/sample_out_11.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "आं आंनि लोगोखौ बै सिख्लाजों लोगो हमलायनायखौ नुना जोबोद गोजोन मोन्दों।",
+                    "description": "Bikram, a male with a moderately pitched voice, delivers news in a tone that's somewhat flat and unemotional, speaking at a normal pace. The recording quality is excellent, capturing his voice with clarity and a slight hint of intimacy, as if he's speaking directly into the microphone.",
+                    "transliteration": "ang angni lwgwkwo bwi siklajwng lwgw homlainaikwo nuna jwbwd gwjwn mwndwng.",
+                    "audio": "samples16/sample_out_12.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "बै गु नम्बर रुमाव आंनि बयफ्रेन्द इगर प्रष्टारभ जों दंमोन आं",
+                    "description": "Maya, a woman with a high-pitched voice, delivers a speech at a slightly fast pace in what sounds like a close, well-appointed room. The recording quality is excellent, capturing her voice clearly and conveying the nuances of her moderately dynamic delivery. Although the recording environment is intimate, Maya's speech remains easy to follow, and her slightly high pitch adds to the overall clarity of the audio.",
+                    "transliteration": "bwi gu nombor rumao angni boiprendo igor prostarov jwng dongmwn ang",
+                    "audio": "samples16/sample_out_13.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "आयै, गामिनि सेंग्रा सिख्लाफ्रा मोसानो जोंनाव फैगासिनो दं",
+                    "description": "Maya speaks in a warm, slightly high-pitched voice at a moderate pace. The recording is a good one, capturing her voice clearly without excessive background noise. The conversation flows naturally, with Maya's delivery showing a range of emotions and a hint of enthusiasm. Her dynamic tone adds depth to her speech, and her proximity to the microphone ensures that the recording quality remains excellent throughout.",
+                    "transliteration": "aywi, gamini sengra siklapra mwsanw jwngnao fwigasinw dong",
+                    "audio": "samples16/sample_out_14.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "हाल्वा क्राफ्ट बादामनि हालवानि दायऔनि सोलायै आं गुबुन मोनसेखौसो मोनदों।",
+                    "description": "Maya delivers a commanding speech in a room that sounds close and intimate, with some minor background noise barely noticeable. Her voice, slightly higher in pitch than average, carries a sense of authority. She speaks at a moderate pace, her tone dynamic and engaging, with a hint of assertiveness. The great recording quality captures the full range of her voice, resulting in a rich and clear sound.",
+                    "transliteration": "halwa cruft badamni halwani daywoni swlaywi ang gubun mwnsekwosw mwndwng.",
+                    "audio": "samples16/sample_out_15.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "आहार के गैर पोसक घटक म चाय कॉफी अउ कोल्ड ड्रिंक आथे",
+                    "description": "Bhanu speaks with a slightly high pitch, delivering his words at a moderate pace, and exhibits a slightly monotone tone, making his voice sound slightly clear and close-sounding.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_16.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "फिल्‍म मेंकिंग कोर्स के पढ़ई करे ले अच्‍छा करियर बनाए जा सकथे",
+                    "description": "Bhanu's voice is a rich, moderately dynamic male tone that comes across as close-sounding, allowing for clear understanding despite some slight room ambiance. His speech is delivered at a slightly slow pace, but the high pitch of his voice adds a sense of energy. With great speech quality, Bhanu's voice is a pleasure to listen to.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_17.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "जात बखत छरा देत जावे अउ लहुटे के बखत पानी छींचत आवे ।",
+                    "description": "Champa's speech is a close-sounding and clear delivery, slightly expressive and well-articulated with great speech quality, delivered at a moderate pace with a moderate pitch, showcasing a confident female voice.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_18.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "विंबलडन ला ग्रास कोर्ट म खेले जाथे, यू.एस ओपन हार्ड कोर्ट म घलोक खेले जाथे",
+                    "description": "Champa's speech is characterized by a close-sounding reverberation, maintaining a great quality with minimal background noise. Her voice tone is moderately dynamic with a slightly high pitch, and she delivers her words at a moderate speed, creating a clear and well-articulated speech.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_19.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "जिसलै अज्ज बजारै च क्रिप्टोकरेंसी दी कीमता च भारी गिरावट आई, में बेखबर हा।",
+                    "description": "Karan, a man with a slightly high-pitched voice, delivers a somewhat flat and unemotional speech in a clear and intimate setting. His tone is somewhat monotone, but his slightly fast pace still conveys a sense of urgency. The recording quality is excellent, capturing his voice with great clarity and depth. Karan's commanding tone is evident in his confident delivery, and the good acoustics enhance the overall richness of his voice.",
+                    "transliteration": "jisalai ajja bajārai ca kripṭōkarēṁsī dī kīmatā ca bhārī girāvaṭa āī, mēṁ bēkhabara hā.",
+                    "audio": "samples16/sample_out_21.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "इस बʼरै खासे मते टैक्स रिफंड दे बारे च सनेहा मिलने पर में बड़ा खुश आं। (में)",
+                    "description": "In a well-captured, intimate space with minimal background noise, Karan delivers his narration with a moderate pitch and a steady, somewhat flat tone that's only slightly expressive. He speaks at a slightly fast pace, which suits the engaging nature of his narrative. The excellent recording quality showcases his voice with clarity and precision, resulting in a rich and resonant sound.",
+                    "transliteration": "isa börai khāsē matē ṭaiksa riphaṁḍa dē bārē ca sanēhā milanē para mēṁ baṛā khuśa āṁ. (mēṁ)",
+                    "audio": "samples16/sample_out_22.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "ओबामा आसेआ भारत दे बारे च  गैर-मनासब तरीके कन्नै बोलने मूजब में गुस्से हा।",
+                    "description": "Karan, a man with a slightly low-pitched voice, speaks in a slightly fast pace with a somewhat flat tone. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone. Despite the slight monotony in his delivery, the close sound and great speech quality make his narration sound rich and engaging.",
+                    "transliteration": "ōbāmā āsēā bhārata dē bārē ca  gaira-manāsaba tarīkē kannai bōlanē mūjaba mēṁ gussē hā.",
+                    "audio": "samples16/sample_out_23.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "एह्‌‌ मुलुगु कोला 17 कि.मी ते वारंगल, तेलंगाना कोला 80 कि.मी दूर वाक्या ऐ।",
+                    "description": "Karan speaks in a room that feels intimate and close, with his voice coming through with a hint of clarity. His tone is somewhat flat, with a slight hint of expression that doesn't quite break through the monotone nature of his delivery. He speaks at a normal pace, but his slightly high-pitched voice adds a touch of vibrancy to the conversation. The great recording quality, however, showcases Karan's voice without any significant issues, making it a pleasure to listen to his conversation.",
+                    "transliteration": "ēh mulugu kōlā 17 ki.mī tē vāraṁgala, tēlaṁgānā kōlā 80 ki.mī dūra vākyā ai.",
+                    "audio": "samples16/sample_out_24.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "में बिरोसान आं जे लोक क्रैडिट कार्ड दे ब्याजै पर इन्ना खर्च करने आस्तै त्यार न।",
+                    "description": "Karan speaks in a somewhat high-pitched voice at a slightly fast pace, his tone showing signs of moderate emotional depth. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone in a close, intimate setting. The combination of his slightly high pitch and the high-quality audio results in a rich, resonant sound, making his conversation engaging and easy to follow.",
+                    "transliteration": "mēṁ birōsāna āṁ jē lōka kraiḍiṭa kārḍa dē byājai para innā kharca karanē āstai tyāra na.",
+                    "audio": "samples16/sample_out_25.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "Raman continued I am blessed to see all these persons reborn as donkeys",
+                    "description": "Dinesh's speech is delivered at a moderate speed with a moderately dynamic tone. His voice has a slightly high pitch and is close-sounding, indicating minimal reverberation. The overall speech quality is good and the audio is slightly clear, with minimal background noise. Dinesh speaks with a Telugu accent.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_26.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "Also Read- Mumbai- Half of law batch fails exam, college says no to retest",
+                    "description": "This speech sample features Riya, a female speaker with a moderate pitch voice, delivering her words at a moderate speed. Her expressive tone resonates through the closed surroundings, providing a close-sounding and clear audio experience. The good speech quality and lack of ambient noise make this a well-recorded conversation.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_27.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "The fact was, not a single drop of rain had fallen on Vijaya Nagar that day.",
+                    "description": "Riya's speech is characterized by a clear, close-sounding recording quality, showcasing a great speech quality. Her voice is delivered slightly slowly and moderately dynamically, with a slightly low pitch.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_28.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "where they sum up every thing by saying its your fault that has lead to this.",
+                    "description": "Riya speaks with a Malayalam accent, delivering her words at a moderate speed. Her female voice has a moderately dynamic tone, showcasing a range of emotions. The recording quality is good, with a close-sounding reverberation that suggests a clear and well-captured audio. Riya's pitch is moderate, adding to the overall pleasantness of her speech. Her voice is clear and free of noise, making the recording easy to understand. Overall, the speech quality is great.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "samples16/sample_out_30.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "પોતાનું હેમખેમ અસ્તિત્વ, હચમચી ગયાનો ઊંડો ઘા, જોઈ શકાય છે.",
+                    "description": "Neha's speech is characterized by a close-sounding, moderately intimate quality, with a slightly clear tone that effectively conveys her expressive and emotive delivery, which is slightly slow-paced and soothing. Her slightly low pitch adds depth to her voice, and the great speech quality ensures a clear and articulate presentation.",
+                    "transliteration": "potaanu hemkhem astitva, hachamchi gayaano undo ghaa, joee shakaay chhe.",
+                    "audio": "samples16/sample_out_31.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "મનુષ્યની ઉગ્રતા, બ્રહ્મ મુહુર્તમાં, અને રાત્રી દરમ્યાન ઠંડી રહે છે.",
+                    "description": "Neha speaks with an expressive tone, conveying enthusiasm behind her words. Her voice is a female one, which resonates close-sounding and clear, albeit slightly noisy at times. She delivers her speech at a slightly slow pace, with a moderate pitch that adds depth to her communication. With great speech quality, Neha's voice makes her words engaging and easy to follow.",
+                    "transliteration": "manushyani ugrataa, brahm muhurtmaan, aneey raatri darmyaan thandee rahe chhe.",
+                    "audio": "samples16/sample_out_32.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "માર્કંડેય, જેમજેમ, ઉંમરમાં ખીલતો જાય, તેમતેમ, માબાપનાં, વદન, મ્લાન, થતાં જાય.",
+                    "description": "Yash's clear and well-articulated voice is close-sounding, with a slightly monotone tone that reveals a slightly slow and measured pace. His slightly low pitch adds a sense of calmness to his delivery, and he maintains a great speech quality throughout.",
+                    "transliteration": "markandey, jamjame, umarmaan kheelato jaay, temtem, mabapna, vadan, mlaan, thataa jaay.",
+                    "audio": "samples16/sample_out_33.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "મનુષ્યની ઉગ્રતા, બ્રહ્મ મુહુર્તમાં, અને રાત્રી દરમ્યાન ઠંડી રહે છે.",
+                    "description": "Yash's voice is a rich, moderately dynamic tone with a slightly low pitch, speaking at a slightly slow pace. The recording has a close-sounding reverberation and great speech quality, making it clear with only a hint of noise.",
+                    "transliteration": "manushyani ugrataa, brahm muhurtmaan, aneey raatri darmyaan thandee rahe chhe.",
+                    "audio": "samples16/sample_out_34.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "મહાવદ ચૌદસના દિવસે, આવતી મહાશિવરાત્રીનું હિન્દુ સંસ્કૃતિમાં અનન્ય મહિમા છે.",
+                    "description": "Neha's voice is characterized by a close-sounding reverberation, a slightly clear quality, and a moderate pitch. Her speech is delivered at a slow pace with an expressive tone, resulting in good speech quality.",
+                    "transliteration": "mahavad chaudasna divase, aavtee mahashivratrinu hindu sanskrutima ananya maheema chhe.",
+                    "audio": "samples16/sample_out_35.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "अन्तिम तीन, बहु अनूदित कवि हैं, और नागार्जुन, बहुत कम अनूदित",
+                    "description": "Aman's speech is delivered in a monotone tone with a slightly low pitch, showcasing great speech quality through a clear and well-recorded audio sample with a close-sounding level of reverberation.",
+                    "transliteration": "antim teen, bahu anoodit kavi hain, aur nagarjun, bahut cumm anoodit",
+                    "audio": "samples16/sample_out_36.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "रेडियो पत्रकारों को अपने श्रोताओं का पूरा ध्यान रखना चाहिए|",
+                    "description": "Aman's voice is a male tone that sounds close to the listener with minimal ambient noise, delivering the speech at a moderate pace with a slightly low pitch and great speech quality, while maintaining a slightly monotone tone.",
+                    "transliteration": "radio patrakaron koo apane shrotaon kaa puuraa dhyaan rakhna chaahiye|",
+                    "audio": "samples16/sample_out_38.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "आपको इसमें कोई एतराज़ न हो, तो अवश्य ही हम दोनो मित्र बन सकते हैं",
+                    "description": "The spoken words belong to Aman, a male speaker, who delivers his speech in a clear and concise manner. The sound of his voice is slightly close-sounding, as if he's speaking in a relatively intimate setting. His tone is moderately dynamic, conveying a sense of enthusiasm and engagement. Aman speaks at a moderate speed, neither rushing nor dragging his words. His voice has a moderate pitch, falling within a comfortable range. His speech quality is great, indicating a high level of articulation and clarity.",
+                    "transliteration": "aapako isamen koee etaraan naan hoe, tou avashya hii humm dono mitra bunn sakate hain",
+                    "audio": "samples16/sample_out_39.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "वह छवि है निर्दोष लोगों पर गोलियाँ चलाना, बम विस्फोट करना, क़त्लेआम करना आदि",
+                    "description": "Rani's voice is characterized as a female tone, speaking at a moderate pace with a slightly monotone delivery. Her voice has a slightly low pitch, but it's remarkably clear with good recording quality, conveying a close-sounding atmosphere. Overall, the speech quality is great, with minimal ambient noise, resulting in a nearly pristine audio sample.",
+                    "transliteration": "vaha chhavi haye nirdosh logon parr goliyaan chalaana, bumm visfot karna, qatleaam karna aadi",
+                    "audio": "samples16/sample_out_40.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಅದನ್ನು ಆತನು ರಹಸ್ಯವಾಗಿ ನಮ್ಮ ತಂದೆಯಾದ ತ್ವಷ್ಟೃಬ್ರಹ್ಮನಿಗೆ ಅನುಗ್ರಹಿಸಿದನು.",
+                    "description": "Anu, a woman with a slightly high-pitched voice, speaks at a moderate pace in a well-suited acoustic environment that captures her voice clearly and with a hint of closeness. Her delivery is moderately dynamic, conveying a sense of fear as she navigates her words. The recording quality is excellent, showcasing Anu's voice with great clarity and resonance.",
+                    "transliteration": "adannu aatanu rahasyavaagi namma tandeyaada tvashtrubrahmanige anugrahisidanu.",
+                    "audio": "samples16/sample_out_41.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಇದು ಹೋಳಿ ಹಬ್ಬ ಆದರೆ ಮಣಿಪುರದ ಜನರು ಯೌಸಂಗ್ ಎಂಬ ಪ್ರಾದೇಶಿಕ ಹೆಸರನ್ನು ನೀಡಿದ್ದಾರೆ.",
+                    "description": "Anu, a woman, speaks in a voice with a moderate pitch, delivering a speech that is somewhat fast, yet not rushed. The recording quality is clear, capturing the nuances of her moderately dynamic tone, which is tinged with sadness. Her words come through with good clarity, despite being slightly close to the microphone, and the overall quality of her speech remains good.",
+                    "transliteration": "idu hooli habba aadare manipurada janaru yousung emba praadeshika hesarannu niididdaare.",
+                    "audio": "samples16/sample_out_42.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಮೇಲ್ಕಂಡ ನನ್ನ ಹೇಳಿಕೆಯು ಕೇವಲ ಆರೋಪವಲ್ಲ, ಇದಕ್ಕೆ ಪುರಾವೆಗಳಿವೆ.",
+                    "description": "Anu speaks with a neutral tone and a moderate-pitched voice at a moderate pace. The recording quality is excellent, capturing her voice with clarity in a close, well-suited acoustic environment. Her slightly clear delivery shows hints of dynamic expression, and despite a neutral tone, her speech remains engaging and well-articulated, reflecting a great overall quality.",
+                    "transliteration": "melkanda nanna helikeyu kevala aaropavalla, idakke puraavegalive.",
+                    "audio": "samples16/sample_out_43.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಪಂಡಿತರು ಮತ್ತು ಜ್ಯೋತಿಷಿಗಳ ವಿರುದ್ಧ ಅವರು ಹಿಗ್ಗಾಮುಗ್ಗಾ ಮಾತಿನ ಹಲ್ಲೆ ಎಸಗಿದ್ದಾರೆ.",
+                    "description": "Anu delivers a narration in a low, somewhat soft voice at a normal pace. The recording quality is excellent, capturing her voice clearly as if she's speaking directly into the microphone. Her tone is somewhat flat and unemotional, but this subtle monotone does not detract from the overall quality of her narration, which remains engaging and easy to follow despite her proximity to the microphone.",
+                    "transliteration": "panditaru mattu jyotishigala viruddha avaru higgamugga maatina halle esagiddaare.",
+                    "audio": "samples16/sample_out_44.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ನೀನದನ್ನ ಗೂಗಲ್‌ ಪ್ಲೇ ಸ್ಟೋರ್‌ನಿಂದ ಸುಲಭವಾಗಿ ಡೌನ್‌ಲೋಡ್‌ ಮಾಡ್ಕೊಬಹುದು.",
+                    "description": "In a well-captured, close environment with a smooth echo, Suresh, a man with a moderate-pitched voice, delivers a speech in a somewhat flat but clear tone. He speaks at a slightly slow pace, and despite the somewhat limited emotional depth of his delivery, the overall speech quality remains excellent. The conversation-style speech is well-recorded, with Suresh's voice sounding direct and engaging.",
+                    "transliteration": "ninadanna googal‌ play store‌ninda sulabhavaagi down‌load‌ maadkobahudu.",
+                    "audio": "samples16/sample_out_45.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "വീതിയുള്ള ചുവന്ന കരയുള്ള സാരികളെക്കുറിച്ചാണ് ഞാൻ ചോദിക്കുന്നത്.",
+                    "description": "Anjali, a woman, speaks in a somewhat high-pitched voice that sounds as if she's speaking from a slightly enclosed space, but the recording quality is excellent, capturing her voice with clarity. Her tone is somewhat flat and unemotional, but her slightly fast delivery is engaging. Overall, the recording is of great quality, and Anjali's conversation sounds natural and well-defined.",
+                    "transliteration": "veethiyulla chuvanna karayulla saarikalekkurichaan njaan chodikkunnathu.",
+                    "audio": "samples16/sample_out_46.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "വന്ദ്യരായ രാജ്ഞിയും രാജാവും നൃത്തഗീത എന്നീ പ്രദര്ശനത്തില് പങ്കെടുക്കുന്നുണ്ട്",
+                    "description": "Anjali, a woman with a slightly high-pitched voice, speaks at a slightly fast pace in a well-recorded environment that is close to the microphone. Her tone is slightly monotone, but the excellent recording quality, which captures her voice with clarity, makes it easy to understand her. The combination of her voice characteristics and the high-quality audio results in a clear and well-defined sound.",
+                    "transliteration": "vandyaraaya raajnjiyum rajaavum nrithageetha ennee pradharshanatthil pankedukkunnundu",
+                    "audio": "samples16/sample_out_47.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "പൊതുമേഖല സ്വകാര്യ മേഖല പോലാവുമ്പോള് എന്താ ചെയ്യുക ?",
+                    "description": "In a recording with a clear and intimate sound, Anjali delivers a narration in a moderate-pitched voice. Her slightly fast speech is characterized by a somewhat flat and unemotional tone, but it still maintains a level of engagement due to her slightly dynamic delivery. The great speech quality of the recording captures her voice with clarity, resulting in a rich and resonant sound.",
+                    "transliteration": "pothumekhala swakaarya mekhala polaavumbolu enthaa cheyyuka ?",
+                    "audio": "samples16/sample_out_48.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "ആദ്യമായിട്ടാണ് മലയാളി താരത്തിന് ബഹുമതി ലഭിക്കുന്നത്",
+                    "description": "In a room with a close sound, Anjali's voice comes through with minimal background noise, slightly clear and engaging. She speaks at a rapid pace with a hint of youthful energy, her tone reflecting her happy demeanor. The slight rise in her pitch adds to the dynamism of her delivery, and the recording quality is excellent, capturing every nuance of her speech with great clarity and precision.",
+                    "transliteration": "aadyamaayittaanu malayaali thaarathinu bahumati labhikkunath",
+                    "audio": "samples16/sample_out_49.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "റെസ്റ്റോറന്‍റ് വൃത്തിയുണ്ടായിരുന്നില്ല, കുറച്ച്   പാറ്റകൾ ഓടുന്നത് ഞാൻ കണ്ടു.",
+                    "description": "Anjali, a woman with a moderate-pitched voice, delivers news in a room with an intimate, close atmosphere. Her tone is somewhat flat and unemotional, characteristic of a slightly monotone delivery. The recording quality is excellent, capturing her voice with clarity. She speaks at a normal pace, and the great speech quality makes her voice sound rich and resonant.",
+                    "transliteration": "restoranu‍rr vrithiyundaayirunnilla, kurachu   paattakal oodunnathu njaan kandu.",
+                    "audio": "samples16/sample_out_50.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "থম্জবা ময়াম্দু, পুথোক্ পুথোক্তুনা, পক্চবা য়েংলা য়েংলগা.",
+                    "description": "Laishram delivers a speech with great speech quality, her tone is slightly expressive and moderately pitched, and she speaks at a slightly slow pace. The recording is close-sounding, suggesting a good quality recording environment, and the audio is clear of any significant background noise.",
+                    "transliteration": "থম্জবা ময়াম্দু, পুথোক্ পুথোক্তুনা, পক্চবা য়েংলা য়েংলগা.",
+                    "audio": "samples16/sample_out_51.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "থম্জবা ময়াম্দু, পুথোক্ পুথোক্তুনা, পক্চবা য়েংলা য়েংলগা.",
+                    "description": "Laishram speaks with a slightly monotone tone, delivering her words at a slightly slow pace, while maintaining a moderate pitch. The audio sample features a female voice with great speech quality, recorded in a close-sounding environment with clear sound, indicating a good recording.",
+                    "transliteration": "থম্জবা ময়াম্দু, পুথোক্ পুথোক্তুনা, পক্চবা য়েংলা য়েংলগা.",
+                    "audio": "samples16/sample_out_52.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "থম্জবা ময়াম্দু, পুথোক্ পুথোক্তুনা, পক্চবা য়েংলা য়েংলগা.",
+                    "description": "Ranjit's voice is characterized by a low pitch, delivered at a slightly slow pace, and has a somewhat monotone tone. The recording quality is excellent, with a close-sounding and clear sound, indicating a good recording. Overall, the speech quality is good.",
+                    "transliteration": "থম্জবা ময়াম্দু, পুথোক্ পুথোক্তুনা, পক্চবা য়েংলা য়েংলগা.",
+                    "audio": "samples16/sample_out_53.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "গবর্নযেম্ভনা লোয়শিন্নবা সেন্তেরদা তকশিন্দুনা লাকখিবনি.",
+                    "description": "Laishram's speech is delivered in a close-sounding, slightly clear tone, showcasing a female voice with a moderately dynamic tone that adds a sense of enthusiasm to her words.",
+                    "transliteration": "গবর্নযেম্ভনা লোয়শিন্নবা সেন্তেরদা তকশিন্দুনা লাকখিবনি.",
+                    "audio": "samples16/sample_out_54.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "গবর্নযেম্ভনা লোয়শিন্নবা সেন্তেরদা তকশিন্দুনা লাকখিবনি.",
+                    "description": "Laishram's speech is a distant-sounding, clear female voice with a slightly monotone tone, delivered at a slow pace and with great speech quality.",
+                    "transliteration": "গবর্নযেম্ভনা লোয়শিন্নবা সেন্তেরদা তকশিন্দুনা লাকখিবনি.",
+                    "audio": "samples16/sample_out_55.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "हा टूर गट एवढा अव्यवस्थित आहे यावर माझा विश्वासच बसत नाही.",
+                    "description": "Sunita, a woman, delivers her somewhat sorrowful speech with a voice that has a slightly high pitch, coming through clearly in a space with a minimal echo, but only just close enough to the microphone to avoid distortion. Her somewhat fast-paced delivery is also accompanied by a tone that is slightly flat and unemotional. The excellent recording quality captures her voice with clarity, resulting in a rich and resonant sound, despite her slightly fast and somewhat monotone delivery.",
+                    "transliteration": "haah tour gut evadha avyavasthit aahe yavar majha vishvasach basat nahee.",
+                    "audio": "samples16/sample_out_56.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "यानंच या प्रवाशाचा खून केला असेल आणि स्वत: साळसूदपणा दाखवीत आहे.",
+                    "description": "Sanjay speaks with a somewhat high-pitched voice at a moderate pace, his tone somewhat flat and unemotional. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone. His delivery is infused with a sense of disgust, which is evident in the slight monotone quality of his voice. The overall result is a rich, resonant sound with great speech quality.",
+                    "transliteration": "yananch yaa pravashacha khoon keela asel aanee swat: salsudpana dakhvit aahe.",
+                    "audio": "samples16/sample_out_57.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "तू उत्तम काम केलंयस आणि ते ठरवलेल्या तारखेआधीच पूर्णही केलंयस.",
+                    "description": "Sunita, a woman, speaks with a voice that's slightly high in pitch in a room that sounds close, almost as if she's speaking directly to the microphone. Her clear tone shows some signs of vibrancy, and she delivers her words at a slightly rapid pace. The overall quality of the recording is excellent, capturing the nuances of her conversation. Her dynamic tone adds a touch of liveliness to the otherwise straightforward exchange.",
+                    "transliteration": "tuu uttam kaam kelanyas aanee teey tharavalelya tarkheaadhich purnahi kelanyas.",
+                    "audio": "samples16/sample_out_58.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "अरे, भारी! तू या रंगाची सायकल घेशील असे कधीच वाटले नव्हते मला.",
+                    "description": "Sanjay speaks in a neutral tone at a moderate pace, his voice pitched neither too high nor too low. The recording quality is excellent, with his voice captured clearly in a close-sounding environment. His delivery is somewhat flat, lacking the emotional depth that a slightly more expressive tone would add. However, the high-quality audio shines through, presenting his speech in a rich and clear manner.",
+                    "transliteration": "arey, bharee! tuu yaa rangachi cycle gheshil asey kadhich vatale navhate mallah.",
+                    "audio": "samples16/sample_out_59.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "सुवासिनींनी तिला वंदन केले. करुणेने सर्वाना प्रणाम केला.",
+                    "description": "In a room with a close, intimate acoustic, Sunita, a woman with a high-pitched voice, delivers a somewhat rapid but slightly expressive speech. Her tone is candid and conversational. The recording quality is excellent, capturing her voice with clarity as if she's speaking directly into the microphone, and resulting in a vibrant, resonant sound.",
+                    "transliteration": "suvasininni teela vandan kele. karunene sarvana pranam keela.",
+                    "audio": "samples16/sample_out_60.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "तिब्बतमा, साङ्पोले धेरै सहायक नदीहरू प्राप्त गर्दछ।",
+                    "description": "Amrita, a woman with a somewhat high-pitched voice, speaks with enthusiasm and a slightly fast pace, her happy tone evident in her moderately dynamic delivery. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone. The close-sounding environment adds a sense of immediacy, and despite being close to the microphone, the sound remains well-balanced.",
+                    "transliteration": "tibbatma, sangpole dherai sahayak nadiharu prapta gardachha.",
+                    "audio": "samples16/sample_out_61.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "यदि उनीहरूले त्यसपछि पनि केही गरेनन् भने म विरोध मात्र गर्नेछु।",
+                    "description": "Amrita speaks in a voice that is slightly higher in pitch, her tone delivered in a close-sounding environment with minimal background noise. The recording quality is excellent, capturing her speech with great clarity as if she's speaking directly into the microphone. Her delivery shows hints of varying emotion, giving her speech a dynamic quality, despite speaking at a slightly slower pace than usual. Overall, Amrita's speech maintains a neutral tone, and the high-quality audio ensures that her voice is rich and resonant.",
+                    "transliteration": "yadi uniharule tyasapachhi pani kehi garenan bhane mahm virodh matra garnechhu.",
+                    "audio": "samples16/sample_out_62.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "यीमध्ये कुनै एउटा तपाईँको पहिचान प्रमाणित गर्न पर्याप्त हुनेछ।",
+                    "description": "Amrita, a woman, speaks with a slightly high-pitched voice, delivering her words in a somewhat slow and slightly monotone tone. The recording quality is excellent, capturing her voice with great clarity as if she's speaking directly into the microphone. The sound of the space is slightly close, but not overwhelmingly so, and the overall speech quality remains exceptionally good, making Amrita's Proper noun a pleasure to listen to.",
+                    "transliteration": "yimadhye kunai euta tapainko pahichan pramanit garna paryapta hunechha.",
+                    "audio": "samples16/sample_out_63.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "मेरो लुगा च्यातिएको छ। म यस्तो अवस्थामा मञ्चमा जान सक्दिनँ।",
+                    "description": "In a well-recorded environment with minimal echo, Amrita's voice is captured with great speech quality. Her slightly high-pitched voice carries through with slight clarity, and she delivers her Proper noun style of speech at a somewhat slow pace. The dynamic nature of her tone is a notable feature of her speech, making it engaging to listen to. Overall, the recording quality is excellent, showcasing Amrita's expressive speech in a clear and effective manner.",
+                    "transliteration": "mero luga chyatieko chha. mahm yasto awasthama manchama zahn sakdinan.",
+                    "audio": "samples16/sample_out_64.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "खेल आधा घन्टामा सुरु भइरहेछ। किन तपाईँहरू सबैजना अझै वार्म अप गर्नुभएको छैन?",
+                    "description": "Amrita speaks in a voice that's slightly higher in pitch than average, delivering a somewhat dynamic speech at a moderate pace. The recording quality is excellent, capturing her voice with clarity as if she's speaking directly into the microphone. The slight echo contributes to a slightly close-sounding environment, but it doesn't detract from the overall clarity of the recording. Her tone conveys a sense of fear, and the great speech quality allows her emotions to shine through.",
+                    "transliteration": "khel adha ghantama suru bhairahechha. kinn tapainharu sabaijana ajhai warm up garnubhaeko chhaina?",
+                    "audio": "samples16/sample_out_65.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ଗୋପାଳ ଭାଣ୍ଡଙ୍କର ଏ ପ୍ରକାର ମୁହେଁ ମୁହେଁ ଜବାବ୍ ଶୁଣି ଉପସ୍ଥିତ ଲୋକମାନେ ସ୍ତବ୍ଧ ହୋଇଗଲେ ।",
+                    "description": "Manas speaks in a clear and well-recorded tone, with a slightly monotone pitch that falls just slightly below a moderate range, giving his voice a gentle and soothing quality. He delivers his words at a slightly slow pace, allowing each sentence to unfold naturally. Overall, the recording has a great speech quality, suggesting a good production or recording environment.",
+                    "transliteration": "gopala bhandankara aii prakara muhen muhen zabab shuni upasthita lokamane stabdha hoigale .",
+                    "audio": "samples16/sample_out_66.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ବେପାରୀ ଜଣକ କହିଲା, ନା ତାହା ହେବନି, ଆଗେ ପଇସା ଆଣିବୁ ଯା, ପଛରେ ବାଇଗଣ ନେବୁ ।",
+                    "description": "Manas, a male speaker, delivers his speech with moderate speed and a moderate pitch in a close-sounding environment, resulting in a good recording. His voice is moderately dynamic, conveying a range of emotions, and exhibits great speech quality, making it easy to comprehend. The overall sound is clear, with minimal background noise.",
+                    "transliteration": "bepari janaka kahila, naa taaha hebani, aage paisa aanibu jaa, pachare baigana nebu .",
+                    "audio": "samples16/sample_out_67.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ତାଙ୍କୁ ଲାଗିଲା, ତାଙ୍କ ଜୀବନରେ, ଆଉ ସୁଖ ଘଟଣା କିଛି ଘଟିବାର ନାହିଁ ।",
+                    "description": "Manas's speech is delivered in a moderately dynamic tone by a male speaker, with a slightly low pitch that adds depth to his voice. The recording quality is good, with a close-sounding ambiance that suggests a well-controlled environment and a clear, noise-free audio sample, indicating a professional recording. Overall, the speech quality is great, making his words easy to follow and understand at a moderate speed.",
+                    "transliteration": "tanku lagila, taanka jeebanare, aau sukha ghatana kichhi ghatibara naahin .",
+                    "audio": "samples16/sample_out_68.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ପାଣି ଉଛୁଳି ଆସି ସନ୍ୟାସୀ ବସିଥିବା, ବୃକ୍ଷମୂଳକୁ ଚାଲିଆସିଲା ।",
+                    "description": "Debjani's speech is delivered at a slightly slow pace with a moderate pitch, reflecting her calm demeanor. Her voice is expressive and moderately dynamic, conveying a sense of enthusiasm. The recording is clear and has a close-sounding quality, indicating a good recording setup. Overall, the speech quality is great, making it a pleasure to listen to.",
+                    "transliteration": "paani uchhuli aasi sanyasi basithiba, brukhyamoolaku chaliasila .",
+                    "audio": "samples16/sample_out_69.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ଏଥିମଧ୍ୟରେ ରାଣୀଙ୍କର ଗର୍ଭୋଦୟ ହେଲା ଏବଂ ଯଥା ସମୟରେ ଏକ ପୁତ୍ର ଜାତ ହେଲା ।",
+                    "description": "Debjani's speech is delivered in a slightly expressive tone, at a slightly slow pace, with a slightly high pitch, and exhibits great speech quality. The recording captures her voice in close-sounding, clear conditions, suggesting a good quality recording.",
+                    "transliteration": "ethimadhyare raninkara garbhedaya hellah ebong jathaa samayare eka putra jaata hellah .",
+                    "audio": "samples16/sample_out_70.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "मुम्बैनगरस्य स्थानीयवीथिभोजनस्य गन्धः अप्रतिरोध्य एव अस्ति!",
+                    "description": "Aryan speaks in a somewhat high-pitched voice at a normal pace in a room with a close sound, which results in a good sense of depth. His delivery is dynamic, showing a range of emotions, and is delivered clearly, with some background noise barely noticeable. The excellent recording quality captures his voice with clarity, making it easy to follow his speech.",
+                    "transliteration": "mumbainagarasy sthaaneeyaveethibhojanasy gandhah apratirodhya eva asti!",
+                    "audio": "samples16/sample_out_71.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "अहम् उत्पाद्यं मिल्क् मा ब्रौन् रौटिका इत्यमुं प्रतिदातुम् इच्छामि।",
+                    "description": "Aryan, a man with a high-pitched voice, speaks with slight emphasis, his tone somewhat expressive despite a somewhat slow delivery. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone in a close, well-acoustically treated space. His disgust is palpable in his slightly animated and a bit disapproving tone.",
+                    "transliteration": "aham utpaadyam milk maa braun rautikaa ityamum pratidaatum icchaami.",
+                    "audio": "samples16/sample_out_72.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "परन्तु किं भवान् सर्वेषु कार्यक्रमेषु एतत् कर्तुं शक्नोति ?",
+                    "description": "Aryan speaks in a neutral tone at a normal pace, his voice moderate in pitch and somewhat flat, lacking emotional inflection. The recording quality is excellent, capturing his voice with clarity as if he's speaking directly into the microphone. The close proximity to the microphone contributes to a clear and well-defined sound, resulting in a rich, resonant voice.",
+                    "transliteration": "parantu kim bhavaan sarveshu kaaryakrameshu etat kartum shaknoti ?",
+                    "audio": "samples16/sample_out_73.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "त्वं कदा आगमिष्यसि ? पोलिकां खादन्ती ग्रामे एव मा उपविश ।",
+                    "description": "Aryan speaks in a calm and engaging manner in a well-insulated room with a close sound. His voice is clear and carries a moderate pitch. He delivers the conversation at a slightly slow pace, his tone varying in a moderately dynamic way. The great speech quality and ideal acoustics result in a rich, resonant sound, making it easy to follow his conversation.",
+                    "transliteration": "tvam kadaa aagamishyasi ? polikaam khaadantee graame eva maa upavisha .",
+                    "audio": "samples16/sample_out_74.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "लोकप्रियम् आकर्षणम् उत्तमं न आसीत् यावत् ते उक्तवन्तः तदा अहं व्यग्रः अभवम्।",
+                    "description": "Aryan, a man with a somewhat high-pitched voice, speaks in a room that sounds very close to the microphone. His delivery is slightly expressive, and he speaks at a somewhat slow pace. The recording quality is excellent, capturing his voice with slight background noise but overall great clarity. His happy tone enhances the otherwise relaxed nature of his speech, making the experience of listening to him feel very intimate and engaging.",
+                    "transliteration": "lokapriyam aakarshanam uttamam naa aaseet yaavat te uktavantah tadaa aham vyagrah abhavam.",
+                    "audio": "samples16/sample_out_75.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "மண் பயனுற வாழ்வோரே மக்களாகக் கருதப்படுவர் எஞ்சியோர் மாக்களாகவே கருதப்படுவர்.",
+                    "description": "Jaya's conversation is a close-sounding, moderately dynamic speech sample delivered at a fast pace by a female speaker. The slightly low pitch and great speech quality contribute to an overall clear tone, with some background moderate ambient sound allowing for a natural and engaging conversation.",
+                    "transliteration": "mann payanura vaalvoarae makkalaakak karudhappaduvar enjchiyoar maakkalaakavae karudhappaduvar.",
+                    "audio": "samples16/sample_out_76.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "தேவி, உன் புதல்வன் செய்கையைப் பார்த்தாயா, என் பாட்டனார்.",
+                    "description": "Vinay's voice is a male tone with a slightly close-sounding ambiance, marked by slightly clear audio with minimal background noise. His speech delivery has a slightly monotone quality, but at a moderate pace. The pitch of his voice is slightly low. Overall, the speech quality is great.",
+                    "transliteration": "thaevi, unn puthalvan seikaiyaip parthaya, enn paattanaar.",
+                    "audio": "samples16/sample_out_77.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "கொஞ்சம் சிரமத்தின் பேரில்தான் பெருக்கல் வாய்ப்பாட்டை நெட்டுருப் போட்டேன்.",
+                    "description": "Jaya, a female narrator, delivers a narration with great speech quality, characterised by a close-sounding reverberation. Her tone is slightly monotone but maintains a moderate pace, while her voice pitches at a high level.",
+                    "transliteration": "konjam siramaththin paerilthaan perukkal vaaippaattai netturup pottaen.",
+                    "audio": "samples16/sample_out_78.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "இருபத்தைந்து வயது வாலிபனாக மாறியும் கூட புல் தடுக்கி பயில்வானாகவே இருந்தான்.",
+                    "description": "Vinay's voice is a male's with a slightly monotone tone, delivered at a moderate pace. He speaks with a moderate pitch, which complements the excellent sound quality of this close-sounding recording, achieved through a good recording setup that minimizes ambient noise, resulting in extremely clear audio.",
+                    "transliteration": "irupaththainththu vayathu vaalibanaaga maariyum kooda puul thadukki payilvaanaagavae irunthaan.",
+                    "audio": "samples16/sample_out_79.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "தலைமை மருத்துவன் மன்னா இதற்கு மருந்தே கிடையாது என்று உண்மையைச் சொன்னான்.",
+                    "description": "Jaya speaks with a moderately dynamic tone, her voice having a moderate pitch and a slightly fast pace. She delivers her words in a great speech quality with a close-sounding reverberation, which is only slightly disrupted by some moderate ambient sound.",
+                    "transliteration": "thalaimai maruththuvan mannah idharku marunthae kidaiyaathu endru unmaiyaich sonnaan.",
+                    "audio": "samples16/sample_out_80.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "మాజీ యుఎస్ఎస్ఆర్‌లోని రాజ్యాలు స్వతంత్ర దేశాలు అయ్యాయి.",
+                    "description": "Lalitha's speech is delivered at a slightly slow pace with a moderately dynamic tone. Her voice has a slightly high pitch and good overall speech quality, making it sound clear even with a close-sounding level of reverberation, suggesting a good recording.",
+                    "transliteration": "maajee ussr‌looni rajyalu swatantra deshaalu ayyayi.",
+                    "audio": "samples16/sample_out_81.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "దండనీతి గురించి, నీ అభిప్రాయం ఏమిటి, అని అడిగాడు, రాజు.",
+                    "description": "Lalitha's speech is a close-sounding, moderately dynamic delivery with a slightly high pitch, presented at a moderate speed. Her voice quality is great, with just a hint of slight noise, speaking in a slightly clear tone.",
+                    "transliteration": "dandaneeti gurinchi, nee abhiprayam emiti, anie adigadu, raaju.",
+                    "audio": "samples16/sample_out_82.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "గత ఏడాది ఈ సమయానికే, సబ్సిడీ ప్యాకేజి వెల్లడవడంతో, ముమ్మరంగా అమ్మకాలు సాగాయి.",
+                    "description": "Lalitha's voice is warm and engaging, with a slightly expressive tone and a slightly high pitch. Her speech sounds close-up and intimate, adding to the personal touch of the conversation. The audio quality is superb, with great clarity that allows every word to be clearly heard, despite a slight hint of ambient noise. Overall, Lalitha's speech is clear and easy to follow, making her a pleasure to listen to.",
+                    "transliteration": "gatha edaadi eee samayanike, subsidy pyaakaeji velladavadamtho, mummaramgaa ammakalu sagai.",
+                    "audio": "samples16/sample_out_83.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "బ్రిటిష్ ఈస్ట్ ఇండియా కంపెనీ మద్రాసులో ఫోర్ట్ సెయింట్ జార్జ్‌ని నిర్మించింది.",
+                    "description": "Lalitha's speech is delivered at a moderate pace with a moderate pitch, showcasing great speech quality. The speaker's voice is slightly expressive, giving it a lively tone. The overall sound is close-sounding and slightly clear.",
+                    "transliteration": "british eest india company madraasulo fort seyint george‌nii nirminchindi.",
+                    "audio": "samples16/sample_out_84.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "మాజీ యుఎస్ఎస్ఆర్‌లోని రాజ్యాలు స్వతంత్ర దేశాలు అయ్యాయి.",
+                    "description": "Lalitha, a female speaker, delivers the speech in a close-sounding environment with great speech quality, her voice being slightly clear. Her speech is expressive, with a moderate pitch and moderate speed, creating a lively tone.",
+                    "transliteration": "maajee ussr‌looni rajyalu swatantra deshaalu ayyayi.",
+                    "audio": "samples16/sample_out_85.wav"
+                }
+            ]
         }
     ]
 }
