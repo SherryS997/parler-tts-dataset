@@ -75,9 +75,12 @@
 
 <script>
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router'; // Add this line
 
 export default {
   setup() {
+    const route = useRoute();
+    const router = useRouter();
     const pages = ref([]);
     const currentPage = ref(null);
     const currentSamples = ref([]);
@@ -97,22 +100,50 @@ export default {
         const response = await fetch('metadata.json');
         const data = await response.json();
         pages.value = data.pages;
-        loadPage(pages.value[0]);
-        updateAvailableLanguages();
+
+        if (pages.value.length === 0) {
+          console.warn("No pages found in metadata.");
+        } else {
+          loadPage(pages.value[0]);
+          updateAvailableLanguages();
+        }
       } catch (error) {
         console.error('Error loading metadata:', error);
       }
     };
+
 
     const loadPage = (page) => {
       currentPage.value = page;
       updateCurrentSamples();
       expandedLanguages.value.clear();
       activeLanguage.value = null;
+
+      // Update URL with the current page title
+      router.push({ query: { page: page.title } });
+
+      // Close sidebar on mobile
       if (window.innerWidth <= 768) {
-        showSidebar.value = false; // Close sidebar on mobile
+        showSidebar.value = false;
       }
     };
+
+
+    // const loadPageFromUrl = () => {
+    //   const pageTitle = route.query.page;
+    //   console.log("Query Page Title:", pageTitle);
+    //   console.log("Available Pages:", pages.value); 
+    //   if (pageTitle) {
+    //     const page = pages.value.find(p => p.title === pageTitle);
+    //     if (page) {
+    //       loadPage(page);
+    //     } else {
+    //       loadPage(pages.value[0]); // Load the first page if the title doesn't match
+    //     }
+    //   } else {
+    //     loadPage(pages.value[0]); // Load the first page by default
+    //   }
+    // };
 
     const updateCurrentSamples = () => {
       currentSamples.value = currentPage.value.samples
@@ -169,11 +200,25 @@ export default {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    onMounted(() => {
-      loadMetadata();
-      window.addEventListener('scroll', handleScroll);
-      window.addEventListener('resize', handleResize);
-    });
+    onMounted(async () => {
+    await loadMetadata(); // Wait until metadata is loaded
+    const pageTitle = route.query.page; // Now get the page title from the URL
+
+    // Check if the page title is defined
+    if (pageTitle) {
+        const page = pages.value.find(p => p.title === pageTitle);
+        if (page) {
+            loadPage(page); // Load the specified page if found
+        } else {
+            loadPage(pages.value[0]); // Load the first page as a fallback
+        }
+    } else {
+        loadPage(pages.value[0]); // Default to the first page if no query
+    }
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+});
+
 
     onUnmounted(() => {
       window.removeEventListener('scroll', handleScroll);
@@ -181,6 +226,14 @@ export default {
     });
 
     watch(selectedLanguage, updateCurrentSamples);
+    watch(() => router.currentRoute.value.query.page, (newPageTitle) => {
+      const page = pages.value.find(p => p.title === newPageTitle);
+      if (page) {
+        loadPage(page);
+      } else {
+        loadPage(pages.value[0]); // Fallback to the first page if not found
+      }
+    });
 
     const currentPageTitle = computed(() => currentPage.value ? currentPage.value.title : '');
     const groupedSamples = computed(() => {
