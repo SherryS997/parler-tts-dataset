@@ -1,30 +1,24 @@
 <template>
   <div id="app" class="d-flex flex-column vh-100">
-    <!-- Header -->
-    <header class="sticky-top bg-white text-white shadow-sm">
-      <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <h1 class="navbar-brand mb-0 h1 fw-bold">IndicParler TTS</h1>
-          <div class="d-flex align-items-center">
-            <select v-model="selectedLanguage" @change="handleLanguageChange" class="form-select form-select-sm me-2">
-              <option v-for="lang in availableLanguages" :key="lang" :value="lang">{{ lang }}</option>
-            </select>
-            <button class="navbar-toggler border-0" type="button" @click="toggleSidebar" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <!-- Simplified Header -->
+    <header class="sticky-top bg-primary text-white shadow-sm">
+      <div class="container-fluid d-flex justify-content-between align-items-center py-2">
+        <button class="btn btn-link text-white" @click="toggleSidebar" aria-label="Toggle navigation">
+          <i class="fas fa-bars hamburger-icon"></i>
+        </button>
+        <h1 class="mb-0 h4 fw-bold">IndicParler TTS</h1>
+        <select v-model="selectedLanguage" @change="handleLanguageChange" class="form-select form-select-sm" style="max-width: 150px;">
+          <option v-for="lang in availableLanguages" :key="lang" :value="lang">{{ lang }}</option>
+        </select>
+      </div>
     </header>
 
     <!-- Main content -->
-    <div class="container-fluid flex-grow-1 d-flex flex-column flex-lg-row overflow-auto">
-      <!-- Left Sidebar for Page Navigation -->
-      <nav :class="['col-lg-2 bg-light sidebar left-sidebar', { 'show': showSidebar }]">
-        <div class="sidebar-sticky">
-          <h2 class="sidebar-heading">Pages</h2>
+    <div class="container-fluid flex-grow-1 d-flex overflow-hidden">
+      <!-- Unified Sidebar -->
+      <nav :class="['bg-light sidebar', { 'show': showSidebar }]">
+        <div class="sidebar-sticky p-3">
+          <h2 class="sidebar-heading h5">Pages</h2>
           <ul class="nav flex-column">
             <li class="nav-item" v-for="(page, index) in pages" :key="index">
               <a class="nav-link" @click="loadPage(page)" :class="{ active: currentPage === page }">
@@ -32,88 +26,81 @@
               </a>
             </li>
           </ul>
-        </div>
-      </nav>
-
-      <!-- Main Content Area -->
-      <main class="col-12 col-lg-8 px-4 flex-grow-1 overflow-auto">
-        <h1 class="mt-4 mb-4">{{ currentPageTitle }}</h1>
-        <div v-for="(sample, index) in currentSamples" :key="index" class="sample-container" :id="'sample' + index">
-          <h3>{{ sample.language }} - Sample {{ index + 1 }}</h3>
-          <p><strong>Text:</strong> {{ sample.text }}</p>
-          <p><strong>Transliteration:</strong> {{ sample.transliteration }}</p>
-          <p><strong>Description:</strong> {{ sample.description }}</p>
-          <audio :src="sample.audio" controls preload="none" class="w-100 mb-4"></audio>
-        </div>
-      </main>
-
-      <!-- Right Sidebar for ToC -->
-      <nav class="col-lg-2 d-none d-lg-block bg-light sidebar right-sidebar">
-        <div class="sidebar-sticky">
-          <h2 class="sidebar-heading">Languages</h2>
+          <h2 class="sidebar-heading h5 mt-4">Languages</h2>
           <ul class="nav flex-column">
             <li class="nav-item" v-for="(samples, language) in groupedSamples" :key="language">
               <a class="nav-link" @click="toggleLanguage(language)" :class="{ active: isLanguageActive(language) }">
                 {{ language }}
-                <span class="float-right">{{ isLanguageExpanded(language) ? '▼' : '►' }}</span>
+                <span class="float-end">{{ isLanguageExpanded(language) ? '▼' : '►' }}</span>
               </a>
-              <transition name="fade">
-                <ul v-if="isLanguageExpanded(language)" class="nav flex-column ml-3">
-                  <li class="nav-item" v-for="(sample, index) in samples" :key="index">
-                    <a class="nav-link small" :href="'#sample' + sample.index" @click="setActiveLanguage(language)">
-                      Sample {{ sample.index + 1 }}
-                    </a>
-                  </li>
-                </ul>
-              </transition>
+              <ul v-if="isLanguageExpanded(language)" class="nav flex-column ms-3">
+                <li class="nav-item" v-for="(sample, index) in samples" :key="index">
+                  <a class="nav-link small" :href="'#sample' + sample.index" @click="setActiveLanguage(language)">
+                    Sample {{ sample.index + 1 }}
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
       </nav>
+
+      <!-- Main Content Area -->
+      <main class="flex-grow-1 overflow-auto p-3" :class="{ 'main-shift': showSidebar }">
+        <h2 class="mt-4 mb-4">{{ currentPageTitle }}</h2>
+        <!-- Scrollable language buttons -->
+        <div class="language-buttons mb-4 overflow-auto">
+          <button 
+            v-for="lang in availableLanguages" 
+            :key="lang" 
+            @click="selectedLanguage = lang; handleLanguageChange()"
+            class="btn btn-outline-primary me-2"
+            :class="{ active: selectedLanguage === lang }"
+          >
+            {{ lang }}
+          </button>
+        </div>
+        <div v-for="(sample, index) in currentSamples" :key="index" class="sample-container mb-4 p-3 bg-white rounded shadow-sm" :id="'sample' + index">
+          <h3 class="h5">{{ sample.language }} - Sample {{ index + 1 }}</h3>
+          <div class="sample-text mb-2 p-2 bg-light rounded"><strong>Text:</strong> {{ sample.text }}</div>
+          <div class="sample-transliteration mb-2 p-2 bg-light rounded"><strong>Transliteration:</strong> {{ sample.transliteration }}</div>
+          <div class="sample-description mb-2 p-2 bg-light rounded"><strong>Description:</strong> {{ sample.description }}</div>
+          <audio :src="sample.audio" controls preload="none" class="w-100"></audio>
+        </div>
+        <button @click="scrollToTop" class="btn btn-primary back-to-top" v-show="showBackToTop">Back to Top</button>
+      </main>
     </div>
   </div>
 </template>
 
 <script>
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
 
 export default {
   setup() {
-    const route = useRoute();
-    const router = useRouter();
     const pages = ref([]);
     const currentPage = ref(null);
     const currentSamples = ref([]);
     const expandedLanguages = ref(new Set());
     const activeLanguage = ref(null);
-    const showSidebar = ref(false);
-    const selectedLanguage = ref('Assamese');
+    const showSidebar = ref(window.innerWidth > 768);
+    const selectedLanguage = ref('');
     const availableLanguages = ref([]);
+    const showBackToTop = ref(false);
+
+    const handleResize = () => {
+      showSidebar.value = window.innerWidth > 768; // Update based on window width
+    };
 
     const loadMetadata = async () => {
       try {
         const response = await fetch('metadata.json');
         const data = await response.json();
         pages.value = data.pages;
-        loadPageFromUrl();
+        loadPage(pages.value[0]);
         updateAvailableLanguages();
       } catch (error) {
         console.error('Error loading metadata:', error);
-      }
-    };
-
-    const loadPageFromUrl = () => {
-      const pageTitle = route.query.page;
-      if (pageTitle) {
-        const page = pages.value.find(p => p.title === pageTitle);
-        if (page) {
-          loadPage(page);
-        } else {
-          loadPage(pages.value[0]);
-        }
-      } else {
-        loadPage(pages.value[0]);
       }
     };
 
@@ -122,10 +109,9 @@ export default {
       updateCurrentSamples();
       expandedLanguages.value.clear();
       activeLanguage.value = null;
-      showSidebar.value = false;
-      
-      // Update URL when page changes
-      router.push({ query: { page: page.title } });
+      if (window.innerWidth <= 768) {
+        showSidebar.value = false; // Close sidebar on mobile
+      }
     };
 
     const updateCurrentSamples = () => {
@@ -141,11 +127,13 @@ export default {
           languages.add(sample.language);
         });
       });
-      availableLanguages.value = Array.from(languages);
+      availableLanguages.value = Array.from(languages).sort();
+      if (!selectedLanguage.value && availableLanguages.value.length > 0) {
+        selectedLanguage.value = availableLanguages.value[0];
+      }
     };
 
-    const handleLanguageChange = (event) => {
-      selectedLanguage.value = event.target.value;
+    const handleLanguageChange = () => {
       updateCurrentSamples();
     };
 
@@ -153,24 +141,19 @@ export default {
       if (expandedLanguages.value.has(language)) {
         expandedLanguages.value.delete(language);
       } else {
-        expandedLanguages.value.clear();
         expandedLanguages.value.add(language);
       }
-      scrollToLanguage(language);
     };
 
     const isLanguageExpanded = (language) => expandedLanguages.value.has(language);
     const isLanguageActive = (language) => activeLanguage.value === language;
     const setActiveLanguage = (language) => activeLanguage.value = language;
 
-    const scrollToLanguage = (language) => {
-      const element = currentSamples.value.find(sample => sample.language === language);
-      if (element) {
-        document.getElementById('sample' + element.index)?.scrollIntoView({ behavior: 'smooth' });
-      }
-    };
+    const toggleSidebar = () => showSidebar.value = !showSidebar.value;
 
     const handleScroll = () => {
+      showBackToTop.value = window.scrollY > 200;
+
       const samples = currentSamples.value;
       for (let i = samples.length - 1; i >= 0; i--) {
         const element = document.getElementById('sample' + samples[i].index);
@@ -182,21 +165,21 @@ export default {
       }
     };
 
-    const toggleSidebar = () => showSidebar.value = !showSidebar.value;
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     onMounted(() => {
       loadMetadata();
       window.addEventListener('scroll', handleScroll);
+      window.addEventListener('resize', handleResize);
     });
 
     onUnmounted(() => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
     });
 
-    // Watch for route changes
-    watch(() => route.query.page, loadPageFromUrl);
-
-    // Watch for language changes
     watch(selectedLanguage, updateCurrentSamples);
 
     const currentPageTitle = computed(() => currentPage.value ? currentPage.value.title : '');
@@ -219,6 +202,7 @@ export default {
       showSidebar,
       selectedLanguage,
       availableLanguages,
+      showBackToTop,
       loadPage,
       toggleLanguage,
       isLanguageExpanded,
@@ -226,6 +210,7 @@ export default {
       setActiveLanguage,
       toggleSidebar,
       handleLanguageChange,
+      scrollToTop,
       currentPageTitle,
       groupedSamples
     };
@@ -237,56 +222,30 @@ export default {
 #app {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
+  background-color: #f8f9fa;
 }
 
 .sidebar {
   position: fixed;
-  top: 56px; /* Adjust based on your navbar height */
+  top: 56px;
   bottom: 0;
-  z-index: 100;
-  padding: 20px 0;
+  left: -250px;
+  width: 250px;
+  z-index: 1000;
+  transition: left 0.3s ease-in-out;
   overflow-y: auto;
-  transition: transform 0.3s ease-in-out;
-}
-
-.left-sidebar {
-  left: 0;
-  border-right: 1px solid #dee2e6;
-  transform: translateX(-100%);
-}
-
-.right-sidebar {
-  right: 0;
-  border-left: 1px solid #dee2e6;
 }
 
 .sidebar.show {
-  transform: translateX(0);
-}
-
-@media (min-width: 992px) {
-  .sidebar {
-    position: sticky;
-    top: 56px;
-    height: calc(100vh - 56px);
-    transform: none;
-  }
+  left: 0;
 }
 
 .sidebar-sticky {
   position: sticky;
-  top: 20px;
-  height: calc(100vh - 76px);
-  padding-top: 0.5rem;
+  top: 0;
+  height: calc(100vh - 56px);
   overflow-x: hidden;
   overflow-y: auto;
-}
-
-.sidebar-heading {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 10px 15px;
-  margin-bottom: 10px;
 }
 
 .nav-link {
@@ -299,73 +258,70 @@ export default {
   background-color: #e9ecef;
 }
 
-.nav-link.small {
-  padding: 0.25rem 1rem;
-  font-size: 0.875rem;
+.main-shift {
+  margin-left: 250px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.language-buttons {
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.language-buttons::-webkit-scrollbar {
+  height: 6px;
+}
+
+.language-buttons::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 3px;
 }
 
 .sample-container {
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-h1 {
-  color: #007bff;
+.sample-container:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-h3 {
-  color: #6c757d;
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    left: -100%;
+    width: 100%;
+  }
+
+  .main-shift {
+    margin-left: 0;
+  }
 }
 
 audio {
-  outline: none;
+  height: 40px;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: all 0.3s ease;
+audio::-webkit-media-controls-panel {
+  background-color: #f8f9fa;
 }
 
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-  transform: translateY(-10px);
+.hamburger-icon {
+  color: #ffffff;
+  font-size: 1.5rem; /* Adjust size as needed */
 }
 
-.nav-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+audio::-webkit-media-controls-play-button {
+  background-color: #007bff;
+  border-radius: 50%;
 }
 
-.nav-link span {
-  font-size: 0.8em;
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #0056b3;
 }
-
-@media (max-width: 991.98px) {
-  .right-sidebar {
-    display: none;
-  }
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
-}
-
-.form-select {
-  max-width: 150px;
-}
-
-@media (max-width: 576px) {
-  .navbar-brand {
-    font-size: 1.2rem;
-  }
-  
-  .form-select {
-    max-width: 120px;
-  }
-}
-
 </style>
