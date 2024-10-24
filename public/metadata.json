@@ -28765,6 +28765,1363 @@
                     "audio": "samples18/sample_out_120.wav"
                 }
             ]
+        },
+        {
+            "id": "hf_pt_indic_exp",
+            "title": "HF Pretrained Indic Expressive",
+            "samples": [
+                {
+                    "language": "Assamese",
+                    "text": "ভাৰতৰ ৯৮% জনসাধাৰণে আয়কৰ পৰিশোধ নকৰে যদি মই কিয় পৰিশোধ কৰিব লাগে?",
+                    "description": "Amit speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "bharotor 98% jonoxadharone aayokor porixudh nokore jodi moi kiyo porixudh koribo laage?",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_1.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "হয় মই আপোনাৰ ভ্ৰমণ কৰি ভালেই পাওঁ আৰু বহুতখিনি জেগাতো আপোনাৰ মই ভ্ৰমণ কৰিছোঁ",
+                    "description": "Amit speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "hoih moi aapunar bhromon kori bhalei paau aaru bohutkhini jegatu aapunar moi bhromon korisu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_2.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "এইখিনিয়ে আমাৰ সাধাৰণতে ঘৰত গাঁৱত এইখিনিয়ে খাদ্য চলে",
+                    "description": "Amit speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "eikhinike aamar xadharonote ghorot gaont eikhinike khadyo sole",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_3.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "হয় অঁ নহয় পেকেজিঙটো ভাল নোহোৱাৰ কাৰণেতো ল ব বিচৰা নাই",
+                    "description": "Amit speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "hoih oh noho packagingtu bhaal nuhuwar karonetu lo bobo bisora naai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_4.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "জীৱনমৰণ বিধাতাৰ লিখন নুবুলি নোৱাৰি বহু ৰকমে হাইউৰুমি কৰাতো বগলীটো নলৰিল।",
+                    "description": "Amit speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "jibonmoron bidhatar likhon nubuli nuwari bohu rokome haiurumi koratu bogolitu noloril.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_5.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "দোকানীজনে ডুৰিয়ান ফলটো কাটিছিল আৰু তাৰ গোন্ধটোৰ বাবে মোৰ বমি অহা যেন হৈছিল।",
+                    "description": "Sita speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "dukanijone durian foltu katisil aaru taar gundhotur baabe mur bomi ohaa zen hoisil.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_6.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "আৰু যেতিয়া মই খবৰটো পাওঁ যে পি এইচ ডিত মই ছিট পাইছোঁ তেতিয়া মই",
+                    "description": "Sita speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "aaru jetiha moi khobortu paau je pi eis dito moi chitt paisu tetiha moi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_7.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "খোজকঢ়া দৌৰা বিভিন্নধৰণৰ খেলা খেলা বা নৃত্য ইত্যাদি ইয়াৰে ভিতৰত মই",
+                    "description": "Sita speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "khujoka doura bibhinnodhoronor khelaa khelaa baa nrityo ityadi iaare bhitorot moi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_8.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "গৈছো অন্য অন্য জেগাত গৈছোঁ ধৰক আমি এই কি কয় কলিয়াবৰ হাটবৰ গৈছোঁ",
+                    "description": "Sita speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "goisu onyo onyo jegat goisu dhorok aami ei ki koko koliyabor haatbor goisu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_9.wav"
+                },
+                {
+                    "language": "Assamese",
+                    "text": "বহু বছৰ আগৰেপৰা আমি ভুমিকম্পৰ প্ৰলয়ংকাৰী ক্ষতিসাধনৰ সন্মুখীন হৈ আহিছে অসম",
+                    "description": "Sita speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "bohu bosor aagorepora aami bhumikompor proloingkari khyotixadhonor xonmukhin hoi aahise oxom",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_10.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "হিমাংশু মন্ডল কৌশিক মন্ডল তাপস মন্ডল মানস মন্ডল রাজেশ মন্ডল",
+                    "description": "Tapan speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "himanshu mondoll kaushik mondoll tups mondoll muns mondoll rajesh mondoll",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_11.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "বুধবার মতিবুরের বাবা আজাদ ভাঙি অভিযোগ করেন দুপক্ষই মারামারি করতে শুরু করে",
+                    "description": "Tapan speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "budhbar motiburer baba azad bhangi abhijog corren dupokkhoi maramari korte shuru korey",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_12.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "আরও বেশি ছাড় পাওয়ার জন্য হিমালয়া লিচি শাইন লিপ কেয়ার এর পরিমাণ বাড়িয়ে দিন",
+                    "description": "Tapan speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "arow beshi chhaa paoar jonno himala leachy shine lipa keyar err poriman bibbe deane",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_13.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "প্রোটেস্ট করো, ইনজাংশন দাও ...যা খুশি ইচ্ছে মতো করবে, এটা কি মগের মুল্লুক!”",
+                    "description": "Tapan speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "protesta coro, injungsion daao ...jaa khushi ichche moto korbe, etaa kii moger mulluk!”",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_14.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "এটা আমাদের নানান কাজে লাগে একটা ছোটোখাটো জায়গায় যদি একটা পেরেকও গাড়তে হয়",
+                    "description": "Tapan speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "etaa amader nanan kaaje laage ekta chhotokhato jaga jodi ekta pereko gatte hoho",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_15.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "এক নম্বর কথা নাট বল্টুটা যে আমি টাইট দেবো কোথাও তারও জন্য যে খাঁজ কাটা থাকে",
+                    "description": "Rashmi speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "eka nambar kotha nutt baltuta jey aami tite debo kothao taaro jonno jey khanj kaataa thaake",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_16.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "সময়ে হয়ে থাকে এই খেলাটি খুবই মান সম্মানের ব্যাপার হয়ে পড়ে আমাদের জন্য",
+                    "description": "Rashmi speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "somei heigh thaake eyi khelati khubyi maan sommaner byapar heigh peve amader jonno",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_17.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "রাইটের মতো কেউকেউ আবার রমেশকে চোদ্দ জনের দলে রাখার পক্ষপাতী",
+                    "description": "Rashmi speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "raiter moto keukeu abar rameshke chodda joner doley rakhar pokkhopati",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_18.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "টিভিতে আবার করে \"দ্য কসবি শো\" দেখে দারুণ মজা পেয়েছিলাম।",
+                    "description": "Rashmi speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "tivite abar korey \"dya cosby shoe\" dekhe darun moja peyechilam.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_19.wav"
+                },
+                {
+                    "language": "Bengali",
+                    "text": "কলকাতা শেয়ার কেলেঙ্কারির আর এক অভিযুক্ত প্রাক্তন ব্রোকার অলোক বিয়ানি",
+                    "description": "Rashmi speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "kalkata shear kelenkarir arr eka abhijukto praktan broker olok biani",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_20.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "अनलायलायो बा खुलुमलायो से बैसाग बाथौ खेराय फोरबोयाव",
+                    "description": "Bikram speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "onlailayw baa kulumlayw se bwisag batwo kerai fwrbwyao",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_21.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "ओ जायबा जाय ओंखारनो नागिरा माने ओ गोदोनि बोराइ बोराइफोरा मालाय",
+                    "description": "Bikram speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "w jaiba jai wngkarnw nagira mane w gwdwni bwrai bwraifwra malai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_22.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "समाजाव गेलेमु गेलेनायनि गोनांथिनि सायाव गामियारि सुबुंफोरा",
+                    "description": "Bikram speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "somajao gelemu gelenaini gwnangtini sayao gamiyari subungpwra",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_23.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "दंखल खुरनानै दंखलनिफ्राय जोङो दै मिचिन बहन फिथिं खालामनानै बेखौ कारेनखौ जोङो",
+                    "description": "Bikram speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "dongkol kurnanwi dongkolniprai jwngw dwi michin bohon fiting kalamnanwi bekwo carenkwo jwngw",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_24.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "बिदिनो जौ नङाबा जेबो जाया आरो बिदिनो बेदर लायो बिदिनो",
+                    "description": "Bikram speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "bidinw jwo nongaba jebw jaya arw bidinw bedor layw bidinw",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_25.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "फिथिगमाबो न खराव सोरनिबा दाउ गग्राफोराव हाबनो मोनोबा",
+                    "description": "Maya speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "fitigomabw no korao swrniba dao gograpwrao habnw mwnwba",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_26.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "फालांगि खालामनो थाखाय मोनसे दैलि गुधलि बाजार बा उइकलि सप्ताहि बाजारबो दं बेयाव",
+                    "description": "Maya speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "falangi kalamnw takai mwnse dwili gudhli bajar baa uikli soptahi bajarbw dong beyao",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_27.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "गिदिरफोर लोमजाबा बिराद खस्थ जायो आरो बेलेगाव लांनो गोनां जाबा",
+                    "description": "Maya speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "gidirpwr lwmjaba birad kosto jayw arw belegaon langnw gwnang jaba",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_28.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "एक्सुलि फुसायनि समाव फालिनाय हारिमायारि हुदाफोर बेफोर गैया नाथाइ आं",
+                    "description": "Maya speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "exuli fusaini somao falinai harimayari hudapwr bepwr gwiya natai ang",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_29.wav"
+                },
+                {
+                    "language": "Bodo",
+                    "text": "मोजाङैनो सामलायो सामलायनाया खाथि खालायाव जोंनियावबो पुलिस स्टेसन फैबाय",
+                    "description": "Maya speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "mwjangwinw samlayw samlainaya khati kalayao jwngniyaobw police station fwibai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_30.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "अफ्रीकी ब्यंजन मन के ओरपट्टा नाँव म एकफंग, एलोको, अमला उवा उवा मन मुख्य हे",
+                    "description": "Bhanu speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_31.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "मेघदूत के अनुवाद करत पाण्डेय जी कईठन कठिनाई ले जुझत रहिस ।",
+                    "description": "Bhanu speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_32.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "डेसर्ट सूची म केक, कुकीज, बिस्कुट, पेस्ट्र नस्ता ब्यंजन आथे",
+                    "description": "Bhanu speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_33.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "जम्मो पिरान हर झेर जाहि ।\"  टी. बी. मा को जिन कोन कोरोना कर धंधा खेलावत हैं।",
+                    "description": "Bhanu speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_34.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "एक्स रे विद्युत चुंबकीय विकिरन होथे, सरीर के भीतर के चित्र निकालथे",
+                    "description": "Bhanu speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_35.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "राजनीतिक पार्टी के कुर्सी पाए के होड़ ह सब डाहर बिकट जादा बाड़ गे हवय",
+                    "description": "Champa speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_36.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "खोरबहरा ह राजीव गाँधी किसान न्याय योजना ले प्रति एकड़ नौ हजार सब्सिडी ला पाइस हे",
+                    "description": "Champa speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_37.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "जात बखत छरा देत जावे अउ लहुटे के बखत पानी छींचत आवे ।",
+                    "description": "Champa speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_38.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "छै जुलाई उन्नीस सौ अन्ठान्बे म धमतरी जिला के निर्मान होइस",
+                    "description": "Champa speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_39.wav"
+                },
+                {
+                    "language": "Chhattisgarhi",
+                    "text": "जीवविज्ञान म जीवजंतु के देह अउ जिनगी के बारे म अंदरूनी जानबा मिलथे",
+                    "description": "Champa speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_40.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "असें जाना ते सवेरे सवेरे तुसेंई फोन करगा इ यां कुत्थें तुप्पना तुसें है नी",
+                    "description": "Karan speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "asēṁ jānā tē savērē savērē tusēṁī phōna karagā i yāṁ kutthēṁ tuppanā tusēṁ hai nī",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_41.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "ते जेह्ड़े अजकल दे अजकल बी उऐ ऐ कि साग ढोड्डा बनान्ने ते है",
+                    "description": "Karan speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "tē jēhṛē ajakala dē ajakala bī uai ai ki sāga ḍhōḍḍā banānnē tē hai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_42.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "ते हून मतलब की ढाबा ढाबा होवे सब्जी दी दकान होवे जेह्दी बी जेह्दी बी दकान होवे",
+                    "description": "Karan speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "tē hūna matalaba kī ḍhābā ḍhābā hōvē sabjī dī dakāna hōvē jēhdī bī jēhdī bī dakāna hōvē",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_43.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "पर फ्ही बी ओह् शैल जंदा ग्रांऽ उत्थै बी ओह् फसल करी लैंदा अपनी शैल त्यार",
+                    "description": "Karan speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "para phhī bī ōh śaila jaṁdā grāṁ’ utthai bī ōh phasala karī laiṁdā apanī śaila tyāra",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_44.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "जम्मू यूनिबर्सट्री जेहडी ऐ ओह् ओ बी बडी दूर ऐ ग्रां कोला",
+                    "description": "Karan speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "jammū yūnibarsaṭrī jēhaḍī ai ōh ō bī baḍī dūra ai grāṁ kōlā",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_45.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "मिगी लगदा ऐ जे दुनिया भरै च हर केरलवासी अपने तरीके कन्नै ओणम मनांदा ऐ।",
+                    "description": "Leela speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "migī lagadā ai jē duniyā bharai ca hara kēralavāsī apanē tarīkē kannai ōṇama manāṁdā ai.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_48.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "जिसलै अगर लक्ख रपेऽ दी बेची ते पंजाह् ज्हार दी आंह्दी ते सत्तर दी बेचो तुस",
+                    "description": "Leela speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "jisalai agara lakkha rapē’ dī bēcī tē paṁjāh j_hāra dī āṁhdī tē sattara dī bēcō tusa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_49.wav"
+                },
+                {
+                    "language": "Dogri",
+                    "text": "जि यां इत्थें नरायना हस्पिटल बाह्र दकानां न रूट्टिये दी दकानां न ढाबे न",
+                    "description": "Leela speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "ji yāṁ itthēṁ narāyanā haspiṭala bāhra dakānāṁ na rūṭṭiyē dī dakānāṁ na ḍhābē na",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_50.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "\"Reverend Mother, I did not say more often than what, I said more often.\"",
+                    "description": "Thoma speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_51.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "He may desire to escape pain, or to enjoy pleasure.",
+                    "description": "Thoma speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_52.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "But let us turn more particularly to the history of the Church itself.",
+                    "description": "Thoma speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_53.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "What's that turtle and what is that stick asked the husband.",
+                    "description": "Thoma speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_54.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "CENTIGRADE zero degrees centigrade equals freezing water",
+                    "description": "Thoma speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_55.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "I am not complaining that the rate is slow, but that the sea is so wide.\"",
+                    "description": "Mary speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_56.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "The demand for earthen lamps is very good this year, he said",
+                    "description": "Mary speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_58.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "mrs Griffin, however, expressed the need for a little more light.",
+                    "description": "Mary speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_59.wav"
+                },
+                {
+                    "language": "English",
+                    "text": "between him and the beach was the cane-grass fence of the compound",
+                    "description": "Mary speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "Transliteration not available",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_60.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "તો એ ભી પેન્ટિંગ ગણાય કે એવી કોઈ કળા ગણાય કે જે બાળક અલગથી કરી રયું છે",
+                    "description": "Yash speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "too aee bhee painting ganaay keey aevee koee kalaa ganaay keey jeey baadak alagthi curry rayun chhe",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_61.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "તેમજ સમાજ દ્વારા કેટલાક ભેદભાવો અને જુલ્મો કરવામાં આવે છે",
+                    "description": "Yash speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "temaj samaaj dwara ketalaak bhedbhaavo aneey julmo karvaamaa aave chhe",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_62.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "શુક્રાણુમાં, ઠ, અને, રૃ સહીતનાં, બધા જ રંગ સુત્રો, ફોમોઝોમ્સ, ઉપલબ્ધ, હોય છે.",
+                    "description": "Yash speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "shukraanumaa, thh, aneey, rru saheetna, badhaa jaj rung sutro, phomosomes, uplabdh, hoya chhe.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_63.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "હા અમારા રાજ્યના વિસ્તારમાં મુખ્યત્વે ઘઉં ચોખા બાજરી",
+                    "description": "Yash speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "haa amara rajyanaa vistaarmaa mukhyatve ghaun chokha bajri",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_64.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "ઈશાંત શર્માને સાઉથ આફ્રિકા સામેની શ્રેણીનું તેનું કંગાળ ફોર્મ નડયું હતું.",
+                    "description": "Yash speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "ishant sharmaane south africa saameni shreneenu tenu kangaal phorma nadayu hatoo.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_65.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "અ બેટરી ચાર્જ કરેલી લાઈટો છે કે એ બધું છે એ વાપરે છે તો અત્યારે સૌથી વધારે",
+                    "description": "Neha speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "aaa battery charge karelee lighto chhe keey aee badhu chhe aee vaapare chhe too atyaare sauthee vadhaare",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_68.wav"
+                },
+                {
+                    "language": "Gujarati",
+                    "text": "કાંચીપુરમ જિલ્લામાં કોવોવેક્સ રસી હોય એવાં રસીકરણ કેન્દ્રને અલગ તારવો",
+                    "description": "Neha speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "kanchipuram jeellama covovax russie hoya aevaa rasikaran kendrane alag taarvo",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_69.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "और यहाँ के नीस हैं नीरज चोपड़ा इनको गोल्ड मेडल भी मिला है",
+                    "description": "Rohit speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "aur yahaan key nees hain neeraj chopada inco gold medal bhee milaa haye",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_71.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "अपनी पढ़ने में जो प्रवाह की गति है उस में भी नियंत्रण पा पाता हुं",
+                    "description": "Rohit speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "apani padhane mein joe pravaah kii gati haye usa mein bhee niyantran paa paataa huun",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_72.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "उपर्युक्त अभिक्रिया पराग, चिचड़ी (माइट) आदि के प्रति ऐलर्जी के कारण हो सकती है|",
+                    "description": "Rohit speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "uparyukt abhikriya parag, chichadi (mite) aadi key prati allergy key kaaran hoe sakati haye|",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_73.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "तीज के मौके पर हरे रंग की साड़ी को सबसे ज्यादा इंपॉर्टेंस दी जाती है।",
+                    "description": "Rohit speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "teej key mauke parr harey rung kii saadi koo sabse jyada importance dee jaati haye.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_74.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "एसबीआई जीवन बीमा एसबीआई व बीएनपी पारिबा कार्डिफ के बीच संयुक्त उद्यम है।",
+                    "description": "Rohit speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "sbi jeevan beema sbi vav bnp pariba cardiff key beach sanyukt udyam haye.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_75.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "पसंदीदा कवि है वो मुझे बहुत ही पसंद है क्योंकि उसकी जो कविताएँ हैं",
+                    "description": "Divya speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "pasandida kavi haye voe mujhe bahut hii pasand haye kyonki usaki joe kavitaaen hain",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_76.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "ओ जो इंसान करते थे ओ अब मसीन आ गया है सब किसी का मसीन आ गया है",
+                    "description": "Divya speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "oh joe insan karate they oh abb maseen aaa gayaa haye sub kissie kaa maseen aaa gayaa haye",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_78.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "जी हाँ यदि हमारे परिवार में कोई बीमार है तो हम उन्हें",
+                    "description": "Divya speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "jee haan yadi hamaare parivaar mein koee beemar haye tou humm unhein",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_79.wav"
+                },
+                {
+                    "language": "Hindi",
+                    "text": "पहली वर्षा के बाद मृदा की सौंधी गंध सदैव ताज़गी भर देती है|",
+                    "description": "Divya speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "pahali varsha key baad mrida kii saundhi gandh sadaiv taazagi bhar detee haye|",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_80.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಕೆಲ್ಸಾ ಇಲ್ದೆ ಕಾರ್ಯ ಇಲ್ದೆ ಓದಿ ಸುಮ್ನೆ ಮನೆಲ್ ಕೂತ್ಕೊಂಡು",
+                    "description": "Chetan speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "kelsa ilde kaarya ilde odi sumne manel kootkondu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_83.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಕಳೆದ ಎಂಟ್ಹತ್ತು ವರ್ಷಗಳಿಂದ ಸುನೀಲ್ ಬೋಸ್ ಕಾರ್ಯಕರ್ತರ ಜೊತೆ ಪಕ್ಷದ ಕೆಲಸ ಮಾಡ್ತಿದ್ದಾರೆ.",
+                    "description": "Vidya speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "kaleda enthattu varshagalinda suneel boses kaaryakartara jote pakshada kelasa maadtiddaare.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_86.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಪತ್ರಿಕೆ ಬರ್ತೈತೆ ಮತ್ತೆ ಅದ್ರಲ್ಲಿ ಡೈಲಿ ಯಾವ್ ಯಾವ್ ಯಾವ್ದ್ ಯಾವ್ದ್ ವಿಷ್ಯ ಬಂದೈತೆ ಮತ್ತು",
+                    "description": "Vidya speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "patrike bartaite matte adralli daili yaav yaav yawd yawd vishya bandaite mattu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_87.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ತರುವಾಯ ಪುಲಿಕಾಟ್ ಮತ್ತು ಸೋಲಿಂಗೂರ್‍ಗಳ ಕದನದಲ್ಲಿಯೂ ಆರ್ಥಿಕ ಹಾನಿ ಅನುಭವಿಸಿದನು.",
+                    "description": "Vidya speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "taruvaaya pulikat mattu solingur‍gala kadanadalliyu arthika haani anubhavisidanu.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_88.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಅದ್ರ ಹದನೇ ನನಗ್ ಗೊತ್ತಾಗಲ್ಲ ಅಂಗಾಗಿ ಆ ಉಪ್ಪಿನ್ ಕಾಯ್ನು ನಾನ್ ಮಾಡಕ್ ಹೋಗೋದಿಲ್ಲ",
+                    "description": "Vidya speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "adra hadane nanag gottagalla angagi aaa uppin kaaynu naan madak hogodilla",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_89.wav"
+                },
+                {
+                    "language": "Kannada",
+                    "text": "ಹೆಚ್ ಎಮ್ ಟಿ ಇದೆ ಇಂತ ದೊಡ್ಡ್ ದೊಡ್ಡ್ ಫ್ಯಾಕ್ಟರಿಗ್ಳೆಲ್ಲ ಇದೆ ಅದ್ರ ಜೊತೆಗೆ ಈಗ",
+                    "description": "Vidya speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "hetch emm tii ide inta dodd dodd factoriglella ide adra jotege eega",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_90.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "یتھٕے ہَسا اسہِ ساینس پروجکٹ اوس سکولَس مَنٛز مےٚ چھُ وٕنہِ تہِ یاد",
+                    "description": "Faiz speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "yithei hasaa asih saayinas project oas schoolas manz mey chhu weni tih yaad",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_91.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "یوٗنیورسٹی ییٚمہِ ساتہٕ یوٗنیورسٹۍ لٮ ولہِ منٛز چھِ گژھان تمہِ ساتہٕ",
+                    "description": "Faiz speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "university yemih saate universit lie valih menz chhi gatshaan tamih saate",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_92.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "یونو ایٚس بی آی منٛز کَر فاسٹ ٹیگ بِلہِ ہٕنٛز ادٲیگی ہٕنٛز نوٹفکیشن آن",
+                    "description": "Faiz speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "yonov eyis bey aayi menz karr faast teig bilih henz ideygi henz notification aane",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_93.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "یوٗر تِم پَنٕنۍ کھیل گِنٛدٮ ن تِیوٗژ چھِ تِمن ایکٕسپیٖریَنٕس میلان تِم چھِ اَمۍ",
+                    "description": "Faiz speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "yuur tim paneyn kheyl gend ne tiuts chhi timen ekspeeryenas meilaan tim chhi eym",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_94.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "ہَتھ رۄپیہِ کَر ٹرانسفر کٔلینر صفٲیی واجنہِ کنٹیکٹَس دَسمبرٕچِس اُجرت",
+                    "description": "Faiz speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "heth ropyi karr transfer kalenar sifeyi waajne contectas dasembrechis ujret",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_95.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "تِکیٛازِ کٲشٕر زبان چھِ واریاہ زِیادٕ میٖٹھ تہٕ موٚدٕر",
+                    "description": "Shabnam speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "tikyazi kaeshir zabaan chhi varyah ziyade meeth teh moder",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_96.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "مےٚ دوٚپ شُکر چھُ تَس رۄبَس کُنَتھ مےٚ گوٚو یہِ ٹھیٖک یہِ کٲم گٔیے مےٚ ٹھیٖک",
+                    "description": "Shabnam speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "mey dop shuker chhu tas robas kunath mey gov yih theek yih kaem geyi mey theek",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_97.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "اَمہِ دۄہ چھُ مےٚ یہِ پی جی کَمپٕلیٖٹ کوٚرمُت تہٕ بہٕ چھَس وۄنۍ ہٮ کہٕ بہٕ",
+                    "description": "Shabnam speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "amih doh chhu mey yih pye jee complete kormut teh beh chhas voyn heh keh beh",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_98.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "مےٚ وَن ہندوستانٕچ مُعاشِیات کَر گژھِ امریکہ سٕنٛدِ مُعاشِیاتَس برابر",
+                    "description": "Shabnam speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "mey wan hindustanech muashiyat karr gatshi amrica sendi muashiyatas baraabar",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_99.wav"
+                },
+                {
+                    "language": "Kashmiri",
+                    "text": "یِم اَتھ منٛز چھُ ٹورنمیٚنٹ چھُ یِوان زیادٕ تر چھُ یِوان ٹورنمیٚنٹ گِندنہٕ",
+                    "description": "Shabnam speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "yim ath menz chhu tornment chhu yivaan ziyade ter chhu yivaan tornment gindne",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_100.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "लग्न किवां लग्ना सारकी आनी कसली व्हडली कार्यावळ हेतुन मेन प्रश्न येता तो उदकाचो",
+                    "description": "Deepak speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "lagn kivaam lagnaa saarki aanee kasli vhadli karyaval hetun menn prashn yetaa too udakaacho",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_101.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "ऑफ मे अशे खुबशे दीस आसा जे आमी याद दवरपाक जाय जे आमच्या",
+                    "description": "Deepak speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "off mey ashe khubshe dees aasa jea aamee yaad davarpaak jaay jea aamchyaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_102.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "आनीक घट्ट एक तिरडी करतात तिरडी म्हळ्यार बांबूचे चार कोंडे घेतात आनी अशी बांदतात",
+                    "description": "Deepak speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "aaneek ghatt ek tirdi kartaat tirdi mhallyaar bambuche chaar konde ghetaat aanee ashee bandtat",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_103.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "समजून घेवपाक त्रास जाता तेका लागून संस्कृतीचेर आतां",
+                    "description": "Deepak speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "samjun ghevpaak traas jaata tekaa laagun sanskruticher aatam",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_104.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "देखून कोंकणी भाशेक मराठीचे काही शब्द जे आसात तें जास्त प्रमाणांत येता",
+                    "description": "Shalini speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "dekhun konkani bhaashek marathiche kaahi shabd jea aasat tem jaast pramanant yetaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_106.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "तुमी कोणाक तरी चित्र वा हातांत तयार केल्ले कार्ड भेयटलां",
+                    "description": "Shalini speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "tumee konaak taree chitr vaa hatant tayaar kelle card bheytalam",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_109.wav"
+                },
+                {
+                    "language": "Konkani",
+                    "text": "पंय तुका सारकी धां मिंटा दिता हांव म्हाका आनीक मागीर एक्सक्यूजीस नाका",
+                    "description": "Shalini speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "panya tukaa saarki dhaam mintaa ditaa haanv mhaka aaneek maageer excuses naaka",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_110.wav"
+                },
+                {
+                    "language": "Maithili",
+                    "text": "तऽ रोजी रोटी कऽ लेल जे छै से आदमी दिन आइ इम्हर उम्हर तऽ दौड़ भाग करबे करै छै",
+                    "description": "Anil speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "taa rojee rotee kaaa laela jae chhai sae aadmee dina aaie imhar umhar taa daur bhaag karbe karai chhai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_111.wav"
+                },
+                {
+                    "language": "Maithili",
+                    "text": "बाल्मिकीए रामायण हो रामचरित मानस हो या जयद्रथ वध हिंदी मे हो",
+                    "description": "Anil speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "balmikie ramayan hou ramcharit maanas hou yaa jaydrath vadh hindee mae hou",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_112.wav"
+                },
+                {
+                    "language": "Maithili",
+                    "text": "आओर एहिसँ हमर सभके परेशानी बढ़ते जा रहल छथि हम सभ बिजलीके बिल देबैमे हम सभ जेहै",
+                    "description": "Anil speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "aaor ehisan hamar sabhke pareshani badhate jaa rahal chhathi hama sabh bijleeke bila debaime hama sabh jehai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_113.wav"
+                },
+                {
+                    "language": "Maithili",
+                    "text": "यहाँके आकर्षित करैबला धर्म छलै अपन रीति रिवाज बड्ड सुन्दरसँ हमसभ मनबै छियै",
+                    "description": "Anil speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "yahaanke aakarshit karaibala dharm chhalai apan reeti rivaaj badd sundarsan hamsabh manbai chhiyai",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_114.wav"
+                },
+                {
+                    "language": "Maithili",
+                    "text": "कोनो एहेन बिना जरूरीके सामान नै छै जे ओकरा बिना लोक अथि कऽ सकैये जेनाकि",
+                    "description": "Anil speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "kono ehen binaa jarooreeke saamaan naiy chhai jae okaraa binaa loka athee kaaa sakaiye jenaaki",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_115.wav"
+                },
+                {
+                    "language": "Maithili",
+                    "text": "कोशिश करियौ की अहाँसब मैथिलि भाषा के प्रयोग कुछ जादा करू जेनाकी अपन सबके गाँममे",
+                    "description": "Nandini speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "koshish kariyau kee ahaansab maithili bhasha kae prayog kuchh jaada karoo jenaki apan sabke gaanme",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_118.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "അതുപോലെ തന്നെ എന്താ ക്രിക്കറ്റ് എന്ന് പറയുന്നത് ഇപ്പൊ ഓരോ",
+                    "description": "Harish speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "athupole thanne enthaa krikkatt ennu parayunnath ippo ooroo",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_121.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "ഫ്രീഫയര് പബ്ജി മിനിമിൽട്ട അങ്ങനെ അങ്ങനെ കൊറേ ഗെയിംസാണ് കളിക്കുന്നത്",
+                    "description": "Harish speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "freefier pabji minimiltta angane angane coray gamesaanu kalikkunnathu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_122.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "അപ്പ നമ്മള് യാത്ര യാത്ര കൂടുതലായിട്ട് ഇഷ്ടപ്പെടണം പെടുന്നോര് വ്യക്തിയാണ് ഞാന്",
+                    "description": "Harish speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "appa nammalu yaatra yaatra kooduthalaayittu eshtappedanam pedunnoru vyakthiyaan njaanu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_123.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "അതിൻ്റെ മുകളിലേക്ക് കയറി തൊടങ്ങിയപ്പോൾ വിശപ്പും ദാഹവു അറിഞ്ഞില്ല",
+                    "description": "Harish speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "athinte mukalilekku kayari thodangiyappol vishapum daahavu arinjilla",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_124.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "അതില് എന്ന് പറഞ്ഞു കഴിഞ്ഞാൽ നമ്മളുടെ പണ്ടത്തെ കാലത്ത് എന്ന് പറഞ്ഞു കഴിഞ്ഞാൽ",
+                    "description": "Harish speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "athilu ennu paranju kazhinjaal nammalude pandatthe kaalath ennu paranju kazhinjaal",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_125.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "ഇപ്പോ അവരോരു കേസ് ഒരൂ ഒരൂ ഒരു ന്യൂസ് കിട്ടിക്കഴിഞ്ഞാല് ആ ന്യൂസ്ല് എന്താപറയാ",
+                    "description": "Anjali speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "ippo avaroru cases oroo oroo oru nyoos kittikkazhinjaalu aaa nyooslu enthaaparayaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_127.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "ചിലപ്പോൾ അല്ലാത്തപക്ഷം ഷുഗറുള്ള പേഷ്യൻ്റെണെങ്കിൽ വൈകുന്നേരങ്ങളിൽ ചപ്പാത്തി",
+                    "description": "Anjali speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "chilappol allaathapaksham shugarullah peshyantenenkil vaikunnerangalil chappathi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_128.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "ഒരു പരീക്ഷയെക്കുറിച്ച് ചിന്തിക്കുമ്പോഴെല്ലാം എന്‍റെ ഹൃദയമിടിപ്പ് കൂടുന്നു.",
+                    "description": "Anjali speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "oru pareekshayekkurichu chinthikkumbozhellaam yenu‍reey hridayamidippu koodunnu.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_129.wav"
+                },
+                {
+                    "language": "Malayalam",
+                    "text": "അതിൻ്റെ മുകളിലേക്ക് കയറി തൊടങ്ങിയപ്പോൾ വിശപ്പും ദാഹവു അറിഞ്ഞില്ല",
+                    "description": "Anjali speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "athinte mukalilekku kayari thodangiyappol vishapum daahavu arinjilla",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_130.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯁꯍꯔꯗ ꯃꯤꯌꯥꯝꯅ ꯂꯩꯐꯝ ꯍꯣꯡꯈ꯭ꯔꯕꯁꯨ ꯑꯩ ꯏꯁꯥꯃꯛꯇꯤ ꯈꯨꯡꯒꯪꯗ ꯂꯩꯕꯅ ꯍꯦꯟꯅ ꯄꯥꯝꯖꯩ ꯁꯍꯔꯒꯤ ꯅꯤꯜ ꯈꯣꯡꯕ",
+                    "description": "Ranjit speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "saharada meeyamna leipham hongkhrabasu ei isaamakti khunggangda leibana henna paamjei saharagi nil khongba",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_131.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯃꯌꯥꯝꯅ ꯍꯦꯟꯅ ꯆꯥꯟꯅꯔꯕ ꯈꯪꯅꯔꯤꯕ ꯃꯣꯔꯣꯛ ꯑꯉꯥꯡꯕ ꯇꯛꯄ ꯃꯣꯔꯣꯛ ꯃꯆꯨ ꯆꯤꯂꯤ ꯄꯥꯎꯗꯔ ꯍꯥꯏꯅ ꯈꯪꯅꯔꯤꯕ ꯑꯁꯦ",
+                    "description": "Ranjit speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "mayamna henna chaannaraba khangnariba morok angaangba takpa morok machu chilee paodara haaina khangnariba ashe",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_132.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯍꯥꯏꯅ ꯂꯧꯗꯦ ꯍꯥꯏꯅ ꯈꯟꯖꯕꯗꯒꯤ ꯑꯉꯥꯡꯁꯤꯡꯁꯤ ꯑꯋꯥꯡꯕ ꯊꯥꯛꯀꯤ ꯃꯍꯩ ꯇꯝꯍꯟꯖꯅꯕ ꯍꯣꯠꯅꯖꯕꯅꯤ",
+                    "description": "Ranjit speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "haaina loude haaina khanjabadagi angaangsingsi awaangba thaakki mahei tamhanjanaba hotnajabani",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_133.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯅꯤꯡꯊꯝꯊꯥꯗꯁꯨ ꯃꯤ ꯃꯩ ꯇꯤꯛꯄꯅ ꯇꯤꯛꯑꯦ ꯅꯠꯇꯕ ꯍꯤꯠꯇꯔ ꯌꯥꯏꯕ ꯈꯣꯠꯄ ꯇꯧꯕ ꯃꯇꯝ",
+                    "description": "Ranjit speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "ningthamthaadasu mee mei tikpana tike nattaba hitter yaiba khotpa touba matam",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_134.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯈꯣꯝꯒꯠꯇꯨꯅ ꯁꯤꯟꯁꯤꯡ ꯑꯁꯤꯕꯨ ꯍꯦꯟꯅ ꯃꯌꯦꯛ ꯁꯦꯡꯅ ꯇꯥꯛꯄ ꯑꯁꯤ ꯌꯥꯝꯅ ꯆꯥꯎꯕ ꯊꯧꯗꯥꯡ ꯑꯃꯅꯤ ꯍꯥꯏꯅ ꯂꯧꯖꯩ",
+                    "description": "Ranjit speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "khomgattuna sinsing ashibu henna mayek sengna taakpa ashi yaamna chaoba thoudaang amani haaina loujei",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_135.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯆꯥꯟꯕꯤꯗꯨꯅ ꯑꯩꯒꯤ ꯑꯦꯛꯖꯤꯁ ꯕꯦꯡ ꯂꯥꯏꯝ ꯋꯦꯜꯂꯦꯠꯇ ꯂꯤꯁꯤꯡ ꯃꯧꯗ꯭ꯔꯥ ꯊꯥꯕꯤꯌꯨ",
+                    "description": "Laishram speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "chaanbiduna eigi acjes beng laim welletta lising moudraa thabiyu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_137.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯏꯝꯐꯥꯜ ꯋꯦꯁ ꯗꯤꯁꯇ꯭ꯔꯤꯛ ꯏꯝꯐꯥꯜ ꯏꯁ ꯗꯤꯁꯇ꯭ꯔꯤꯛ ꯕꯤꯁꯅꯨꯄꯨꯔ ꯗꯤꯁꯇ꯭ꯔꯤꯛ ꯊꯧꯕꯥꯜ ꯗꯤꯁꯇ꯭ꯔꯤꯛ",
+                    "description": "Laishram speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "imphal wesh districk imphal ish districk bishnupur districk thoubal districk",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_138.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯂꯨꯍꯣꯡꯕ ꯅꯨꯃꯤꯠꯇ ꯃꯤꯌꯥꯝꯅ ꯀꯩꯅꯥꯁꯤꯡꯗ ꯄꯤꯅꯔꯤꯕ ꯈꯨꯗꯣꯜ ꯄꯣꯠ ꯗꯥꯎꯔꯤ ꯍꯥꯏꯔꯒꯗꯤ ꯀꯩꯅꯣ",
+                    "description": "Laishram speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "luhongba numitta meeyamna keinasingda pinariba khudol pott daori hairagadi keino",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_139.wav"
+                },
+                {
+                    "language": "Manipuri",
+                    "text": "ꯒꯥꯔꯤ ꯊꯧꯕ ꯃꯇꯝꯗ ꯎꯐꯨꯟꯁꯨ ꯌꯥꯝ ꯆꯥꯏ ꯎꯐꯨꯟ ꯆꯥꯕꯅꯤꯅ ꯏꯁꯥꯗꯁꯨ ꯂꯣꯛ ꯊꯨꯡꯕ ꯈꯣꯠꯄꯁꯨ ꯑꯗꯨꯝ ꯇꯧꯋꯤ",
+                    "description": "Laishram speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "gaari thouba matamda uphunsu yaam chaai uphun chabanina isaadasu lok thungba khotpasu adum touwi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_140.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "मला येनाऱ्या इतर भाषांपेश्शा मराटी भाषा मला खूप जास्त सोपे वाटते कारन",
+                    "description": "Nikhil speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "mallah yenanya itar bhashanpeshsha marati bhasha mallah khoop jaast sope vatate carren",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_141.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "पुण्याच्या ईशा करवडेला तिसरा इंटरनॅशनल मास्टर नॉर्म",
+                    "description": "Nikhil speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "punyachya eesha karvadela tisra international master norm",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_142.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "प्रत्येकान व्यक्तीच्या आणि त्यांच्या मनातील भावनेंचा सम्मान करून",
+                    "description": "Nikhil speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "pratyekan vyaktichya aanee tyanchya manatil bhavanencha samman karoon",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_143.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "आणी तिचा टेस्टही खूप चांगला होता आनं तुमच्याकडे आज ऑफर होती ना",
+                    "description": "Nikhil speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "aanee ticha testahi khoop changla hota aanan tumchyakade aaj aupher hotee naa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_144.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "जसे तिरूपती बालाजी रामेश्वर महालक्ष्मी मंदिर आहेत तिथे",
+                    "description": "Nikhil speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "jase tirupati balaji rameshwar mahalakshmi mandir aahet tithe",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_145.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "वयस्कर मानसं इथं तसं जास्ती करून पत्ते खेळतात आनि वॉकिंग करतात",
+                    "description": "Radha speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "vayaskar manasn itham tasn jaasti karoon patte khelatat aanee walking karatat",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_146.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "पॅँटानल या दलदलीच्या प्रदेशात महाकाय ॲनाकोंडा आढळतात.",
+                    "description": "Radha speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "pantanal yaa daldalichya pradeshat mahakay nanakonda aadhaltat.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_147.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "अशा इमर्जन्सी कशा हाताळायच्या हे गाईडना सहसा माहीत असतं.",
+                    "description": "Radha speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "asha immergency kasha hatalayachya heey guidena sahasa maheet asatn.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_149.wav"
+                },
+                {
+                    "language": "Marathi",
+                    "text": "बिलकुल चांगलं नवतं तिच्या वर जे डिझाइन केली होती ती अगदी उकळलेली होती आणि",
+                    "description": "Radha speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "bilkul changlan navatn tichya varr jeey design kelee hotee tee agadi ukalaleli hotee aanee",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_150.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "हाम्रो हेल्थलाई सायता पुराउँछ फलफुलले पनि धेरै नरोपे पनि एउटा दुईटा",
+                    "description": "Ram speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "hamro healthlai sayata puraunchha falafulle pani dherai narope pani euta duita",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_151.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "पुरा गर्दाखेरि अलिकिति याद राखिदिनु याद गरेर खानाहरू",
+                    "description": "Ram speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "pura gardakheri alikiti yadd rakhidinu yadd garera khanaharu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_152.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "आफन्तमा केइ भैहाल्यो भने फोन गरेर बोलौन सकिन्छ आजकल चै छिट्टो छिट्टो गरेर",
+                    "description": "Ram speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "afantama kei bhaihalyo bhane fone garera bolauna sakinchha ajkal chai chhitto chhitto garera",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_153.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "बेल्का चै धुँवाहरू गरिदिनु पर्छ मछरले नखाओस् भनेर ड्वाँसहरू चै नलागोस्",
+                    "description": "Ram speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "belka chai dhunwaaharu garidinu parchha machharle nakhaos bhanera dwaansharu chai nalagos",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_154.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "फिलहाल तपईको दार्जिलिङमा एउटा नयाँ किसमको यातायात आएको छ जो तपाईको मोटरबाइक",
+                    "description": "Ram speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "filhal tapaiko darjeelingma euta nayaan kisamko yatayat aeko chha jo tapaiko motorbike",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_155.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "यस तरकारीमा भएको सुगन्धित मसलाले त मलाई अर्कै संसारमा पुऱ्याइदिने गर्छ नि।",
+                    "description": "Amrita speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "yass tarkarima bhaeko sugandhit masalale tata malai arkai sansarma puyaidine garchha nee.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_156.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "दुस्रा नम्बर सागसब्जी आयो सागसब्जी झन् केइ जान्दैनन् अहिलेकोहरूले",
+                    "description": "Amrita speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "dusra number sagasabji ayo sagasabji jhan kei jandainan ahilekoharule",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_157.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "पाठकहरू चाहिँ हामी एकदमै कम्ती मात्रामा पाउछौँ जसको कारणले गर्दाखेरि",
+                    "description": "Amrita speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "pathakharu chaahin hammy ekdamai kamti matrama pauchhaun jasko karanle gardakheri",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_158.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "कलकत्ता पुगेर शेखरले सर्वप्रथम वीणालाई एउटा पत्र लेख्यो।",
+                    "description": "Amrita speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "kalkatta pugera shekharle sarvapratham vinalai euta patra lekhyo.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_159.wav"
+                },
+                {
+                    "language": "Nepali",
+                    "text": "नानीहरलाई सिखायौँ भने यो कुराहरलाई चैँ हामी गर्न सक्छौँ संरक्षण गर्न मिल्छ",
+                    "description": "Amrita speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "naniharlai sikhayaun bhane yo kuraharlai chain hammy garna sakchhaun sanrakshan garna milchha",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_160.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ବ୍ୟବହାରଟାକୁ ଭୁଲିଯିବାରେ ଲାଗିଛନ୍ତି ଲୋକମାନଙ୍କ ମନରେ ଏକ ଭୁଲ୍ ଧାରଣା ମଧ୍ୟ ଅଛି",
+                    "description": "Manas speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "byabaharataku bhulijibare lagichanti lokamananka manare eka bhul dharana madhya achhi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_161.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ଚାଉଳ ରଖିଲେ କିମ୍ବା ମୁଗ ରଖିଲେ ସିନା ଆଖୁଟାକୁ ସିନା ବିକିଦବୁ କିନ୍ତୁ ମୁଗ",
+                    "description": "Manas speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "chaula rakhile kimba muga rakhile sina aakhutaku sina bikidabu kintu muga",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_162.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ଯାହାଦ୍ୱାରା ନିର୍ବାଚନ ର ଦଳୀୟ ସମର୍ଥକ ମାନେ ବହୁ ଭଙ୍ଗାରୁଜା କରିବା ସହିତ",
+                    "description": "Manas speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "jahadwara nirbachana rahr daleeya samarthaka maane bahu bhangaruja kariba sahita",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_163.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "କଥାଟି କହିଦେଇ ରାଜାଙ୍କ ପ୍ରତିକ୍ରିୟାକୁ ଲକ୍ଷ୍ୟ କଲା ଯୁବକ ।",
+                    "description": "Manas speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "kathati kahidei rajanka pratikriyaku lakhya kallah jubaka .",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_164.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ସେ ଭାବିଲା, ରାଜ୍‌କୁମାରୀ ତା’ର ଗୋଟିଏ ଆଖି ଫୁଟାଇ ଦେବ ବୋଲି କହୁଛି ।",
+                    "description": "Debjani speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "shay bhabila, raaj‌kumari taa’rahr gotie aakhi phutai deba bolly kahuchhi .",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_168.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ତା ପରେ ସେଇଟା ବୁଝିସାରିଲା ପରେ ସାର୍ମାନେ ପୁଣି ଥରେ ପଚାରନ୍ତି ବୁଝି ପାରିଲ ପିଲେ କି ନାଇଁ",
+                    "description": "Debjani speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "taa parey seita bujhisarila parey sarmane puni thare pacharanti bujhi paril pile kii naain",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_169.wav"
+                },
+                {
+                    "language": "Odia",
+                    "text": "ଲୁଡ଼ୁ ହୋଉ ଚେସ୍ ହୋଉ ଆଉ କବାଡ଼ି ଖେଳ ମଧ୍ୟ ହୋଇଥାଏ ଆମର ଦୋଳ ଦୋଳପର୍ବ ଏକ",
+                    "description": "Debjani speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "ludu hou chases hou aau kabai khela madhya hoithae ammer dola dolaparba eka",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_170.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਰਾਜਸਥਾਨ ਮਹਾਰਾਸ਼ਟਰਾ ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼ ਮੱਧ ਪ੍ਰਦੇਸ਼ ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+                    "description": "Gurpreet speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "rajasthan maharautra himachal pradeau maddh pradeau uttar pradeau",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_171.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਜਾਂਚ ਕਰੋ ਕਿ ਸਨੈਪਡੀਲ ਤੋਂ ਸੱਤ ਸੌ ਰੁਪਏ ਰਿਫੰਡ ਪ੍ਰਕਿਰਿਆ ਹੋਏ ਜਾਂ ਨਹੀਂ",
+                    "description": "Gurpreet speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "jaanch crow kii snapdeal toon satt saun rupaye refund prakiriaa hoye jaan naheen",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_172.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਹਰਿਆਣਾ ਮੱਧ ਪ੍ਰਦੇਸ਼ ਰਾਜਸਥਾਨ ਉੱਤਰ ਪ੍ਰਦੇਸ਼ ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼",
+                    "description": "Gurpreet speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "hariyana maddh pradeau rajasthan uttar pradeau himachal pradeau",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_173.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਔਰਤਾਂ ਪ੍ਰੋ ਵਿਸਪਰ ਜਾਂ ਸੇਅਫ੍ਰੀ ਵਗੈਰਾ ਯੂਜ਼ ਕਰਦੀਆਂ ਇਸ ਸਮੇਂ",
+                    "description": "Gurpreet speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "aurtan pro vispar jaan seyfree vagaira yooz kardiaan iss samein",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_174.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਸਾਡੇ ਖੇਤਰ ਵਿੱਚ ਜੇ ਗੱਲ ਕਰੀਏ ਤਾਂ ਪੁਲਿਸ ਦਾ ਪੁਲਿਸ ਪ੍ਰਸ਼ਾਸ਼ਨ ਦਾ ਬਹੁਤ ਜਿਆਦਾ ਕੰਟਰੋਲ ਆ",
+                    "description": "Gurpreet speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "saade khetar witch jey gall kariye taan pulis daa pulis parshashan daa bahut jiaada controll aaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_175.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਅਤੇ ਅਸੀਂ ਚਿੱਤਰਕਾਰੀ ਕਰਨ ਲਈ ਬਰੱਸ਼ ਦੀ ਜ ਵਰਤੋਂ ਵੀ ਕਰ ਸਕਦੇ ਹਾਂ",
+                    "description": "Divjot speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "atey aseen chittarkari curran laee brash dee j varton vee qarr sakde haan",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_176.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਸਾਡੇ ਫਤਿਹਗੜ੍ਹ ਸਾਹਿਬ ਜਿਲ੍ਹੇ ਨੂੰ ਸਥਾਨਿਕ ਕਲਾ ਅਤੇ ਸ਼ਿਲਪਕਾਰੀ ਬਹੁਤ ਵਿਲੱਖਣ ਕਰਦੀ ਹੈ",
+                    "description": "Divjot speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "saade fatehgarh sahib jilhe noon sathanik qalaa atey shilpkari bahut vilakkhan kardi haii",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_178.wav"
+                },
+                {
+                    "language": "Punjabi",
+                    "text": "ਲੱਗੀਆਂ ਹੋਈਆਂ ਹਨ ਉਸ ਸਮੇਂ ਦੇ ਉਸ ਸਮੇਂ ਦੀਆਂ ਤੋਪਾਂ ਤਲਵਾਰਾਂ",
+                    "description": "Divjot speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "laggiaan hoiaan hunn uss samein dey uss samein deeaan topan talwaran",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_180.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "परित्यज्य धार्मिके कार्ये स्वात्मानं योजयितुं प्रयतन्ते",
+                    "description": "Aryan speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "parityajya dhaarmike kaarye swaatmaanam yojayitum prayatante",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_181.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "शेर् मार्केट् विषये तु अति चञ्चलत्वं सर्वदा दृश्यते",
+                    "description": "Aryan speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "sher markett vishaye tu ati chanchalatvam sarvadaa drushyate",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_182.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "भवता यत् सङ्गृहीतं तत् स्वसूच्यां अस्ति वा न वेति परिशील्यताम्",
+                    "description": "Aryan speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "bhavataa yat sangruheetam tatt svasuchyam asti vaa naa veti parishilyatam",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_183.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "किमर्थं सः अभिनेता पुरस्कारार्थं नामाङ्कितः भवति इति अहं न जानामि। स तु विगुणः।",
+                    "description": "Aryan speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "kimartham saha abhinetaa puraskarartham naamaankitah bhavati iti aham naa janami. sa tu vigunah.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_184.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "बाध्यन्ते यदि जनाः प्रतिदिनं क्रीडार्थं किञ्चित् समयं दास्यन्ति",
+                    "description": "Aryan speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "baadhyante yadi janaah pratidinam kridaartham kinchit samayam daasyanti",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_185.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "मम प्रियक्रीडा कबडि किमर्थमित्युक्ते मम बान्धवाः सर्वे एता क्रीडां क्रीडन्ति",
+                    "description": "Vasudha speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "mama priyakrida kabadi kimarthamityukte mama baandhavaah sarve etaa kreedaam kreedanti",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_187.wav"
+                },
+                {
+                    "language": "Sanskrit",
+                    "text": "उत्तरभारतस्य बहुप्रदेशेषु कथक्कळि अस्सां राज्ये अस्सामि पञ्जाब् राज्ये भाङ्ग्डा",
+                    "description": "Vasudha speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "uttarabhaaratasy bahupradesheshu kathakkali assaam raajye assaami panjaab raajye bhangda",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_188.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱠᱤᱱᱛᱩ ᱟᱹᱰᱤᱜᱟᱱ ᱚᱱᱠᱟ ᱦᱚᱲ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱵᱟᱝ ᱠᱚ ᱜᱚᱲᱚ ᱥᱚᱯᱚᱦᱚᱫᱽ ᱵᱟᱝᱠᱚ ᱮᱢᱟᱢᱟ ᱾",
+                    "description": "Manoj speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "kintu ôḍigān ankā haṛ mēnāg kavā jāhām̐ da bāṁ ka gaṛa sapahad’ bāṁka ēmāmā .",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_191.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱨᱟᱵᱟᱝ ᱫᱚ ᱥᱟᱦᱟᱜ ᱨᱮᱦᱚᱸ ᱥᱤᱛᱩᱝ ᱫᱚ ᱵᱟᱝ ᱥᱟᱦᱟᱜ ᱛᱮ ᱤᱧ ᱫᱚ ᱨᱟᱵᱟᱝ ᱨᱤᱛᱩᱜᱤᱧ ᱠᱩᱥᱤᱭᱟᱜᱼᱟ ᱾",
+                    "description": "Manoj speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "rābāṁ da sāhāg rēham̐ situṁ da bāṁ sāhāg tē iñ da rābāṁ ritugiñ kusiyāgᱼā .",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_192.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱞᱟᱯᱷᱟᱝ ᱨᱮᱴᱤᱝ ᱥᱟᱶ ᱵᱷᱮᱜᱟᱨ ᱟᱭᱴᱮᱢᱥ ᱨᱮᱱ ᱫᱩᱨᱤᱵᱽ ᱠᱚ ᱩᱫᱩᱜ ᱟᱹᱧ ᱢᱮ ᱾",
+                    "description": "Manoj speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "lāphāṁ rēṭiṁ sāṅ bhēgār āyṭēms rēn durib’ ka udug ôñ mē .",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_193.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱯᱮᱠᱴᱤᱥ ᱦᱮᱵᱤᱴ ᱦᱮᱵᱤᱴ ᱛᱮ ᱥᱟᱦᱮᱫ ᱥᱟᱢᱵᱲᱟᱣ ᱨᱮᱱᱟᱜ ᱟᱫᱚᱛ ᱵᱮᱱᱟᱜᱼᱟ ᱾",
+                    "description": "Manoj speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "pēkṭis hēbiṭ hēbiṭ tē sāhēd sāmbṛāv rēnāg ādat bēnāgᱼā .",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_194.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱜᱚᱲᱟ ᱨᱮᱠᱚ ᱛᱟᱦᱮᱸᱱᱟ ᱛᱚ ᱩᱱᱠᱩ ᱪᱟᱭᱞᱮᱠᱩ ᱠᱤᱱᱛᱩ ᱩᱱᱠᱩ ᱫᱚ ᱫᱟᱜ ᱡᱟᱹᱯᱩᱫ ᱥᱮ ᱤᱭᱟᱹ ᱨᱮᱫᱚ ᱡᱮᱢᱚᱱ",
+                    "description": "Manoj speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "gaṛā rēka tāhēm̐nā ta unku cāylēku kintu unku da dāg jôpud sē iyô rēda jēman",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_195.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱟᱨ ᱡᱚᱜᱽᱢᱟᱡᱷᱤ ᱫᱚ ᱟᱛᱩ ᱨᱮᱱ ᱠᱩᱲᱤᱼᱠᱚᱲᱟ ᱠᱚᱭ ᱧᱮᱞ ᱥᱟᱢᱴᱟᱣ ᱠᱚᱣᱟ᱾",
+                    "description": "Pushpa speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "ār jag’mājhi da ātu rēn kuṛiᱼkaṛā kay ñēl sāmṭāv kavā.",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_198.wav"
+                },
+                {
+                    "language": "Santali",
+                    "text": "ᱦᱮᱸ ᱦᱩᱰᱤᱧ ᱠᱷᱚᱱ ᱟᱭᱢᱟ ᱞᱮᱠᱟᱱ ᱡᱤᱱᱤᱥ ᱜᱤᱧ ᱟᱸᱠᱟ ᱵᱟᱲᱟᱣ ᱠᱟᱫᱟ ᱟᱨᱤᱧ ᱟᱸᱠᱟᱣᱫᱟ",
+                    "description": "Pushpa speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "hēm̐ huḍiñ khan āymā lēkān jinis giñ ām̐kā bāṛāv kādā āriñ ām̐kāvdā",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_200.wav"
+                },
+                {
+                    "language": "Sindhi",
+                    "text": "पंजहठ हज़ार पंद्राहं सौ अठासी छाहतरि हज़ार पंजवजाहु सौ",
+                    "description": "Rajesh speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "पंजहठ हज़ार पंद्राहं सौ अठासी छाहतरि हज़ार पंजवजाहु सौ",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_201.wav"
+                },
+                {
+                    "language": "Sindhi",
+                    "text": "थोड़ो थोड़ो चटायो वेंदो आहे ऐं शहे ॾींअं खां पोए वरी उनखे उनजे शटी कई वेंदी आए",
+                    "description": "Rajesh speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "थोड़ो थोड़ो चटायो वेंदो आहे ऐं शहे ॾींअं खां पोए वरी उनखे उनजे शटी कई वेंदी आए",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_202.wav"
+                },
+                {
+                    "language": "Sindhi",
+                    "text": "छा तव्हां अर्ज़ी आई डी ए डबल्यू ॿ ॿुड़ी ॿ ॿ चार हिकु हिकु ॿुड़ी",
+                    "description": "Rajesh speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "छा तव्हां अर्ज़ी आई डी ए डबल्यू ॿ ॿुड़ी ॿ ॿ चार हिकु हिकु ॿुड़ी",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_203.wav"
+                },
+                {
+                    "language": "Sindhi",
+                    "text": "छा मां मुंजी एम स्वाइप जरिए म्यूचुअल फंड्स में सीड़प करे सघंदो आयां",
+                    "description": "Rajesh speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "छा मां मुंजी एम स्वाइप जरिए म्यूचुअल फंड्स में सीड़प करे सघंदो आयां",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_204.wav"
+                },
+                {
+                    "language": "Sindhi",
+                    "text": "मुमकिन हुजे त वधीक मक़बूल दुकाननि खां सिवाइ मक़ामी विकणंदड़ सां कुझु ख़रीद कयो",
+                    "description": "Rajesh speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "मुमकिन हुजे त वधीक मक़बूल दुकाननि खां सिवाइ मक़ामी विकणंदड़ सां कुझु ख़रीद कयो",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_205.wav"
+                },
+                {
+                    "language": "Sindhi",
+                    "text": "ऐं हिन करे असां जी ओ उल्लासनगर जी शान आ प्लीस अची करे कॾहिं बि ॾिसंदा थैंक यू",
+                    "description": "Rekha speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "ऐं हिन करे असां जी ओ उल्लासनगर जी शान आ प्लीस अची करे कॾहिं बि ॾिसंदा थैंक यू",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_209.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "ஏழு ஒன்று இரண்டாயிரத்தி ஏழு எட்டு பன்னிரெண்டு இரண்டாயிரத்தி மூன்று",
+                    "description": "Vinay speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "aezhu ondru irandaayiraththi aezhu ettu pannirendu irandaayiraththi moontru",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_212.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "நைண்டி பர்சன்டேஜ் தள்ளுபடி எல்லா தேயிலை பொருட்களுக்கும் பொருந்துமா",
+                    "description": "Vinay speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "naindi persentage thallupadi ellah thaeyilai porutkalukkum porunthumaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_214.wav"
+                },
+                {
+                    "language": "Tamil",
+                    "text": "கோச்சிங்லாம் சூப்பரா இருக்கும் புள்ளைங்களும் நல்லா டீசண்டா நல்லா",
+                    "description": "Kavitha speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "kochinglam supera irukkum pullaingkalum nallah deesanda nallah",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_218.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "చాలా వామితింగ్స్ అయినాయి చాలా అంటే చాలా వామితింగ్స్ అయినాయ్",
+                    "description": "Prakash speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "chaalaa wamithings ayinayi chaalaa antey chaalaa wamithings ayinay",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_221.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "ప్రీమియర్ షో ప్రీమియర్ షో అయితే ఎర్లీ మార్నింగ్ ఎళ్లి చూస్తా ఇంక ఫోరో క్లాక్ షో",
+                    "description": "Prakash speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "premiere show premiere show ayithe earley marning elli chusta inka foroe clack show",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_222.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "తోట పని అంటే చాలా నాక్ ఇష్టం దాని నేను ఒక అభిరుచిగా చేసేసుకున్నాను ఎందుకంటే",
+                    "description": "Prakash speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "thota pani antey chaalaa nock ishtam daani neenu oka abhiruchigaa chesesukunnanu endukante",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_223.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "అద్భుతాలను అద్భుతమైన శిల్పాలను సృష్టించారు తెలుగు భాష చాలా మధురమైన భాష ఈ విధంగా",
+                    "description": "Prakash speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "adbhutaalanu adbhutamaina silpaalanu srushtinchaaru telugu bhaasha chaalaa madhuramaina bhaasha eee vidhamgaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_224.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "అందులో పని చేయడానికి పని వారిని మేము పెడుతు ప్రతి ఒక్కరిని జాగ్రత్తగా",
+                    "description": "Prakash speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "andulo pani cheyadaaniki pani vaarini memu pedutu prati okkarini jagrattagaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_225.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "ఎందుకంటే అది మాతోనే ఉండి అలవాటైపోయింది కాబట్టి అది మాతోనే ఉంటుంది",
+                    "description": "Lalitha speaks in a high-pitched, fast-paced, and cheerful tone, full of energy and happiness. The recording is very high quality with no background noise.",
+                    "transliteration": "endukante adhi mathone undi alavaataipoyindi kabatti adhi mathone untundi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_226.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "టర్మ్ లైఫ్ ఇన్షూరెన్స్ కోసం అరవై వేల రూపాయల భీమా మొత్తాన్ని సెలెక్ట్ చేయండి",
+                    "description": "Lalitha speaks slowly in a calm, moderate-pitched voice, delivering the news with a neutral tone. The recording is very high quality with no background noise.",
+                    "transliteration": "turm life insurance kosam aravai vaela roopayala bheema mottaanni select cheyandi",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_227.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "నాకు మీ సైట్ చాలా బాగా నచ్చింది నేను తరచూ మీ సైట్లోనే ఆర్డర్ తీసుకుంటూ ఉంటాను",
+                    "description": "Lalitha speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "naaku mea sait chaalaa baagaa nachindi neenu tarachuu mea saitlone arder teesukuntu untaanu",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_228.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "ఇవన్నీ మనం అందుబాటులో ఉంచుకుంటే వంట వంట సులువుగా చేసుకోవచ్చు ఎతుక్కోకుండా",
+                    "description": "Lalitha speaks quickly in a high-pitched, surprised tone, her voice full of excitement. The recording is very high quality with no background noise.",
+                    "transliteration": "ivanni manam andubaatulo unchukunte vanta vanta suluvugaa chesukovacchu etukkokunda",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_229.wav"
+                },
+                {
+                    "language": "Telugu",
+                    "text": "అలాగే ఆంధ్రప్రదేశ్లో సంగీతం మరియు నృత్యం చాలా ముఖ్యమైన భాగం",
+                    "description": "Lalitha speaks at a moderate pace and pitch, with a clear, neutral tone and no emotional emphasis. The recording is very high quality with no background noise.",
+                    "transliteration": "alaage aandhrapradeshlo sangeetam mariyu nrutyam chaalaa mukhyamaina bhaagam",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_230.wav"
+                },
+                {
+                    "language": "Urdu",
+                    "text": "تو کافی ساز و سمان ہمارے ساتھ تھا ہم نے بہت ساری چیزیں اپنے ساتھ کیری کر لی تھی",
+                    "description": "Imran speaks in a low-pitched, fast-paced, commanding tone. His words are sharp and direct, as if he's giving orders. The recording is very high quality with no background noise.",
+                    "transliteration": "tuu kaafi saaz woo samaan hamaray saath thaa humm nay behat saaree cheezein apnay saath carrie kirr lee thee",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_231.wav"
+                },
+                {
+                    "language": "Urdu",
+                    "text": "اور میں نے اس کو اوپن کیا اور میں چلانے کی کوشش کی تو لیپ ٹاپ بہت ہی اچھا تھا",
+                    "description": "Imran speaks in a high-pitched, fast-paced, and angry tone, his voice sharp with frustration. The recording is very high quality with no background noise.",
+                    "transliteration": "aur mein nay iss kuu open kiyaa aur mein chalanay kii koshish kii tuu leep topp behat hyee achhaa thaa",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_232.wav"
+                },
+                {
+                    "language": "Urdu",
+                    "text": "دیکھیے ہمارے جو گوتم بدھ نگر ہیں ہمارے گوتم بدھ نگر میں",
+                    "description": "Imran speaks slowly in a low-pitched, calm voice, with a neutral tone, perfect for narration. The recording is very high quality with no background noise.",
+                    "transliteration": "dekhiye hamaray juu gotam badh nigar haine hamaray gotam badh nigar mein",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_233.wav"
+                },
+                {
+                    "language": "Urdu",
+                    "text": "پانچ پیکٹ کوتھاس بادام کا دودھ اب کس قیمت پر بیچا جا رہا ہے",
+                    "description": "Imran speaks in a fast-paced, disgusted tone, his voice sharp and cutting, filled with disdain. The recording is very high quality with no background noise.",
+                    "transliteration": "paanch pecket kothas baadaam kaa dodh abb kiss qeemat parr beecha jaa rehaa hay",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_234.wav"
+                },
+                {
+                    "language": "Urdu",
+                    "text": "یہاں پر کھیل کود کے لیے بہت سی جگہیں ہیں موجود ہیں کچھ جگہیں ایسی ہیں",
+                    "description": "Imran speaks quickly, his voice trembling and high-pitched, filled with fear and uncertainty. The recording is very high quality with no background noise.",
+                    "transliteration": "yahaan parr kheel koad kay liye behat see jaghein haine mojud haine kachh jaghein aisi haine",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_235.wav"
+                },
+                {
+                    "language": "Urdu",
+                    "text": "اب میں چاہتی ہوں کہ آپ کے یہاں سے میں دوبارہ آڈر کروں",
+                    "description": "Zainab speaks in a slow, low-pitched voice, filled with sadness and emotion. The recording is very high quality with no background noise.",
+                    "transliteration": "abb mein chahti hoan kahh app kay yahaan say mein dobarah adra karoon",
+                    "audio": "http://91.203.135.98:9090/label-studio-parler/samples/sample_out_238.wav"
+                }
+            ]
         }
     ]
 }
